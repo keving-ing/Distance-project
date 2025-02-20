@@ -22,9 +22,10 @@ import geopandas as gpd
 import os
 import itertools
 import time
+from pyproj import Transformer
 
 # Chiave API Google Maps
-GOOGLE_MAPS_API_KEY = ""
+GOOGLE_MAPS_API_KEY = "AIzaSyA5LyRBjEJ15vUmO5yHGX30tpEYN_OiiGo"
 
 # File di cache per distanze
 CACHE_FILE = "google_distances_cache.json"
@@ -33,6 +34,8 @@ CACHE_FILE = "google_distances_cache.json"
 MAX_ELEMENTS = 100  # nuclei × scuole ≤ 100
 MAX_ORIGINS = 25  # massimo 25 nuclei per batch
 MAX_DESTINATIONS = 25  # massimo 25 scuole per batch
+
+transformer = Transformer.from_crs("EPSG:32632", "EPSG:4326", always_xy=True)
 
 # **1️⃣ Caricare il file JSON con scuole e nuclei**
 with open("school_by_municipality_with_nuclei.json", "r", encoding="utf-8") as f:
@@ -50,28 +53,37 @@ filtered_comuni = pop_df[pop_df["Popolazione"] < 50000]["Comune"].tolist()
 with open("Distance-project/Data_Italia/centroides_nucleos_urbanos.geojson", "r", encoding="utf-8") as f:
     centroidi_data = json.load(f)
 
-# Creare dizionario {LOC21_ID: (lat, lon)}
+def convert_utm_to_wgs84(easting, northing):
+    """
+    Converte coordinate UTM (easting, northing) in coordinate geografiche WGS84 (lat, lon).
+    """
+    lon, lat = transformer.transform(easting, northing)  # X = Easting, Y = Northing
+    #print(f"🛰️ Convertito UTM ({easting}, {northing}) -> WGS84 ({lat}, {lon})")
+    return lat, lon  # Restituisce latitudine e longitudine
+
 nuclei_centroidi = {}
 for feature in centroidi_data["features"]:
     properties = feature["properties"]
     loc_id = str(properties["LOC21_ID"])  # Convertiamo a stringa per coerenza
     pop = properties.get("POP21", 0)  # Se il campo non esiste, assumiamo 0
+    tipo = properties.get("TIPO_LOC", 0)
 
-    if pop >= 20:  # Solo i nuclei con almeno 20 abitanti
-        lat, lon = feature["geometry"]["coordinates"][1], feature["geometry"]["coordinates"][0]
-        nuclei_centroidi[loc_id] = (lat, lon)
+    if pop > 20 and (tipo == 1 or tipo == 2):  # Solo nuclei validi
+        easting, northing = feature["geometry"]["coordinates"]  # UTM (X, Y)
+        lat, lon = convert_utm_to_wgs84(easting, northing)  # Convertiamo in WGS84
+        nuclei_centroidi[loc_id] = (lat, lon)  # Salviamo nel formato corretto
 
 #print("Esempio di nuclei_centroidi:", nuclei_centroidi)
 
-print("Esempio di filtered_comuni:", filtered_comuni[:5])
-print("Esempio di school_data:", list(school_data.keys())[:5])
+#print("Esempio di filtered_comuni:", filtered_comuni[:5])
+#print("Esempio di school_data:", list(school_data.keys())[:5])
 
 filtered_school_data = {
     comune: data for comune, data in school_data.items() if comune.upper() in filtered_comuni
 }
 
 # 🔹 Test: stampiamo un esempio
-print("Esempio di comune filtrato:", list(filtered_school_data.keys())[:5])
+#print("Esempio di comune filtrato:", list(filtered_school_data.keys())[:5])
 
 # 📂 Salviamo il JSON con i comuni sotto i 50.000 abitanti
 with open("filtered_schools.json", "w", encoding="utf-8") as f:
@@ -89,6 +101,8 @@ if os.path.exists(CACHE_FILE):
 else:
     distance_cache = {}
 
+
+
 # **Funzione per chiamare l'API Google Distance Matrix**
 def get_distance_matrix(origins, destinations):
     """
@@ -98,18 +112,25 @@ def get_distance_matrix(origins, destinations):
     if cache_key in distance_cache:
         print(f"📌 Usando cache per {cache_key}")
         return distance_cache[cache_key]
+    
+    print(origins)
+    print(destinations)
+
+
 
     params = {
         "origins": "|".join(origins),
         "destinations": "|".join(destinations),
         "key": GOOGLE_MAPS_API_KEY,
         "mode": "driving",
-        "departure_time": "now"  # Considera il traffico attuale
+        "departure_time": 1740380400  # Considera il traffico attuale
     }
 
     url = "https://maps.googleapis.com/maps/api/distancematrix/json"
     response = requests.get(url, params=params)
     data = response.json()
+
+    print(data)
 
     if data["status"] == "OK":
         distance_cache[cache_key] = data
@@ -144,7 +165,13 @@ def process_municipality_distances():
 
         
         # Convertire scuole e nuclei in coordinate
-        origin_coords = [f"{nuclei_centroidi[str(n)][0]},{nuclei_centroidi[str(n)][1]}" for n in nuclei if str(n) in nuclei_centroidi]
+        origin_coords = [
+            f"{lat},{lon}"
+            for n in nuclei if str(n) in nuclei_centroidi
+            for lat, lon in [nuclei_centroidi[str(n)]]
+        ]
+        
+        #print(origin_coords)   
         destination_coords = [f"{lat},{lon}" for lat, lon in schools]
         #print(origin_coords)
         #print(destination_coords)
@@ -157,35 +184,40 @@ def process_municipality_distances():
             if len(origin_batch) * len(destination_batch) > MAX_ELEMENTS:
                 continue  # Salta batch non validi
 
-            if len(origin_batch) > 10 or len(destination_batch) > 10:
-                print(f" Comune: {comune} ")
-                print(f" Chiamata API per {len(origin_batch)} nuclei e {len(destination_batch)} scuole...")
+            #if len(origin_batch) > 10 or len(destination_batch) > 10:
+                #print(f" Comune: {comune} ")
+                #print(f" Chiamata API per {len(origin_batch)} nuclei e {len(destination_batch)} scuole...")
 
             elementi += (len(origin_batch) * len(destination_batch))
             
 
-            #result = get_distance_matrix(origin_batch, destination_batch)
+            result = get_distance_matrix(origin_batch, destination_batch)
 
-            #if not result:
-            continue  # Salta se errore API
+            if not result:
+                continue  # Salta se errore API
+
+            reverse_nuclei_map = {f"{lat},{lon}": nucleo_id for nucleo_id, (lat, lon) in nuclei_centroidi.items()}
 
             # Salvare le distanze nel JSON
             for i, origin in enumerate(origin_batch):
+                origin_id = reverse_nuclei_map.get(origin, origin)  # Usiamo l'ID se trovato, altrimenti lasciamo le coordinate
                 for j, destination in enumerate(destination_batch):
                     element = result["rows"][i]["elements"][j]
                     if element["status"] == "OK":
                         distance = element["distance"]["value"]  # Distanza in metri
-                        time_duration = element["duration"]["value"]  # Tempo in secondi
+                        time_duration = element["duration_in_traffic"]["value"]  # Tempo in secondi
 
-                        filtered_school_data[comune]["DISTANZE"] = filtered_school_data[comune].get("DISTANZE", {})
-                        filtered_school_data[comune]["DISTANZE"][origin] = filtered_school_data[comune]["DISTANZE"].get(origin, {})
-                        filtered_school_data[comune]["DISTANZE"][origin][destination] = {
+                        # Creiamo la struttura JSON con l'ID del nucleo anziché le coordinate
+                        filtered_school_data[comune]["DISTANCE"] = filtered_school_data[comune].get("DISTANCE", {})
+                        filtered_school_data[comune]["DISTANCE"][origin_id] = filtered_school_data[comune]["DISTANCE"].get(origin_id, {})
+                        filtered_school_data[comune]["DISTANCE"][origin_id][destination] = {
                             "distanza_m": distance,
                             "tempo_s": time_duration
                         }
 
-            # **Attendere 2 secondo tra chiamate per evitare limite di rate API**
-            time.sleep(2)
+            # **Attendere 1 secondo tra chiamate per evitare limite di rate API**
+            time.sleep(1)
+
 
 # **Esegui il processo di calcolo distanze**
 process_municipality_distances()
