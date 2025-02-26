@@ -25,7 +25,7 @@ import time
 from pyproj import Transformer
 
 # Chiave API Google Maps
-GOOGLE_MAPS_API_KEY = "AIzaSyA5LyRBjEJ15vUmO5yHGX30tpEYN_OiiGo"
+#GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
 
 # File di cache per distanze
 CACHE_FILE = "google_distances_cache.json"
@@ -103,35 +103,42 @@ else:
 
 
 
-# **Funzione per chiamare l'API Google Distance Matrix**
 def get_distance_matrix(origins, destinations):
     """
     Ottiene le distanze tra una lista di origini (nuclei) e destinazioni (scuole) tramite Google API.
     """
     cache_key = f"{tuple(origins)}-{tuple(destinations)}"
+
     if cache_key in distance_cache:
-        print(f"📌 Usando cache per {cache_key}")
-        return distance_cache[cache_key]
+        #print(f"📌 Usando cache per {cache_key}")
+        print(f"🔹 Richiesta API con {len(origins)} origini e {len(destinations)} destinazioni.")
+        
+        if "rows" in distance_cache[cache_key]:
+            print(f"✅ Risultato ricevuto. Numero di origini nella risposta: {len(distance_cache[cache_key])}")
+            print(f"📍 Origini attese: {origins}")
+            print(f"📍 Origini ricevute: {distance_cache[cache_key].get('origin_addresses', [])}")
+
+            return distance_cache[cache_key]
     
-    print(origins)
-    print(destinations)
-
-
+    print(f"🔹 Richiesta API con {len(origins)} origini e {len(destinations)} destinazioni.")
 
     params = {
         "origins": "|".join(origins),
         "destinations": "|".join(destinations),
         "key": GOOGLE_MAPS_API_KEY,
         "mode": "driving",
-        "departure_time": 1740380400  # Considera il traffico attuale
+        "departure_time": 1741590000  # Considera il traffico attuale
     }
 
     url = "https://maps.googleapis.com/maps/api/distancematrix/json"
     response = requests.get(url, params=params)
     data = response.json()
 
-    print(data)
-
+    if "rows" in data:
+        print(f"✅ Risultato ricevuto. Numero di origini nella risposta: {len(data['rows'])}")
+        print(f"📍 Origini attese: {origins}")
+        print(f"📍 Origini ricevute: {data.get('origin_addresses', [])}")
+    
     if data["status"] == "OK":
         distance_cache[cache_key] = data
         with open(CACHE_FILE, "w", encoding="utf-8") as f:
@@ -147,10 +154,9 @@ elementi = 0
 def process_municipality_distances():
 
     
-    global elementi
-    
 
     for comune, data in filtered_school_data.items():
+
         nuclei = data.get("NUCLEOS", [])
         if not nuclei:
             print(f"⚠️  No nuclei per il comune: {comune}")
@@ -170,60 +176,112 @@ def process_municipality_distances():
             for n in nuclei if str(n) in nuclei_centroidi
             for lat, lon in [nuclei_centroidi[str(n)]]
         ]
-        
-        #print(origin_coords)   
+          
         destination_coords = [f"{lat},{lon}" for lat, lon in schools]
-        #print(origin_coords)
-        #print(destination_coords)
+
+        #if comune == "FORMIA":
+            #print(origin_coords)
+            #print(destination_coords)
+
         # Suddividere in batch per rispettare i limiti API
         origin_batches = [origin_coords[i:i + MAX_ORIGINS] for i in range(0, len(origin_coords), MAX_ORIGINS)]
         destination_batches = [destination_coords[i:i + MAX_DESTINATIONS] for i in range(0, len(destination_coords), MAX_DESTINATIONS)]
 
+        #if comune == "FORMIA":
+            #print("N. of origins: " + str(len(origin_batches)))
+            #print("N. of destinations: " + str(len(destination_batches)))
+
         # Iterare su ogni combinazione di batch di origini e destinazioni
         for origin_batch, destination_batch in itertools.product(origin_batches, destination_batches):
-            if len(origin_batch) * len(destination_batch) > MAX_ELEMENTS:
-                continue  # Salta batch non validi
-
-            #if len(origin_batch) > 10 or len(destination_batch) > 10:
-                #print(f" Comune: {comune} ")
-                #print(f" Chiamata API per {len(origin_batch)} nuclei e {len(destination_batch)} scuole...")
-
-            elementi += (len(origin_batch) * len(destination_batch))
             
+            if len(origin_batch) * len(destination_batch) > MAX_ELEMENTS:
+                print(f"⚠️ Batch troppo grande ({len(origin_batch)} x {len(destination_batch)}) per {comune}, suddividendolo...")
 
-            result = get_distance_matrix(origin_batch, destination_batch)
+                # Definiamo i sottobatch ottimali
+                max_origins_per_subbatch = MAX_ELEMENTS // len(destination_batch)
+                max_destinations_per_subbatch = MAX_ELEMENTS // len(origin_batch)
 
-            if not result:
-                continue  # Salta se errore API
+                # Assicuriamoci che almeno 1 origine e 1 destinazione siano presenti
+                max_origins_per_subbatch = max(1, max_origins_per_subbatch)
+                max_destinations_per_subbatch = max(1, max_destinations_per_subbatch)
 
-            reverse_nuclei_map = {f"{lat},{lon}": nucleo_id for nucleo_id, (lat, lon) in nuclei_centroidi.items()}
+                # Creiamo nuovi batch più piccoli
+                smaller_origin_batches = [origin_batch[i:i + max_origins_per_subbatch] for i in range(0, len(origin_batch), max_origins_per_subbatch)]
+                smaller_destination_batches = [destination_batch[i:i + max_destinations_per_subbatch] for i in range(0, len(destination_batch), max_destinations_per_subbatch)]
 
-            # Salvare le distanze nel JSON
-            for i, origin in enumerate(origin_batch):
-                origin_id = reverse_nuclei_map.get(origin, origin)  # Usiamo l'ID se trovato, altrimenti lasciamo le coordinate
-                for j, destination in enumerate(destination_batch):
-                    element = result["rows"][i]["elements"][j]
-                    if element["status"] == "OK":
-                        distance = element["distance"]["value"]  # Distanza in metri
-                        time_duration = element["duration_in_traffic"]["value"]  # Tempo in secondi
+                # 🔹 Dizionario temporaneo per accumulare i risultati di tutti i batch
+                cumulative_results = {}
 
-                        # Creiamo la struttura JSON con l'ID del nucleo anziché le coordinate
-                        filtered_school_data[comune]["DISTANCE"] = filtered_school_data[comune].get("DISTANCE", {})
-                        filtered_school_data[comune]["DISTANCE"][origin_id] = filtered_school_data[comune]["DISTANCE"].get(origin_id, {})
-                        filtered_school_data[comune]["DISTANCE"][origin_id][destination] = {
-                            "distanza_m": distance,
-                            "tempo_s": time_duration
-                        }
+                reverse_nuclei_map = {f"{lat},{lon}": nucleo_id for nucleo_id, (lat, lon) in nuclei_centroidi.items()}
 
-            # **Attendere 1 secondo tra chiamate per evitare limite di rate API**
-            time.sleep(1)
+
+                # Iteriamo sui sottobatch
+                for small_origin_batch, small_destination_batch in itertools.product(smaller_origin_batches, smaller_destination_batches):
+                    if len(small_origin_batch) * len(small_destination_batch) <= MAX_ELEMENTS:
+                        sub_result = get_distance_matrix(small_origin_batch, small_destination_batch)
+
+                        if sub_result and "rows" in sub_result:
+                            for i, origin in enumerate(small_origin_batch):
+                                origin_id = reverse_nuclei_map.get(origin, origin)
+                                if origin_id not in cumulative_results:
+                                    cumulative_results[origin_id] = {}
+
+                                for j, destination in enumerate(small_destination_batch):
+                                    if j < len(sub_result["rows"][i]["elements"]):
+                                        element = sub_result["rows"][i]["elements"][j]
+                                        if element["status"] == "OK":
+                                            distance = element["distance"]["value"]
+                                            time_duration = element.get("duration_in_traffic", element.get("duration", {})).get("value", None)
+
+                                            cumulative_results[origin_id][destination] = {
+                                                "distanza_m": distance,
+                                                "tempo_s": time_duration
+                                            }
+
+                        #time.sleep(1)  # Evita il rate limit
+
+                # Ora aggiorniamo il dizionario globale con i risultati accumulati
+                for origin_id, destinations in cumulative_results.items():
+                    filtered_school_data[comune]["DISTANCE"] = filtered_school_data[comune].get("DISTANCE", {})
+                    filtered_school_data[comune]["DISTANCE"][origin_id] = destinations
+
+            else:
+                result = get_distance_matrix(origin_batch, destination_batch)
+
+                if not result or "rows" not in result:
+                    continue  # Salta se errore API
+
+                # Assicuriamoci che "DISTANCE" sia inizializzata
+                if "DISTANCE" not in filtered_school_data[comune]:
+                    filtered_school_data[comune]["DISTANCE"] = {}
+
+                # Creiamo il reverse map se non già definito
+                reverse_nuclei_map = {f"{lat},{lon}": nucleo_id for nucleo_id, (lat, lon) in nuclei_centroidi.items()}
+
+                for i, origin in enumerate(origin_batch):
+                    origin_id = reverse_nuclei_map.get(origin, origin)  # Usa l'ID se disponibile
+
+                    if origin_id not in filtered_school_data[comune]["DISTANCE"]:
+                        filtered_school_data[comune]["DISTANCE"][origin_id] = {}
+
+                    for j, destination in enumerate(destination_batch):
+                        if j < len(result["rows"][i]["elements"]):
+                            element = result["rows"][i]["elements"][j]
+                            if element["status"] == "OK":
+                                distance = element["distance"]["value"]
+                                time_duration = element.get("duration_in_traffic", element.get("duration", {})).get("value", None)
+
+                                filtered_school_data[comune]["DISTANCE"][origin_id][destination] = {
+                                    "distanza_m": distance,
+                                    "tempo_s": time_duration
+                                }
 
 
 # **Esegui il processo di calcolo distanze**
 process_municipality_distances()
 
 # **Salva il file aggiornato con le distanze**
-with open("school_by_municipality_with_distances.json", "w", encoding="utf-8") as f:
+with open("school_by_municipality_with_distances_complete.json", "w", encoding="utf-8") as f:
     json.dump(filtered_school_data, f, indent=4, ensure_ascii=False)
 
 

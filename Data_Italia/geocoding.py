@@ -20,7 +20,7 @@ import json
 import googlemaps
 
 # Inserisci la tua Google Maps API Key
-API_KEY = "AIzaSyA5LyRBjEJ15vUmO5yHGX30tpEYN_OiiGo"
+API_KEY = ""
 gmaps = googlemaps.Client(key=API_KEY)
 
 def geocode_address(address):
