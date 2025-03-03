@@ -25,10 +25,10 @@ import time
 from pyproj import Transformer
 
 # Chiave API Google Maps
-#GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
+GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
 
 # File di cache per distanze
-CACHE_FILE = "google_distances_cache.json"
+CACHE_FILE = "google_distances_transit_cache.json"
 
 # Limiti Distance Matrix API
 MAX_ELEMENTS = 100  # nuclei × scuole ≤ 100
@@ -46,8 +46,8 @@ pop_df = pd.read_csv("C:/Users/vehico/Documents/Thesis/Distance-project/Data_Ita
 pop_df = pop_df.rename(columns={"ITTER107": "PRO_COM", "Territorio": "Comune", "Value": "Popolazione"})
 pop_df["Comune"] = pop_df["Comune"].str.upper()
 
-# Filtrare solo comuni con meno di 50.000 abitanti
-filtered_comuni = pop_df[pop_df["Popolazione"] < 50000]["Comune"].tolist()
+# Filtrare solo comuni con meno di 40.000 abitanti
+filtered_comuni = pop_df[pop_df["Popolazione"] < 40000]["Comune"].tolist()
 
 # **3️⃣ Caricare i centroidi dei nuclei urbani**
 with open("Distance-project/Data_Italia/centroides_nucleos_urbanos.geojson", "r", encoding="utf-8") as f:
@@ -114,30 +114,32 @@ def get_distance_matrix(origins, destinations):
         print(f"🔹 Richiesta API con {len(origins)} origini e {len(destinations)} destinazioni.")
         
         if "rows" in distance_cache[cache_key]:
-            print(f"✅ Risultato ricevuto. Numero di origini nella risposta: {len(distance_cache[cache_key])}")
-            print(f"📍 Origini attese: {origins}")
-            print(f"📍 Origini ricevute: {distance_cache[cache_key].get('origin_addresses', [])}")
+            #print(f"✅ Risultato ricevuto. Numero di origini nella risposta: {len(distance_cache[cache_key])}")
+            #print(f"📍 Origini attese: {origins}")
+            #print(f"📍 Origini ricevute: {distance_cache[cache_key].get('origin_addresses', [])}")
 
             return distance_cache[cache_key]
     
-    print(f"🔹 Richiesta API con {len(origins)} origini e {len(destinations)} destinazioni.")
+    #print(f"🔹 Richiesta API con {len(origins)} origini e {len(destinations)} destinazioni.")
 
     params = {
         "origins": "|".join(origins),
         "destinations": "|".join(destinations),
         "key": GOOGLE_MAPS_API_KEY,
-        "mode": "driving",
-        "departure_time": 1741590000  # Considera il traffico attuale
+        "mode": "transit",
+        "departure_time": 1741071600  # Considera il traffico attuale
     }
 
     url = "https://maps.googleapis.com/maps/api/distancematrix/json"
     response = requests.get(url, params=params)
     data = response.json()
 
-    if "rows" in data:
-        print(f"✅ Risultato ricevuto. Numero di origini nella risposta: {len(data['rows'])}")
-        print(f"📍 Origini attese: {origins}")
-        print(f"📍 Origini ricevute: {data.get('origin_addresses', [])}")
+    time.sleep(1)
+
+    #if "rows" in data:
+        #print(f"✅ Risultato ricevuto. Numero di origini nella risposta: {len(data['rows'])}")
+        #print(f"📍 Origini attese: {origins}")
+        #print(f"📍 Origini ricevute: {data.get('origin_addresses', [])}")
     
     if data["status"] == "OK":
         distance_cache[cache_key] = data
@@ -153,9 +155,14 @@ elementi = 0
 # **Funzione per calcolare le distanze per ogni comune**
 def process_municipality_distances():
 
+    global elementi
+
+    #k=0
     
 
     for comune, data in filtered_school_data.items():
+
+        print(comune)
 
         nuclei = data.get("NUCLEOS", [])
         if not nuclei:
@@ -179,10 +186,6 @@ def process_municipality_distances():
           
         destination_coords = [f"{lat},{lon}" for lat, lon in schools]
 
-        #if comune == "FORMIA":
-            #print(origin_coords)
-            #print(destination_coords)
-
         # Suddividere in batch per rispettare i limiti API
         origin_batches = [origin_coords[i:i + MAX_ORIGINS] for i in range(0, len(origin_coords), MAX_ORIGINS)]
         destination_batches = [destination_coords[i:i + MAX_DESTINATIONS] for i in range(0, len(destination_coords), MAX_DESTINATIONS)]
@@ -195,7 +198,7 @@ def process_municipality_distances():
         for origin_batch, destination_batch in itertools.product(origin_batches, destination_batches):
             
             if len(origin_batch) * len(destination_batch) > MAX_ELEMENTS:
-                print(f"⚠️ Batch troppo grande ({len(origin_batch)} x {len(destination_batch)}) per {comune}, suddividendolo...")
+                #print(f"⚠️ Batch troppo grande ({len(origin_batch)} x {len(destination_batch)}) per {comune}, suddividendolo...")
 
                 # Definiamo i sottobatch ottimali
                 max_origins_per_subbatch = MAX_ELEMENTS // len(destination_batch)
@@ -218,6 +221,9 @@ def process_municipality_distances():
                 # Iteriamo sui sottobatch
                 for small_origin_batch, small_destination_batch in itertools.product(smaller_origin_batches, smaller_destination_batches):
                     if len(small_origin_batch) * len(small_destination_batch) <= MAX_ELEMENTS:
+
+                        elementi = elementi+len(small_origin_batch) * len(small_destination_batch)
+
                         sub_result = get_distance_matrix(small_origin_batch, small_destination_batch)
 
                         if sub_result and "rows" in sub_result:
@@ -238,15 +244,15 @@ def process_municipality_distances():
                                                 "tempo_s": time_duration
                                             }
 
-                        #time.sleep(1)  # Evita il rate limit
-
                 # Ora aggiorniamo il dizionario globale con i risultati accumulati
                 for origin_id, destinations in cumulative_results.items():
                     filtered_school_data[comune]["DISTANCE"] = filtered_school_data[comune].get("DISTANCE", {})
                     filtered_school_data[comune]["DISTANCE"][origin_id] = destinations
 
             else:
+                elementi = elementi+len(origin_batch) * len(destination_batch)
                 result = get_distance_matrix(origin_batch, destination_batch)
+                
 
                 if not result or "rows" not in result:
                     continue  # Salta se errore API
@@ -275,13 +281,25 @@ def process_municipality_distances():
                                     "distanza_m": distance,
                                     "tempo_s": time_duration
                                 }
+                            else:
+                                log_message = f"NO RESULT for: {origin} - {destination}\n"
+                                print(log_message)  # Stampa in console
+                                with open("distance_matrix_errors.log", "a", encoding="utf-8") as f:
+                                    f.write(log_message)  # Scrive nel file
+
+        #print(k)
+
+        #if k > 20:
+            #break
+        
+        
 
 
 # **Esegui il processo di calcolo distanze**
 process_municipality_distances()
 
 # **Salva il file aggiornato con le distanze**
-with open("school_by_municipality_with_distances_complete.json", "w", encoding="utf-8") as f:
+with open("school_by_municipality_with_distances_transit_complete.json", "w", encoding="utf-8") as f:
     json.dump(filtered_school_data, f, indent=4, ensure_ascii=False)
 
 
