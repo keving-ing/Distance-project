@@ -3,6 +3,7 @@ import Map from 'ol/Map';
 import View from 'ol/View';
 import TileLayer from 'ol/layer/Tile';
 import OSM from 'ol/source/OSM';
+import XYZ from 'ol/source/XYZ';
 import VectorLayer from 'ol/layer/Vector';
 import VectorSource from 'ol/source/Vector';
 import GeoJSON from 'ol/format/GeoJSON';
@@ -14,6 +15,7 @@ import { pointerMove } from 'ol/events/condition';
 import Fill from 'ol/style/Fill';
 import { searchComune } from './filters.js';
 import { loadCsvData } from './dataProcessor.js';
+import { loadNucleiData } from './nucleiProcessor.js';
 
 
 
@@ -22,7 +24,9 @@ const map = new Map({
     target: 'map',
     layers: [
         new TileLayer({
-            source: new OSM()
+            source: new XYZ({
+                url: 'https://{a-c}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
+            })
         })
     ],
     view: new View({
@@ -45,6 +49,20 @@ const comuniLayer = new VectorLayer({
     })
 });
 
+// Aggiungi layer con i confini dei comuni del Lazio
+const nucleiLayer = new VectorLayer({
+    source: new VectorSource({
+        url: '/nucleos_Lazio.geojson', // Percorso corretto
+        format: new GeoJSON()
+    }),
+    style: new Style({
+        stroke: new Stroke({
+            color: 'black', // Contorno blu per i comuni
+            width: 1
+        })
+    })
+});
+
 const comuneStyle = new Style({
     stroke: new Stroke({
         color: 'black',  // Colore dei contorni
@@ -53,12 +71,44 @@ const comuneStyle = new Style({
     
 });
 
+const nucleiStyle = new Style({
+    stroke: new Stroke({
+        color: 'black',  // Colore dei contorni
+        width: 1
+    }),
+    
+});
+
+
 
 // Aggiungi il layer alla mappa
 map.addLayer(comuniLayer);
-
-// Applica lo stile ai comuni
 comuniLayer.setStyle(comuneStyle);
+
+// Aggiungi il layer alla mappa
+map.addLayer(nucleiLayer);
+nucleiLayer.setStyle(nucleiStyle)
+
+const layerRadios = document.querySelectorAll('input[name="layer"]');
+
+// Imposta i layer iniziali
+nucleiLayer.setVisible(false); // ❌ Nuclei inizialmente nascosti
+comuniLayer.setVisible(true);  // 🔥 Mostrati di default
+
+// Aggiungi evento per il cambio layer
+layerRadios.forEach(radio => {
+    radio.addEventListener('change', function () {
+        if (this.value === "comuni") {
+            comuniLayer.setVisible(true);  // 🔥 Mostra i comuni
+            nucleiLayer.setVisible(false); // ❌ Nasconde i nuclei
+        } else {
+            comuniLayer.setVisible(false); // ❌ Nasconde i comuni
+            nucleiLayer.setVisible(true);  // 🔥 Mostra i nuclei
+        }
+    });
+});
+
+
 
 map.on('click', function (event) {
     const feature = map.forEachFeatureAtPixel(event.pixel, function (feature) {
@@ -78,9 +128,6 @@ const defaultStyle = new Style({
         color: 'black',
         width: 2
     }),
-    fill: new Fill({
-        color: 'rgba(0, 0, 255, 0.1)' // Blu trasparente
-    })
 });
 
 const highlightStyle = new Style({
@@ -273,7 +320,7 @@ function updateMapColors(schoolType, metric) {
 
         // Scala colori da Blu (min) → Rosso (max)
         let ratio = (value - min) / (max - min); // Normalizzazione tra 0 e 1
-        let color = `rgba(${Math.floor(255 * ratio)}, 50, ${Math.floor(255 * (1 - ratio))}, 0.7)`;
+        let color = `rgb(${Math.floor(255 * ratio)}, 50, ${Math.floor(255 * (1 - ratio))})`;
 
         feature.setStyle(new Style({
             fill: new Fill({ color: color }),
@@ -283,6 +330,7 @@ function updateMapColors(schoolType, metric) {
         feature.set('originalColor', color); // Memorizziamo il colore originale
     });
 
+    updateLegend(min, max);
     console.log("✅ Colorazione aggiornata!");
 }
 
@@ -314,3 +362,110 @@ document.getElementById('resetFilters').addEventListener('click', function () {
 
     console.log("🔄 Filtri resettati e mappa ripristinata!");
 });
+
+function updateLegend(min, max) {
+    const legend = document.getElementById('legend');
+    document.getElementById('legend-max').innerText = `${max.toFixed(2)}`;
+    document.getElementById('legend-min').innerText = `${min.toFixed(2)}`;
+    legend.style.display = "block"; // 🔥 Mostra la legenda
+}
+
+
+document.getElementById('resetFilters').addEventListener('click', function () {
+    document.getElementById('educationFilter').value = "";
+    document.getElementById('extraFilter').value = "";
+    document.getElementById('extraFilterContainer').style.display = "none";
+    infoBox.style.display = "none";
+    document.getElementById('legend').style.display = "none"; // 🔥 Nasconde la legenda
+
+    comuniLayer.getSource().getFeatures().forEach(feature => {
+        feature.setStyle(defaultStyle);
+    });
+
+    console.log("🔄 Filtri resettati e mappa ripristinata!");
+});
+
+
+const nucleiCsvPath = "/data/aggregated_school_distances_weighted.csv";
+let nucleiData = {};
+
+loadNucleiData(nucleiCsvPath).then(data => {
+    nucleiData = data;
+    console.log("📊 Dati nuclei caricati:", nucleiData);
+});
+
+// Aggiungiamo un listener per il cambio di layer (Comuni <-> Nuclei)
+document.querySelectorAll('input[name="layer"]').forEach(radio => {
+    radio.addEventListener('change', function () {
+        if (this.value === "nuclei") {
+            updateMapColorsNuclei();
+        } else {
+            updateMapColors();
+        }
+    });
+});
+
+/**
+ * Funzione per aggiornare la colorazione dei nuclei urbani
+ */
+function updateMapColorsNuclei() {
+    console.log("🎨 Cambio layer: visualizzazione nuclei");
+
+    let min = Infinity;
+    let max = -Infinity;
+
+    nucleiLayer.getSource().getFeatures().forEach(feature => {
+        const comuneName = feature.get('COMUNE')?.trim().toUpperCase();
+        const comuneInfo = nucleiData[comuneName];
+
+        if (comuneInfo) {
+            comuneInfo.forEach(nucleo => {
+                let value = nucleo[`${schoolType}_${metric}`];
+                if (!isNaN(value) && value !== null) {
+                    min = Math.min(min, value);
+                    max = Math.max(max, value);
+                }
+            });
+        }
+    });
+
+    nucleiLayer.getSource().getFeatures().forEach(feature => {
+        const comuneName = feature.get('COMUNE')?.trim().toUpperCase();
+        const comuneInfo = nucleiData[comuneName];
+
+        if (!comuneInfo) {
+            feature.setStyle(defaultStyle);
+            return;
+        }
+
+        let nucleoID = feature.get('Nucleo_ID');
+        let nucleoData = comuneInfo.find(n => n["Nucleo_ID"] === nucleoID);
+
+        if (!nucleoData) {
+            feature.setStyle(defaultStyle);
+            return;
+        }
+
+        let value = nucleoData[`${schoolType}_${metric}`];
+
+        if (isNaN(value) || value === null) {
+            feature.setStyle(new Style({
+                fill: new Fill({ color: 'rgba(255, 255, 255, 0.7)' }),
+                stroke: new Stroke({ color: 'black', width: 1 })
+            }));
+            return;
+        }
+
+        let ratio = (value - min) / (max - min);
+        let color = `rgba(${Math.floor(255 * ratio)}, 50, ${Math.floor(255 * (1 - ratio))}, 1)`;
+
+        feature.setStyle(new Style({
+            fill: new Fill({ color: color }),
+            stroke: new Stroke({ color: 'black', width: 1 })
+        }));
+
+        feature.set('originalColor', color);
+    });
+
+    console.log("✅ Nuclei aggiornati!");
+}

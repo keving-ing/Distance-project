@@ -139,8 +139,8 @@ button:focus-visible {
 
 label {
   font-weight: bold;
-  font-size: 14px;
   display: block; /* Forza la label a stare sopra */
+  font-size: 14px;
   margin-bottom: 3px;
 }
 
@@ -150,7 +150,7 @@ select, input {
   font-size: 14px;
 }
 
-button {
+button, radio {
   display: block;
   margin: 5px 0;
   padding: 5px;
@@ -168,4 +168,82 @@ button {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   display: none; /* Nasconde il box finché non appare un valore */
+}
+
+#legend {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  width: 25px; /* Leggermente più largo */
+  height: 160px; /* Un po' più alto per più spazio */
+  background: linear-gradient(to bottom, red, blue);
+  border: 1px solid black;
+  border-radius: 10px;
+  display: none; /* 🔥 Inizialmente nascosta */
+  padding: 5px; /* Aggiunge un po' di spazio interno */
+  text-align: center;
+}
+
+#legend-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px; /* 🔥 Aumenta la distanza dalla barra */
+  position: absolute;
+  top: -20px; /* 🔥 Alza il titolo sopra la barra */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#legend-labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  text-align: right; /* 🔥 Allinea a sinistra rispetto alla barra */
+  font-size: 12px;
+  color: black;
+  position: absolute;
+  left: -35px; /* 🔥 Sposta i valori sulla sinistra della barra */
+  width: 30px;
+}
+
+#legend-max {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+  font-weight: bold;
+}
+
+#legend-min {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: black;
+  font-weight: bold;
+}
+
+#layerBox {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column; /* 🔥 Allinea i bottoni in orizzontale */
+  gap: 15px; /* 🔥 Mantiene spazio tra le opzioni */
+  font-weight: bold;
+}
+
+#layerBox label {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* 🔥 Spazio tra il radio button e il testo */
+  white-space: nowrap; /* 🔥 Evita che il testo vada a capo */
+}
+
+#r {
+  width: 20px;
 }

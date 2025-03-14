@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenLayers Map</title>
+    <title>Distanza Lazio</title>
     <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
     <div id="map" class="map"></div>
     <script type="module" src="./src/main.js"></script>
     <div id="controls">
+
+        
+
         <label for="searchComune">Cerca un comune:</label>
         <input type="text" id="searchComune" placeholder="Cerca un comune..." />
-    
+
+
         <label for="educationFilter">Distanza educazione:</label>
         <select id="educationFilter">
             <option value="">-- Seleziona --</option>
@@ -20,6 +24,7 @@
             <option value="SP">Primaria</option>
             <option value="SS">Secondaria</option>
         </select>
+        
 
         <div id="extraFilterContainer" style="display: none;">
             <label for="extraFilter">Scegli il criterio:</label>
@@ -28,9 +33,23 @@
                 <option value="distanza">Distanza Km</option>
                 <option value="tempo">Tempo</option>
             </select>
-        </div>
+        </div>     
         <button id="resetFilters">Mappa originale</button>
     </div>
     <div id="infoBox" class="info-box">BOX</div>
+    <div id="legend">
+        <div id="legend-title">Distanza</div>
+        <div id="legend-gradient"></div>
+        <div id="legend-labels">
+            <span id="legend-max">Max</span>
+            <span id="legend-min">Min</span>
+        </div>
+    </div>
+
+    <div id="layerBox">
+        <label><input type="radio" id = "r" name="layer" value="comuni" checked> Comuni</label>
+        <label><input type="radio" id = "r" name="layer" value="nuclei"> Nuclei Urbani</label>
+    </div>
+
 </body>
 </html>
