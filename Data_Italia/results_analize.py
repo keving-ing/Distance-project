@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Nome file di input e output
-INPUT_FILE = "Distance-project\school_by_municipality_with_distances_complete.json"
+INPUT_FILE = "C:/Users/vehico/Documents/Thesis/Distance-project/school_by_municipality_with_distances_transit_complete.json"
 OUTPUT_FILE = "filtered_long_distances.json"
 
 # Soglia di distanza (40 km in metri)

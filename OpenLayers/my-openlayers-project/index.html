@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenLayers Map</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <div id="map" class="map"></div>
+    <script type="module" src="./src/main.js"></script>
+    <div id="controls">
+        <label for="searchComune">Cerca un comune:</label>
+        <input type="text" id="searchComune" placeholder="Cerca un comune..." />
+    
+        <label for="educationFilter">Distanza educazione:</label>
+        <select id="educationFilter">
+            <option value="">-- Seleziona --</option>
+            <option value="SI">Infanzia</option>
+            <option value="SP">Primaria</option>
+            <option value="SS">Secondaria</option>
+        </select>
+
+        <div id="extraFilterContainer" style="display: none;">
+            <label for="extraFilter">Scegli il criterio:</label>
+            <select id="extraFilter">
+                <option value="">-- Seleziona --</option>
+                <option value="distanza">Distanza Km</option>
+                <option value="tempo">Tempo</option>
+            </select>
+        </div>
+        <button id="resetFilters">Mappa originale</button>
+    </div>
+    <div id="infoBox" class="info-box">BOX</div>
+</body>
+</html>
