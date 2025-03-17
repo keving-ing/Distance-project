@@ -173,7 +173,7 @@ button, radio {
 #legend {
   position: absolute;
   right: 20px;
-  top: 50px;
+  bottom: 80px;
   width: 25px; /* Leggermente più largo */
   height: 160px; /* Un po' più alto per più spazio */
   background: linear-gradient(to bottom, red, blue);

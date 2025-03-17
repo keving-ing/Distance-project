@@ -11,7 +11,7 @@ from pyproj import Transformer
 #GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
 
 # File di cache per distanze
-CACHE_FILE = "google_distances_cache.json"
+CACHE_FILE = "google_distances_cache222.json"
 
 # Limiti Distance Matrix API
 MAX_ELEMENTS = 100  # nuclei × scuole ≤ 100

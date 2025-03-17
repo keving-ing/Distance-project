@@ -1,7 +1,3 @@
-import Style from 'ol/style/Style';
-import Stroke from 'ol/style/Stroke';
-import Fill from 'ol/style/Fill';
-
 /**
  * Cerca un comune e zooma su di esso.
  * @param {ol.Map} map - La mappa di OpenLayers
@@ -28,3 +24,5 @@ export function searchComune(map, comuniLayer, searchText) {
         alert("Comune non trovato! Assicurati di scrivere il nome esatto.");
     }
 }
+
+
