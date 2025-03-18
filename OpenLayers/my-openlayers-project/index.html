@@ -24,6 +24,13 @@
             <option value="SP">Primaria</option>
             <option value="SS">Secondaria</option>
         </select>
+
+        <label for="modeFilter">Modo:</label>
+        <select id="modeFilter">
+            <option value="">-- Seleziona --</option>
+            <option value="DR">Driving con traffico</option>
+            <option value="TP">Trasporto pubblico</option>
+        </select>
         
 
         <div id="extraFilterContainer" style="display: none;">
@@ -33,18 +40,27 @@
                 <option value="distanza">Distanza Km</option>
                 <option value="tempo">Tempo</option>
             </select>
-        </div>     
+        </div>
+
+        
         <button id="resetFilters">Mappa originale</button>
     </div>
-    <div id="infoBox" class="info-box">BOX</div>
-    <div id="legend">
-        <div id="legend-title">Distanza</div>
-        <div id="legend-gradient"></div>
-        <div id="legend-labels">
-            <span id="legend-max">Max</span>
-            <span id="legend-min">Min</span>
+    
+    <div id="color-bar-container" style="display: none;">
+        <strong id="color-bar-title" style="margin-bottom: 10px;"></strong>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <div style="position: relative;">
+                <div id="color-bar" style="display: flex; flex-direction: column; position: relative;"></div>
+                <div id="color-values" style="position: absolute; top: 0; right: -50px; display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; height: 100%; padding: 5px;">
+                    <span id="min-value" style="margin-bottom: 20px; position: relative; right: -25px;"></span>  
+                    <span id="max-value" style="margin-top: 20px; position: relative; right: -25px; top: -5px;"></span> 
+                </div>
+            </div>
         </div>
     </div>
+
+    <div id="infoBox" class="info-box">BOX</div>
+
 
     <div id="layerBox">
         <label><input type="radio" id = "r" name="layer" value="comuni" checked> Comuni</label>

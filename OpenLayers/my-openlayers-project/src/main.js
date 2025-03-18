@@ -1,13 +1,15 @@
 import 'ol/ol.css';
-import { searchComune } from './filters.js';
 import { loadCsvData, updateMapColors } from './comuniProcessor.js';
 import { loadNucleiData, updateMapColorsNuclei} from './nucleiProcessor.js';
-import { map, comuniLayer, nucleiLayer, defaultStyle } from './map.js';
+import { map, comuniLayer, nucleiLayer } from './map.js';
 import { setupClickInteraction, setupPointerMoveInteraction, setupTooltip } from './interactions_map.js';
 import { setupUIEvents } from './uiEvents.js';
 
 const csvPath = "/data/aggregati_municipio.csv"; 
 let comuneData = {}; // Qui salveremo i dati del CSV
+
+const csvTransitPath = "/data/aggregati_municipio_transit.csv"; 
+let comune_transit_Data = {}; // Qui salveremo i dati del CSV
 
 const nucleiCsvPath = "/data/aggregated_school_distances_weighted.csv";
 let nucleiData = {}; // Qui salveremo i dati del CSV
@@ -36,18 +38,18 @@ layerRadios.forEach(radio => {
 
 setupUIEvents(comuneData, nucleiData);
 
-
 document.getElementById('extraFilter').addEventListener('change', function () {
     const schoolType = document.getElementById('educationFilter').value;
+    const modeType = document.getElementById('modeFilter').value; // 🔥 Aggiunto il tipo di trasporto
     const metric = this.value === "distanza" ? "km" : "min";
 
-    if (schoolType && metric) {
-        updateMapColors(schoolType, metric,comuniLayer,comuneData);
+    if (schoolType && metric && modeType) { // 🔥 Controllo per evitare errori
+        const selectedData = modeType === 'DR' ? comuneData : comune_transit_Data;
+        updateMapColors(schoolType, modeType, metric, comuniLayer, selectedData);
+    } else {
+        console.warn("⚠️ Uno dei parametri è mancante, impossibile aggiornare la mappa.");
     }
 });
-
-
-
 
 // Aggiungiamo un listener per il cambio di layer (Comuni <-> Nuclei)
 document.querySelectorAll('input[name="layer"]').forEach(radio => {
@@ -64,7 +66,6 @@ document.querySelectorAll('input[name="layer"]').forEach(radio => {
     });
 });
 
-
 // Dopo aver caricato i dati CSV
 loadCsvData(csvPath).then(data => {
     comuneData = data;
@@ -74,21 +75,19 @@ loadCsvData(csvPath).then(data => {
     setupPointerMoveInteraction(map, document.getElementById("infoBox"), comuneData);
 });
 
+// Dopo aver caricato i dati CSV
+loadCsvData(csvTransitPath).then(data => {
+    comune_transit_Data = data;
+    console.log("📊 Dati CSV caricati:", comune_transit_Data);
 
-
-
-
-
-
-
-
+    // Avvia le interazioni dopo aver caricato i dati
+    setupPointerMoveInteraction(map, document.getElementById("infoBox"), comune_transit_Data);
+});
 
 loadNucleiData(nucleiCsvPath).then(data => {
     nucleiData = data;
     console.log("📊 Dati nuclei caricati:", nucleiData);
 });
-
-
 
 updateMapColors(schoolType, metric, comuniLayer, comuneData);
 updateMapColorsNuclei(schoolType, metric, nucleiLayer, nucleiData);
