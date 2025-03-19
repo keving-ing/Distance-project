@@ -3,13 +3,24 @@ import { updateMapColors } from './comuniProcessor.js';
 import { updateMapColorsNuclei } from './nucleiProcessor.js';
 import { comuniLayer, nucleiLayer, defaultStyle } from './map.js';
 
-/**
- * 🔥 Inizializza gli eventi della UI
- */
+
+export function setupMenuNavigation() {
+    document.getElementById("btnDistance").addEventListener("click", function () {
+        document.getElementById("controls").style.display = "block";  // Mostra il menu distanza
+        document.getElementById("transportAnalysisControls").style.display = "none"; // Nasconde l'altro menu
+    });
+
+    document.getElementById("btnTransport").addEventListener("click", function () {
+        document.getElementById("controls").style.display = "none"; // Nasconde il menu distanza
+        document.getElementById("transportAnalysisControls").style.display = "block"; // Mostra il menu trasporto pubblico
+    });
+}
+
 /**
  * 🔥 Inizializza gli eventi della UI
  */
 export function setupUIEvents(comuneData, nucleiData) {
+    
     document.getElementById('searchComune').addEventListener('keypress', function (event) {
         if (event.key === 'Enter') {  // Se l'utente preme Invio
             searchComune(map, comuniLayer, this.value);
@@ -28,9 +39,20 @@ export function setupUIEvents(comuneData, nucleiData) {
         }
     }
 
+    function checkFilters1() {
+        const educationFilter = document.getElementById('educationFilter1').value;
+        const extraFilterContainer = document.getElementById('extraFilterContainer1');
+
+        if (educationFilter) {  
+            extraFilterContainer.style.display = "block";  // 🔥 Mostra il secondo menu solo se entrambi i filtri sono selezionati
+        } else {
+            extraFilterContainer.style.display = "none";   // ❌ Nasconde il secondo menu se manca uno dei due
+        }
+    }
+
     document.getElementById('educationFilter').addEventListener('change', checkFilters);
     document.getElementById('modeFilter').addEventListener('change', checkFilters);
-
+    document.getElementById('educationFilter1').addEventListener('change', checkFilters1);
 
     document.getElementById('resetFilters').addEventListener('click', function () {
         document.getElementById('educationFilter').value = "";

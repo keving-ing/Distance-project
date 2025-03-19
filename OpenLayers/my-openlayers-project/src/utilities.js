@@ -16,7 +16,7 @@ export function cleanID(id) {
 /**
  * 🔥 Funzione per aggiornare la leggenda dei colori
  */
-export function updateLegend(min, max, schoolType, metric, modeType) {
+export function updateLegend(min, max, schoolType, metric) {
     const colorBarContainer = document.getElementById('color-bar-container');
     const colorBar = document.getElementById('color-bar');
     const minValue = document.getElementById('min-value');

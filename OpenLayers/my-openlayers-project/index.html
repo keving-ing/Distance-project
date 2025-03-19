@@ -7,15 +7,22 @@
     <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
+    
+    <!-- 🔹 Barra superiore -->
+    <div id="topBar">
+        <span id="btnDistance" class="topbar-item">Analisi accessibilitá</span>
+        <span class="topbar-item separator">|</span>
+        <span id="btnTransport" class="topbar-item">Analisi del trasporto pubblico</span>
+    </div>
+
+    <!-- Mappa -->
     <div id="map" class="map"></div>
     <script type="module" src="./src/main.js"></script>
-    <div id="controls">
 
-        
-
+    <!-- 🔹 Menu per la distanza -->
+    <div id="controls" style="display: none;"> 
         <label for="searchComune">Cerca un comune:</label>
         <input type="text" id="searchComune" placeholder="Cerca un comune..." />
-
 
         <label for="educationFilter">Distanza educazione:</label>
         <select id="educationFilter">
@@ -31,7 +38,6 @@
             <option value="DR">Driving con traffico</option>
             <option value="TP">Trasporto pubblico</option>
         </select>
-        
 
         <div id="extraFilterContainer" style="display: none;">
             <label for="extraFilter">Scegli il criterio:</label>
@@ -42,10 +48,44 @@
             </select>
         </div>
 
-        
         <button id="resetFilters">Mappa originale</button>
     </div>
-    
+
+    <!-- 🔹 Menu per l'analisi del trasporto pubblico -->
+    <div id="transportAnalysisControls" style="display: none;">
+        <label for="searchComune">Cerca un comune:</label>
+        <input type="text" id="searchComune" placeholder="Cerca un comune..." />
+
+        <label for="educationFilter1">Differenza educazione:</label>
+        <select id="educationFilter1">
+            <option value="">-- Seleziona --</option>
+            <option value="SI">Infanzia</option>
+            <option value="SP">Primaria</option>
+            <option value="SS">Secondaria</option>
+        </select>
+
+        <div id="extraFilterContainer1" style="display: none;">
+            <label for="extraFilter1">Scegli il criterio:</label>
+            <select id="extraFilter1">
+                <option value="">-- Seleziona --</option>
+                <option value="distanza">Distanza Km</option>
+                <option value="tempo">Tempo</option>
+            </select>
+        </div>
+
+        <button id="resetFilters">Visualizzazione outliers</button>
+
+        <button id="resetFilters">Mappa originale</button>
+
+    </div>
+
+    <div id="infoBox" class="info-box">BOX</div>
+
+    <div id="layerBox">
+        <label><input type="radio" id = "r" name="layer" value="comuni" checked> Comuni</label>
+        <label><input type="radio" id = "r" name="layer" value="nuclei"> Nuclei Urbani</label>
+    </div>
+
     <div id="color-bar-container" style="display: none;">
         <strong id="color-bar-title" style="margin-bottom: 10px;"></strong>
         <div style="display: flex; flex-direction: column; align-items: center;">
@@ -59,13 +99,7 @@
         </div>
     </div>
 
-    <div id="infoBox" class="info-box">BOX</div>
-
-
-    <div id="layerBox">
-        <label><input type="radio" id = "r" name="layer" value="comuni" checked> Comuni</label>
-        <label><input type="radio" id = "r" name="layer" value="nuclei"> Nuclei Urbani</label>
-    </div>
+    <script type="module" src="./src/uiEvents.js"></script>
 
 </body>
 </html>
