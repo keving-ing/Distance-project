@@ -2,7 +2,7 @@ import 'ol/ol.css';
 import { loadCsvData, updateMapColors } from './comuniProcessor.js';
 import { loadCsvData_diff, updateMapDifferenceColors } from './differenceProcessor.js';
 import { loadNucleiData, updateMapColorsNuclei} from './nucleiProcessor.js';
-import { map, comuniLayer, nucleiLayer } from './map.js';
+import { map, comuniLayer, nucleiLayer, defaultStyle } from './map.js';
 import { setupClickInteraction, setupPointerMoveInteraction, setupTooltip } from './interactions_map.js';
 import { setupUIEvents,setupMenuNavigation } from './uiEvents.js';
 
@@ -18,7 +18,10 @@ let nucleiData = {}; // Qui salveremo i dati del CSV
 const diffCsvPath = "/data/differenze_municipio.csv";
 let diffComuneData = {}; // Qui salveremo i dati del CSV
 
+const outCsvPath = "/data/outliers_comuni.csv";
+let outliersTransport = {}; // Qui salveremo i dati del CSV
 
+outliersTransport
 setupClickInteraction(map);
 setupPointerMoveInteraction(map, document.getElementById("infoBox"),comuneData);
 setupTooltip(map);
@@ -44,6 +47,13 @@ setupMenuNavigation();
 setupUIEvents(comuneData, nucleiData);
 
 document.getElementById('extraFilter').addEventListener('change', function () {
+
+    comuniLayer.getSource().getFeatures().forEach(feature => {
+                feature.setStyle(defaultStyle);
+                let color = 'rgba(255, 255, 255, 0)';
+                feature.set('originalColor', color);
+            });
+
     const schoolType = document.getElementById('educationFilter').value;
     const modeType = document.getElementById('modeFilter').value; // 🔥 Aggiunto il tipo di trasporto
     const metric = this.value === "distanza" ? "km" : "min";
@@ -57,6 +67,14 @@ document.getElementById('extraFilter').addEventListener('change', function () {
 });
 
 document.getElementById('extraFilter1').addEventListener('change', function () {
+
+    comuniLayer.getSource().getFeatures().forEach(feature => {
+                feature.setStyle(defaultStyle);
+                let color = 'rgba(255, 255, 255, 0)';
+                feature.set('originalColor', color);
+            });
+
+
     const schoolType = document.getElementById('educationFilter1').value;
     const metric = this.value === "distanza" ? "km" : "min";
 
@@ -66,6 +84,29 @@ document.getElementById('extraFilter1').addEventListener('change', function () {
         console.warn("⚠️ Uno dei parametri è mancante, impossibile aggiornare la mappa.");
     }
 });
+
+document.getElementById('outliers').addEventListener('click', function () {
+
+    comuniLayer.getSource().getFeatures().forEach(feature => {
+                feature.setStyle(defaultStyle);
+                let color = 'rgba(255, 255, 255, 0)';
+                feature.set('originalColor', color);
+            });
+
+    const schoolType = document.getElementById('educationFilter').value || document.getElementById('educationFilter1').value;
+    const metric = document.getElementById('extraFilter').value ? 
+        (document.getElementById('extraFilter').value === "distanza" ? "km" : "min") :
+        (document.getElementById('extraFilter1').value === "distanza" ? "km" : "min");
+
+    if (schoolType && metric) {
+        console.log(`🔍 Visualizzazione outliers per: ${schoolType}_${metric}`);
+        updateMapDifferenceColors(schoolType, metric, comuniLayer, outliersTransport);
+    } else {
+        console.warn("⚠️ Seleziona un tipo di scuola e un'unità di misura prima di visualizzare gli outliers.");
+        alert("Seleziona un tipo di scuola e un'unità di misura prima di visualizzare gli outliers.");
+    }
+});
+
 
 // Aggiungiamo un listener per il cambio di layer (Comuni <-> Nuclei)
 document.querySelectorAll('input[name="layer"]').forEach(radio => {
@@ -111,6 +152,14 @@ loadCsvData_diff(diffCsvPath).then(data => {
 
     // Avvia le interazioni dopo aver caricato i dati
     setupPointerMoveInteraction(map, document.getElementById("infoBox"), diffComuneData);
+});
+
+loadCsvData_diff(outCsvPath).then(data => {
+    outliersTransport = data;
+    console.log("📊 Dati CSV caricati:", outliersTransport);
+
+    // Avvia le interazioni dopo aver caricato i dati
+    setupPointerMoveInteraction(map, document.getElementById("infoBox"), outliersTransport);
 });
 
 updateMapColors(schoolType, metric, comuniLayer, comuneData);

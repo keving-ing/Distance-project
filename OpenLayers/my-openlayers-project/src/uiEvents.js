@@ -55,10 +55,34 @@ export function setupUIEvents(comuneData, nucleiData) {
     document.getElementById('educationFilter1').addEventListener('change', checkFilters1);
 
     document.getElementById('resetFilters').addEventListener('click', function () {
+        document.getElementById('searchComune').value = "";
         document.getElementById('educationFilter').value = "";
         document.getElementById('modeFilter').value = "";
         document.getElementById('extraFilter').value = "";
         document.getElementById('extraFilterContainer').style.display = "none";
+        infoBox.style.display = "none";
+        document.getElementById('color-bar-container').style.display = "none"; // 🔥 Nasconde la legenda
+    
+        comuniLayer.getSource().getFeatures().forEach(feature => {
+            feature.setStyle(defaultStyle);
+            let color = 'rgba(255, 255, 255, 0)';
+            feature.set('originalColor', color);
+        });
+    
+        
+         // Imposta i layer iniziali
+        nucleiLayer.setVisible(false); // ❌ Nuclei inizialmente nascosti
+        comuniLayer.setVisible(true);  // 🔥 Mostrati di default
+        document.querySelector('input[name="layer"][value="comuni"]').checked = true;
+    
+        console.log("🔄 Filtri resettati e mappa ripristinata!");
+    });
+
+    document.getElementById('resetFilters1').addEventListener('click', function () {
+        document.getElementById('searchComune1').value = "";
+        document.getElementById('educationFilter1').value = "";
+        document.getElementById('extraFilter1').value = "";
+        document.getElementById('extraFilterContainer1').style.display = "none";
         infoBox.style.display = "none";
         document.getElementById('color-bar-container').style.display = "none"; // 🔥 Nasconde la legenda
     
@@ -83,11 +107,14 @@ export function setupUIEvents(comuneData, nucleiData) {
     
         // Resetta i filtri a "-- Seleziona --"
         document.getElementById('educationFilter').value = "";
+        document.getElementById('educationFilter1').value = "";
         document.getElementById('modeFilter').value = "";
         document.getElementById('extraFilter').value = "";
+        document.getElementById('extraFilter1').value = "";
     
         // Nasconde la seconda selezione e la legenda
         document.getElementById('extraFilterContainer').style.display = "none";
+        document.getElementById('extraFilterContainer1').style.display = "none";
         document.getElementById('color-bar-container').style.display = "none";
     
         // Reset delle checkbox dei layer

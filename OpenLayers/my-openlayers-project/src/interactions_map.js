@@ -75,14 +75,18 @@ export function setupPointerMoveInteraction(map, infoBox, comuneData) {
             }
 
             // **📊 Prendi il filtro selezionato dall'utente**
-            const schoolType = document.getElementById('educationFilter').value;
-            const metric = document.getElementById('extraFilter').value === "distanza" ? "km" : "min";
-            const value = comuneInfo[`${schoolType}_${metric}`];
+            const selectedSchoolType = document.getElementById('educationFilter').value || document.getElementById('educationFilter1').value;
+            const selectedMetric = document.getElementById('extraFilter').value ? 
+                (document.getElementById('extraFilter').value === "distanza" ? "km" : "min") :
+                (document.getElementById('extraFilter1').value === "distanza" ? "km" : "min");
 
-            if (schoolType && metric) { 
+            // Ottieni il valore corretto in base alla selezione
+            const value = comuneInfo[`${selectedSchoolType}_${selectedMetric}`];
+
+            if (selectedSchoolType && selectedMetric) { 
                 infoBox.innerHTML = `
                     <strong>COMUNE:</strong> ${comuneName}<br>
-                    <strong>Distanza:</strong> ${value ? value.toFixed(2) : "N/A"} ${metric}
+                    <strong>Distanza:</strong> ${value ? value.toFixed(2) : "N/A"} ${selectedMetric}
                 `;
                 infoBox.style.display = "block";
             } else {
