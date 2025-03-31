@@ -17,14 +17,14 @@ export async function loadCsvData_diff(csvPath) {
         let comune = row.Comune.trim().toUpperCase();
 
         comuneData[comune] = {
-            SI_km: parseFloat(row.SI_diff_km) || null,
-            SP_km: parseFloat(row.SP_diff_km) || null,
-            SS_km: parseFloat(row.SS_diff_km) || null,
-            IC_km: parseFloat(row.IC_diff_km) || null,
-            SI_min: parseFloat(row.SI_diff_min) || null,
-            SP_min: parseFloat(row.SP_diff_min) || null,
-            SS_min: parseFloat(row.SS_diff_min) || null,
-            IC_min: parseFloat(row.IC_diff_min) || null,
+            SI_km: row.SI_diff_km !== "" ? parseFloat(row.SI_diff_km) : null,
+            SP_km: row.SP_diff_km !== "" ? parseFloat(row.SP_diff_km) : null,
+            SS_km: row.SS_diff_km !== "" ? parseFloat(row.SS_diff_km) : null,
+            IC_km: row.IC_diff_km !== "" ? parseFloat(row.IC_diff_km) : null,
+            SI_min: row.SI_diff_min !== "" ? parseFloat(row.SI_diff_min) : null,
+            SP_min: row.SP_diff_min !== "" ? parseFloat(row.SP_diff_min) : null,
+            SS_min: row.SS_diff_min !== "" ? parseFloat(row.SS_diff_min) : null,
+            IC_min: row.IC_diff_min !== "" ? parseFloat(row.IC_diff_min) : null,
         };
     });
 
@@ -48,16 +48,17 @@ export function updateMapDifferenceColors(schoolType, metric, comuniLayer, comun
         const comuneName = feature.get('COMUNE')?.trim().toUpperCase();
         const comuneInfo = comuneData[comuneName];
 
-        console.log(`🔍 [DEBUG] Comune analizzato: ${comuneName}`);
-        console.log(`🔍 [DEBUG] Chiavi disponibili per ${comuneName}:`, comuneInfo ? Object.keys(comuneInfo) : "Nessun dato");
+        //console.log(`🔍 [DEBUG] Comune analizzato: ${comuneName}`);
+        //console.log(`🔍 [DEBUG] Chiavi disponibili per ${comuneName}:`, comuneInfo ? Object.keys(comuneInfo) : "Nessun dato");
 
         if (comuneInfo) {
             let keyToSearch = `${schoolType}_${metric}`.trim();
             let value = comuneInfo[keyToSearch];
 
-            console.log(`🔍 [DEBUG] Cerco chiave: ${keyToSearch}, Valore trovato: ${value}`);
+            //console.log(`🔍 [DEBUG] Cerco chiave: ${keyToSearch}, Valore trovato: ${value}`);
+            console.log(`🔍 Tipo valore:`, typeof value, ' - Valore:', value, ' - comune: ', comuneName);
 
-            if (!isNaN(value) && value !== null) {
+            if (value !== null && !isNaN(value)) {
                 min = Math.min(min, value);
                 max = Math.max(max, value);
             }
@@ -85,7 +86,7 @@ export function updateMapDifferenceColors(schoolType, metric, comuniLayer, comun
         let keyToSearch = `${schoolType}_${metric}`.trim();
         let value = comuneInfo[keyToSearch];
 
-        if (isNaN(value) || value === null) {
+        if (value === null || isNaN(value)) {
             feature.setStyle(new Style({
                 fill: new Fill({ color: 'rgba(255, 255, 255, 0.7)' }),
                 stroke: new Stroke({ color: 'black', width: 2 })

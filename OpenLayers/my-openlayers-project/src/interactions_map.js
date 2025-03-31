@@ -25,7 +25,7 @@ let highlightedFeature = null;
 /**
  * 🔥 Funzione per evidenziare il bordo dei comuni quando il mouse passa sopra
  */
-export function setupPointerMoveInteraction(map, infoBox, comuneData) {
+export function setupPointerMoveInteraction(map, infoBox, comuneData, selectedMetric) {
     let highlightedFeature = null;
 
     map.on('pointermove', function (event) {
@@ -76,9 +76,6 @@ export function setupPointerMoveInteraction(map, infoBox, comuneData) {
 
             // **📊 Prendi il filtro selezionato dall'utente**
             const selectedSchoolType = document.getElementById('educationFilter').value || document.getElementById('educationFilter1').value;
-            const selectedMetric = document.getElementById('extraFilter').value ? 
-                (document.getElementById('extraFilter').value === "distanza" ? "km" : "min") :
-                (document.getElementById('extraFilter1').value === "distanza" ? "km" : "min");
 
             // Ottieni il valore corretto in base alla selezione
             const value = comuneInfo[`${selectedSchoolType}_${selectedMetric}`];

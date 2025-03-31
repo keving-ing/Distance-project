@@ -1,0 +1,140 @@
+
+🔍 41.75163828896383,12.76944046472864 → 41.7620126,12.708208
+🟢 OTP trovato: 87 minuti, 6.83 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.75163828896383,12.76944046472864 → 41.7770481,12.6934884
+🟢 OTP trovato: 112 minuti, 8.82 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.75163828896383,12.76944046472864 → 41.7637096,12.7025863
+🟢 OTP trovato: 94 minuti, 7.37 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.75163828896383,12.76944046472864 → 41.7597368,12.7127702
+🟢 OTP trovato: 81 minuti, 6.39 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.75163828896383,12.76944046472864 → 41.7615682,12.7078911
+🟢 OTP trovato: 88 minuti, 6.89 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 42.05529808624298,12.126267883632057 → 42.1021626,12.1747502
+🟢 OTP trovato: 98 minuti, 7.58 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 42.05529808624298,12.126267883632057 → 42.1009293,12.1588681
+🟢 OTP trovato: 83 minuti, 6.45 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 42.05529808624298,12.126267883632057 → 42.1014864,12.171189
+🟢 OTP trovato: 94 minuti, 7.33 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 42.05529808624298,12.126267883632057 → 42.10022,12.15851
+🟢 OTP trovato: 81 minuti, 6.36 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 42.05529808624298,12.126267883632057 → 42.0994556,12.175708
+🟢 OTP trovato: 99 minuti, 7.69 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 42.108830426872494,12.550559616611421 → 42.1394994,12.5404698
+🟢 OTP trovato: 56 minuti, 4.46 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 42.108830426872494,12.550559616611421 → 42.1392678,12.5420903
+🟢 OTP trovato: 57 minuti, 4.53 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 42.108830426872494,12.550559616611421 → 42.1394566,12.5423151
+🟢 OTP trovato: 58 minuti, 4.56 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.9712174572541,13.107353007776036 → 42.04141329999999,13.0161213
+🟢 OTP trovato: 192 minuti, 15.06 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.9712174572541,13.107353007776036 → 41.9242555,13.0941288
+🟢 OTP trovato: 119 minuti, 9.25 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.9712174572541,13.107353007776036 → 41.9275895,13.0934048
+🟢 OTP trovato: 110 minuti, 8.75 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.9712174572541,13.107353007776036 → 41.9293519,13.0928266
+🟢 OTP trovato: 107 minuti, 8.5 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.682138701873434,12.624008924770767 → 41.7231735,12.6060371
+🟢 OTP trovato: 97 minuti, 7.62 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.682138701873434,12.624008924770767 → 41.7257871,12.608252
+🟢 OTP trovato: 96 minuti, 7.55 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.682138701873434,12.624008924770767 → 41.7277776,12.6646983
+🟢 OTP trovato: 93 minuti, 7.1 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.682138701873434,12.624008924770767 → 41.7252366,12.6556394
+🟢 OTP trovato: 86 minuti, 6.64 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.682138701873434,12.624008924770767 → 41.7266811,12.6631464
+🟢 OTP trovato: 90 minuti, 6.85 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.682138701873434,12.624008924770767 → 41.7225825,12.6122039
+🟢 OTP trovato: 89 minuti, 6.98 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 41.682138701873434,12.624008924770767 → 41.722796,12.6096064
+🟢 OTP trovato: 95 minuti, 7.48 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 42.12247065980157,12.524838019833378 → 42.147924,12.5115272
+🟢 OTP trovato: 96 minuti, 7.47 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 42.12247065980157,12.524838019833378 → 42.1462188,12.5050638
+🟢 OTP trovato: 90 minuti, 7.05 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 42.12247065980157,12.524838019833378 → 42.1474348,12.4910877
+🟢 OTP trovato: 75 minuti, 5.88 km
+  1. WALK da 'Origin' a 'Destination'
+
+
+🔍 42.12247065980157,12.524838019833378 → 42.1475906,12.4910719
+🟢 OTP trovato: 76 minuti, 5.93 km
+  1. WALK da 'Origin' a 'Destination'
+

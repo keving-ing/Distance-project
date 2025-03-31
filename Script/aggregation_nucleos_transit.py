@@ -4,8 +4,8 @@ import geopandas as gpd
 from sys import exit 
 
 # Input and output file paths
-INPUT_FILE = "C:/Users/vehico/Documents/Thesis/Distance-project/school_by_municipality_with_distances_complete.json"
-INPUT_FILE_TRANSIT = "C:/Users/vehico/Documents/Thesis/Distance-project/school_by_municipality_with_distances_transit_complete.json"
+INPUT_FILE = "C:/Users/vehico/Documents/Thesis/Distance-project/DATA_DISTANCIAS/school_by_municipality_with_distances_complete.json"
+INPUT_FILE_TRANSIT = "C:/Users/vehico/Documents/Thesis/Distance-project/DATA_DISTANCIAS/school_by_municipality_with_distances_transit_complete.json"
 POPULATION_FILE = "C:/Users/vehico/Documents/Thesis/geometrias_Lazio.shp"
 OUTPUT_FILE = "aggregated_school_distances_transit_weighted.csv"
 OUTPUT_EXCEL_FILE = "aggregated_school_distances_by_transt_weighted.xlsx"
@@ -15,7 +15,6 @@ SCHOOL_CATEGORIES = {
     "SCUOLA INFANZIA": "SI",
     "SCUOLA PRIMARIA": "SP",
     "SCUOLA PRIMO GRADO": "SS",
-    "ISTITUTO COMPRENSIVO": "IC",
 }
 
 # Uploadind the population of urban cores from the shapefile
@@ -64,7 +63,16 @@ def analyze_distances_by_type_weighted(input_file, input_transit, output_file, o
             }
 
             # Creation of a dictionary to collect data for each type of school
-            school_data = {cat: {"distances": [], "durations": [], "weights": []} for cat in SCHOOL_CATEGORIES.values()}
+            school_data = {
+                                cat: {
+                                    "distances": [],
+                                    "durations": [],
+                                    "weights": [],
+                                    "found_count": 0,
+                                    "total_count": len(categorized_schools[cat])
+                                }
+                                for cat in SCHOOL_CATEGORIES.values()
+                           }
 
             for destination, info in destinations.items():
                 for category, school_set in categorized_schools.items():
@@ -72,21 +80,19 @@ def analyze_distances_by_type_weighted(input_file, input_transit, output_file, o
                         if comune in data_transit and "DISTANCE" in data_transit[comune]:
                             transit_destinations = data_transit[comune]["DISTANCE"]
                             destination = str(destination)
-                            if destination in transit_destinations[str(nucleo_id)]:
-                                print("oK")
+                            if destination in transit_destinations.get(str(nucleo_id), {}):
                                 transit_info = transit_destinations[str(nucleo_id)][destination]
                                 distanza_m = transit_info["distanza_m"]
                                 tempo_s = transit_info["tempo_s"]
-                            else:
-                                distanza_m = info["distanza_m"]
-                                tempo_s = info["tempo_s"]
+                                
+                                school_data[category]["distances"].append(distanza_m)
+                                school_data[category]["durations"].append(tempo_s)
+                                school_data[category]["weights"].append(pop)
+                                school_data[category]["found_count"] += 1
                         else:
-                            distanza_m = info["distanza_m"]
-                            tempo_s = info["tempo_s"]
+                            print("SIAMO ENTRATI QUÀ, manca il comune: " + comune)
+                            continue
 
-                        school_data[category]["distances"].append(distanza_m)
-                        school_data[category]["durations"].append(tempo_s)
-                        school_data[category]["weights"].append(pop) # Use population as weight
 
             # Calculation of weighted mean and standard deviation for each school category
             for category in SCHOOL_CATEGORIES.values():
@@ -105,7 +111,9 @@ def analyze_distances_by_type_weighted(input_file, input_transit, output_file, o
                     school_stats[f"{category}_mean_min"] = None
                     school_stats[f"{category}_St.Dv_min"] = None
 
+                school_stats[f"{category}_match_ratio"] = f'{school_data[category]["found_count"]}/{school_data[category]["total_count"]}'
             results.append(school_stats)
+            
 
     df = pd.DataFrame(results)
 

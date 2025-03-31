@@ -16,7 +16,7 @@ categorie = ["SI", "SP", "SS", "IC"]
 metriche_km = [f"{cat}_mean_km" for cat in categorie]
 metriche_min = [f"{cat}_mean_min" for cat in categorie]
 
-# Calcolo della popolazione totale per ogni Comune
+# Calculation of the total population for each municipality
 comune_peso = df.groupby('Comune')['Popolazione'].sum().reset_index()
 comune_peso.rename(columns={'Popolazione': 'Popolazione_totale'}, inplace=True)
 

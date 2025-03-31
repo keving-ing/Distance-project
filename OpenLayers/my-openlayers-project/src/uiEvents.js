@@ -1,7 +1,7 @@
 import { searchComune } from './filters.js';
 import { updateMapColors } from './comuniProcessor.js';
 import { updateMapColorsNuclei } from './nucleiProcessor.js';
-import { comuniLayer, nucleiLayer, defaultStyle } from './map.js';
+import { map, comuniLayer, nucleiLayer, defaultStyle } from './map.js';
 
 
 export function setupMenuNavigation() {
@@ -22,6 +22,12 @@ export function setupMenuNavigation() {
 export function setupUIEvents(comuneData, nucleiData) {
     
     document.getElementById('searchComune').addEventListener('keypress', function (event) {
+        if (event.key === 'Enter') {  // Se l'utente preme Invio
+            searchComune(map, comuniLayer, this.value);
+        }
+    });
+
+    document.getElementById('searchComune1').addEventListener('keypress', function (event) {
         if (event.key === 'Enter') {  // Se l'utente preme Invio
             searchComune(map, comuniLayer, this.value);
         }

@@ -100,7 +100,6 @@ export function updateMapColors(schoolType, modeType, metric, comuniLayer, comun
     });
 
     updateLegend(min, max, schoolType, metric, modeType);
-
     document.getElementById('extraFilter').value = "";
     console.log("✅ Colorazione aggiornata!");
 }

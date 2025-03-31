@@ -37,7 +37,7 @@ layerRadios.forEach(radio => {
             comuniLayer.setVisible(true);  // 🔥 Mostra i comuni
             nucleiLayer.setVisible(false); // ❌ Nasconde i nuclei
         } else {
-            comuniLayer.setVisible(true); // ❌ Nasconde i comuni
+            comuniLayer.setVisible(false); // ❌ Nasconde i comuni
             nucleiLayer.setVisible(true);  // 🔥 Mostra i nuclei
         }
     });
@@ -45,6 +45,10 @@ layerRadios.forEach(radio => {
 
 setupMenuNavigation();
 setupUIEvents(comuneData, nucleiData);
+
+let selectedSchoolType = "";
+let selectedMetric = "";
+let selectedMode = ""; // per DR / TP
 
 document.getElementById('extraFilter').addEventListener('change', function () {
 
@@ -55,12 +59,15 @@ document.getElementById('extraFilter').addEventListener('change', function () {
             });
 
     const schoolType = document.getElementById('educationFilter').value;
+    selectedSchoolType = document.getElementById('educationFilter').value;
     const modeType = document.getElementById('modeFilter').value; // 🔥 Aggiunto il tipo di trasporto
+    selectedMode = document.getElementById('modeFilter').value;
     const metric = this.value === "distanza" ? "km" : "min";
-
+    selectedMetric = this.value === "distanza" ? "km" : "min";
     if (schoolType && metric && modeType) { // 🔥 Controllo per evitare errori
         const selectedData = modeType === 'DR' ? comuneData : comune_transit_Data;
         updateMapColors(schoolType, modeType, metric, comuniLayer, selectedData);
+        setupPointerMoveInteraction(map, document.getElementById("infoBox"), selectedData, metric);
     } else {
         console.warn("⚠️ Uno dei parametri è mancante, impossibile aggiornare la mappa.");
     }
@@ -76,10 +83,13 @@ document.getElementById('extraFilter1').addEventListener('change', function () {
 
 
     const schoolType = document.getElementById('educationFilter1').value;
+    selectedSchoolType = document.getElementById('educationFilter1').value;
     const metric = this.value === "distanza" ? "km" : "min";
+    selectedMetric = this.value === "distanza" ? "km" : "min";
 
     if (schoolType && metric) { // 🔥 Controllo per evitare errori
         updateMapDifferenceColors(schoolType, metric, comuniLayer, diffComuneData);
+        setupPointerMoveInteraction(map, document.getElementById("infoBox"), diffComuneData, metric);
     } else {
         console.warn("⚠️ Uno dei parametri è mancante, impossibile aggiornare la mappa.");
     }
@@ -107,18 +117,32 @@ document.getElementById('outliers').addEventListener('click', function () {
     }
 });
 
-
+let nucleiDataReady = false;
 // Aggiungiamo un listener per il cambio di layer (Comuni <-> Nuclei)
 document.querySelectorAll('input[name="layer"]').forEach(radio => {
     radio.addEventListener('change', function () {
         if (this.value === "nuclei") {
             const schoolType = document.getElementById('educationFilter').value;
             const metric = document.getElementById('extraFilter').value === "distanza" ? "km" : "min";
-            updateMapColorsNuclei(schoolType, metric, nucleiLayer, nucleiData);
+            const modeType = document.getElementById('modeFilter').value;
+            
+            console.log("📌 Cambio layer: nuclei");
+            console.log("🎓 School type:", schoolType);
+            console.log("🕓 Metric:", metric);
+            console.log("🚗 Mode:", modeType);
+            
+            if (schoolType && metric) {
+                console.log("🎨 Applico colorazione nuclei...");
+                updateMapColorsNuclei(schoolType, metric, nucleiLayer, nucleiData);
+            } else {
+                console.warn("⚠️ Filtro non selezionato, nessuna colorazione nuclei.");
+            }
+
+            nucleiLayer.setVisible(true);
+            comuniLayer.setVisible(false);
         } else {
-            const schoolType = document.getElementById('educationFilter').value;
-            const metric = document.getElementById('extraFilter').value === "distanza" ? "km" : "min";
-            updateMapColors(schoolType, metric, comuniLayer, comuneData);
+            comuniLayer.setVisible(true);
+            nucleiLayer.setVisible(false);
         }
     });
 });
@@ -129,7 +153,7 @@ loadCsvData(csvPath).then(data => {
     console.log("📊 Dati CSV caricati:", comuneData);
 
     // Avvia le interazioni dopo aver caricato i dati
-    setupPointerMoveInteraction(map, document.getElementById("infoBox"), comuneData);
+    //setupPointerMoveInteraction(map, document.getElementById("infoBox"), comuneData);
 });
 
 // Dopo aver caricato i dati CSV
@@ -138,11 +162,12 @@ loadCsvData(csvTransitPath).then(data => {
     console.log("📊 Dati CSV caricati:", comune_transit_Data);
 
     // Avvia le interazioni dopo aver caricato i dati
-    setupPointerMoveInteraction(map, document.getElementById("infoBox"), comune_transit_Data);
+    //setupPointerMoveInteraction(map, document.getElementById("infoBox"), comune_transit_Data);
 });
 
 loadNucleiData(nucleiCsvPath).then(data => {
     nucleiData = data;
+    nucleiDataReady = true;
     console.log("📊 Dati nuclei caricati:", nucleiData);
 });
 
@@ -151,7 +176,7 @@ loadCsvData_diff(diffCsvPath).then(data => {
     console.log("📊 Dati CSV caricati:", diffComuneData);
 
     // Avvia le interazioni dopo aver caricato i dati
-    setupPointerMoveInteraction(map, document.getElementById("infoBox"), diffComuneData);
+    //setupPointerMoveInteraction(map, document.getElementById("infoBox"), diffComuneData);
 });
 
 loadCsvData_diff(outCsvPath).then(data => {
@@ -159,8 +184,5 @@ loadCsvData_diff(outCsvPath).then(data => {
     console.log("📊 Dati CSV caricati:", outliersTransport);
 
     // Avvia le interazioni dopo aver caricato i dati
-    setupPointerMoveInteraction(map, document.getElementById("infoBox"), outliersTransport);
+    //setupPointerMoveInteraction(map, document.getElementById("infoBox"), outliersTransport);
 });
-
-updateMapColors(schoolType, metric, comuniLayer, comuneData);
-updateMapColorsNuclei(schoolType, metric, nucleiLayer, nucleiData);
