@@ -10301,13 +10301,17 @@
             },
             {
                 "CODICEISTITUTORIFERIMENTO": "RMIC891007",
-                "LAT": 41.9805972,
-                "LONG": 12.1929682
+                "LAT": 41.99920209052865, 
+                "LONG": 12.018331106336278,
+                "LAT_IN": 41.9805972,
+                "LONG_IN": 12.1929682
             },
             {
                 "CODICEISTITUTORIFERIMENTO": "RMIC891007",
-                "LAT": 42.0253087,
-                "LONG": 12.0299274
+                "LAT": 41.981567513608255, 
+                "LONG": 12.062563298663026,
+                "LAT_IN": 42.0253087,
+                "LONG_IN": 12.0299274
             },
             {
                 "CODICEISTITUTORIFERIMENTO": "RMIC891007",

@@ -25,10 +25,10 @@ import time
 from pyproj import Transformer
 
 # Chiave API Google Maps
-GOOGLE_MAPS_API_KEY = ""
+GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
 
 # File di cache per distanze
-CACHE_FILE = "C:/Users/vehico/Documents/Thesis/Distance-project/DATA_DISTANCIAS/google_distances_transit_cache.json"
+CACHE_FILE = "C:/Users/vehico/Documents/Thesis/Distance-project/DATA_DISTANCIAS/google_distances_transit_cache1.json"
 
 # Limiti Distance Matrix API
 MAX_ELEMENTS = 100  # nuclei × scuole ≤ 100
@@ -38,20 +38,20 @@ MAX_DESTINATIONS = 25  # massimo 25 scuole per batch
 transformer = Transformer.from_crs("EPSG:32632", "EPSG:4326", always_xy=True)
 
 # **1️⃣ Caricare il file JSON con scuole e nuclei**
-with open("C:/Users/vehico/Documents/Thesis/Distance-project/Raw_data_processing/DATA/school_by_municipality_with_nuclei.json", "r", encoding="utf-8") as f:
+with open("C:/Users/vehico/Documents/Thesis/Distance-project/school_by_municipality_with_nuclei_ROMA_OK.json", "r", encoding="utf-8") as f:
     school_data = json.load(f)
 
-# **2️⃣ Caricare il file con la popolazione e filtrare i comuni < 50.000 abitanti**
+# **2️⃣ Caricare il file con la popolazione e filtrare i comuni < 40.000 abitanti**
 pop_df = pd.read_csv("C:/Users/vehico/Documents/Thesis/Distance-project/Raw_data_processing/Raw_data/DCIS_POPRES1_12022025124521891.csv", delimiter=",", usecols=["ITTER107", "Territorio", "Value"])
 print(pop_df.head(5))
 pop_df = pop_df.rename(columns={"ITTER107": "PRO_COM", "Territorio": "Comune", "Value": "Popolazione"})
 pop_df["Comune"] = pop_df["Comune"].str.upper()
 
-# Filtrare solo comuni con meno di 50.000 abitanti
-filtered_comuni = pop_df[pop_df["Popolazione"] < 50000]["Comune"].tolist()
+# Filtrare solo comuni con meno di 40.000 abitanti
+filtered_comuni = pop_df[pop_df["Popolazione"] < 40000]["Comune"].tolist()
 
 # **3️⃣ Caricare i centroidi dei nuclei urbani**
-with open("C:/Users/vehico/Documents/Thesis/Distance-project/Raw_data_processing/DATA/centroidi.geojson", "r", encoding="utf-8") as f:
+with open("C:/Users/vehico/Documents/centroides_rivisitato.geojson", "r", encoding="utf-8") as f:
     centroidi_data = json.load(f)
 
 def convert_utm_to_wgs84(easting, northing):
@@ -87,11 +87,11 @@ filtered_school_data = {
 # 🔹 Test: stampiamo un esempio
 #print("Esempio di comune filtrato:", list(filtered_school_data.keys())[:5])
 
-# 📂 Salviamo il JSON con i comuni sotto i 50.000 abitanti
+# 📂 Salviamo il JSON con i comuni sotto i 40.000 abitanti
 with open("filtered_schools.json", "w", encoding="utf-8") as f:
     json.dump(filtered_school_data, f, indent=4, ensure_ascii=False)
 
-print("✅ File 'filtered_schools.json' salvato con comuni < 50.000 abitanti!")
+print("✅ File 'filtered_schools.json' salvato con comuni < 40.000 abitanti!")
 
 # Caricare la cache delle distanze
 if os.path.exists(CACHE_FILE):
@@ -114,7 +114,7 @@ def get_distance_matrix(origins, destinations):
 
     if cache_key in distance_cache:
         #print(f"📌 Usando cache per {cache_key}")
-        print(f"🔹 Richiesta API con {len(origins)} origini e {len(destinations)} destinazioni.")
+        #print(f"🔹 Richiesta API con {len(origins)} origini e {len(destinations)} destinazioni.")
         
         if "rows" in distance_cache[cache_key]:
             #print(f"✅ Risultato ricevuto. Numero di origini nella risposta: {len(distance_cache[cache_key])}")
@@ -129,24 +129,18 @@ def get_distance_matrix(origins, destinations):
         "destinations": "|".join(destinations),
         "key": GOOGLE_MAPS_API_KEY,
         "mode": "transit",
-        "departure_time": 1741071600  # Considera il traffico attuale
+        "departure_time": 1744272000  # Considera il traffico attuale
     }
 
     url = "https://maps.googleapis.com/maps/api/distancematrix/json"
 
     elementi = elementi + len(origins) * len(destinations)
-    return None
-
     response = requests.get(url, params=params)
     data = response.json()
     
 
-    #time.sleep(1)
+    time.sleep(1)
 
-    #if "rows" in data:
-        #print(f"✅ Risultato ricevuto. Numero di origini nella risposta: {len(data['rows'])}")
-        #print(f"📍 Origini attese: {origins}")
-        #print(f"📍 Origini ricevute: {data.get('origin_addresses', [])}")
     
     if data["status"] == "OK":
         distance_cache[cache_key] = data
@@ -170,7 +164,7 @@ def process_municipality_distances():
     for comune, data in filtered_school_data.items():
 
         print(comune)
-
+        
         nuclei = data.get("NUCLEOS", [])
         if not nuclei:
             print(f"⚠️  No nuclei per il comune: {comune}")
@@ -190,16 +184,15 @@ def process_municipality_distances():
             for n in nuclei if str(n) in nuclei_centroidi
             for lat, lon in [nuclei_centroidi[str(n)]]
         ]
-          
+        
+
         destination_coords = [f"{lat},{lon}" for lat, lon in schools]
 
         # Suddividere in batch per rispettare i limiti API
         origin_batches = [origin_coords[i:i + MAX_ORIGINS] for i in range(0, len(origin_coords), MAX_ORIGINS)]
         destination_batches = [destination_coords[i:i + MAX_DESTINATIONS] for i in range(0, len(destination_coords), MAX_DESTINATIONS)]
 
-        #if comune == "FORMIA":
-            #print("N. of origins: " + str(len(origin_batches)))
-            #print("N. of destinations: " + str(len(destination_batches)))
+        
 
         # Iterare su ogni combinazione di batch di origini e destinazioni
         for origin_batch, destination_batch in itertools.product(origin_batches, destination_batches):
@@ -293,9 +286,6 @@ def process_municipality_distances():
                                 print(log_message)  # Stampa in console
                                 with open("distance_matrix_errors.log", "a", encoding="utf-8") as f:
                                     f.write(log_message)  # Scrive nel file
-
-        #print(k)
-
         #if k > 20:
             #break
         
@@ -306,7 +296,7 @@ def process_municipality_distances():
 process_municipality_distances()
 
 # **Salva il file aggiornato con le distanze**
-with open("school_by_municipality_with_distances_transit_complete.json", "w", encoding="utf-8") as f:
+with open("school_by_municipality_with_distances_transit_complete_TP_Roma_ok.json", "w", encoding="utf-8") as f:
     json.dump(filtered_school_data, f, indent=4, ensure_ascii=False)
 
 

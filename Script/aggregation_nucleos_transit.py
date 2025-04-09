@@ -5,10 +5,10 @@ from sys import exit
 
 # Input and output file paths
 INPUT_FILE = "C:/Users/vehico/Documents/Thesis/Distance-project/DATA_DISTANCIAS/school_by_municipality_with_distances_complete.json"
-INPUT_FILE_TRANSIT = "C:/Users/vehico/Documents/Thesis/Distance-project/DATA_DISTANCIAS/school_by_municipality_with_distances_transit_complete.json"
+INPUT_FILE_TRANSIT = "C:/Users/vehico/Documents/Thesis/Distance-project/school_by_municipality_with_distances_transit_complete_TP_Roma_ok.json"
 POPULATION_FILE = "C:/Users/vehico/Documents/Thesis/geometrias_Lazio.shp"
-OUTPUT_FILE = "aggregated_school_distances_transit_weighted.csv"
-OUTPUT_EXCEL_FILE = "aggregated_school_distances_by_transt_weighted.xlsx"
+OUTPUT_FILE = "aggregated_school_distances_transit_weighted_ROMA_ok.csv"
+OUTPUT_EXCEL_FILE = "aggregated_school_distances_by_transt_weighted_ROMA_ok.xlsx"
 
 # Definition of categories
 SCHOOL_CATEGORIES = {
@@ -19,9 +19,12 @@ SCHOOL_CATEGORIES = {
 
 # Uploadind the population of urban cores from the shapefile
 gdf = gpd.read_file(POPULATION_FILE)
-population_data = gdf.set_index("LOC21_ID")["POP21"].to_dict()
 
-print("Keys available in population_data:", list(population_data.keys())[:10])
+# Mapping LOC21_ID → (POP21, COD_UTS)
+population_data = gdf.set_index("LOC21_ID")[["POP21", "COD_UTS"]].to_dict(orient="index")
+
+
+#print("Keys available in population_data:", list(population_data.keys())[:10])
 
 
 def analyze_distances_by_type_weighted(input_file, input_transit, output_file, output_excel):
@@ -51,11 +54,12 @@ def analyze_distances_by_type_weighted(input_file, input_transit, output_file, o
                 )
 
         for nucleo_id, destinations in comune_data["DISTANCE"].items():
-            nucleo_id = float(nucleo_id)
-            if population_data.get(nucleo_id, 0) <= 20:
-                continue  # Skip nuclei with no population and population <= 20
+            
+            nucleo_info = population_data.get(float(nucleo_id))
+            if not nucleo_info or nucleo_info["POP21"] <= 20 or nucleo_info["COD_UTS"] != 258:
+                continue
 
-            pop = population_data[nucleo_id]
+            pop = nucleo_info["POP21"]
             school_stats = {
                 "Comune": comune,
                 "Nucleo_ID": nucleo_id,
@@ -82,9 +86,9 @@ def analyze_distances_by_type_weighted(input_file, input_transit, output_file, o
                             destination = str(destination)
                             if destination in transit_destinations.get(str(nucleo_id), {}):
                                 transit_info = transit_destinations[str(nucleo_id)][destination]
-                                distanza_m = transit_info["distanza_m"]
+                                distanza_m = transit_info.get("distanza_m", None)
                                 tempo_s = transit_info["tempo_s"]
-                                
+
                                 school_data[category]["distances"].append(distanza_m)
                                 school_data[category]["durations"].append(tempo_s)
                                 school_data[category]["weights"].append(pop)
