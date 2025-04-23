@@ -21,7 +21,7 @@ export const map = new Map({
         })
     ],
     view: new View({
-        center: fromLonLat([12.5, 41.9]), // Lazio
+        center: fromLonLat([12.5, 42.1]), // Lazio
         zoom: 8.5 
     })
 });

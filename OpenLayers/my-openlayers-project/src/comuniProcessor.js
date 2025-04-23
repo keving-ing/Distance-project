@@ -39,6 +39,8 @@ export function updateMapColors(schoolType, modeType, metric, comuniLayer, comun
 
     let min = Infinity;
     let max = -Infinity;
+    let sum = 0;          
+    let count = 0;        
 
     // Prima passata: trovare i valori minimi e massimi per la scala dei colori
     comuniLayer.getSource().getFeatures().forEach(feature => {
@@ -52,9 +54,14 @@ export function updateMapColors(schoolType, modeType, metric, comuniLayer, comun
             if (!isNaN(value) && value !== null) {
                 min = Math.min(min, value);
                 max = Math.max(max, value);
+                sum += value;
+                count++;
             }
         }
     });
+
+    let media = count > 0 ? (sum / count) : 0;
+    console.log(`📊 Min: ${min}, Max: ${max}, Media: ${media.toFixed(2)}`);
 
 
     // Seconda passata: applicare il colore
@@ -88,8 +95,18 @@ export function updateMapColors(schoolType, modeType, metric, comuniLayer, comun
         }
 
         // Scala colori da Blu (min) → Rosso (max)
-        let ratio = (value - min) / (max - min); // Normalizzazione tra 0 e 1
-        let color = `rgb(${Math.floor(255 * ratio)}, 50, ${Math.floor(255 * (1 - ratio))})`;
+        let ratio
+        let color;
+
+        if(value <= media){
+            ratio = (value - min) / (media - min); // Normalizzazione tra 0 e 1
+            const r = Math.max(0, Math.min(1, ratio));
+            color = `rgb(${Math.floor(0 + 80 * r)}, ${Math.floor(50 + 130 * r)}, ${ Math.floor(200 + 55 * r)})`;
+        }else{
+            ratio = (value - media) / (max - media);
+            const r = Math.max(0, Math.min(1, ratio));
+            color = `rgb(${Math.floor(80 + 140 * r)}, ${Math.floor(180 - 140 * r)}, ${Math.floor(255 - 215 * r)})`;
+        }
 
         feature.setStyle(new Style({
             fill: new Fill({ color: color }),
