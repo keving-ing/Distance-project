@@ -1,0 +1,4798 @@
+{
+    "AFFILE": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5800110001.0,
+            5800126602.0,
+            5800126701.0,
+            5800140000.0
+        ],
+        "DISTANCE": {
+            "5800110001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 9258,
+                    "tempo_s": 1302
+                }
+            },
+            "5800126602": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 5570,
+                    "tempo_s": 1016
+                }
+            },
+            "5800126701": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 11222,
+                    "tempo_s": 3300
+                }
+            }
+        }
+    },
+    "AGOSTA": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5800210001.0,
+            5800210002.0,
+            5800220002.0,
+            5800220003.0,
+            5800240000.0
+        ],
+        "DISTANCE": {
+            "5800210001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 9827,
+                    "tempo_s": 1974
+                }
+            },
+            "5800210002": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 7211,
+                    "tempo_s": 1784
+                }
+            },
+            "5800220002": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 8258,
+                    "tempo_s": 1831
+                }
+            },
+            "5800220003": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 7268,
+                    "tempo_s": 1222
+                }
+            }
+        }
+    },
+    "ALBANO LAZIALE": {
+        "ospedali": [
+            12004401,
+            12007001
+        ],
+        "nuclei": [
+            5800310001.0,
+            5800310002.0,
+            5800320002.0,
+            5800320007.0,
+            5800320008.0,
+            5800320014.0,
+            5800320010.0,
+            5800320011.0,
+            5800340000.0
+        ],
+        "DISTANCE": {
+            "5800310001": {
+                "Osp. Albano Laziale, ALBANO LAZIALE, RM": {
+                    "distanza_m": 3200,
+                    "tempo_s": 1080
+                },
+                "Osp.C. Regina Apostolorum, ALBANO LAZIALE, RM": {
+                    "distanza_m": 4340,
+                    "tempo_s": 2305
+                }
+            },
+            "5800310002": {
+                "Osp. Albano Laziale, ALBANO LAZIALE, RM": {
+                    "distanza_m": 17936,
+                    "tempo_s": 3082
+                },
+                "Osp.C. Regina Apostolorum, ALBANO LAZIALE, RM": {
+                    "distanza_m": 19076,
+                    "tempo_s": 4307
+                }
+            },
+            "5800320002": {
+                "Osp. Albano Laziale, ALBANO LAZIALE, RM": {
+                    "distanza_m": 7494,
+                    "tempo_s": 2740
+                },
+                "Osp.C. Regina Apostolorum, ALBANO LAZIALE, RM": {
+                    "distanza_m": 8618,
+                    "tempo_s": 3952
+                }
+            },
+            "5800320007": {
+                "Osp. Albano Laziale, ALBANO LAZIALE, RM": {
+                    "distanza_m": 8264,
+                    "tempo_s": 3413
+                },
+                "Osp.C. Regina Apostolorum, ALBANO LAZIALE, RM": {
+                    "distanza_m": 9388,
+                    "tempo_s": 4625
+                }
+            },
+            "5800320008": {
+                "Osp. Albano Laziale, ALBANO LAZIALE, RM": {
+                    "distanza_m": 3403,
+                    "tempo_s": 1216
+                },
+                "Osp.C. Regina Apostolorum, ALBANO LAZIALE, RM": {
+                    "distanza_m": 4543,
+                    "tempo_s": 2441
+                }
+            },
+            "5800320014": {
+                "Osp. Albano Laziale, ALBANO LAZIALE, RM": {
+                    "distanza_m": 11441,
+                    "tempo_s": 3734
+                },
+                "Osp.C. Regina Apostolorum, ALBANO LAZIALE, RM": {
+                    "distanza_m": 12565,
+                    "tempo_s": 4946
+                }
+            },
+            "5800320010": {
+                "Osp. Albano Laziale, ALBANO LAZIALE, RM": {
+                    "distanza_m": 7975,
+                    "tempo_s": 3166
+                },
+                "Osp.C. Regina Apostolorum, ALBANO LAZIALE, RM": {
+                    "distanza_m": 9108,
+                    "tempo_s": 4391
+                }
+            },
+            "5800320011": {
+                "Osp. Albano Laziale, ALBANO LAZIALE, RM": {
+                    "distanza_m": 6908,
+                    "tempo_s": 1380
+                },
+                "Osp.C. Regina Apostolorum, ALBANO LAZIALE, RM": {
+                    "distanza_m": 7935,
+                    "tempo_s": 1620
+                }
+            }
+        }
+    },
+    "ALLUMIERE": {
+        "ospedali": [
+            12004501
+        ],
+        "nuclei": [
+            5800410001.0,
+            5800410002.0,
+            5800440000.0
+        ],
+        "DISTANCE": {
+            "5800410001": {
+                "Osp. S.Paolo, CIVITAVECCHIA, RM": {
+                    "distanza_m": 14098,
+                    "tempo_s": 1838
+                }
+            },
+            "5800410002": {
+                "Osp. S.Paolo, CIVITAVECCHIA, RM": {
+                    "distanza_m": 16022,
+                    "tempo_s": 1894
+                }
+            }
+        }
+    },
+    "ANGUILLARA SABAZIA": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5800510001.0,
+            5800510002.0,
+            5800520001.0,
+            5800520007.0,
+            5800520008.0,
+            5800520009.0,
+            5800520005.0,
+            5800520006.0,
+            5800520004.0,
+            5800520003.0,
+            5800526702.0,
+            5800540000.0
+        ],
+        "DISTANCE": {
+            "5800510001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 22320,
+                    "tempo_s": 3462
+                }
+            },
+            "5800510002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 9810,
+                    "tempo_s": 1822
+                }
+            },
+            "5800520001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 11023,
+                    "tempo_s": 3602
+                }
+            },
+            "5800520007": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 22481,
+                    "tempo_s": 7569
+                }
+            },
+            "5800520008": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 18393,
+                    "tempo_s": 3888
+                }
+            },
+            "5800520009": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 17835,
+                    "tempo_s": 3449
+                }
+            },
+            "5800520005": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 20462,
+                    "tempo_s": 9451
+                }
+            },
+            "5800520006": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 12957,
+                    "tempo_s": 3665
+                }
+            },
+            "5800520004": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 29709,
+                    "tempo_s": 6028
+                }
+            },
+            "5800520003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 12770,
+                    "tempo_s": 2362
+                }
+            },
+            "5800526702": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 15763,
+                    "tempo_s": 3800
+                }
+            }
+        }
+    },
+    "ANTICOLI CORRADO": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5800610001.0,
+            5800640000.0
+        ],
+        "DISTANCE": {
+            "5800610001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 19666,
+                    "tempo_s": 3798
+                }
+            }
+        }
+    },
+    "ANZIO": {
+        "ospedali": [
+            12003601,
+            12004301,
+            12013101
+        ],
+        "nuclei": [
+            5800710001.0,
+            5800710002.0,
+            5800720001.0,
+            5800740000.0
+        ]
+    },
+    "ARCINAZZO ROMANO": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5800810001.0,
+            5800810002.0,
+            5800840000.0
+        ],
+        "DISTANCE": {
+            "5800810001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 18978,
+                    "tempo_s": 1913
+                }
+            },
+            "5800810002": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 11671,
+                    "tempo_s": 1809
+                }
+            }
+        }
+    },
+    "ARICCIA": {
+        "ospedali": [
+            12005501
+        ],
+        "nuclei": [
+            5800910001.0,
+            5800926702.0,
+            5800926701.0,
+            5800940000.0
+        ],
+        "DISTANCE": {
+            "5800910001": {
+                "Osp. Di Ariccia, ARICCIA, RM": {
+                    "distanza_m": 1950,
+                    "tempo_s": 1997
+                }
+            },
+            "5800926702": {
+                "Osp. Di Ariccia, ARICCIA, RM": {
+                    "distanza_m": 1834,
+                    "tempo_s": 1889
+                }
+            },
+            "5800926701": {
+                "Osp. Di Ariccia, ARICCIA, RM": {
+                    "distanza_m": 1810,
+                    "tempo_s": 925
+                }
+            }
+        }
+    },
+    "ARSOLI": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5801010001.0,
+            5801040000.0
+        ],
+        "DISTANCE": {
+            "5801010001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 20811,
+                    "tempo_s": 2637
+                }
+            }
+        }
+    },
+    "ARTENA": {
+        "ospedali": [
+            12004601
+        ],
+        "nuclei": [
+            5801110001.0,
+            5801110004.0,
+            5801110002.0,
+            5801110005.0,
+            5801110003.0,
+            5801120204.0,
+            5801140000.0
+        ],
+        "DISTANCE": {
+            "5801110001": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 8937,
+                    "tempo_s": 1207
+                }
+            },
+            "5801110004": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 5920,
+                    "tempo_s": 706
+                }
+            },
+            "5801110002": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 23317,
+                    "tempo_s": 3833
+                }
+            },
+            "5801110005": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 12385,
+                    "tempo_s": 1714
+                }
+            },
+            "5801110003": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 13849,
+                    "tempo_s": 1606
+                }
+            },
+            "5801120204": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 14955,
+                    "tempo_s": 1929
+                }
+            }
+        }
+    },
+    "BELLEGRA": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5801210001.0,
+            5801220004.0,
+            5801220003.0,
+            5801226602.0,
+            5801240000.0
+        ],
+        "DISTANCE": {
+            "5801210001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 51957,
+                    "tempo_s": 8706
+                }
+            },
+            "5801220004": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 59173,
+                    "tempo_s": 7859
+                }
+            },
+            "5801220003": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 22304,
+                    "tempo_s": 4554
+                }
+            },
+            "5801226602": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 60610,
+                    "tempo_s": 8043
+                }
+            }
+        }
+    },
+    "BRACCIANO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5801310006.0,
+            5801310001.0,
+            5801310004.0,
+            5801310002.0,
+            5801310005.0,
+            5801310003.0,
+            5801320005.0,
+            5801320006.0,
+            5801320003.0,
+            5801326704.0,
+            5801340000.0
+        ],
+        "DISTANCE": {
+            "5801310006": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 6626,
+                    "tempo_s": 1853
+                }
+            },
+            "5801310001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 1773,
+                    "tempo_s": 459
+                }
+            },
+            "5801310004": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 3033,
+                    "tempo_s": 2623
+                }
+            },
+            "5801310002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 7420,
+                    "tempo_s": 900
+                }
+            },
+            "5801310005": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 1991,
+                    "tempo_s": 1847
+                }
+            },
+            "5801310003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 7543,
+                    "tempo_s": 2408
+                }
+            },
+            "5801320005": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 2054,
+                    "tempo_s": 1922
+                }
+            },
+            "5801320006": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 3744,
+                    "tempo_s": 2132
+                }
+            },
+            "5801320003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 3764,
+                    "tempo_s": 3169
+                }
+            },
+            "5801326704": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 11291,
+                    "tempo_s": 1800
+                }
+            }
+        }
+    },
+    "CAMERATA NUOVA": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5801410001.0,
+            5801426602.0,
+            5801440000.0
+        ],
+        "DISTANCE": {
+            "5801410001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 41004,
+                    "tempo_s": 7767
+                }
+            },
+            "5801426602": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 40289,
+                    "tempo_s": 7829
+                }
+            }
+        }
+    },
+    "CAMPAGNANO DI ROMA": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5801510001.0,
+            5801520001.0,
+            5801520002.0,
+            5801520003.0,
+            5801540000.0
+        ],
+        "DISTANCE": {
+            "5801510001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 71872,
+                    "tempo_s": 9190
+                }
+            },
+            "5801520001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 65832,
+                    "tempo_s": 8125
+                }
+            },
+            "5801520002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 29613,
+                    "tempo_s": 6741
+                }
+            },
+            "5801520003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 28275,
+                    "tempo_s": 5741
+                }
+            }
+        }
+    },
+    "CANALE MONTERANO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5801610001.0,
+            5801610002.0,
+            5801620005.0,
+            5801620004.0,
+            5801640000.0
+        ],
+        "DISTANCE": {
+            "5801610001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 10638,
+                    "tempo_s": 4177
+                }
+            },
+            "5801610002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 11996,
+                    "tempo_s": 4177
+                }
+            },
+            "5801620005": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 13180,
+                    "tempo_s": 3705
+                }
+            },
+            "5801620004": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 13974,
+                    "tempo_s": 3586
+                }
+            }
+        }
+    },
+    "CANTERANO": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5801710001.0,
+            5801726701.0,
+            5801740000.0
+        ],
+        "DISTANCE": {
+            "5801710001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 10024,
+                    "tempo_s": 4083
+                }
+            },
+            "5801726701": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 9339,
+                    "tempo_s": 3528
+                }
+            }
+        }
+    },
+    "CAPENA": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5801810001.0,
+            5801810002.0,
+            5801820001.0,
+            5801810003.0,
+            5801820005.0,
+            5801820004.0,
+            5801820003.0,
+            5801830001.0,
+            5801840000.0
+        ],
+        "DISTANCE": {
+            "5801810001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 58427,
+                    "tempo_s": 8054
+                }
+            },
+            "5801810002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 63201,
+                    "tempo_s": 8855
+                }
+            },
+            "5801820001": {},
+            "5801810003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 56645,
+                    "tempo_s": 7877
+                }
+            },
+            "5801820005": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 60313,
+                    "tempo_s": 8708
+                }
+            },
+            "5801820004": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 68379,
+                    "tempo_s": 11678
+                }
+            },
+            "5801820003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 60631,
+                    "tempo_s": 8928
+                }
+            }
+        }
+    },
+    "CAPRANICA PRENESTINA": {
+        "ospedali": [
+            12027301
+        ],
+        "nuclei": [
+            5801910001.0,
+            5801910002.0,
+            5801920002.0,
+            5801940000.0
+        ],
+        "DISTANCE": {
+            "5801910001": {
+                "C.C.A. Villa Luana, POLI, RM": {
+                    "distanza_m": 35485,
+                    "tempo_s": 10313
+                }
+            },
+            "5801910002": {
+                "C.C.A. Villa Luana, POLI, RM": {
+                    "distanza_m": 44957,
+                    "tempo_s": 11415
+                }
+            },
+            "5801920002": {
+                "C.C.A. Villa Luana, POLI, RM": {
+                    "distanza_m": 36032,
+                    "tempo_s": 10850
+                }
+            }
+        }
+    },
+    "CARPINETO ROMANO": {
+        "ospedali": [
+            12004601
+        ],
+        "nuclei": [
+            5802010001.0,
+            5802040000.0
+        ],
+        "DISTANCE": {
+            "5802010001": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 19285,
+                    "tempo_s": 1873
+                }
+            }
+        }
+    },
+    "CASAPE": {
+        "ospedali": [
+            12027301
+        ],
+        "nuclei": [
+            5802110001.0,
+            5802140000.0
+        ],
+        "DISTANCE": {
+            "5802110001": {
+                "C.C.A. Villa Luana, POLI, RM": {
+                    "distanza_m": 7212,
+                    "tempo_s": 1537
+                }
+            }
+        }
+    },
+    "CASTEL GANDOLFO": {
+        "ospedali": [
+            12004401
+        ],
+        "nuclei": [
+            5802210001.0,
+            5802210002.0,
+            5802220001.0,
+            5802240000.0
+        ],
+        "DISTANCE": {
+            "5802210001": {
+                "Osp. Albano Laziale, ALBANO LAZIALE, RM": {
+                    "distanza_m": 2492,
+                    "tempo_s": 647
+                }
+            },
+            "5802210002": {
+                "Osp. Albano Laziale, ALBANO LAZIALE, RM": {
+                    "distanza_m": 4190,
+                    "tempo_s": 900
+                }
+            },
+            "5802220001": {
+                "Osp. Albano Laziale, ALBANO LAZIALE, RM": {
+                    "distanza_m": 5809,
+                    "tempo_s": 1350
+                }
+            }
+        }
+    },
+    "CASTEL MADAMA": {
+        "ospedali": [
+            12008801
+        ],
+        "nuclei": [
+            5802310001.0,
+            5802310002.0,
+            5802320002.0,
+            5802320005.0,
+            5802320004.0,
+            5802326603.0,
+            5802340000.0
+        ],
+        "DISTANCE": {
+            "5802310001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 11344,
+                    "tempo_s": 2928
+                }
+            },
+            "5802310002": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 3040,
+                    "tempo_s": 634
+                }
+            },
+            "5802320002": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 10638,
+                    "tempo_s": 1344
+                }
+            },
+            "5802320005": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 9971,
+                    "tempo_s": 1426
+                }
+            },
+            "5802320004": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 9523,
+                    "tempo_s": 1096
+                }
+            },
+            "5802326603": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 5418,
+                    "tempo_s": 1690
+                }
+            }
+        }
+    },
+    "CASTELNUOVO DI PORTO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5802410001.0,
+            5802410002.0,
+            5802420001.0,
+            5802420005.0,
+            5802420006.0,
+            5802420004.0,
+            5802420003.0,
+            5802440000.0
+        ],
+        "DISTANCE": {
+            "5802410001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 61802,
+                    "tempo_s": 8113
+                }
+            },
+            "5802410002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 56358,
+                    "tempo_s": 8006
+                }
+            },
+            "5802420001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 58144,
+                    "tempo_s": 7301
+                }
+            },
+            "5802420005": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 59984,
+                    "tempo_s": 11476
+                }
+            },
+            "5802420006": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 60636,
+                    "tempo_s": 7858
+                }
+            },
+            "5802420004": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 55591,
+                    "tempo_s": 8617
+                }
+            },
+            "5802420003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 57876,
+                    "tempo_s": 7101
+                }
+            }
+        }
+    },
+    "CASTEL SAN PIETRO ROMANO": {
+        "ospedali": [
+            12005101
+        ],
+        "nuclei": [
+            5802510001.0,
+            5802510002.0,
+            5802520002.0,
+            5802510003.0,
+            5802526601.0,
+            5802540000.0
+        ],
+        "DISTANCE": {
+            "5802510001": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 1874,
+                    "tempo_s": 1555
+                }
+            },
+            "5802510002": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 7005,
+                    "tempo_s": 1568
+                }
+            },
+            "5802520002": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 5109,
+                    "tempo_s": 1228
+                }
+            },
+            "5802510003": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 1388,
+                    "tempo_s": 1266
+                }
+            },
+            "5802526601": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 5841,
+                    "tempo_s": 1859
+                }
+            }
+        }
+    },
+    "CAVE": {
+        "ospedali": [
+            12005101
+        ],
+        "nuclei": [
+            5802610001.0,
+            5802610002.0,
+            5802620006.0,
+            5802620004.0,
+            5802640000.0
+        ],
+        "DISTANCE": {
+            "5802610001": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 7376,
+                    "tempo_s": 1572
+                }
+            },
+            "5802610002": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 4823,
+                    "tempo_s": 2210
+                }
+            },
+            "5802620006": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 4416,
+                    "tempo_s": 1787
+                }
+            },
+            "5802620004": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 20844,
+                    "tempo_s": 3968
+                }
+            }
+        }
+    },
+    "CERRETO LAZIALE": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5802710001.0,
+            5802710002.0,
+            5802740000.0
+        ],
+        "DISTANCE": {
+            "5802710001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 65377,
+                    "tempo_s": 10245
+                }
+            },
+            "5802710002": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 68438,
+                    "tempo_s": 10563
+                }
+            }
+        }
+    },
+    "CERVARA DI ROMA": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5802810001.0,
+            5802810002.0,
+            5802820001.0,
+            5802820006.0,
+            5802826603.0,
+            5802826705.0,
+            5802826602.0,
+            5802840000.0
+        ],
+        "DISTANCE": {
+            "5802810001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 15056,
+                    "tempo_s": 2530
+                }
+            },
+            "5802810002": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 8511,
+                    "tempo_s": 2646
+                }
+            },
+            "5802820001": {},
+            "5802820006": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 8560,
+                    "tempo_s": 1447
+                }
+            },
+            "5802826603": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 9178,
+                    "tempo_s": 4035
+                }
+            },
+            "5802826705": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 7697,
+                    "tempo_s": 3325
+                }
+            },
+            "5802826602": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 18184,
+                    "tempo_s": 6970
+                }
+            }
+        }
+    },
+    "CERVETERI": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5802910006.0,
+            5802910001.0,
+            5802910002.0,
+            5802910004.0,
+            5802920001.0,
+            5802910005.0,
+            5802910003.0,
+            5802910007.0,
+            5802920014.0,
+            5802920005.0,
+            5802920013.0,
+            5802920006.0,
+            5802920011.0,
+            5802920004.0,
+            5802920003.0,
+            5802926620.0,
+            5802926612.0,
+            5802920019.0,
+            5802926622.0,
+            5802926607.0,
+            5802926615.0,
+            5802926609.0,
+            5802926610.0,
+            5802926616.0,
+            5802926717.0,
+            5802940000.0
+        ],
+        "DISTANCE": {
+            "5802910006": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 18719,
+                    "tempo_s": 2466
+                }
+            },
+            "5802910001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 17526,
+                    "tempo_s": 3633
+                }
+            },
+            "5802910002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 21168,
+                    "tempo_s": 2686
+                }
+            },
+            "5802910004": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 15151,
+                    "tempo_s": 4200
+                }
+            },
+            "5802920001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 17990,
+                    "tempo_s": 4560
+                }
+            },
+            "5802910005": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 23399,
+                    "tempo_s": 3522
+                }
+            },
+            "5802910003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 30717,
+                    "tempo_s": 5473
+                }
+            },
+            "5802910007": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 31529,
+                    "tempo_s": 4825
+                }
+            },
+            "5802920014": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 82110,
+                    "tempo_s": 12784
+                }
+            },
+            "5802920005": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 15442,
+                    "tempo_s": 2281
+                }
+            },
+            "5802920013": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 80287,
+                    "tempo_s": 11340
+                }
+            },
+            "5802920006": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 20430,
+                    "tempo_s": 3954
+                }
+            },
+            "5802920011": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 73504,
+                    "tempo_s": 16270
+                }
+            },
+            "5802920004": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 80954,
+                    "tempo_s": 11863
+                }
+            },
+            "5802920003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 81737,
+                    "tempo_s": 12469
+                }
+            },
+            "5802926620": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 24318,
+                    "tempo_s": 3966
+                }
+            },
+            "5802926612": {},
+            "5802920019": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 26743,
+                    "tempo_s": 4796
+                }
+            },
+            "5802926622": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 72544,
+                    "tempo_s": 14573
+                }
+            },
+            "5802926607": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 20219,
+                    "tempo_s": 3120
+                }
+            },
+            "5802926615": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 13382,
+                    "tempo_s": 2139
+                }
+            },
+            "5802926609": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 48731,
+                    "tempo_s": 11874
+                }
+            },
+            "5802926610": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 20840,
+                    "tempo_s": 3721
+                }
+            },
+            "5802926616": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 14473,
+                    "tempo_s": 2397
+                }
+            },
+            "5802926717": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 16256,
+                    "tempo_s": 2362
+                }
+            }
+        }
+    },
+    "CICILIANO": {
+        "ospedali": [
+            12008801
+        ],
+        "nuclei": [
+            5803010001.0,
+            5803020001.0,
+            5803040000.0
+        ],
+        "DISTANCE": {
+            "5803010001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 14727,
+                    "tempo_s": 2277
+                }
+            },
+            "5803020001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 13682,
+                    "tempo_s": 1358
+                }
+            }
+        }
+    },
+    "CINETO ROMANO": {
+        "ospedali": [
+            12008801
+        ],
+        "nuclei": [
+            5803110001.0,
+            5803120001.0,
+            5803140000.0
+        ],
+        "DISTANCE": {
+            "5803110001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 24453,
+                    "tempo_s": 4852
+                }
+            },
+            "5803120001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 19966,
+                    "tempo_s": 4668
+                }
+            }
+        }
+    },
+    "CIVITAVECCHIA": {
+        "ospedali": [
+            12004501,
+            12014001
+        ],
+        "nuclei": [
+            5803210001.0,
+            5803210002.0,
+            5803210003.0,
+            5803230002.0,
+            5803230003.0,
+            5803240000.0
+        ]
+    },
+    "CIVITELLA SAN PAOLO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5803310001.0,
+            5803320002.0,
+            5803326601.0,
+            5803340000.0
+        ],
+        "DISTANCE": {
+            "5803310001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 71070,
+                    "tempo_s": 9156
+                }
+            },
+            "5803320002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 67978,
+                    "tempo_s": 8805
+                }
+            },
+            "5803326601": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 73489,
+                    "tempo_s": 9412
+                }
+            }
+        }
+    },
+    "COLLEFERRO": {
+        "ospedali": [
+            12004601
+        ],
+        "nuclei": [
+            5803410001.0,
+            5803420002.0,
+            5803420001.0,
+            5803410003.0,
+            5803430003.0,
+            5803430002.0,
+            5803430001.0,
+            5803440000.0
+        ],
+        "DISTANCE": {
+            "5803410001": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 269,
+                    "tempo_s": 225
+                }
+            },
+            "5803420002": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 2818,
+                    "tempo_s": 933
+                }
+            },
+            "5803420001": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 4395,
+                    "tempo_s": 552
+                }
+            },
+            "5803410003": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 4421,
+                    "tempo_s": 552
+                }
+            }
+        }
+    },
+    "COLONNA": {
+        "ospedali": [
+            12028001
+        ],
+        "nuclei": [
+            5803510001.0,
+            5803510002.0,
+            5803526601.0,
+            5803540000.0
+        ],
+        "DISTANCE": {
+            "5803510001": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 15843,
+                    "tempo_s": 3940
+                }
+            },
+            "5803510002": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 36668,
+                    "tempo_s": 6691
+                }
+            },
+            "5803526601": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 39004,
+                    "tempo_s": 6933
+                }
+            }
+        }
+    },
+    "FIANO ROMANO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5803610001.0,
+            5803640000.0
+        ],
+        "DISTANCE": {
+            "5803610001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 62683,
+                    "tempo_s": 8375
+                }
+            }
+        }
+    },
+    "FILACCIANO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5803710001.0,
+            5803740000.0
+        ],
+        "DISTANCE": {
+            "5803710001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 109889,
+                    "tempo_s": 12485
+                }
+            }
+        }
+    },
+    "FORMELLO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5803810001.0,
+            5803810002.0,
+            5803820001.0,
+            5803820007.0,
+            5803820005.0,
+            5803820014.0,
+            5803820013.0,
+            5803830001.0,
+            5803840000.0
+        ],
+        "DISTANCE": {
+            "5803810001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 54077,
+                    "tempo_s": 7252
+                }
+            },
+            "5803810002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 23304,
+                    "tempo_s": 5229
+                }
+            },
+            "5803820001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 50559,
+                    "tempo_s": 9697
+                }
+            },
+            "5803820007": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 52911,
+                    "tempo_s": 7733
+                }
+            },
+            "5803820005": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 53355,
+                    "tempo_s": 9033
+                }
+            },
+            "5803820014": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 51853,
+                    "tempo_s": 7729
+                }
+            },
+            "5803820013": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 51576,
+                    "tempo_s": 7525
+                }
+            }
+        }
+    },
+    "FRASCATI": {
+        "ospedali": [
+            12004701
+        ],
+        "nuclei": [
+            5803910001.0,
+            5803930001.0,
+            5803940000.0
+        ],
+        "DISTANCE": {
+            "5803910001": {
+                "Osp. S.Sebastiano, FRASCATI, RM": {
+                    "distanza_m": 2332,
+                    "tempo_s": 2333
+                }
+            }
+        }
+    },
+    "GALLICANO NEL LAZIO": {
+        "ospedali": [
+            12027301
+        ],
+        "nuclei": [
+            5804010001.0,
+            5804010002.0,
+            5804020003.0,
+            5804026604.0,
+            5804026606.0,
+            5804040000.0
+        ],
+        "DISTANCE": {
+            "5804010001": {
+                "C.C.A. Villa Luana, POLI, RM": {
+                    "distanza_m": 16878,
+                    "tempo_s": 2730
+                }
+            },
+            "5804010002": {
+                "C.C.A. Villa Luana, POLI, RM": {
+                    "distanza_m": 13938,
+                    "tempo_s": 2208
+                }
+            },
+            "5804020003": {
+                "C.C.A. Villa Luana, POLI, RM": {
+                    "distanza_m": 15514,
+                    "tempo_s": 2540
+                }
+            },
+            "5804026604": {
+                "C.C.A. Villa Luana, POLI, RM": {
+                    "distanza_m": 19257,
+                    "tempo_s": 2887
+                }
+            },
+            "5804026606": {
+                "C.C.A. Villa Luana, POLI, RM": {
+                    "distanza_m": 15050,
+                    "tempo_s": 2186
+                }
+            }
+        }
+    },
+    "GAVIGNANO": {
+        "ospedali": [
+            12004601
+        ],
+        "nuclei": [
+            5804110001.0,
+            5804120005.0,
+            5804120008.0,
+            5804120009.0,
+            5804120010.0,
+            5804120006.0,
+            5804120011.0,
+            5804140000.0
+        ],
+        "DISTANCE": {
+            "5804110001": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 6874,
+                    "tempo_s": 767
+                }
+            },
+            "5804120005": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 6277,
+                    "tempo_s": 2371
+                }
+            },
+            "5804120008": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 11354,
+                    "tempo_s": 1916
+                }
+            },
+            "5804120009": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 6634,
+                    "tempo_s": 1158
+                }
+            },
+            "5804120010": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 11634,
+                    "tempo_s": 1338
+                }
+            },
+            "5804120006": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 5257,
+                    "tempo_s": 1487
+                }
+            },
+            "5804120011": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 7655,
+                    "tempo_s": 1185
+                }
+            }
+        }
+    },
+    "GENAZZANO": {
+        "ospedali": [
+            12005101
+        ],
+        "nuclei": [
+            5804210001.0,
+            5804220002.0,
+            5804220003.0,
+            5804226601.0,
+            5804226604.0,
+            5804226706.0,
+            5804230001.0,
+            5804226707.0,
+            5804226708.0,
+            5804240000.0
+        ],
+        "DISTANCE": {
+            "5804210001": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 10509,
+                    "tempo_s": 1372
+                }
+            },
+            "5804220002": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 17291,
+                    "tempo_s": 2611
+                }
+            },
+            "5804220003": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 8930,
+                    "tempo_s": 1285
+                }
+            },
+            "5804226601": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 15484,
+                    "tempo_s": 3564
+                }
+            },
+            "5804226604": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 16705,
+                    "tempo_s": 2605
+                }
+            },
+            "5804226706": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 14440,
+                    "tempo_s": 2616
+                }
+            },
+            "5804226707": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 9906,
+                    "tempo_s": 2108
+                }
+            },
+            "5804226708": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 13722,
+                    "tempo_s": 2429
+                }
+            }
+        }
+    },
+    "GENZANO DI ROMA": {
+        "ospedali": [
+            12004402
+        ],
+        "nuclei": [
+            5804310001.0,
+            5804310002.0,
+            5804320002.0,
+            5804320001.0,
+            5804310003.0,
+            5804320003.0,
+            5804326705.0,
+            5804326704.0,
+            5804330001.0,
+            5804340000.0
+        ],
+        "DISTANCE": {
+            "5804310001": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 14427,
+                    "tempo_s": 3850
+                }
+            },
+            "5804310002": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 1353,
+                    "tempo_s": 690
+                }
+            },
+            "5804320002": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 4457,
+                    "tempo_s": 1905
+                }
+            },
+            "5804320001": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 15509,
+                    "tempo_s": 3135
+                }
+            },
+            "5804310003": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 15933,
+                    "tempo_s": 2686
+                }
+            },
+            "5804320003": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 3665,
+                    "tempo_s": 1302
+                }
+            },
+            "5804326705": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 14456,
+                    "tempo_s": 3888
+                }
+            },
+            "5804326704": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 18639,
+                    "tempo_s": 4870
+                }
+            }
+        }
+    },
+    "GERANO": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5804410001.0,
+            5804426602.0,
+            5804440000.0
+        ],
+        "DISTANCE": {
+            "5804410001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 72687,
+                    "tempo_s": 11247
+                }
+            },
+            "5804426602": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 72830,
+                    "tempo_s": 11544
+                }
+            }
+        }
+    },
+    "GORGA": {
+        "ospedali": [
+            12004601
+        ],
+        "nuclei": [
+            5804510001.0,
+            5804510002.0,
+            5804526601.0,
+            5804540000.0
+        ],
+        "DISTANCE": {
+            "5804510001": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 21785,
+                    "tempo_s": 2533
+                }
+            },
+            "5804510002": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 14990,
+                    "tempo_s": 1855
+                }
+            },
+            "5804526601": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 20537,
+                    "tempo_s": 2227
+                }
+            }
+        }
+    },
+    "GROTTAFERRATA": {
+        "ospedali": [
+            12017601
+        ],
+        "nuclei": [
+            5804610002.0,
+            5804610004.0,
+            5804620007.0,
+            5804610005.0,
+            5804610003.0,
+            5804620006.0,
+            5804626611.0,
+            5804626605.0,
+            5804626701.0,
+            5804640000.0
+        ],
+        "DISTANCE": {
+            "5804610002": {
+                "C.C.A. Ist.Neurotraumatologico, GROTTAFERRATA, RM": {
+                    "distanza_m": 1474,
+                    "tempo_s": 1274
+                }
+            },
+            "5804610004": {
+                "C.C.A. Ist.Neurotraumatologico, GROTTAFERRATA, RM": {
+                    "distanza_m": 4627,
+                    "tempo_s": 3511
+                }
+            },
+            "5804620007": {
+                "C.C.A. Ist.Neurotraumatologico, GROTTAFERRATA, RM": {
+                    "distanza_m": 5036,
+                    "tempo_s": 3008
+                }
+            },
+            "5804610005": {
+                "C.C.A. Ist.Neurotraumatologico, GROTTAFERRATA, RM": {
+                    "distanza_m": 3538,
+                    "tempo_s": 2695
+                }
+            },
+            "5804610003": {
+                "C.C.A. Ist.Neurotraumatologico, GROTTAFERRATA, RM": {
+                    "distanza_m": 18639,
+                    "tempo_s": 4801
+                }
+            },
+            "5804620006": {
+                "C.C.A. Ist.Neurotraumatologico, GROTTAFERRATA, RM": {
+                    "distanza_m": 3028,
+                    "tempo_s": 2958
+                }
+            },
+            "5804626611": {
+                "C.C.A. Ist.Neurotraumatologico, GROTTAFERRATA, RM": {
+                    "distanza_m": 23297,
+                    "tempo_s": 3813
+                }
+            },
+            "5804626605": {
+                "C.C.A. Ist.Neurotraumatologico, GROTTAFERRATA, RM": {
+                    "distanza_m": 3287,
+                    "tempo_s": 2611
+                }
+            },
+            "5804626701": {
+                "C.C.A. Ist.Neurotraumatologico, GROTTAFERRATA, RM": {
+                    "distanza_m": 22182,
+                    "tempo_s": 3611
+                }
+            }
+        }
+    },
+    "GUIDONIA MONTECELIO": {
+        "ospedali": [],
+        "nuclei": [
+            5804710001.0,
+            5804710006.0,
+            5804710012.0,
+            5804710002.0,
+            5804710004.0,
+            5804710009.0,
+            5804710013.0,
+            5804710010.0,
+            5804710005.0,
+            5804710003.0,
+            5804710008.0,
+            5804720005.0,
+            5804720006.0,
+            5804710011.0,
+            5804730001.0,
+            5804740000.0
+        ]
+    },
+    "JENNE": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5804810001.0,
+            5804826601.0,
+            5804840000.0
+        ],
+        "DISTANCE": {
+            "5804810001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 13622,
+                    "tempo_s": 2099
+                }
+            },
+            "5804826601": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 13465,
+                    "tempo_s": 2234
+                }
+            }
+        }
+    },
+    "LABICO": {
+        "ospedali": [
+            12005101
+        ],
+        "nuclei": [
+            5804910001.0,
+            5804910002.0,
+            5804920001.0,
+            5804940000.0
+        ],
+        "DISTANCE": {
+            "5804910001": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 17371,
+                    "tempo_s": 3690
+                }
+            },
+            "5804920001": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 18855,
+                    "tempo_s": 5732
+                }
+            }
+        }
+    },
+    "LANUVIO": {
+        "ospedali": [
+            12004402
+        ],
+        "nuclei": [
+            5805010001.0,
+            5805010002.0,
+            5805010004.0,
+            5805020002.0,
+            5805020001.0,
+            5805010003.0,
+            5805020004.0,
+            5805020003.0,
+            5805040000.0
+        ],
+        "DISTANCE": {
+            "5805010001": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 33333,
+                    "tempo_s": 5679
+                }
+            },
+            "5805010002": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 16030,
+                    "tempo_s": 3246
+                }
+            },
+            "5805010004": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 30078,
+                    "tempo_s": 5501
+                }
+            },
+            "5805020002": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 21528,
+                    "tempo_s": 6314
+                }
+            },
+            "5805020001": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 22414,
+                    "tempo_s": 6050
+                }
+            },
+            "5805010003": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 26683,
+                    "tempo_s": 5078
+                }
+            },
+            "5805020004": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 16427,
+                    "tempo_s": 4815
+                }
+            },
+            "5805020003": {
+                "Osp. Genzano Di Roma, GENZANO DI ROMA, RM": {
+                    "distanza_m": 17466,
+                    "tempo_s": 5679
+                }
+            }
+        }
+    },
+    "LICENZA": {
+        "ospedali": [
+            12008801
+        ],
+        "nuclei": [
+            5805110001.0,
+            5805110002.0,
+            5805140000.0
+        ],
+        "DISTANCE": {
+            "5805110001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 31482,
+                    "tempo_s": 5435
+                }
+            },
+            "5805110002": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 24171,
+                    "tempo_s": 3410
+                }
+            }
+        }
+    },
+    "MAGLIANO ROMANO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5805210001.0,
+            5805240000.0
+        ],
+        "DISTANCE": {
+            "5805210001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 72847,
+                    "tempo_s": 9542
+                }
+            }
+        }
+    },
+    "MANDELA": {
+        "ospedali": [
+            12008801
+        ],
+        "nuclei": [
+            5805310001.0,
+            5805320001.0,
+            5805340000.0
+        ],
+        "DISTANCE": {
+            "5805310001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 18834,
+                    "tempo_s": 2975
+                }
+            },
+            "5805320001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 17227,
+                    "tempo_s": 3032
+                }
+            }
+        }
+    },
+    "MANZIANA": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5805410001.0,
+            5805420001.0,
+            5805420003.0,
+            5805426702.0,
+            5805440000.0
+        ],
+        "DISTANCE": {
+            "5805410001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 7487,
+                    "tempo_s": 1830
+                }
+            },
+            "5805420001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 5176,
+                    "tempo_s": 2091
+                }
+            },
+            "5805420003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 9357,
+                    "tempo_s": 3415
+                }
+            },
+            "5805426702": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 10856,
+                    "tempo_s": 4106
+                }
+            }
+        }
+    },
+    "MARANO EQUO": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5805510001.0,
+            5805540000.0
+        ],
+        "DISTANCE": {
+            "5805510001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 13263,
+                    "tempo_s": 2789
+                }
+            }
+        }
+    },
+    "MARCELLINA": {
+        "ospedali": [
+            12008801
+        ],
+        "nuclei": [
+            5805610001.0,
+            5805620002.0,
+            5805620001.0,
+            5805630001.0,
+            5805640000.0
+        ],
+        "DISTANCE": {
+            "5805610001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 11559,
+                    "tempo_s": 1640
+                }
+            },
+            "5805620002": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 13508,
+                    "tempo_s": 2431
+                }
+            },
+            "5805620001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 7201,
+                    "tempo_s": 1083
+                }
+            }
+        }
+    },
+    "MARINO": {
+        "ospedali": [
+            12004801
+        ],
+        "nuclei": [
+            5805710001.0,
+            5805720001.0,
+            5805740000.0
+        ]
+    },
+    "MAZZANO ROMANO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5805810001.0,
+            5805840000.0
+        ],
+        "DISTANCE": {
+            "5805810001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 41791,
+                    "tempo_s": 6599
+                }
+            }
+        }
+    },
+    "MENTANA": {
+        "ospedali": [
+            12019901
+        ],
+        "nuclei": [
+            5805910001.0,
+            5805910002.0,
+            5805910004.0,
+            5805920001.0,
+            5805910003.0,
+            5805940000.0
+        ],
+        "DISTANCE": {
+            "5805910001": {
+                "C.C.A. Villa Dante, GUIDONIA, RM": {
+                    "distanza_m": 21162,
+                    "tempo_s": 4731
+                }
+            },
+            "5805910002": {
+                "C.C.A. Villa Dante, GUIDONIA, RM": {
+                    "distanza_m": 35930,
+                    "tempo_s": 6041
+                }
+            },
+            "5805910004": {
+                "C.C.A. Villa Dante, GUIDONIA, RM": {
+                    "distanza_m": 34992,
+                    "tempo_s": 7187
+                }
+            },
+            "5805920001": {
+                "C.C.A. Villa Dante, GUIDONIA, RM": {
+                    "distanza_m": 36307,
+                    "tempo_s": 6880
+                }
+            },
+            "5805910003": {
+                "C.C.A. Villa Dante, GUIDONIA, RM": {
+                    "distanza_m": 35208,
+                    "tempo_s": 5849
+                }
+            }
+        }
+    },
+    "MONTE COMPATRI": {
+        "ospedali": [
+            12028001
+        ],
+        "nuclei": [
+            5806010001.0,
+            5806010006.0,
+            5806010002.0,
+            5806010004.0,
+            5806020002.0,
+            5806020001.0,
+            5806010005.0,
+            5806010003.0,
+            5806010008.0,
+            5806010007.0,
+            5806020005.0,
+            5806020003.0,
+            5806040000.0
+        ],
+        "DISTANCE": {
+            "5806010001": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 13394,
+                    "tempo_s": 3852
+                }
+            },
+            "5806010006": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 4526,
+                    "tempo_s": 2659
+                }
+            },
+            "5806010002": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 7146,
+                    "tempo_s": 2046
+                }
+            },
+            "5806010004": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 35488,
+                    "tempo_s": 6491
+                }
+            },
+            "5806020002": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 2249,
+                    "tempo_s": 2541
+                }
+            },
+            "5806020001": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 11805,
+                    "tempo_s": 3482
+                }
+            },
+            "5806010005": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 35733,
+                    "tempo_s": 7720
+                }
+            },
+            "5806010003": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 594,
+                    "tempo_s": 696
+                }
+            },
+            "5806010008": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 37156,
+                    "tempo_s": 7051
+                }
+            },
+            "5806010007": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 1387,
+                    "tempo_s": 1554
+                }
+            },
+            "5806020005": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 2189,
+                    "tempo_s": 1783
+                }
+            },
+            "5806020003": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 12142,
+                    "tempo_s": 3779
+                }
+            }
+        }
+    },
+    "MONTEFLAVIO": {
+        "ospedali": [
+            12004901
+        ],
+        "nuclei": [
+            5806110001.0,
+            5806140000.0
+        ],
+        "DISTANCE": {
+            "5806110001": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 38831,
+                    "tempo_s": 5753
+                }
+            }
+        }
+    },
+    "MONTELANICO": {
+        "ospedali": [
+            12004601
+        ],
+        "nuclei": [
+            5806210001.0,
+            5806210002.0,
+            5806240000.0
+        ],
+        "DISTANCE": {
+            "5806210001": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 14040,
+                    "tempo_s": 1922
+                }
+            },
+            "5806210002": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 11794,
+                    "tempo_s": 1197
+                }
+            }
+        }
+    },
+    "MONTELIBRETTI": {
+        "ospedali": [
+            12004901
+        ],
+        "nuclei": [
+            5806310001.0,
+            5806310002.0,
+            5806310003.0,
+            5806326603.0,
+            5806320004.0,
+            5806330001.0,
+            5806340000.0
+        ],
+        "DISTANCE": {
+            "5806310001": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 27108,
+                    "tempo_s": 4810
+                }
+            },
+            "5806310002": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 27504,
+                    "tempo_s": 4013
+                }
+            },
+            "5806310003": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 14776,
+                    "tempo_s": 2500
+                }
+            },
+            "5806326603": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 26166,
+                    "tempo_s": 4206
+                }
+            },
+            "5806320004": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 25700,
+                    "tempo_s": 3771
+                }
+            }
+        }
+    },
+    "MONTE PORZIO CATONE": {
+        "ospedali": [
+            12004701
+        ],
+        "nuclei": [
+            5806410001.0,
+            5806410002.0,
+            5806420007.0,
+            5806420005.0,
+            5806420006.0,
+            5806440000.0
+        ],
+        "DISTANCE": {
+            "5806410001": {
+                "Osp. S.Sebastiano, FRASCATI, RM": {
+                    "distanza_m": 1295,
+                    "tempo_s": 469
+                }
+            },
+            "5806410002": {
+                "Osp. S.Sebastiano, FRASCATI, RM": {
+                    "distanza_m": 4991,
+                    "tempo_s": 1318
+                }
+            },
+            "5806420007": {
+                "Osp. S.Sebastiano, FRASCATI, RM": {
+                    "distanza_m": 2637,
+                    "tempo_s": 1526
+                }
+            },
+            "5806420005": {
+                "Osp. S.Sebastiano, FRASCATI, RM": {
+                    "distanza_m": 3278,
+                    "tempo_s": 2556
+                }
+            },
+            "5806420006": {
+                "Osp. S.Sebastiano, FRASCATI, RM": {
+                    "distanza_m": 2651,
+                    "tempo_s": 917
+                }
+            }
+        }
+    },
+    "MONTEROTONDO": {
+        "ospedali": [
+            12004901
+        ],
+        "nuclei": [
+            5806510001.0,
+            5806520005.0,
+            5806520004.0,
+            5806520003.0,
+            5806540000.0
+        ]
+    },
+    "MONTORIO ROMANO": {
+        "ospedali": [
+            12004901
+        ],
+        "nuclei": [
+            5806610001.0,
+            5806640000.0
+        ],
+        "DISTANCE": {
+            "5806610001": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 34450,
+                    "tempo_s": 6555
+                }
+            }
+        }
+    },
+    "MORICONE": {
+        "ospedali": [
+            12004901
+        ],
+        "nuclei": [
+            5806710001.0,
+            5806740000.0
+        ],
+        "DISTANCE": {
+            "5806710001": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 37113,
+                    "tempo_s": 4786
+                }
+            }
+        }
+    },
+    "MORLUPO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5806810001.0,
+            5806810002.0,
+            5806820002.0,
+            5806810003.0,
+            5806820015.0,
+            5806820008.0,
+            5806820014.0,
+            5806820011.0,
+            5806820004.0,
+            5806820003.0,
+            5806826713.0,
+            5806840000.0
+        ],
+        "DISTANCE": {
+            "5806810001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 61383,
+                    "tempo_s": 7679
+                }
+            },
+            "5806810002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 63492,
+                    "tempo_s": 8053
+                }
+            },
+            "5806820002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 63791,
+                    "tempo_s": 7833
+                }
+            },
+            "5806810003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 60612,
+                    "tempo_s": 6897
+                }
+            },
+            "5806820015": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 61809,
+                    "tempo_s": 7235
+                }
+            },
+            "5806820008": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 66433,
+                    "tempo_s": 9024
+                }
+            },
+            "5806820014": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 60447,
+                    "tempo_s": 7687
+                }
+            },
+            "5806820011": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 66768,
+                    "tempo_s": 8739
+                }
+            },
+            "5806820004": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 65098,
+                    "tempo_s": 9004
+                }
+            },
+            "5806820003": {},
+            "5806826713": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 65904,
+                    "tempo_s": 9214
+                }
+            }
+        }
+    },
+    "NAZZANO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5806910001.0,
+            5806920005.0,
+            5806920004.0,
+            5806926602.0,
+            5806940000.0
+        ],
+        "DISTANCE": {
+            "5806910001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 74580,
+                    "tempo_s": 8983
+                }
+            },
+            "5806920005": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 71523,
+                    "tempo_s": 9238
+                }
+            },
+            "5806920004": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 74177,
+                    "tempo_s": 8912
+                }
+            },
+            "5806926602": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 68741,
+                    "tempo_s": 8202
+                }
+            }
+        }
+    },
+    "NEMI": {
+        "ospedali": [
+            12008201
+        ],
+        "nuclei": [
+            5807010001.0,
+            5807010002.0,
+            5807010004.0,
+            5807010005.0,
+            5807010003.0,
+            5807027401.0,
+            5807040000.0
+        ],
+        "DISTANCE": {
+            "5807010001": {
+                "C.C.A. Villa Delle Querce, NEMI, RM": {
+                    "distanza_m": 2085,
+                    "tempo_s": 2058
+                }
+            },
+            "5807010002": {
+                "C.C.A. Villa Delle Querce, NEMI, RM": {
+                    "distanza_m": 5058,
+                    "tempo_s": 4184
+                }
+            },
+            "5807010004": {
+                "C.C.A. Villa Delle Querce, NEMI, RM": {
+                    "distanza_m": 4350,
+                    "tempo_s": 2859
+                }
+            },
+            "5807010005": {
+                "C.C.A. Villa Delle Querce, NEMI, RM": {
+                    "distanza_m": 1676,
+                    "tempo_s": 1646
+                }
+            },
+            "5807010003": {
+                "C.C.A. Villa Delle Querce, NEMI, RM": {
+                    "distanza_m": 3559,
+                    "tempo_s": 2971
+                }
+            },
+            "5807027401": {
+                "C.C.A. Villa Delle Querce, NEMI, RM": {
+                    "distanza_m": 1042,
+                    "tempo_s": 1009
+                }
+            }
+        }
+    },
+    "NEROLA": {
+        "ospedali": [
+            12004901
+        ],
+        "nuclei": [
+            5807110001.0,
+            5807110002.0,
+            5807110003.0,
+            5807126601.0,
+            5807126702.0,
+            5807140000.0
+        ],
+        "DISTANCE": {
+            "5807110001": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 26013,
+                    "tempo_s": 4699
+                }
+            },
+            "5807110002": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 30859,
+                    "tempo_s": 6307
+                }
+            },
+            "5807110003": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 24635,
+                    "tempo_s": 4479
+                }
+            },
+            "5807126601": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 29776,
+                    "tempo_s": 5618
+                }
+            },
+            "5807126702": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 29125,
+                    "tempo_s": 6050
+                }
+            }
+        }
+    },
+    "NETTUNO": {
+        "ospedali": [],
+        "nuclei": [
+            5807210001.0,
+            5807240000.0
+        ]
+    },
+    "OLEVANO ROMANO": {
+        "ospedali": [
+            12005101
+        ],
+        "nuclei": [
+            5807310001.0,
+            5807340000.0
+        ],
+        "DISTANCE": {
+            "5807310001": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 20220,
+                    "tempo_s": 2318
+                }
+            }
+        }
+    },
+    "PALESTRINA": {
+        "ospedali": [
+            12005101
+        ],
+        "nuclei": [
+            5807410001.0,
+            5807410006.0,
+            5807410002.0,
+            5807410004.0,
+            5807420002.0,
+            5807420003.0,
+            5807410005.0,
+            5807410003.0,
+            5807420014.0,
+            5807420010.0,
+            5807420012.0,
+            5807420004.0,
+            5807426608.0,
+            5807426715.0,
+            5807440000.0
+        ],
+        "DISTANCE": {
+            "5807410001": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 17262,
+                    "tempo_s": 7993
+                }
+            },
+            "5807410006": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 15108,
+                    "tempo_s": 2667
+                }
+            },
+            "5807410002": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 4606,
+                    "tempo_s": 1088
+                }
+            },
+            "5807410004": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 12934,
+                    "tempo_s": 2494
+                }
+            },
+            "5807420002": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 5719,
+                    "tempo_s": 1805
+                }
+            },
+            "5807420003": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 7021,
+                    "tempo_s": 4187
+                }
+            },
+            "5807410005": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 8633,
+                    "tempo_s": 2679
+                }
+            },
+            "5807410003": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 1831,
+                    "tempo_s": 703
+                }
+            },
+            "5807420014": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 4271,
+                    "tempo_s": 2448
+                }
+            },
+            "5807420010": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 6132,
+                    "tempo_s": 1763
+                }
+            },
+            "5807420012": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 6134,
+                    "tempo_s": 2133
+                }
+            },
+            "5807420004": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 4325,
+                    "tempo_s": 2345
+                }
+            },
+            "5807426608": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 5376,
+                    "tempo_s": 733
+                }
+            },
+            "5807426715": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 6198,
+                    "tempo_s": 2332
+                }
+            }
+        }
+    },
+    "PALOMBARA SABINA": {
+        "ospedali": [
+            12004901
+        ],
+        "nuclei": [
+            5807510001.0,
+            5807510002.0,
+            5807520003.0,
+            5807510003.0,
+            5807520005.0,
+            5807520006.0,
+            5807520004.0,
+            5807526601.0,
+            5807540000.0
+        ],
+        "DISTANCE": {
+            "5807510001": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 54220,
+                    "tempo_s": 7704
+                }
+            },
+            "5807510002": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 43712,
+                    "tempo_s": 5343
+                }
+            },
+            "5807520003": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 10861,
+                    "tempo_s": 3573
+                }
+            },
+            "5807510003": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 40547,
+                    "tempo_s": 5224
+                }
+            },
+            "5807520005": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 41476,
+                    "tempo_s": 6066
+                }
+            },
+            "5807520006": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 39161,
+                    "tempo_s": 7021
+                }
+            },
+            "5807520004": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 44661,
+                    "tempo_s": 6167
+                }
+            },
+            "5807526601": {
+                "Osp. SS Gonfalone, MONTEROTONDO, RM": {
+                    "distanza_m": 43818,
+                    "tempo_s": 6903
+                }
+            }
+        }
+    },
+    "PERCILE": {
+        "ospedali": [
+            12008801
+        ],
+        "nuclei": [
+            5807610001.0,
+            5807626701.0,
+            5807640000.0
+        ],
+        "DISTANCE": {
+            "5807610001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 32145,
+                    "tempo_s": 3728
+                }
+            },
+            "5807626701": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 32883,
+                    "tempo_s": 4140
+                }
+            }
+        }
+    },
+    "PISONIANO": {
+        "ospedali": [
+            12008801
+        ],
+        "nuclei": [
+            5807710001.0,
+            5807740000.0
+        ],
+        "DISTANCE": {
+            "5807710001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 21248,
+                    "tempo_s": 1943
+                }
+            }
+        }
+    },
+    "POLI": {
+        "ospedali": [
+            12027301
+        ],
+        "nuclei": [
+            5807810001.0,
+            5807820001.0,
+            5807826602.0,
+            5807840000.0
+        ],
+        "DISTANCE": {
+            "5807810001": {
+                "C.C.A. Villa Luana, POLI, RM": {
+                    "distanza_m": 597,
+                    "tempo_s": 570
+                }
+            },
+            "5807820001": {
+                "C.C.A. Villa Luana, POLI, RM": {
+                    "distanza_m": 5351,
+                    "tempo_s": 1146
+                }
+            },
+            "5807826602": {
+                "C.C.A. Villa Luana, POLI, RM": {
+                    "distanza_m": 22636,
+                    "tempo_s": 4169
+                }
+            }
+        }
+    },
+    "POMEZIA": {
+        "ospedali": [
+            12013401
+        ],
+        "nuclei": [
+            5807910006.0,
+            5807910012.0,
+            5807910002.0,
+            5807910014.0,
+            5807920007.0,
+            5807910013.0,
+            5807910005.0,
+            5807910003.0,
+            5807910007.0,
+            5807920008.0,
+            5807920014.0,
+            5807920009.0,
+            5807920210.0,
+            5807920013.0,
+            5807920012.0,
+            5807930006.0,
+            5807930003.0,
+            5807930005.0,
+            5807930007.0,
+            5807930008.0,
+            5807930002.0,
+            5807930001.0,
+            5807930004.0,
+            5807940000.0
+        ]
+    },
+    "PONZANO ROMANO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5808010001.0,
+            5808040000.0
+        ],
+        "DISTANCE": {
+            "5808010001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 106106,
+                    "tempo_s": 12118
+                }
+            }
+        }
+    },
+    "RIANO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5808110002.0,
+            5808120002.0,
+            5808120001.0,
+            5808110003.0,
+            5808120211.0,
+            5808120010.0,
+            5808120006.0,
+            5808126612.0,
+            5808126607.0,
+            5808126609.0,
+            5808126608.0,
+            5808140000.0
+        ],
+        "DISTANCE": {
+            "5808110002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 55614,
+                    "tempo_s": 6566
+                }
+            },
+            "5808120002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 51659,
+                    "tempo_s": 7798
+                }
+            },
+            "5808120001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 49628,
+                    "tempo_s": 8822
+                }
+            },
+            "5808110003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 52487,
+                    "tempo_s": 6058
+                }
+            },
+            "5808120010": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 59082,
+                    "tempo_s": 8164
+                }
+            },
+            "5808120006": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 54388,
+                    "tempo_s": 10020
+                }
+            },
+            "5808126612": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 50382,
+                    "tempo_s": 6553
+                }
+            },
+            "5808126607": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 51138,
+                    "tempo_s": 8248
+                }
+            },
+            "5808126609": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 54627,
+                    "tempo_s": 6911
+                }
+            },
+            "5808126608": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 58848,
+                    "tempo_s": 7957
+                }
+            }
+        }
+    },
+    "RIGNANO FLAMINIO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5808210001.0,
+            5808220007.0,
+            5808210003.0,
+            5808220005.0,
+            5808220006.0,
+            5808220004.0,
+            5808220201.0,
+            5808226702.0,
+            5808240000.0
+        ],
+        "DISTANCE": {
+            "5808210001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 67749,
+                    "tempo_s": 8690
+                }
+            },
+            "5808220007": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 69853,
+                    "tempo_s": 8763
+                }
+            },
+            "5808210003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 62731,
+                    "tempo_s": 8908
+                }
+            },
+            "5808220005": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 61190,
+                    "tempo_s": 7847
+                }
+            },
+            "5808220006": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 69056,
+                    "tempo_s": 8567
+                }
+            },
+            "5808220004": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 68141,
+                    "tempo_s": 8731
+                }
+            },
+            "5808220201": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 69621,
+                    "tempo_s": 8585
+                }
+            },
+            "5808226702": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 61916,
+                    "tempo_s": 7614
+                }
+            }
+        }
+    },
+    "RIOFREDDO": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5808310001.0,
+            5808340000.0
+        ],
+        "DISTANCE": {
+            "5808310001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 25957,
+                    "tempo_s": 5107
+                }
+            }
+        }
+    },
+    "ROCCA CANTERANO": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5808410001.0,
+            5808410002.0,
+            5808440000.0
+        ],
+        "DISTANCE": {
+            "5808410001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 15370,
+                    "tempo_s": 2607
+                }
+            },
+            "5808410002": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 16906,
+                    "tempo_s": 2392
+                }
+            }
+        }
+    },
+    "ROCCA DI CAVE": {
+        "ospedali": [
+            12005101
+        ],
+        "nuclei": [
+            5808510001.0,
+            5808510002.0,
+            5808540000.0
+        ],
+        "DISTANCE": {
+            "5808510001": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 18607,
+                    "tempo_s": 3050
+                }
+            },
+            "5808510002": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 7474,
+                    "tempo_s": 1902
+                }
+            }
+        }
+    },
+    "ROCCA DI PAPA": {
+        "ospedali": [
+            12012201
+        ],
+        "nuclei": [
+            5808610001.0,
+            5808610002.0,
+            5808620003.0,
+            5808626701.0,
+            5808626704.0,
+            5808640000.0
+        ],
+        "DISTANCE": {
+            "5808610001": {
+                "C.C.A. S.Raffaele, ROCCA DI PAPA, RM": {
+                    "distanza_m": 7378,
+                    "tempo_s": 3360
+                }
+            },
+            "5808610002": {
+                "C.C.A. S.Raffaele, ROCCA DI PAPA, RM": {
+                    "distanza_m": 581,
+                    "tempo_s": 654
+                }
+            },
+            "5808620003": {
+                "C.C.A. S.Raffaele, ROCCA DI PAPA, RM": {
+                    "distanza_m": 17809,
+                    "tempo_s": 3948
+                }
+            },
+            "5808626701": {
+                "C.C.A. S.Raffaele, ROCCA DI PAPA, RM": {
+                    "distanza_m": 2397,
+                    "tempo_s": 440
+                }
+            },
+            "5808626704": {
+                "C.C.A. S.Raffaele, ROCCA DI PAPA, RM": {
+                    "distanza_m": 2414,
+                    "tempo_s": 1938
+                }
+            }
+        }
+    },
+    "ROCCAGIOVINE": {
+        "ospedali": [
+            12008801
+        ],
+        "nuclei": [
+            5808710001.0,
+            5808740000.0
+        ],
+        "DISTANCE": {
+            "5808710001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 23431,
+                    "tempo_s": 2893
+                }
+            }
+        }
+    },
+    "ROCCA PRIORA": {
+        "ospedali": [
+            12028001
+        ],
+        "nuclei": [
+            5808810001.0,
+            5808810002.0,
+            5808820001.0,
+            5808840000.0
+        ],
+        "DISTANCE": {
+            "5808810001": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 14538,
+                    "tempo_s": 1865
+                }
+            },
+            "5808810002": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 16292,
+                    "tempo_s": 3136
+                }
+            },
+            "5808820001": {
+                "C.C.A. S.Raffaele, MONTECOMPATRI, RM": {
+                    "distanza_m": 6277,
+                    "tempo_s": 4478
+                }
+            }
+        }
+    },
+    "ROCCA SANTO STEFANO": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5808910001.0,
+            5808926601.0,
+            5808940000.0
+        ],
+        "DISTANCE": {
+            "5808910001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 64092,
+                    "tempo_s": 8620
+                }
+            },
+            "5808926601": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 65282,
+                    "tempo_s": 9703
+                }
+            }
+        }
+    },
+    "ROIATE": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5809010001.0,
+            5809040000.0
+        ],
+        "DISTANCE": {
+            "5809010001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 40066,
+                    "tempo_s": 8730
+                }
+            }
+        }
+    },
+    "ROMA": {
+        "ospedali": [
+            12002601,
+            12002602,
+            12003001,
+            12003401,
+            12003701,
+            12006101,
+            12006501,
+            12006601,
+            12006602,
+            12007101,
+            12007201,
+            12007301,
+            12007401,
+            12007501,
+            12007601,
+            12007901,
+            12008301,
+            12008401,
+            12008501,
+            12008701,
+            12008901,
+            12009001,
+            12009101,
+            12009201,
+            12009301,
+            12009701,
+            12009801,
+            12010301,
+            12010401,
+            12010501,
+            12010801,
+            12011301,
+            12011401,
+            12011501,
+            12011601,
+            12011801,
+            12011901,
+            12012001,
+            12012301,
+            12012901,
+            12013001,
+            12013201,
+            12013301,
+            12013501,
+            12013801,
+            12013901,
+            12014101,
+            12014301,
+            12014401,
+            12014601,
+            12015001,
+            12015501,
+            12015701,
+            12015801,
+            12015901,
+            12016301,
+            12016501,
+            12016601,
+            12016901,
+            12017101,
+            12017201,
+            12017301,
+            12017901,
+            12018001,
+            12019101,
+            12024301,
+            12024801,
+            12024901,
+            12025401,
+            12025601,
+            12025701,
+            12026201,
+            12026401,
+            12026501,
+            12026701,
+            12027201,
+            12028101,
+            12028201,
+            12028301,
+            12032801,
+            12060601,
+            12090101,
+            12090201,
+            12090301,
+            12090303,
+            12090305,
+            12090401,
+            12090501,
+            12090502,
+            12090601,
+            12090801,
+            12090802,
+            12090901,
+            12091001,
+            12091101,
+            12091201,
+            12091501,
+            12091801,
+            12091901,
+            12092001
+        ],
+        "nuclei": [
+            5809110006.0,
+            5809110012.0,
+            5809110020.0,
+            5809110029.0,
+            5809110004.0,
+            5809110024.0,
+            5809110032.0,
+            5809110033.0,
+            5809110009.0,
+            5809110035.0,
+            5809110036.0,
+            5809110037.0,
+            5809110038.0,
+            5809110040.0,
+            5809110041.0,
+            5809110042.0,
+            5809110043.0,
+            5809110044.0,
+            5809110045.0,
+            5809110046.0,
+            5809110047.0,
+            5809110048.0,
+            5809110049.0,
+            5809110050.0,
+            5809110051.0,
+            5809110052.0,
+            5809110053.0,
+            5809110054.0,
+            5809110013.0,
+            5809110008.0,
+            5809110007.0,
+            5809120056.0,
+            5809120058.0,
+            5809120059.0,
+            5809120060.0,
+            5809120037.0,
+            5809120069.0,
+            5809120074.0,
+            5809120055.0,
+            5809120042.0,
+            5809120079.0,
+            5809120085.0,
+            5809120091.0,
+            5809120092.0,
+            5809120093.0,
+            5809120094.0,
+            5809120097.0,
+            5809120099.0,
+            5809120075.0,
+            5809120077.0,
+            5809120006.0,
+            5809110019.0,
+            5809110016.0,
+            5809120004.0,
+            5809120048.0,
+            5809120049.0,
+            5809120050.0,
+            5809120043.0,
+            5809120282.0,
+            5809120295.0,
+            5809120044.0,
+            5809120045.0,
+            5809120046.0,
+            5809127202.0,
+            5809127238.0,
+            5809127240.0,
+            5809127252.0,
+            5809130002.0,
+            5809127201.0,
+            5809127203.0,
+            5809130001.0,
+            5809127272.0,
+            5809129900.0,
+            5809129901.0,
+            5809129902.0,
+            5809129903.0,
+            5809129904.0,
+            5809129905.0,
+            5809129906.0,
+            5809129907.0,
+            5809129908.0,
+            5809140000.0
+        ]
+    },
+    "ROVIANO": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5809210001.0,
+            5809240000.0
+        ],
+        "DISTANCE": {
+            "5809210001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 18029,
+                    "tempo_s": 3159
+                }
+            }
+        }
+    },
+    "SACROFANO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5809310001.0,
+            5809310002.0,
+            5809320001.0,
+            5809320007.0,
+            5809310003.0,
+            5809320005.0,
+            5809320008.0,
+            5809320009.0,
+            5809320004.0,
+            5809326611.0,
+            5809326606.0,
+            5809326610.0,
+            5809340000.0
+        ],
+        "DISTANCE": {
+            "5809310001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 52104,
+                    "tempo_s": 8431
+                }
+            },
+            "5809310002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 79837,
+                    "tempo_s": 9819
+                }
+            },
+            "5809320001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 77792,
+                    "tempo_s": 9695
+                }
+            },
+            "5809320007": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 62302,
+                    "tempo_s": 12955
+                }
+            },
+            "5809310003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 74987,
+                    "tempo_s": 9486
+                }
+            },
+            "5809320005": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 74852,
+                    "tempo_s": 9189
+                }
+            },
+            "5809320008": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 53117,
+                    "tempo_s": 9353
+                }
+            },
+            "5809320009": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 48326,
+                    "tempo_s": 7717
+                }
+            },
+            "5809320004": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 78284,
+                    "tempo_s": 9594
+                }
+            },
+            "5809326611": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 51830,
+                    "tempo_s": 8271
+                }
+            },
+            "5809326606": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 77159,
+                    "tempo_s": 9734
+                }
+            },
+            "5809326610": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 48750,
+                    "tempo_s": 8090
+                }
+            }
+        }
+    },
+    "SAMBUCI": {
+        "ospedali": [
+            12008801
+        ],
+        "nuclei": [
+            5809410001.0,
+            5809440000.0
+        ],
+        "DISTANCE": {
+            "5809410001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 18434,
+                    "tempo_s": 2182
+                }
+            }
+        }
+    },
+    "SAN GREGORIO DA SASSOLA": {
+        "ospedali": [
+            12008801
+        ],
+        "nuclei": [
+            5809510001.0,
+            5809540000.0
+        ],
+        "DISTANCE": {
+            "5809510001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 14446,
+                    "tempo_s": 2666
+                }
+            }
+        }
+    },
+    "SAN POLO DEI CAVALIERI": {
+        "ospedali": [
+            12008801
+        ],
+        "nuclei": [
+            5809610001.0,
+            5809610002.0,
+            5809620002.0,
+            5809640000.0
+        ],
+        "DISTANCE": {
+            "5809610001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 12460,
+                    "tempo_s": 2034
+                }
+            },
+            "5809610002": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 12947,
+                    "tempo_s": 1841
+                }
+            },
+            "5809620002": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 7957,
+                    "tempo_s": 1296
+                }
+            }
+        }
+    },
+    "SANTA MARINELLA": {
+        "ospedali": [
+            12019701
+        ],
+        "nuclei": [
+            5809710001.0,
+            5809710002.0,
+            5809720003.0,
+            5809710003.0,
+            5809720005.0,
+            5809720008.0,
+            5809720009.0,
+            5809720006.0,
+            5809720004.0,
+            5809726607.0,
+            5809726701.0,
+            5809740000.0
+        ],
+        "DISTANCE": {
+            "5809710001": {
+                "C.C.A. S.Volto, S. MARINELLA, RM": {
+                    "distanza_m": 1738,
+                    "tempo_s": 1376
+                }
+            },
+            "5809710002": {
+                "C.C.A. S.Volto, S. MARINELLA, RM": {
+                    "distanza_m": 9996,
+                    "tempo_s": 1333
+                }
+            },
+            "5809720003": {
+                "C.C.A. S.Volto, S. MARINELLA, RM": {
+                    "distanza_m": 4479,
+                    "tempo_s": 2358
+                }
+            },
+            "5809710003": {
+                "C.C.A. S.Volto, S. MARINELLA, RM": {
+                    "distanza_m": 11046,
+                    "tempo_s": 1277
+                }
+            },
+            "5809720005": {
+                "C.C.A. S.Volto, S. MARINELLA, RM": {
+                    "distanza_m": 4256,
+                    "tempo_s": 2076
+                }
+            },
+            "5809720008": {
+                "C.C.A. S.Volto, S. MARINELLA, RM": {
+                    "distanza_m": 2611,
+                    "tempo_s": 2069
+                }
+            },
+            "5809720009": {
+                "C.C.A. S.Volto, S. MARINELLA, RM": {
+                    "distanza_m": 4495,
+                    "tempo_s": 1196
+                }
+            },
+            "5809720006": {
+                "C.C.A. S.Volto, S. MARINELLA, RM": {
+                    "distanza_m": 1938,
+                    "tempo_s": 1511
+                }
+            },
+            "5809720004": {
+                "C.C.A. S.Volto, S. MARINELLA, RM": {
+                    "distanza_m": 8145,
+                    "tempo_s": 952
+                }
+            },
+            "5809726607": {
+                "C.C.A. S.Volto, S. MARINELLA, RM": {
+                    "distanza_m": 7350,
+                    "tempo_s": 871
+                }
+            },
+            "5809726701": {
+                "C.C.A. S.Volto, S. MARINELLA, RM": {
+                    "distanza_m": 11185,
+                    "tempo_s": 1387
+                }
+            }
+        }
+    },
+    "SANT'ANGELO ROMANO": {
+        "ospedali": [
+            12019901
+        ],
+        "nuclei": [
+            5809810001.0,
+            5809810002.0,
+            5809820003.0,
+            5809820005.0,
+            5809820004.0,
+            5809826701.0,
+            5809840000.0
+        ],
+        "DISTANCE": {
+            "5809810001": {
+                "C.C.A. Villa Dante, GUIDONIA, RM": {
+                    "distanza_m": 41111,
+                    "tempo_s": 6660
+                }
+            },
+            "5809810002": {
+                "C.C.A. Villa Dante, GUIDONIA, RM": {
+                    "distanza_m": 13169,
+                    "tempo_s": 1904
+                }
+            },
+            "5809820003": {
+                "C.C.A. Villa Dante, GUIDONIA, RM": {
+                    "distanza_m": 39263,
+                    "tempo_s": 6818
+                }
+            },
+            "5809820005": {
+                "C.C.A. Villa Dante, GUIDONIA, RM": {
+                    "distanza_m": 41413,
+                    "tempo_s": 6888
+                }
+            },
+            "5809820004": {
+                "C.C.A. Villa Dante, GUIDONIA, RM": {
+                    "distanza_m": 41684,
+                    "tempo_s": 7055
+                }
+            },
+            "5809826701": {
+                "C.C.A. Villa Dante, GUIDONIA, RM": {
+                    "distanza_m": 13119,
+                    "tempo_s": 3142
+                }
+            }
+        }
+    },
+    "SANT'ORESTE": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5809910001.0,
+            5809920002.0,
+            5809926606.0,
+            5809940000.0
+        ],
+        "DISTANCE": {
+            "5809910001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 72368,
+                    "tempo_s": 11858
+                }
+            },
+            "5809920002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 69322,
+                    "tempo_s": 8316
+                }
+            },
+            "5809926606": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 79141,
+                    "tempo_s": 12121
+                }
+            }
+        }
+    },
+    "SAN VITO ROMANO": {
+        "ospedali": [
+            12005101
+        ],
+        "nuclei": [
+            5810010001.0,
+            5810040000.0
+        ],
+        "DISTANCE": {
+            "5810010001": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 18793,
+                    "tempo_s": 2438
+                }
+            }
+        }
+    },
+    "SARACINESCO": {
+        "ospedali": [
+            12008801
+        ],
+        "nuclei": [
+            5810110001.0,
+            5810126701.0,
+            5810140000.0
+        ],
+        "DISTANCE": {
+            "5810110001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 19462,
+                    "tempo_s": 3789
+                }
+            },
+            "5810126701": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 18940,
+                    "tempo_s": 3700
+                }
+            }
+        }
+    },
+    "SEGNI": {
+        "ospedali": [
+            12004601
+        ],
+        "nuclei": [
+            5810210001.0,
+            5810210002.0,
+            5810220002.0,
+            5810220007.0,
+            5810220005.0,
+            5810220006.0,
+            5810220004.0,
+            5810240000.0
+        ],
+        "DISTANCE": {
+            "5810210001": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 5419,
+                    "tempo_s": 986
+                }
+            },
+            "5810210002": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 2203,
+                    "tempo_s": 1763
+                }
+            },
+            "5810220002": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 2465,
+                    "tempo_s": 440
+                }
+            },
+            "5810220007": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 7605,
+                    "tempo_s": 1145
+                }
+            },
+            "5810220005": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 5622,
+                    "tempo_s": 2371
+                }
+            },
+            "5810220006": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 4230,
+                    "tempo_s": 2035
+                }
+            },
+            "5810220004": {
+                "Osp. L.Parodi Delfino, COLLEFERRO, RM": {
+                    "distanza_m": 7447,
+                    "tempo_s": 1039
+                }
+            }
+        }
+    },
+    "SUBIACO": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5810310002.0,
+            5810310004.0,
+            5810320007.0,
+            5810310005.0,
+            5810310003.0,
+            5810320008.0,
+            5810320009.0,
+            5810320010.0,
+            5810320011.0,
+            5810320012.0,
+            5810340000.0
+        ],
+        "DISTANCE": {
+            "5810310002": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 15896,
+                    "tempo_s": 3013
+                }
+            },
+            "5810310004": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 1236,
+                    "tempo_s": 1180
+                }
+            },
+            "5810320007": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 1048,
+                    "tempo_s": 1010
+                }
+            },
+            "5810310005": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 4462,
+                    "tempo_s": 853
+                }
+            },
+            "5810310003": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 5602,
+                    "tempo_s": 1031
+                }
+            },
+            "5810320008": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 3733,
+                    "tempo_s": 2939
+                }
+            },
+            "5810320009": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 3416,
+                    "tempo_s": 588
+                }
+            },
+            "5810320010": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 5297,
+                    "tempo_s": 1025
+                }
+            },
+            "5810320011": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 3214,
+                    "tempo_s": 626
+                }
+            },
+            "5810320012": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 2892,
+                    "tempo_s": 1586
+                }
+            }
+        }
+    },
+    "TIVOLI": {
+        "ospedali": [
+            12005301,
+            12008801
+        ],
+        "nuclei": [
+            5810410006.0,
+            5810410001.0,
+            5810410002.0,
+            5810410004.0,
+            5810420003.0,
+            5810420002.0,
+            5810420007.0,
+            5810410003.0,
+            5810410008.0,
+            5810410007.0,
+            5810420008.0,
+            5810420209.0,
+            5810420006.0,
+            5810420011.0,
+            5810420012.0,
+            5810420004.0,
+            5810426705.0,
+            5810426610.0,
+            5810430001.0,
+            5810440000.0
+        ]
+    },
+    "TOLFA": {
+        "ospedali": [
+            12019701
+        ],
+        "nuclei": [
+            5810510001.0,
+            5810510002.0,
+            5810520201.0,
+            5810540000.0
+        ],
+        "DISTANCE": {
+            "5810510001": {
+                "C.C.A. S.Volto, S. MARINELLA, RM": {
+                    "distanza_m": 11770,
+                    "tempo_s": 1857
+                }
+            },
+            "5810510002": {
+                "C.C.A. S.Volto, S. MARINELLA, RM": {
+                    "distanza_m": 26567,
+                    "tempo_s": 3065
+                }
+            }
+        }
+    },
+    "TORRITA TIBERINA": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5810610002.0,
+            5810620001.0,
+            5810640000.0
+        ],
+        "DISTANCE": {
+            "5810610002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 77709,
+                    "tempo_s": 9253
+                }
+            },
+            "5810620001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 77735,
+                    "tempo_s": 10252
+                }
+            }
+        }
+    },
+    "TREVIGNANO ROMANO": {
+        "ospedali": [
+            12005901
+        ],
+        "nuclei": [
+            5810710001.0,
+            5810720003.0,
+            5810720002.0,
+            5810720001.0,
+            5810720005.0,
+            5810720008.0,
+            5810720006.0,
+            5810720004.0,
+            5810724909.0,
+            5810726607.0,
+            5810726610.0,
+            5810740000.0
+        ],
+        "DISTANCE": {
+            "5810710001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 17159,
+                    "tempo_s": 2319
+                }
+            },
+            "5810720003": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 20629,
+                    "tempo_s": 5278
+                }
+            },
+            "5810720002": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 27551,
+                    "tempo_s": 5936
+                }
+            },
+            "5810720001": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 18812,
+                    "tempo_s": 4747
+                }
+            },
+            "5810720005": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 18046,
+                    "tempo_s": 4713
+                }
+            },
+            "5810720008": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 18384,
+                    "tempo_s": 4428
+                }
+            },
+            "5810720006": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 16936,
+                    "tempo_s": 2648
+                }
+            },
+            "5810720004": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 15406,
+                    "tempo_s": 5314
+                }
+            },
+            "5810726607": {
+                "Osp. Padre Pio, BRACCIANO, RM": {
+                    "distanza_m": 21510,
+                    "tempo_s": 5544
+                }
+            },
+            "5810726610": {}
+        }
+    },
+    "VALLEPIETRA": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5810810001.0,
+            5810840000.0
+        ],
+        "DISTANCE": {
+            "5810810001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 27707,
+                    "tempo_s": 3632
+                }
+            }
+        }
+    },
+    "VALLINFREDA": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5810910001.0,
+            5810920001.0,
+            5810940000.0
+        ],
+        "DISTANCE": {
+            "5810910001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 42326,
+                    "tempo_s": 6610
+                }
+            },
+            "5810920001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 43157,
+                    "tempo_s": 6820
+                }
+            }
+        }
+    },
+    "VALMONTONE": {
+        "ospedali": [
+            12005101
+        ],
+        "nuclei": [
+            5811010001.0,
+            5811020003.0,
+            5811020005.0,
+            5811020004.0,
+            5811026601.0,
+            5811026702.0,
+            5811030001.0,
+            5811040000.0
+        ],
+        "DISTANCE": {
+            "5811010001": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 21770,
+                    "tempo_s": 3272
+                }
+            },
+            "5811020003": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 20998,
+                    "tempo_s": 4742
+                }
+            },
+            "5811020005": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 39497,
+                    "tempo_s": 5277
+                }
+            },
+            "5811020004": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 19057,
+                    "tempo_s": 2822
+                }
+            },
+            "5811026601": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 18678,
+                    "tempo_s": 2893
+                }
+            },
+            "5811026702": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 29563,
+                    "tempo_s": 5081
+                }
+            }
+        }
+    },
+    "VELLETRI": {
+        "ospedali": [
+            12005401,
+            12009601
+        ],
+        "nuclei": [
+            5811110001.0,
+            5811110002.0,
+            5811110004.0,
+            5811110003.0,
+            5811120005.0,
+            5811120006.0,
+            5811123107.0,
+            5811120004.0,
+            5811126702.0,
+            5811140000.0
+        ]
+    },
+    "VICOVARO": {
+        "ospedali": [
+            12008801
+        ],
+        "nuclei": [
+            5811210001.0,
+            5811210002.0,
+            5811220004.0,
+            5811226602.0,
+            5811226605.0,
+            5811240000.0
+        ],
+        "DISTANCE": {
+            "5811210001": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 11778,
+                    "tempo_s": 947
+                }
+            },
+            "5811210002": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 14528,
+                    "tempo_s": 1705
+                }
+            },
+            "5811220004": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 6185,
+                    "tempo_s": 873
+                }
+            },
+            "5811226602": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 5836,
+                    "tempo_s": 536
+                }
+            },
+            "5811226605": {
+                "C.C.A. Medicus Hotel, TIVOLI, RM": {
+                    "distanza_m": 6872,
+                    "tempo_s": 1362
+                }
+            }
+        }
+    },
+    "VIVARO ROMANO": {
+        "ospedali": [
+            12005201
+        ],
+        "nuclei": [
+            5811310001.0,
+            5811340000.0
+        ],
+        "DISTANCE": {
+            "5811310001": {
+                "Osp. A.Angelucci, SUBIACO, RM": {
+                    "distanza_m": 45680,
+                    "tempo_s": 6862
+                }
+            }
+        }
+    },
+    "ZAGAROLO": {
+        "ospedali": [
+            12005101
+        ],
+        "nuclei": [
+            5811410001.0,
+            5811410002.0,
+            5811420001.0,
+            5811426702.0,
+            5811440000.0
+        ],
+        "DISTANCE": {
+            "5811410001": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 18606,
+                    "tempo_s": 5368
+                }
+            },
+            "5811410002": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 8957,
+                    "tempo_s": 2268
+                }
+            },
+            "5811420001": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 15671,
+                    "tempo_s": 3792
+                }
+            },
+            "5811426702": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 17004,
+                    "tempo_s": 6637
+                }
+            }
+        }
+    },
+    "LARIANO": {
+        "ospedali": [
+            12005401
+        ],
+        "nuclei": [
+            5811510001.0,
+            5811540000.0
+        ],
+        "DISTANCE": {
+            "5811510001": {
+                "Osp. Paolo Colombo, VELLETRI, RM": {
+                    "distanza_m": 6556,
+                    "tempo_s": 1416
+                }
+            }
+        }
+    },
+    "LADISPOLI": {
+        "ospedali": [],
+        "nuclei": [
+            5811610001.0,
+            5811610002.0,
+            5811620001.0,
+            5811620005.0,
+            5811626704.0,
+            5811640000.0
+        ]
+    },
+    "ARDEA": {
+        "ospedali": [],
+        "nuclei": [
+            5811710006.0,
+            5811710001.0,
+            5811710002.0,
+            5811710004.0,
+            5811720003.0,
+            5811720002.0,
+            5811720001.0,
+            5811720007.0,
+            5811710005.0,
+            5811720023.0,
+            5811720015.0,
+            5811720005.0,
+            5811720008.0,
+            5811720014.0,
+            5811720017.0,
+            5811720013.0,
+            5811720020.0,
+            5811720010.0,
+            5811720006.0,
+            5811720016.0,
+            5811720012.0,
+            5811720018.0,
+            5811720019.0,
+            5811720025.0,
+            5811720026.0,
+            5811726711.0,
+            5811730002.0,
+            5811730001.0,
+            5811740000.0
+        ]
+    },
+    "CIAMPINO": {
+        "ospedali": [
+            12004801
+        ],
+        "nuclei": [
+            5811810001.0,
+            5811810002.0,
+            5811820001.0,
+            5811810003.0,
+            5811820006.0,
+            5811820004.0,
+            5811826702.0,
+            5811830001.0,
+            5811840000.0
+        ],
+        "DISTANCE": {
+            "5811810001": {
+                "Ospedale San Giuseppe Viale XXIV Maggio, MARINO, RM": {
+                    "distanza_m": 8551,
+                    "tempo_s": 1797
+                }
+            },
+            "5811810002": {
+                "Ospedale San Giuseppe Viale XXIV Maggio, MARINO, RM": {
+                    "distanza_m": 5536,
+                    "tempo_s": 1717
+                }
+            },
+            "5811820001": {
+                "Ospedale San Giuseppe Viale XXIV Maggio, MARINO, RM": {
+                    "distanza_m": 9501,
+                    "tempo_s": 3173
+                }
+            },
+            "5811810003": {
+                "Ospedale San Giuseppe Viale XXIV Maggio, MARINO, RM": {
+                    "distanza_m": 10123,
+                    "tempo_s": 3675
+                }
+            },
+            "5811820006": {
+                "Ospedale San Giuseppe Viale XXIV Maggio, MARINO, RM": {
+                    "distanza_m": 6968,
+                    "tempo_s": 2967
+                }
+            },
+            "5811820004": {
+                "Ospedale San Giuseppe Viale XXIV Maggio, MARINO, RM": {
+                    "distanza_m": 9578,
+                    "tempo_s": 3177
+                }
+            },
+            "5811826702": {
+                "Ospedale San Giuseppe Viale XXIV Maggio, MARINO, RM": {
+                    "distanza_m": 10186,
+                    "tempo_s": 3722
+                }
+            }
+        }
+    },
+    "SAN CESAREO": {
+        "ospedali": [
+            12005101
+        ],
+        "nuclei": [
+            5811910001.0,
+            5811910002.0,
+            5811920003.0,
+            5811920002.0,
+            5811920001.0,
+            5811920005.0,
+            5811920006.0,
+            5811920004.0,
+            5811930002.0,
+            5811930001.0,
+            5811940000.0
+        ],
+        "DISTANCE": {
+            "5811910001": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 15483,
+                    "tempo_s": 2503
+                }
+            },
+            "5811910002": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 9457,
+                    "tempo_s": 1614
+                }
+            },
+            "5811920003": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 15004,
+                    "tempo_s": 3157
+                }
+            },
+            "5811920002": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 11809,
+                    "tempo_s": 1929
+                }
+            },
+            "5811920001": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 13033,
+                    "tempo_s": 3494
+                }
+            },
+            "5811920005": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 13676,
+                    "tempo_s": 2693
+                }
+            },
+            "5811920006": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 17904,
+                    "tempo_s": 2817
+                }
+            },
+            "5811920004": {
+                "Osp. Civile Coniugi Bernardini, PALESTRINA, RM": {
+                    "distanza_m": 15031,
+                    "tempo_s": 3231
+                }
+            }
+        }
+    },
+    "FIUMICINO": {
+        "ospedali": [],
+        "nuclei": [
+            5812010021.0,
+            5812010026.0,
+            5812010027.0,
+            5812010014.0,
+            5812010034.0,
+            5812010017.0,
+            5812010003.0,
+            5812020039.0,
+            5812022964.0,
+            5812020067.0,
+            5812020029.0,
+            5812020028.0,
+            5812020080.0,
+            5812020088.0,
+            5812020090.0,
+            5812020091.0,
+            5812020092.0,
+            5812020093.0,
+            5812020095.0,
+            5812020096.0,
+            5812010011.0,
+            5812010015.0,
+            5812010022.0,
+            5812026612.0,
+            5812026719.0,
+            5812026605.0,
+            5812026723.0,
+            5812020026.0,
+            5812026733.0,
+            5812026721.0,
+            5812026736.0,
+            5812026635.0,
+            5812026730.0,
+            5812026732.0,
+            5812026678.0,
+            5812026689.0,
+            5812026694.0,
+            5812026703.0,
+            5812030001.0,
+            5812026717.0,
+            5812026757.0,
+            5812026766.0,
+            5812040000.0
+        ]
+    },
+    "FONTE NUOVA": {
+        "ospedali": [
+            12028401
+        ],
+        "nuclei": [
+            5812210001.0,
+            5812210002.0,
+            5812210003.0,
+            5812220004.0,
+            5812226701.0,
+            5812240000.0
+        ],
+        "DISTANCE": {
+            "5812210001": {
+                "C.C.A. Nomentana Hospital, FONTE NUOVA, RM": {
+                    "distanza_m": 16251,
+                    "tempo_s": 3608
+                }
+            },
+            "5812210002": {
+                "C.C.A. Nomentana Hospital, FONTE NUOVA, RM": {
+                    "distanza_m": 1832,
+                    "tempo_s": 758
+                }
+            },
+            "5812210003": {
+                "C.C.A. Nomentana Hospital, FONTE NUOVA, RM": {
+                    "distanza_m": 12328,
+                    "tempo_s": 3204
+                }
+            },
+            "5812220004": {
+                "C.C.A. Nomentana Hospital, FONTE NUOVA, RM": {
+                    "distanza_m": 4384,
+                    "tempo_s": 1163
+                }
+            },
+            "5812226701": {
+                "C.C.A. Nomentana Hospital, FONTE NUOVA, RM": {
+                    "distanza_m": 6160,
+                    "tempo_s": 2750
+                }
+            }
+        }
+    }
+}

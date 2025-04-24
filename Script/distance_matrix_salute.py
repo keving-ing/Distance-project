@@ -6,9 +6,11 @@ import itertools
 import time
 from pyproj import Transformer
 
+#AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E
+
 # === CONFIGURAZIONI ===
 GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
-CACHE_FILE = "google_distances_hospitals_cache.json"
+CACHE_FILE = "google_distances_hospitals_cache_transit_ROMA.json"
 MAX_ELEMENTS = 100
 MAX_ORIGINS = 25
 MAX_DESTINATIONS = 25
@@ -20,7 +22,7 @@ def convert_utm_to_wgs84(easting, northing):
     return lat, lon
 
 # === 1️⃣ Caricamento Dati ===
-with open("hospital_by_municipality_with_nuclei.json", "r", encoding="utf-8") as f:
+with open("C:/Users/vehico/Documents/Thesis/Distance-project/hospital_by_municipality_with_nuclei_ROMA_OK.json", "r", encoding="utf-8") as f:
     hospital_data = json.load(f)
 
 pop_df = pd.read_csv("C:/Users/vehico/Documents/Thesis/Distance-project/Raw_data_processing/Raw_data/DCIS_POPRES1_12022025124521891.csv", delimiter=",", usecols=["ITTER107", "Territorio", "Value"])
@@ -30,7 +32,7 @@ pop_df["Comune"] = pop_df["Comune"].str.upper()
 # Filtrare solo comuni con meno di 40.000 abitanti
 filtered_comuni = pop_df[pop_df["Popolazione"] < 40000]["Comune"].tolist()
 
-with open("C:/Users/vehico/Documents/centroidi_salute.geojson", "r", encoding="utf-8") as f:
+with open("C:/Users/vehico/Documents/centroides_rivisitato.geojson", "r", encoding="utf-8") as f:
     centroidi_data = json.load(f)
 
 df_ospedali = pd.read_csv("C:/Users/vehico/Documents/Thesis/Distance-project/Raw_data_processing/Raw_data/elencoospedali.csv")
@@ -69,8 +71,8 @@ def get_distance_matrix(origins, destinations):
         "origins": "|".join(origins),
         "destinations": "|".join(destinations),
         "key": GOOGLE_MAPS_API_KEY,
-        "mode": "driving",
-        "departure_time": 1745485200  # Considera il traffico attuale
+        "mode": "transit",
+        "departure_time": 1745499600  # Considera il traffico attuale
     }
 
     elementi = elementi + (len(origins)*len(destinations))
@@ -133,6 +135,7 @@ for comune, data in hospital_data.items():
 
         result = get_distance_matrix(origin_batch, destination_batch)
 
+
         if not result or "rows" not in result:
             continue
 
@@ -156,11 +159,15 @@ for comune, data in hospital_data.items():
                         "distanza_m": element["distance"]["value"],
                         "tempo_s": element["duration"]["value"]
                     }
-
+                else:
+                    log_message = f"NO RESULT for: {origin} - {destination}\n"
+                    print(log_message)  # Stampa in console
+                    with open("distance_matrix_errors_hospital_ROMA.log", "a", encoding="utf-8") as f:
+                        f.write(log_message)  # Scrive nel file
 
 
 # === 6️⃣ Salvataggio Output ===
-with open("hospital_by_municipality_with_distances.json", "w", encoding="utf-8") as f:
+with open("hospital_by_municipality_with_distances_transit_ROMA.json", "w", encoding="utf-8") as f:
     json.dump(hospital_data, f, indent=4)
 
 print("✅ Distanze calcolate e file salvato! - elementi: ", elementi)

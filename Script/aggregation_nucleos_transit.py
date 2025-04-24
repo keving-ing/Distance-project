@@ -4,11 +4,10 @@ import geopandas as gpd
 from sys import exit 
 
 # Input and output file paths
-INPUT_FILE = "C:/Users/vehico/Documents/Thesis/Distance-project/DATA_DISTANCIAS/school_by_municipality_with_distances_complete.json"
-INPUT_FILE_TRANSIT = "C:/Users/vehico/Documents/Thesis/Distance-project/school_by_municipality_with_distances_transit_complete_TP_Roma_ok.json"
+INPUT_FILE_TRANSIT = "C:/Users/vehico/Documents/Thesis/Distance-project/hospital_by_municipality_with_distances_transit_ROMA.json"
 POPULATION_FILE = "C:/Users/vehico/Documents/Thesis/geometrias_Lazio.shp"
-OUTPUT_FILE = "aggregated_school_distances_transit_weighted_ROMA_ok.csv"
-OUTPUT_EXCEL_FILE = "aggregated_school_distances_by_transt_weighted_ROMA_ok.xlsx"
+OUTPUT_FILE = "aggregated_hospital_distances_transit_weighted_ROMA_ok.csv"
+OUTPUT_EXCEL_FILE = "aggregated_hospital_distances_by_transt_weighted_ROMA.xlsx"
 
 # Definition of categories
 SCHOOL_CATEGORIES = {
@@ -27,7 +26,7 @@ population_data = gdf.set_index("LOC21_ID")[["POP21", "COD_UTS"]].to_dict(orient
 #print("Keys available in population_data:", list(population_data.keys())[:10])
 
 
-def analyze_distances_by_type_weighted(input_file, input_transit, output_file, output_excel):
+def analyze_distances_by_type_weighted(input_transit, output_file, output_excel):
     """
     Calculation of the weighted average and standard deviation of distances and times for each urban core, 
     using the population as a weight.
@@ -130,4 +129,4 @@ def analyze_distances_by_type_weighted(input_file, input_transit, output_file, o
     print(f"✅ File '{output_file}' saved with weighted statistics of distances and average times for each type of school.")
 
 
-analyze_distances_by_type_weighted(INPUT_FILE, INPUT_FILE_TRANSIT, OUTPUT_FILE, OUTPUT_EXCEL_FILE)
+analyze_distances_by_type_weighted(INPUT_FILE_TRANSIT, OUTPUT_FILE, OUTPUT_EXCEL_FILE)
