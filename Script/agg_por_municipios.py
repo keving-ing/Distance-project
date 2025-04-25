@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 
 # Input and output file paths
-INPUT_FILE = "C:/Users/vehico/Documents/Thesis/Distance-project/aggregated_school_distances_transit_weighted.csv"  
-OUTPUT_FILE = "aggregati_municipio_transit.csv"
+INPUT_FILE = "C:/Users/vehico/Documents/Thesis/Distance-project/aggregated_school_distances_transit_weighted_ROMA_ok.csv"  
+OUTPUT_FILE = "aggregati_municipio_transit_ROMA.csv"
 
 df = pd.read_csv(INPUT_FILE)
 
@@ -12,7 +12,7 @@ df['Nucleo_ID'] = df['Nucleo_ID'].astype(str)
 df['Popolazione'] = df['Popolazione'].astype(float)
 
 # Definition of categories and types of metrics (km and minutes)
-categorie = ["SI", "SP", "SS", "IC"]
+categorie = ["SI", "SP", "SS"]
 metriche_km = [f"{cat}_mean_km" for cat in categorie]
 metriche_min = [f"{cat}_mean_min" for cat in categorie]
 
@@ -63,6 +63,6 @@ df_finale = pd.merge(df_finale, df_std, on="Comune", how="left")
 
 # Saving the result in a CSV file
 df_finale.to_csv(OUTPUT_FILE, index=False)
-df_finale.to_excel("aggregati_municipio_transit.xlsx", index=False, sheet_name="Dati_aggregati_municipios")
+df_finale.to_excel("aggregati_municipio_transit_ROMA.xlsx", index=False, sheet_name="Dati_aggregati_municipios")
 
 print(f"Aggregated data saved in {OUTPUT_FILE}")
