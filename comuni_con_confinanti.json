@@ -1,0 +1,3992 @@
+[
+    {
+        "COMUNE": "Pozzaglia Sabina",
+        "confinanti": [
+            "Scandriglia",
+            "Turania",
+            "Ascrea",
+            "Castel di Tora",
+            "Colle di Tora",
+            "Collegiove",
+            "Orvinio",
+            "Paganico Sabino",
+            "Poggio Moiano",
+            "Vivaro Romano"
+        ]
+    },
+    {
+        "COMUNE": "Rieti",
+        "confinanti": [
+            "Rivodutri",
+            "Roccantica",
+            "Torricella in Sabina",
+            "Belmonte in Sabina",
+            "Cantalice",
+            "Casperia",
+            "Castel Sant'Angelo",
+            "Cittaducale",
+            "Colli sul Velino",
+            "Concerviano",
+            "Contigliano",
+            "Greccio",
+            "Longone Sabino",
+            "Micigliano",
+            "Montenero Sabino",
+            "Monte San Giovanni in Sabina",
+            "Poggio Bustone"
+        ]
+    },
+    {
+        "COMUNE": "Rivodutri",
+        "confinanti": [
+            "Rieti",
+            "Colli sul Velino",
+            "Leonessa",
+            "Morro Reatino",
+            "Poggio Bustone"
+        ]
+    },
+    {
+        "COMUNE": "Roccantica",
+        "confinanti": [
+            "Rieti",
+            "Salisano",
+            "Cantalupo in Sabina",
+            "Casperia",
+            "Monte San Giovanni in Sabina",
+            "Poggio Catino"
+        ]
+    },
+    {
+        "COMUNE": "Rocca Sinibalda",
+        "confinanti": [
+            "Torricella in Sabina",
+            "Varco Sabino",
+            "Ascrea",
+            "Belmonte in Sabina",
+            "Castel di Tora",
+            "Colle di Tora",
+            "Concerviano",
+            "Longone Sabino",
+            "Monteleone Sabino",
+            "Poggio Moiano"
+        ]
+    },
+    {
+        "COMUNE": "Salisano",
+        "confinanti": [
+            "Roccantica",
+            "Castelnuovo di Farfa",
+            "Mompeo",
+            "Monte San Giovanni in Sabina",
+            "Montopoli di Sabina",
+            "Poggio Catino",
+            "Poggio Mirteto"
+        ]
+    },
+    {
+        "COMUNE": "Scandriglia",
+        "confinanti": [
+            "Pozzaglia Sabina",
+            "Orvinio",
+            "Poggio Moiano",
+            "Poggio Nativo",
+            "Licenza",
+            "Monteflavio",
+            "Montorio Romano",
+            "Nerola",
+            "Percile"
+        ]
+    },
+    {
+        "COMUNE": "Selci",
+        "confinanti": [
+            "Tarano",
+            "Torri in Sabina",
+            "Cantalupo in Sabina",
+            "Forano"
+        ]
+    },
+    {
+        "COMUNE": "Stimigliano",
+        "confinanti": [
+            "Tarano",
+            "Collevecchio",
+            "Forano",
+            "Ponzano Romano",
+            "Sant'Oreste"
+        ]
+    },
+    {
+        "COMUNE": "Tarano",
+        "confinanti": [
+            "Selci",
+            "Stimigliano",
+            "Torri in Sabina",
+            "Collevecchio",
+            "Forano",
+            "Montebuono"
+        ]
+    },
+    {
+        "COMUNE": "Toffia",
+        "confinanti": [
+            "Castelnuovo di Farfa",
+            "Fara in Sabina",
+            "Poggio Nativo",
+            "Nerola"
+        ]
+    },
+    {
+        "COMUNE": "Torricella in Sabina",
+        "confinanti": [
+            "Rieti",
+            "Rocca Sinibalda",
+            "Belmonte in Sabina",
+            "Casaprota",
+            "Monteleone Sabino",
+            "Montenero Sabino",
+            "Poggio Moiano",
+            "Poggio San Lorenzo"
+        ]
+    },
+    {
+        "COMUNE": "Torri in Sabina",
+        "confinanti": [
+            "Selci",
+            "Tarano",
+            "Vacone",
+            "Cantalupo in Sabina",
+            "Casperia",
+            "Montasola",
+            "Montebuono"
+        ]
+    },
+    {
+        "COMUNE": "Turania",
+        "confinanti": [
+            "Pozzaglia Sabina",
+            "Collalto Sabino",
+            "Collegiove",
+            "Vivaro Romano"
+        ]
+    },
+    {
+        "COMUNE": "Vacone",
+        "confinanti": [
+            "Torri in Sabina",
+            "Configni",
+            "Cottanello",
+            "Montasola"
+        ]
+    },
+    {
+        "COMUNE": "Varco Sabino",
+        "confinanti": [
+            "Rocca Sinibalda",
+            "Ascrea",
+            "Castel di Tora",
+            "Concerviano",
+            "Marcetelli",
+            "Paganico Sabino",
+            "Pescorocchiano",
+            "Petrella Salto"
+        ]
+    },
+    {
+        "COMUNE": "Affile",
+        "confinanti": [
+            "Arcinazzo Romano",
+            "Bellegra",
+            "Rocca Santo Stefano",
+            "Roiate",
+            "Subiaco"
+        ]
+    },
+    {
+        "COMUNE": "Agosta",
+        "confinanti": [
+            "Canterano",
+            "Cervara di Roma",
+            "Marano Equo",
+            "Rocca Canterano",
+            "Subiaco"
+        ]
+    },
+    {
+        "COMUNE": "Albano Laziale",
+        "confinanti": [
+            "Ariccia",
+            "Castel Gandolfo",
+            "Rocca di Papa",
+            "Roma",
+            "Ardea"
+        ]
+    },
+    {
+        "COMUNE": "Allumiere",
+        "confinanti": [
+            "Tarquinia",
+            "Civitavecchia",
+            "Santa Marinella",
+            "Tolfa"
+        ]
+    },
+    {
+        "COMUNE": "Anguillara Sabazia",
+        "confinanti": [
+            "Bracciano",
+            "Campagnano di Roma",
+            "Cerveteri",
+            "Roma",
+            "Trevignano Romano",
+            "Fiumicino"
+        ]
+    },
+    {
+        "COMUNE": "Anticoli Corrado",
+        "confinanti": [
+            "Mandela",
+            "Marano Equo",
+            "Rocca Canterano",
+            "Roviano",
+            "Saracinesco"
+        ]
+    },
+    {
+        "COMUNE": "Anzio",
+        "confinanti": [
+            "Nettuno",
+            "Ardea",
+            "Aprilia"
+        ]
+    },
+    {
+        "COMUNE": "Arcinazzo Romano",
+        "confinanti": [
+            "Affile",
+            "Jenne",
+            "Roiate",
+            "Subiaco",
+            "Piglio",
+            "Serrone",
+            "Trevi nel Lazio"
+        ]
+    },
+    {
+        "COMUNE": "Ariccia",
+        "confinanti": [
+            "Albano Laziale",
+            "Genzano di Roma",
+            "Lanuvio",
+            "Nemi",
+            "Rocca di Papa",
+            "Ardea",
+            "Aprilia"
+        ]
+    },
+    {
+        "COMUNE": "Arsoli",
+        "confinanti": [
+            "Cervara di Roma",
+            "Marano Equo",
+            "Riofreddo",
+            "Roviano"
+        ]
+    },
+    {
+        "COMUNE": "Artena",
+        "confinanti": [
+            "Cori",
+            "Rocca Massima",
+            "Colleferro",
+            "Palestrina",
+            "Rocca di Papa",
+            "Rocca Priora",
+            "Segni",
+            "Valmontone",
+            "Velletri",
+            "Lariano",
+            "Cisterna di Latina"
+        ]
+    },
+    {
+        "COMUNE": "Bellegra",
+        "confinanti": [
+            "Affile",
+            "Gerano",
+            "Olevano Romano",
+            "Pisoniano",
+            "Rocca Santo Stefano",
+            "Roiate",
+            "San Vito Romano"
+        ]
+    },
+    {
+        "COMUNE": "Bracciano",
+        "confinanti": [
+            "Anguillara Sabazia",
+            "Bassano Romano",
+            "Oriolo Romano",
+            "Sutri",
+            "Cerveteri",
+            "Manziana",
+            "Tolfa",
+            "Trevignano Romano"
+        ]
+    },
+    {
+        "COMUNE": "Camerata Nuova",
+        "confinanti": [
+            "Cervara di Roma",
+            "Subiaco",
+            "Vallepietra"
+        ]
+    },
+    {
+        "COMUNE": "Campagnano di Roma",
+        "confinanti": [
+            "Anguillara Sabazia",
+            "Nepi",
+            "Formello",
+            "Magliano Romano",
+            "Mazzano Romano",
+            "Roma",
+            "Sacrofano",
+            "Trevignano Romano"
+        ]
+    },
+    {
+        "COMUNE": "Canale Monterano",
+        "confinanti": [
+            "Blera",
+            "Oriolo Romano",
+            "Vejano",
+            "Manziana",
+            "Tolfa"
+        ]
+    },
+    {
+        "COMUNE": "Canterano",
+        "confinanti": [
+            "Agosta",
+            "Gerano",
+            "Rocca Canterano",
+            "Rocca Santo Stefano",
+            "Subiaco"
+        ]
+    },
+    {
+        "COMUNE": "Capena",
+        "confinanti": [
+            "Castelnuovo di Porto",
+            "Civitella San Paolo",
+            "Fiano Romano",
+            "Montelibretti",
+            "Monterotondo",
+            "Morlupo",
+            "Rignano Flaminio"
+        ]
+    },
+    {
+        "COMUNE": "Capranica Prenestina",
+        "confinanti": [
+            "Casape",
+            "Castel San Pietro Romano",
+            "Ciciliano",
+            "Genazzano",
+            "Pisoniano",
+            "Poli",
+            "Rocca di Cave",
+            "San Gregorio da Sassola",
+            "San Vito Romano"
+        ]
+    },
+    {
+        "COMUNE": "Cori",
+        "confinanti": [
+            "Artena",
+            "Norma",
+            "Rocca Massima",
+            "Montelanico",
+            "Segni",
+            "Lariano",
+            "Cisterna di Latina"
+        ]
+    },
+    {
+        "COMUNE": "Fondi",
+        "confinanti": [
+            "Itri",
+            "Lenola",
+            "Monte San Biagio",
+            "Sperlonga",
+            "Terracina",
+            "Campodimele",
+            "Vallecorsa"
+        ]
+    },
+    {
+        "COMUNE": "Formia",
+        "confinanti": [
+            "Gaeta",
+            "Itri",
+            "Minturno",
+            "Spigno Saturnia",
+            "Esperia"
+        ]
+    },
+    {
+        "COMUNE": "Gaeta",
+        "confinanti": [
+            "Formia",
+            "Itri"
+        ]
+    },
+    {
+        "COMUNE": "Itri",
+        "confinanti": [
+            "Fondi",
+            "Formia",
+            "Gaeta",
+            "Sperlonga",
+            "Campodimele",
+            "Esperia"
+        ]
+    },
+    {
+        "COMUNE": "Latina",
+        "confinanti": [
+            "Pontinia",
+            "Sabaudia",
+            "Sermoneta",
+            "Sezze",
+            "Nettuno",
+            "Aprilia",
+            "Cisterna di Latina"
+        ]
+    },
+    {
+        "COMUNE": "Lenola",
+        "confinanti": [
+            "Fondi",
+            "Campodimele",
+            "Castro dei Volsci",
+            "Pastena",
+            "Pico",
+            "Vallecorsa"
+        ]
+    },
+    {
+        "COMUNE": "Maenza",
+        "confinanti": [
+            "Priverno",
+            "Prossedi",
+            "Roccagorga",
+            "Carpineto Romano",
+            "Giuliano di Roma",
+            "Supino"
+        ]
+    },
+    {
+        "COMUNE": "Minturno",
+        "confinanti": [
+            "Formia",
+            "Santi Cosma e Damiano",
+            "Spigno Saturnia",
+            "Coreno Ausonio"
+        ]
+    },
+    {
+        "COMUNE": "Monte San Biagio",
+        "confinanti": [
+            "Fondi",
+            "Sonnino",
+            "Terracina",
+            "Amaseno",
+            "Vallecorsa"
+        ]
+    },
+    {
+        "COMUNE": "Norma",
+        "confinanti": [
+            "Cori",
+            "Sermoneta",
+            "Carpineto Romano",
+            "Montelanico",
+            "Bassiano",
+            "Cisterna di Latina"
+        ]
+    },
+    {
+        "COMUNE": "Pontinia",
+        "confinanti": [
+            "Latina",
+            "Priverno",
+            "Sabaudia",
+            "Sezze",
+            "Sonnino",
+            "Terracina"
+        ]
+    },
+    {
+        "COMUNE": "Ponza",
+        "confinanti": []
+    },
+    {
+        "COMUNE": "Priverno",
+        "confinanti": [
+            "Maenza",
+            "Pontinia",
+            "Prossedi",
+            "Roccagorga",
+            "Roccasecca dei Volsci",
+            "Sezze",
+            "Sonnino"
+        ]
+    },
+    {
+        "COMUNE": "Prossedi",
+        "confinanti": [
+            "Maenza",
+            "Priverno",
+            "Roccasecca dei Volsci",
+            "Amaseno",
+            "Giuliano di Roma",
+            "Villa Santo Stefano"
+        ]
+    },
+    {
+        "COMUNE": "Roccagorga",
+        "confinanti": [
+            "Maenza",
+            "Priverno",
+            "Sezze",
+            "Carpineto Romano"
+        ]
+    },
+    {
+        "COMUNE": "Rocca Massima",
+        "confinanti": [
+            "Artena",
+            "Cori",
+            "Segni"
+        ]
+    },
+    {
+        "COMUNE": "Roccasecca dei Volsci",
+        "confinanti": [
+            "Priverno",
+            "Prossedi",
+            "Sonnino",
+            "Amaseno"
+        ]
+    },
+    {
+        "COMUNE": "Sabaudia",
+        "confinanti": [
+            "Latina",
+            "Pontinia",
+            "San Felice Circeo",
+            "Terracina"
+        ]
+    },
+    {
+        "COMUNE": "San Felice Circeo",
+        "confinanti": [
+            "Sabaudia",
+            "Terracina"
+        ]
+    },
+    {
+        "COMUNE": "Santi Cosma e Damiano",
+        "confinanti": [
+            "Minturno",
+            "Castelforte",
+            "Coreno Ausonio"
+        ]
+    },
+    {
+        "COMUNE": "Sermoneta",
+        "confinanti": [
+            "Latina",
+            "Norma",
+            "Sezze",
+            "Bassiano",
+            "Cisterna di Latina"
+        ]
+    },
+    {
+        "COMUNE": "Sezze",
+        "confinanti": [
+            "Latina",
+            "Pontinia",
+            "Priverno",
+            "Roccagorga",
+            "Sermoneta",
+            "Carpineto Romano",
+            "Bassiano"
+        ]
+    },
+    {
+        "COMUNE": "Sonnino",
+        "confinanti": [
+            "Monte San Biagio",
+            "Pontinia",
+            "Priverno",
+            "Roccasecca dei Volsci",
+            "Terracina",
+            "Amaseno"
+        ]
+    },
+    {
+        "COMUNE": "Sperlonga",
+        "confinanti": [
+            "Fondi",
+            "Itri"
+        ]
+    },
+    {
+        "COMUNE": "Spigno Saturnia",
+        "confinanti": [
+            "Formia",
+            "Minturno",
+            "Ausonia",
+            "Coreno Ausonio",
+            "Esperia"
+        ]
+    },
+    {
+        "COMUNE": "Terracina",
+        "confinanti": [
+            "Fondi",
+            "Monte San Biagio",
+            "Pontinia",
+            "Sabaudia",
+            "San Felice Circeo",
+            "Sonnino"
+        ]
+    },
+    {
+        "COMUNE": "Ventotene",
+        "confinanti": []
+    },
+    {
+        "COMUNE": "Acquafondata",
+        "confinanti": [
+            "Vallerotonda",
+            "Viticuso"
+        ]
+    },
+    {
+        "COMUNE": "Acuto",
+        "confinanti": [
+            "Anagni",
+            "Ferentino",
+            "Fiuggi",
+            "Piglio"
+        ]
+    },
+    {
+        "COMUNE": "Alatri",
+        "confinanti": [
+            "Collepardo",
+            "Ferentino",
+            "Frosinone",
+            "Fumone",
+            "Guarcino",
+            "Trivigliano",
+            "Veroli",
+            "Vico nel Lazio"
+        ]
+    },
+    {
+        "COMUNE": "Alvito",
+        "confinanti": [
+            "Atina",
+            "Campoli Appennino",
+            "Casalvieri",
+            "Gallinaro",
+            "Posta Fibreno",
+            "San Donato Val di Comino",
+            "Vicalvi"
+        ]
+    },
+    {
+        "COMUNE": "Amaseno",
+        "confinanti": [
+            "Monte San Biagio",
+            "Prossedi",
+            "Roccasecca dei Volsci",
+            "Sonnino",
+            "Castro dei Volsci",
+            "Vallecorsa",
+            "Villa Santo Stefano"
+        ]
+    },
+    {
+        "COMUNE": "Anagni",
+        "confinanti": [
+            "Acuto",
+            "Gavignano",
+            "Gorga",
+            "Montelanico",
+            "Ferentino",
+            "Fumone",
+            "Paliano",
+            "Piglio",
+            "Sgurgola"
+        ]
+    },
+    {
+        "COMUNE": "Aquino",
+        "confinanti": [
+            "Castrocielo",
+            "Piedimonte San Germano",
+            "Pignataro Interamna",
+            "Pontecorvo"
+        ]
+    },
+    {
+        "COMUNE": "Arce",
+        "confinanti": [
+            "Ceprano",
+            "Colfelice",
+            "Falvaterra",
+            "Fontana Liri",
+            "Monte San Giovanni Campano",
+            "Rocca d'Arce",
+            "San Giovanni Incarico",
+            "Strangolagalli"
+        ]
+    },
+    {
+        "COMUNE": "Arnara",
+        "confinanti": [
+            "Ceccano",
+            "Frosinone",
+            "Pofi",
+            "Ripi",
+            "Torrice"
+        ]
+    },
+    {
+        "COMUNE": "Acquapendente",
+        "confinanti": [
+            "Grotte di Castro",
+            "Onano",
+            "Proceno",
+            "San Lorenzo Nuovo"
+        ]
+    },
+    {
+        "COMUNE": "Arlena di Castro",
+        "confinanti": [
+            "Cellere",
+            "Piansano",
+            "Tessennano",
+            "Tuscania"
+        ]
+    },
+    {
+        "COMUNE": "Bagnoregio",
+        "confinanti": [
+            "Bolsena",
+            "Castiglione in Teverina",
+            "Celleno",
+            "Civitella d'Agliano",
+            "Lubriano",
+            "Montefiascone",
+            "Viterbo"
+        ]
+    },
+    {
+        "COMUNE": "Barbarano Romano",
+        "confinanti": [
+            "Blera",
+            "Capranica",
+            "Villa San Giovanni in Tuscia",
+            "Vejano",
+            "Vetralla"
+        ]
+    },
+    {
+        "COMUNE": "Bassano Romano",
+        "confinanti": [
+            "Bracciano",
+            "Capranica",
+            "Oriolo Romano",
+            "Sutri",
+            "Vejano"
+        ]
+    },
+    {
+        "COMUNE": "Bassano in Teverina",
+        "confinanti": [
+            "Bomarzo",
+            "Orte",
+            "Soriano nel Cimino",
+            "Vasanello"
+        ]
+    },
+    {
+        "COMUNE": "Blera",
+        "confinanti": [
+            "Canale Monterano",
+            "Barbarano Romano",
+            "Monte Romano",
+            "Villa San Giovanni in Tuscia",
+            "Vejano",
+            "Vetralla",
+            "Tolfa"
+        ]
+    },
+    {
+        "COMUNE": "Bolsena",
+        "confinanti": [
+            "Bagnoregio",
+            "Capodimonte",
+            "Gradoli",
+            "Montefiascone",
+            "San Lorenzo Nuovo"
+        ]
+    },
+    {
+        "COMUNE": "Bomarzo",
+        "confinanti": [
+            "Bassano in Teverina",
+            "Graffignano",
+            "Soriano nel Cimino",
+            "Viterbo",
+            "Vitorchiano"
+        ]
+    },
+    {
+        "COMUNE": "Calcata",
+        "confinanti": [
+            "Faleria",
+            "Magliano Romano",
+            "Mazzano Romano",
+            "Rignano Flaminio"
+        ]
+    },
+    {
+        "COMUNE": "Canepina",
+        "confinanti": [
+            "Caprarola",
+            "Soriano nel Cimino",
+            "Vallerano",
+            "Viterbo"
+        ]
+    },
+    {
+        "COMUNE": "Canino",
+        "confinanti": [
+            "Cellere",
+            "Ischia di Castro",
+            "Montalto di Castro",
+            "Tessennano",
+            "Tuscania"
+        ]
+    },
+    {
+        "COMUNE": "Capodimonte",
+        "confinanti": [
+            "Bolsena",
+            "Gradoli",
+            "Latera",
+            "Marta",
+            "Montefiascone",
+            "Piansano",
+            "San Lorenzo Nuovo",
+            "Tuscania",
+            "Valentano"
+        ]
+    },
+    {
+        "COMUNE": "Capranica",
+        "confinanti": [
+            "Barbarano Romano",
+            "Bassano Romano",
+            "Ronciglione",
+            "Sutri",
+            "Vejano",
+            "Vetralla"
+        ]
+    },
+    {
+        "COMUNE": "Caprarola",
+        "confinanti": [
+            "Canepina",
+            "Carbognano",
+            "Nepi",
+            "Ronciglione",
+            "Vallerano",
+            "Vetralla",
+            "Viterbo"
+        ]
+    },
+    {
+        "COMUNE": "Carbognano",
+        "confinanti": [
+            "Caprarola",
+            "Fabrica di Roma",
+            "Nepi",
+            "Vallerano"
+        ]
+    },
+    {
+        "COMUNE": "Castel Sant'Elia",
+        "confinanti": [
+            "Civita Castellana",
+            "Fabrica di Roma",
+            "Faleria",
+            "Nepi",
+            "Mazzano Romano"
+        ]
+    },
+    {
+        "COMUNE": "Castiglione in Teverina",
+        "confinanti": [
+            "Bagnoregio",
+            "Civitella d'Agliano",
+            "Lubriano"
+        ]
+    },
+    {
+        "COMUNE": "Celleno",
+        "confinanti": [
+            "Bagnoregio",
+            "Viterbo"
+        ]
+    },
+    {
+        "COMUNE": "Cellere",
+        "confinanti": [
+            "Arlena di Castro",
+            "Canino",
+            "Ischia di Castro",
+            "Piansano",
+            "Tessennano",
+            "Valentano"
+        ]
+    },
+    {
+        "COMUNE": "Civita Castellana",
+        "confinanti": [
+            "Castel Sant'Elia",
+            "Corchiano",
+            "Fabrica di Roma",
+            "Faleria",
+            "Gallese",
+            "Collevecchio",
+            "Magliano Sabina",
+            "Ponzano Romano",
+            "Sant'Oreste"
+        ]
+    },
+    {
+        "COMUNE": "Civitella d'Agliano",
+        "confinanti": [
+            "Bagnoregio",
+            "Castiglione in Teverina",
+            "Graffignano",
+            "Viterbo"
+        ]
+    },
+    {
+        "COMUNE": "Corchiano",
+        "confinanti": [
+            "Civita Castellana",
+            "Fabrica di Roma",
+            "Gallese",
+            "Vignanello"
+        ]
+    },
+    {
+        "COMUNE": "Fabrica di Roma",
+        "confinanti": [
+            "Carbognano",
+            "Castel Sant'Elia",
+            "Civita Castellana",
+            "Corchiano",
+            "Nepi",
+            "Vallerano",
+            "Vignanello"
+        ]
+    },
+    {
+        "COMUNE": "Faleria",
+        "confinanti": [
+            "Calcata",
+            "Castel Sant'Elia",
+            "Civita Castellana",
+            "Mazzano Romano",
+            "Rignano Flaminio",
+            "Sant'Oreste"
+        ]
+    },
+    {
+        "COMUNE": "Farnese",
+        "confinanti": [
+            "Ischia di Castro",
+            "Valentano"
+        ]
+    },
+    {
+        "COMUNE": "Gallese",
+        "confinanti": [
+            "Civita Castellana",
+            "Corchiano",
+            "Orte",
+            "Vasanello",
+            "Vignanello",
+            "Magliano Sabina"
+        ]
+    },
+    {
+        "COMUNE": "Gradoli",
+        "confinanti": [
+            "Bolsena",
+            "Capodimonte",
+            "Grotte di Castro",
+            "Latera",
+            "Montefiascone",
+            "Onano",
+            "San Lorenzo Nuovo",
+            "Valentano"
+        ]
+    },
+    {
+        "COMUNE": "Graffignano",
+        "confinanti": [
+            "Bomarzo",
+            "Civitella d'Agliano",
+            "Viterbo"
+        ]
+    },
+    {
+        "COMUNE": "Grotte di Castro",
+        "confinanti": [
+            "Acquapendente",
+            "Gradoli",
+            "Onano",
+            "San Lorenzo Nuovo"
+        ]
+    },
+    {
+        "COMUNE": "Ischia di Castro",
+        "confinanti": [
+            "Canino",
+            "Cellere",
+            "Farnese",
+            "Valentano"
+        ]
+    },
+    {
+        "COMUNE": "Latera",
+        "confinanti": [
+            "Capodimonte",
+            "Gradoli",
+            "Onano",
+            "Valentano"
+        ]
+    },
+    {
+        "COMUNE": "Lubriano",
+        "confinanti": [
+            "Bagnoregio",
+            "Castiglione in Teverina"
+        ]
+    },
+    {
+        "COMUNE": "Marta",
+        "confinanti": [
+            "Capodimonte",
+            "Montefiascone",
+            "Tuscania",
+            "Viterbo"
+        ]
+    },
+    {
+        "COMUNE": "Montalto di Castro",
+        "confinanti": [
+            "Canino",
+            "Tarquinia",
+            "Tuscania"
+        ]
+    },
+    {
+        "COMUNE": "Montefiascone",
+        "confinanti": [
+            "Bagnoregio",
+            "Bolsena",
+            "Capodimonte",
+            "Gradoli",
+            "Marta",
+            "San Lorenzo Nuovo",
+            "Viterbo"
+        ]
+    },
+    {
+        "COMUNE": "Monte Romano",
+        "confinanti": [
+            "Blera",
+            "Tarquinia",
+            "Tuscania",
+            "Vetralla",
+            "Viterbo",
+            "Tolfa"
+        ]
+    },
+    {
+        "COMUNE": "Monterosi",
+        "confinanti": [
+            "Nepi",
+            "Sutri",
+            "Trevignano Romano"
+        ]
+    },
+    {
+        "COMUNE": "Nepi",
+        "confinanti": [
+            "Campagnano di Roma",
+            "Caprarola",
+            "Carbognano",
+            "Castel Sant'Elia",
+            "Fabrica di Roma",
+            "Monterosi",
+            "Ronciglione",
+            "Sutri",
+            "Mazzano Romano",
+            "Trevignano Romano"
+        ]
+    },
+    {
+        "COMUNE": "Onano",
+        "confinanti": [
+            "Acquapendente",
+            "Gradoli",
+            "Grotte di Castro",
+            "Latera"
+        ]
+    },
+    {
+        "COMUNE": "Oriolo Romano",
+        "confinanti": [
+            "Bracciano",
+            "Canale Monterano",
+            "Bassano Romano",
+            "Vejano",
+            "Manziana"
+        ]
+    },
+    {
+        "COMUNE": "Orte",
+        "confinanti": [
+            "Bassano in Teverina",
+            "Gallese",
+            "Vasanello",
+            "Magliano Sabina"
+        ]
+    },
+    {
+        "COMUNE": "Piansano",
+        "confinanti": [
+            "Arlena di Castro",
+            "Capodimonte",
+            "Cellere",
+            "Tuscania",
+            "Valentano"
+        ]
+    },
+    {
+        "COMUNE": "Proceno",
+        "confinanti": [
+            "Acquapendente"
+        ]
+    },
+    {
+        "COMUNE": "Ronciglione",
+        "confinanti": [
+            "Capranica",
+            "Caprarola",
+            "Nepi",
+            "Sutri",
+            "Vetralla",
+            "Viterbo"
+        ]
+    },
+    {
+        "COMUNE": "Villa San Giovanni in Tuscia",
+        "confinanti": [
+            "Barbarano Romano",
+            "Blera",
+            "Vetralla"
+        ]
+    },
+    {
+        "COMUNE": "San Lorenzo Nuovo",
+        "confinanti": [
+            "Acquapendente",
+            "Bolsena",
+            "Capodimonte",
+            "Gradoli",
+            "Grotte di Castro",
+            "Montefiascone"
+        ]
+    },
+    {
+        "COMUNE": "Soriano nel Cimino",
+        "confinanti": [
+            "Bassano in Teverina",
+            "Bomarzo",
+            "Canepina",
+            "Vallerano",
+            "Vasanello",
+            "Vignanello",
+            "Viterbo",
+            "Vitorchiano"
+        ]
+    },
+    {
+        "COMUNE": "Sutri",
+        "confinanti": [
+            "Bracciano",
+            "Bassano Romano",
+            "Capranica",
+            "Monterosi",
+            "Nepi",
+            "Ronciglione",
+            "Trevignano Romano"
+        ]
+    },
+    {
+        "COMUNE": "Tarquinia",
+        "confinanti": [
+            "Allumiere",
+            "Montalto di Castro",
+            "Monte Romano",
+            "Tuscania",
+            "Civitavecchia",
+            "Tolfa"
+        ]
+    },
+    {
+        "COMUNE": "Tessennano",
+        "confinanti": [
+            "Arlena di Castro",
+            "Canino",
+            "Cellere",
+            "Tuscania"
+        ]
+    },
+    {
+        "COMUNE": "Tuscania",
+        "confinanti": [
+            "Arlena di Castro",
+            "Canino",
+            "Capodimonte",
+            "Marta",
+            "Montalto di Castro",
+            "Monte Romano",
+            "Piansano",
+            "Tarquinia",
+            "Tessennano",
+            "Viterbo"
+        ]
+    },
+    {
+        "COMUNE": "Valentano",
+        "confinanti": [
+            "Capodimonte",
+            "Cellere",
+            "Farnese",
+            "Gradoli",
+            "Ischia di Castro",
+            "Latera",
+            "Piansano"
+        ]
+    },
+    {
+        "COMUNE": "Vallerano",
+        "confinanti": [
+            "Canepina",
+            "Caprarola",
+            "Carbognano",
+            "Fabrica di Roma",
+            "Soriano nel Cimino",
+            "Vignanello"
+        ]
+    },
+    {
+        "COMUNE": "Vasanello",
+        "confinanti": [
+            "Bassano in Teverina",
+            "Gallese",
+            "Orte",
+            "Soriano nel Cimino",
+            "Vignanello"
+        ]
+    },
+    {
+        "COMUNE": "Vejano",
+        "confinanti": [
+            "Canale Monterano",
+            "Barbarano Romano",
+            "Bassano Romano",
+            "Blera",
+            "Capranica",
+            "Oriolo Romano",
+            "Tolfa"
+        ]
+    },
+    {
+        "COMUNE": "Vetralla",
+        "confinanti": [
+            "Barbarano Romano",
+            "Blera",
+            "Capranica",
+            "Caprarola",
+            "Monte Romano",
+            "Ronciglione",
+            "Villa San Giovanni in Tuscia",
+            "Viterbo"
+        ]
+    },
+    {
+        "COMUNE": "Vignanello",
+        "confinanti": [
+            "Corchiano",
+            "Fabrica di Roma",
+            "Gallese",
+            "Soriano nel Cimino",
+            "Vallerano",
+            "Vasanello"
+        ]
+    },
+    {
+        "COMUNE": "Viterbo",
+        "confinanti": [
+            "Bagnoregio",
+            "Bomarzo",
+            "Canepina",
+            "Caprarola",
+            "Celleno",
+            "Civitella d'Agliano",
+            "Graffignano",
+            "Marta",
+            "Montefiascone",
+            "Monte Romano",
+            "Ronciglione",
+            "Soriano nel Cimino",
+            "Tuscania",
+            "Vetralla",
+            "Vitorchiano"
+        ]
+    },
+    {
+        "COMUNE": "Vitorchiano",
+        "confinanti": [
+            "Bomarzo",
+            "Soriano nel Cimino",
+            "Viterbo"
+        ]
+    },
+    {
+        "COMUNE": "Accumoli",
+        "confinanti": [
+            "Amatrice",
+            "Cittareale"
+        ]
+    },
+    {
+        "COMUNE": "Amatrice",
+        "confinanti": [
+            "Accumoli",
+            "Cittareale"
+        ]
+    },
+    {
+        "COMUNE": "Antrodoco",
+        "confinanti": [
+            "Borbona",
+            "Borgo Velino",
+            "Fiamignano",
+            "Micigliano",
+            "Petrella Salto"
+        ]
+    },
+    {
+        "COMUNE": "Ascrea",
+        "confinanti": [
+            "Pozzaglia Sabina",
+            "Rocca Sinibalda",
+            "Varco Sabino",
+            "Castel di Tora",
+            "Collegiove",
+            "Longone Sabino",
+            "Marcetelli",
+            "Paganico Sabino"
+        ]
+    },
+    {
+        "COMUNE": "Belmonte in Sabina",
+        "confinanti": [
+            "Rieti",
+            "Rocca Sinibalda",
+            "Torricella in Sabina",
+            "Longone Sabino"
+        ]
+    },
+    {
+        "COMUNE": "Borbona",
+        "confinanti": [
+            "Antrodoco",
+            "Cittareale",
+            "Micigliano",
+            "Posta"
+        ]
+    },
+    {
+        "COMUNE": "Borgorose",
+        "confinanti": [
+            "Pescorocchiano"
+        ]
+    },
+    {
+        "COMUNE": "Borgo Velino",
+        "confinanti": [
+            "Antrodoco",
+            "Castel Sant'Angelo",
+            "Cittaducale",
+            "Fiamignano",
+            "Micigliano",
+            "Petrella Salto"
+        ]
+    },
+    {
+        "COMUNE": "Cantalice",
+        "confinanti": [
+            "Rieti",
+            "Leonessa",
+            "Micigliano",
+            "Poggio Bustone"
+        ]
+    },
+    {
+        "COMUNE": "Cantalupo in Sabina",
+        "confinanti": [
+            "Roccantica",
+            "Selci",
+            "Torri in Sabina",
+            "Casperia",
+            "Forano",
+            "Poggio Catino"
+        ]
+    },
+    {
+        "COMUNE": "Casaprota",
+        "confinanti": [
+            "Torricella in Sabina",
+            "Frasso Sabino",
+            "Mompeo",
+            "Montenero Sabino",
+            "Poggio Nativo",
+            "Poggio San Lorenzo"
+        ]
+    },
+    {
+        "COMUNE": "Casperia",
+        "confinanti": [
+            "Rieti",
+            "Roccantica",
+            "Torri in Sabina",
+            "Cantalupo in Sabina",
+            "Contigliano",
+            "Montasola"
+        ]
+    },
+    {
+        "COMUNE": "Castel di Tora",
+        "confinanti": [
+            "Pozzaglia Sabina",
+            "Rocca Sinibalda",
+            "Varco Sabino",
+            "Ascrea",
+            "Colle di Tora"
+        ]
+    },
+    {
+        "COMUNE": "Castelnuovo di Farfa",
+        "confinanti": [
+            "Salisano",
+            "Toffia",
+            "Fara in Sabina",
+            "Mompeo",
+            "Montopoli di Sabina",
+            "Poggio Nativo"
+        ]
+    },
+    {
+        "COMUNE": "Castel Sant'Angelo",
+        "confinanti": [
+            "Rieti",
+            "Borgo Velino",
+            "Cittaducale",
+            "Micigliano"
+        ]
+    },
+    {
+        "COMUNE": "Cittaducale",
+        "confinanti": [
+            "Rieti",
+            "Borgo Velino",
+            "Castel Sant'Angelo",
+            "Longone Sabino",
+            "Micigliano",
+            "Petrella Salto"
+        ]
+    },
+    {
+        "COMUNE": "Cittareale",
+        "confinanti": [
+            "Accumoli",
+            "Amatrice",
+            "Borbona",
+            "Leonessa",
+            "Posta"
+        ]
+    },
+    {
+        "COMUNE": "Collalto Sabino",
+        "confinanti": [
+            "Turania",
+            "Collegiove",
+            "Marcetelli",
+            "Nespolo",
+            "Pescorocchiano"
+        ]
+    },
+    {
+        "COMUNE": "Colle di Tora",
+        "confinanti": [
+            "Pozzaglia Sabina",
+            "Rocca Sinibalda",
+            "Castel di Tora",
+            "Poggio Moiano"
+        ]
+    },
+    {
+        "COMUNE": "Collegiove",
+        "confinanti": [
+            "Pozzaglia Sabina",
+            "Turania",
+            "Ascrea",
+            "Collalto Sabino",
+            "Marcetelli",
+            "Paganico Sabino"
+        ]
+    },
+    {
+        "COMUNE": "Collevecchio",
+        "confinanti": [
+            "Stimigliano",
+            "Tarano",
+            "Civita Castellana",
+            "Magliano Sabina",
+            "Montebuono",
+            "Ponzano Romano"
+        ]
+    },
+    {
+        "COMUNE": "Colli sul Velino",
+        "confinanti": [
+            "Rieti",
+            "Rivodutri",
+            "Contigliano",
+            "Labro",
+            "Morro Reatino"
+        ]
+    },
+    {
+        "COMUNE": "Concerviano",
+        "confinanti": [
+            "Rieti",
+            "Rocca Sinibalda",
+            "Varco Sabino",
+            "Longone Sabino",
+            "Petrella Salto"
+        ]
+    },
+    {
+        "COMUNE": "Configni",
+        "confinanti": [
+            "Vacone",
+            "Cottanello"
+        ]
+    },
+    {
+        "COMUNE": "Contigliano",
+        "confinanti": [
+            "Rieti",
+            "Casperia",
+            "Colli sul Velino",
+            "Cottanello",
+            "Greccio",
+            "Montasola"
+        ]
+    },
+    {
+        "COMUNE": "Cottanello",
+        "confinanti": [
+            "Vacone",
+            "Configni",
+            "Contigliano",
+            "Greccio",
+            "Montasola"
+        ]
+    },
+    {
+        "COMUNE": "Fara in Sabina",
+        "confinanti": [
+            "Toffia",
+            "Castelnuovo di Farfa",
+            "Montopoli di Sabina",
+            "Montelibretti",
+            "Nerola"
+        ]
+    },
+    {
+        "COMUNE": "Fiamignano",
+        "confinanti": [
+            "Antrodoco",
+            "Borgo Velino",
+            "Pescorocchiano",
+            "Petrella Salto"
+        ]
+    },
+    {
+        "COMUNE": "Forano",
+        "confinanti": [
+            "Selci",
+            "Stimigliano",
+            "Tarano",
+            "Cantalupo in Sabina",
+            "Poggio Catino",
+            "Poggio Mirteto",
+            "Filacciano",
+            "Ponzano Romano"
+        ]
+    },
+    {
+        "COMUNE": "Frasso Sabino",
+        "confinanti": [
+            "Casaprota",
+            "Monteleone Sabino",
+            "Poggio Moiano",
+            "Poggio Nativo",
+            "Poggio San Lorenzo"
+        ]
+    },
+    {
+        "COMUNE": "Greccio",
+        "confinanti": [
+            "Rieti",
+            "Contigliano",
+            "Cottanello"
+        ]
+    },
+    {
+        "COMUNE": "Labro",
+        "confinanti": [
+            "Colli sul Velino",
+            "Morro Reatino"
+        ]
+    },
+    {
+        "COMUNE": "Leonessa",
+        "confinanti": [
+            "Rivodutri",
+            "Cantalice",
+            "Cittareale",
+            "Micigliano",
+            "Poggio Bustone",
+            "Posta"
+        ]
+    },
+    {
+        "COMUNE": "Longone Sabino",
+        "confinanti": [
+            "Rieti",
+            "Rocca Sinibalda",
+            "Ascrea",
+            "Belmonte in Sabina",
+            "Cittaducale",
+            "Concerviano",
+            "Petrella Salto"
+        ]
+    },
+    {
+        "COMUNE": "Magliano Sabina",
+        "confinanti": [
+            "Civita Castellana",
+            "Gallese",
+            "Orte",
+            "Collevecchio",
+            "Montebuono"
+        ]
+    },
+    {
+        "COMUNE": "Marcetelli",
+        "confinanti": [
+            "Varco Sabino",
+            "Ascrea",
+            "Collalto Sabino",
+            "Collegiove",
+            "Paganico Sabino",
+            "Pescorocchiano"
+        ]
+    },
+    {
+        "COMUNE": "Micigliano",
+        "confinanti": [
+            "Rieti",
+            "Antrodoco",
+            "Borbona",
+            "Borgo Velino",
+            "Cantalice",
+            "Castel Sant'Angelo",
+            "Cittaducale",
+            "Leonessa",
+            "Posta"
+        ]
+    },
+    {
+        "COMUNE": "Mompeo",
+        "confinanti": [
+            "Salisano",
+            "Casaprota",
+            "Castelnuovo di Farfa",
+            "Montenero Sabino",
+            "Monte San Giovanni in Sabina",
+            "Poggio Nativo"
+        ]
+    },
+    {
+        "COMUNE": "Montasola",
+        "confinanti": [
+            "Torri in Sabina",
+            "Vacone",
+            "Casperia",
+            "Contigliano",
+            "Cottanello"
+        ]
+    },
+    {
+        "COMUNE": "Montebuono",
+        "confinanti": [
+            "Tarano",
+            "Torri in Sabina",
+            "Collevecchio",
+            "Magliano Sabina"
+        ]
+    },
+    {
+        "COMUNE": "Monteleone Sabino",
+        "confinanti": [
+            "Rocca Sinibalda",
+            "Torricella in Sabina",
+            "Frasso Sabino",
+            "Poggio Moiano",
+            "Poggio San Lorenzo"
+        ]
+    },
+    {
+        "COMUNE": "Montenero Sabino",
+        "confinanti": [
+            "Rieti",
+            "Torricella in Sabina",
+            "Casaprota",
+            "Mompeo",
+            "Monte San Giovanni in Sabina"
+        ]
+    },
+    {
+        "COMUNE": "Monte San Giovanni in Sabina",
+        "confinanti": [
+            "Rieti",
+            "Roccantica",
+            "Salisano",
+            "Mompeo",
+            "Montenero Sabino"
+        ]
+    },
+    {
+        "COMUNE": "Montopoli di Sabina",
+        "confinanti": [
+            "Salisano",
+            "Castelnuovo di Farfa",
+            "Fara in Sabina",
+            "Poggio Mirteto",
+            "Fiano Romano",
+            "Montelibretti",
+            "Nazzano",
+            "Torrita Tiberina"
+        ]
+    },
+    {
+        "COMUNE": "Morro Reatino",
+        "confinanti": [
+            "Rivodutri",
+            "Colli sul Velino",
+            "Labro"
+        ]
+    },
+    {
+        "COMUNE": "Nespolo",
+        "confinanti": [
+            "Collalto Sabino"
+        ]
+    },
+    {
+        "COMUNE": "Orvinio",
+        "confinanti": [
+            "Pozzaglia Sabina",
+            "Scandriglia",
+            "Percile",
+            "Vallinfreda",
+            "Vivaro Romano"
+        ]
+    },
+    {
+        "COMUNE": "Paganico Sabino",
+        "confinanti": [
+            "Pozzaglia Sabina",
+            "Varco Sabino",
+            "Ascrea",
+            "Collegiove",
+            "Marcetelli"
+        ]
+    },
+    {
+        "COMUNE": "Pescorocchiano",
+        "confinanti": [
+            "Varco Sabino",
+            "Borgorose",
+            "Collalto Sabino",
+            "Fiamignano",
+            "Marcetelli",
+            "Petrella Salto"
+        ]
+    },
+    {
+        "COMUNE": "Petrella Salto",
+        "confinanti": [
+            "Varco Sabino",
+            "Antrodoco",
+            "Borgo Velino",
+            "Cittaducale",
+            "Concerviano",
+            "Fiamignano",
+            "Longone Sabino",
+            "Pescorocchiano"
+        ]
+    },
+    {
+        "COMUNE": "Poggio Bustone",
+        "confinanti": [
+            "Rieti",
+            "Rivodutri",
+            "Cantalice",
+            "Leonessa"
+        ]
+    },
+    {
+        "COMUNE": "Poggio Catino",
+        "confinanti": [
+            "Roccantica",
+            "Salisano",
+            "Cantalupo in Sabina",
+            "Forano",
+            "Poggio Mirteto"
+        ]
+    },
+    {
+        "COMUNE": "Poggio Mirteto",
+        "confinanti": [
+            "Salisano",
+            "Forano",
+            "Montopoli di Sabina",
+            "Poggio Catino",
+            "Filacciano",
+            "Torrita Tiberina"
+        ]
+    },
+    {
+        "COMUNE": "Poggio Moiano",
+        "confinanti": [
+            "Pozzaglia Sabina",
+            "Rocca Sinibalda",
+            "Scandriglia",
+            "Torricella in Sabina",
+            "Colle di Tora",
+            "Frasso Sabino",
+            "Monteleone Sabino",
+            "Poggio Nativo"
+        ]
+    },
+    {
+        "COMUNE": "Poggio Nativo",
+        "confinanti": [
+            "Scandriglia",
+            "Toffia",
+            "Casaprota",
+            "Castelnuovo di Farfa",
+            "Frasso Sabino",
+            "Mompeo",
+            "Poggio Moiano",
+            "Nerola"
+        ]
+    },
+    {
+        "COMUNE": "Poggio San Lorenzo",
+        "confinanti": [
+            "Torricella in Sabina",
+            "Casaprota",
+            "Frasso Sabino",
+            "Monteleone Sabino"
+        ]
+    },
+    {
+        "COMUNE": "Posta",
+        "confinanti": [
+            "Borbona",
+            "Cittareale",
+            "Leonessa",
+            "Micigliano"
+        ]
+    },
+    {
+        "COMUNE": "Carpineto Romano",
+        "confinanti": [
+            "Maenza",
+            "Norma",
+            "Roccagorga",
+            "Sezze",
+            "Gorga",
+            "Montelanico",
+            "Bassiano",
+            "Supino"
+        ]
+    },
+    {
+        "COMUNE": "Casape",
+        "confinanti": [
+            "Capranica Prenestina",
+            "Poli",
+            "San Gregorio da Sassola"
+        ]
+    },
+    {
+        "COMUNE": "Castel Gandolfo",
+        "confinanti": [
+            "Albano Laziale",
+            "Grottaferrata",
+            "Marino",
+            "Rocca di Papa",
+            "Roma"
+        ]
+    },
+    {
+        "COMUNE": "Castel Madama",
+        "confinanti": [
+            "Ciciliano",
+            "Sambuci",
+            "San Gregorio da Sassola",
+            "Tivoli",
+            "Vicovaro"
+        ]
+    },
+    {
+        "COMUNE": "Castelnuovo di Porto",
+        "confinanti": [
+            "Capena",
+            "Magliano Romano",
+            "Monterotondo",
+            "Morlupo",
+            "Riano",
+            "Sacrofano"
+        ]
+    },
+    {
+        "COMUNE": "Castel San Pietro Romano",
+        "confinanti": [
+            "Capranica Prenestina",
+            "Cave",
+            "Palestrina",
+            "Poli",
+            "Rocca di Cave",
+            "Roma"
+        ]
+    },
+    {
+        "COMUNE": "Cave",
+        "confinanti": [
+            "Castel San Pietro Romano",
+            "Genazzano",
+            "Palestrina",
+            "Rocca di Cave",
+            "Valmontone"
+        ]
+    },
+    {
+        "COMUNE": "Cerreto Laziale",
+        "confinanti": [
+            "Ciciliano",
+            "Gerano",
+            "Pisoniano",
+            "Rocca Canterano",
+            "Sambuci",
+            "Saracinesco"
+        ]
+    },
+    {
+        "COMUNE": "Cervara di Roma",
+        "confinanti": [
+            "Agosta",
+            "Arsoli",
+            "Camerata Nuova",
+            "Marano Equo",
+            "Subiaco"
+        ]
+    },
+    {
+        "COMUNE": "Cerveteri",
+        "confinanti": [
+            "Anguillara Sabazia",
+            "Bracciano",
+            "Santa Marinella",
+            "Tolfa",
+            "Ladispoli",
+            "Fiumicino"
+        ]
+    },
+    {
+        "COMUNE": "Ciciliano",
+        "confinanti": [
+            "Capranica Prenestina",
+            "Castel Madama",
+            "Cerreto Laziale",
+            "Pisoniano",
+            "Sambuci",
+            "San Gregorio da Sassola"
+        ]
+    },
+    {
+        "COMUNE": "Cineto Romano",
+        "confinanti": [
+            "Mandela",
+            "Percile",
+            "Riofreddo",
+            "Roviano",
+            "Vallinfreda"
+        ]
+    },
+    {
+        "COMUNE": "Civitavecchia",
+        "confinanti": [
+            "Allumiere",
+            "Tarquinia",
+            "Santa Marinella"
+        ]
+    },
+    {
+        "COMUNE": "Civitella San Paolo",
+        "confinanti": [
+            "Capena",
+            "Fiano Romano",
+            "Nazzano",
+            "Ponzano Romano",
+            "Rignano Flaminio",
+            "Sant'Oreste"
+        ]
+    },
+    {
+        "COMUNE": "Colleferro",
+        "confinanti": [
+            "Artena",
+            "Genazzano",
+            "Segni",
+            "Valmontone",
+            "Paliano"
+        ]
+    },
+    {
+        "COMUNE": "Colonna",
+        "confinanti": [
+            "Monte Compatri",
+            "Roma",
+            "San Cesareo"
+        ]
+    },
+    {
+        "COMUNE": "Fiano Romano",
+        "confinanti": [
+            "Capena",
+            "Montopoli di Sabina",
+            "Civitella San Paolo",
+            "Montelibretti",
+            "Nazzano"
+        ]
+    },
+    {
+        "COMUNE": "Filacciano",
+        "confinanti": [
+            "Forano",
+            "Poggio Mirteto",
+            "Nazzano",
+            "Ponzano Romano",
+            "Torrita Tiberina"
+        ]
+    },
+    {
+        "COMUNE": "Formello",
+        "confinanti": [
+            "Campagnano di Roma",
+            "Roma",
+            "Sacrofano"
+        ]
+    },
+    {
+        "COMUNE": "Frascati",
+        "confinanti": [
+            "Grottaferrata",
+            "Monte Porzio Catone",
+            "Roma"
+        ]
+    },
+    {
+        "COMUNE": "Gallicano nel Lazio",
+        "confinanti": [
+            "Palestrina",
+            "Roma",
+            "Zagarolo"
+        ]
+    },
+    {
+        "COMUNE": "Gavignano",
+        "confinanti": [
+            "Anagni",
+            "Montelanico",
+            "Segni",
+            "Paliano"
+        ]
+    },
+    {
+        "COMUNE": "Genazzano",
+        "confinanti": [
+            "Capranica Prenestina",
+            "Cave",
+            "Colleferro",
+            "Olevano Romano",
+            "Rocca di Cave",
+            "San Vito Romano",
+            "Valmontone",
+            "Paliano"
+        ]
+    },
+    {
+        "COMUNE": "Genzano di Roma",
+        "confinanti": [
+            "Ariccia",
+            "Lanuvio",
+            "Nemi",
+            "Velletri"
+        ]
+    },
+    {
+        "COMUNE": "Gerano",
+        "confinanti": [
+            "Bellegra",
+            "Canterano",
+            "Cerreto Laziale",
+            "Pisoniano",
+            "Rocca Canterano",
+            "Rocca Santo Stefano"
+        ]
+    },
+    {
+        "COMUNE": "Gorga",
+        "confinanti": [
+            "Anagni",
+            "Carpineto Romano",
+            "Montelanico",
+            "Morolo",
+            "Sgurgola",
+            "Supino"
+        ]
+    },
+    {
+        "COMUNE": "Grottaferrata",
+        "confinanti": [
+            "Castel Gandolfo",
+            "Frascati",
+            "Marino",
+            "Monte Compatri",
+            "Monte Porzio Catone",
+            "Rocca di Papa",
+            "Roma",
+            "Ciampino"
+        ]
+    },
+    {
+        "COMUNE": "Guidonia Montecelio",
+        "confinanti": [
+            "Marcellina",
+            "Palombara Sabina",
+            "Roma",
+            "San Polo dei Cavalieri",
+            "Sant'Angelo Romano",
+            "Tivoli",
+            "Fonte Nuova"
+        ]
+    },
+    {
+        "COMUNE": "Jenne",
+        "confinanti": [
+            "Arcinazzo Romano",
+            "Subiaco",
+            "Vallepietra",
+            "Trevi nel Lazio"
+        ]
+    },
+    {
+        "COMUNE": "Labico",
+        "confinanti": [
+            "Palestrina",
+            "Valmontone"
+        ]
+    },
+    {
+        "COMUNE": "Lanuvio",
+        "confinanti": [
+            "Ariccia",
+            "Genzano di Roma",
+            "Velletri",
+            "Aprilia"
+        ]
+    },
+    {
+        "COMUNE": "Licenza",
+        "confinanti": [
+            "Scandriglia",
+            "Mandela",
+            "Monteflavio",
+            "Percile",
+            "Roccagiovine",
+            "San Polo dei Cavalieri"
+        ]
+    },
+    {
+        "COMUNE": "Magliano Romano",
+        "confinanti": [
+            "Campagnano di Roma",
+            "Calcata",
+            "Castelnuovo di Porto",
+            "Mazzano Romano",
+            "Morlupo",
+            "Rignano Flaminio",
+            "Sacrofano"
+        ]
+    },
+    {
+        "COMUNE": "Mandela",
+        "confinanti": [
+            "Anticoli Corrado",
+            "Cineto Romano",
+            "Licenza",
+            "Percile",
+            "Roccagiovine",
+            "Roviano",
+            "Saracinesco",
+            "Vicovaro"
+        ]
+    },
+    {
+        "COMUNE": "Manziana",
+        "confinanti": [
+            "Bracciano",
+            "Canale Monterano",
+            "Oriolo Romano",
+            "Tolfa"
+        ]
+    },
+    {
+        "COMUNE": "Marano Equo",
+        "confinanti": [
+            "Agosta",
+            "Anticoli Corrado",
+            "Arsoli",
+            "Cervara di Roma",
+            "Rocca Canterano",
+            "Roviano"
+        ]
+    },
+    {
+        "COMUNE": "Marcellina",
+        "confinanti": [
+            "Guidonia Montecelio",
+            "San Polo dei Cavalieri",
+            "Tivoli"
+        ]
+    },
+    {
+        "COMUNE": "Marino",
+        "confinanti": [
+            "Castel Gandolfo",
+            "Grottaferrata",
+            "Rocca di Papa",
+            "Roma",
+            "Ciampino"
+        ]
+    },
+    {
+        "COMUNE": "Mazzano Romano",
+        "confinanti": [
+            "Campagnano di Roma",
+            "Calcata",
+            "Castel Sant'Elia",
+            "Faleria",
+            "Nepi",
+            "Magliano Romano"
+        ]
+    },
+    {
+        "COMUNE": "Mentana",
+        "confinanti": [
+            "Monterotondo",
+            "Palombara Sabina",
+            "Roma",
+            "Sant'Angelo Romano",
+            "Fonte Nuova"
+        ]
+    },
+    {
+        "COMUNE": "Monte Compatri",
+        "confinanti": [
+            "Colonna",
+            "Grottaferrata",
+            "Monte Porzio Catone",
+            "Rocca di Papa",
+            "Rocca Priora",
+            "Roma",
+            "Zagarolo",
+            "San Cesareo"
+        ]
+    },
+    {
+        "COMUNE": "Monteflavio",
+        "confinanti": [
+            "Scandriglia",
+            "Licenza",
+            "Montorio Romano",
+            "Moricone",
+            "Palombara Sabina",
+            "San Polo dei Cavalieri"
+        ]
+    },
+    {
+        "COMUNE": "Montelanico",
+        "confinanti": [
+            "Cori",
+            "Norma",
+            "Anagni",
+            "Carpineto Romano",
+            "Gavignano",
+            "Gorga",
+            "Segni"
+        ]
+    },
+    {
+        "COMUNE": "Montelibretti",
+        "confinanti": [
+            "Capena",
+            "Fara in Sabina",
+            "Montopoli di Sabina",
+            "Fiano Romano",
+            "Monterotondo",
+            "Montorio Romano",
+            "Moricone",
+            "Nerola",
+            "Palombara Sabina"
+        ]
+    },
+    {
+        "COMUNE": "Monte Porzio Catone",
+        "confinanti": [
+            "Frascati",
+            "Grottaferrata",
+            "Monte Compatri",
+            "Roma"
+        ]
+    },
+    {
+        "COMUNE": "Monterotondo",
+        "confinanti": [
+            "Capena",
+            "Castelnuovo di Porto",
+            "Mentana",
+            "Montelibretti",
+            "Palombara Sabina",
+            "Riano",
+            "Roma",
+            "Fonte Nuova"
+        ]
+    },
+    {
+        "COMUNE": "Montorio Romano",
+        "confinanti": [
+            "Scandriglia",
+            "Monteflavio",
+            "Montelibretti",
+            "Moricone",
+            "Nerola"
+        ]
+    },
+    {
+        "COMUNE": "Moricone",
+        "confinanti": [
+            "Monteflavio",
+            "Montelibretti",
+            "Montorio Romano",
+            "Palombara Sabina"
+        ]
+    },
+    {
+        "COMUNE": "Morlupo",
+        "confinanti": [
+            "Capena",
+            "Castelnuovo di Porto",
+            "Magliano Romano",
+            "Rignano Flaminio"
+        ]
+    },
+    {
+        "COMUNE": "Nazzano",
+        "confinanti": [
+            "Montopoli di Sabina",
+            "Civitella San Paolo",
+            "Fiano Romano",
+            "Filacciano",
+            "Ponzano Romano",
+            "Sant'Oreste",
+            "Torrita Tiberina"
+        ]
+    },
+    {
+        "COMUNE": "Nemi",
+        "confinanti": [
+            "Ariccia",
+            "Genzano di Roma",
+            "Rocca di Papa",
+            "Velletri"
+        ]
+    },
+    {
+        "COMUNE": "Nerola",
+        "confinanti": [
+            "Scandriglia",
+            "Toffia",
+            "Fara in Sabina",
+            "Poggio Nativo",
+            "Montelibretti",
+            "Montorio Romano"
+        ]
+    },
+    {
+        "COMUNE": "Nettuno",
+        "confinanti": [
+            "Anzio",
+            "Latina",
+            "Aprilia"
+        ]
+    },
+    {
+        "COMUNE": "Olevano Romano",
+        "confinanti": [
+            "Bellegra",
+            "Genazzano",
+            "Roiate",
+            "San Vito Romano",
+            "Paliano",
+            "Serrone"
+        ]
+    },
+    {
+        "COMUNE": "Palestrina",
+        "confinanti": [
+            "Artena",
+            "Castel San Pietro Romano",
+            "Cave",
+            "Gallicano nel Lazio",
+            "Labico",
+            "Rocca di Cave",
+            "Rocca Priora",
+            "Roma",
+            "Valmontone",
+            "Zagarolo",
+            "San Cesareo"
+        ]
+    },
+    {
+        "COMUNE": "Palombara Sabina",
+        "confinanti": [
+            "Guidonia Montecelio",
+            "Mentana",
+            "Monteflavio",
+            "Montelibretti",
+            "Monterotondo",
+            "Moricone",
+            "San Polo dei Cavalieri",
+            "Sant'Angelo Romano"
+        ]
+    },
+    {
+        "COMUNE": "Percile",
+        "confinanti": [
+            "Scandriglia",
+            "Orvinio",
+            "Cineto Romano",
+            "Licenza",
+            "Mandela",
+            "Vallinfreda"
+        ]
+    },
+    {
+        "COMUNE": "Pisoniano",
+        "confinanti": [
+            "Bellegra",
+            "Capranica Prenestina",
+            "Cerreto Laziale",
+            "Ciciliano",
+            "Gerano",
+            "San Vito Romano"
+        ]
+    },
+    {
+        "COMUNE": "Poli",
+        "confinanti": [
+            "Capranica Prenestina",
+            "Casape",
+            "Castel San Pietro Romano",
+            "Roma",
+            "San Gregorio da Sassola"
+        ]
+    },
+    {
+        "COMUNE": "Pomezia",
+        "confinanti": [
+            "Roma",
+            "Ardea"
+        ]
+    },
+    {
+        "COMUNE": "Ponzano Romano",
+        "confinanti": [
+            "Stimigliano",
+            "Civita Castellana",
+            "Collevecchio",
+            "Forano",
+            "Civitella San Paolo",
+            "Filacciano",
+            "Nazzano",
+            "Sant'Oreste"
+        ]
+    },
+    {
+        "COMUNE": "Riano",
+        "confinanti": [
+            "Castelnuovo di Porto",
+            "Monterotondo",
+            "Roma",
+            "Sacrofano"
+        ]
+    },
+    {
+        "COMUNE": "Rignano Flaminio",
+        "confinanti": [
+            "Capena",
+            "Calcata",
+            "Faleria",
+            "Civitella San Paolo",
+            "Magliano Romano",
+            "Morlupo",
+            "Sant'Oreste"
+        ]
+    },
+    {
+        "COMUNE": "Riofreddo",
+        "confinanti": [
+            "Arsoli",
+            "Cineto Romano",
+            "Roviano",
+            "Vallinfreda"
+        ]
+    },
+    {
+        "COMUNE": "Rocca Canterano",
+        "confinanti": [
+            "Agosta",
+            "Anticoli Corrado",
+            "Canterano",
+            "Cerreto Laziale",
+            "Gerano",
+            "Marano Equo",
+            "Saracinesco"
+        ]
+    },
+    {
+        "COMUNE": "Rocca di Cave",
+        "confinanti": [
+            "Capranica Prenestina",
+            "Castel San Pietro Romano",
+            "Cave",
+            "Genazzano",
+            "Palestrina"
+        ]
+    },
+    {
+        "COMUNE": "Rocca di Papa",
+        "confinanti": [
+            "Albano Laziale",
+            "Ariccia",
+            "Artena",
+            "Castel Gandolfo",
+            "Grottaferrata",
+            "Marino",
+            "Monte Compatri",
+            "Nemi",
+            "Rocca Priora",
+            "Velletri",
+            "Lariano"
+        ]
+    },
+    {
+        "COMUNE": "Roccagiovine",
+        "confinanti": [
+            "Licenza",
+            "Mandela",
+            "San Polo dei Cavalieri",
+            "Vicovaro"
+        ]
+    },
+    {
+        "COMUNE": "Rocca Priora",
+        "confinanti": [
+            "Artena",
+            "Monte Compatri",
+            "Palestrina",
+            "Rocca di Papa",
+            "Lariano",
+            "San Cesareo"
+        ]
+    },
+    {
+        "COMUNE": "Rocca Santo Stefano",
+        "confinanti": [
+            "Affile",
+            "Bellegra",
+            "Canterano",
+            "Gerano",
+            "Subiaco"
+        ]
+    },
+    {
+        "COMUNE": "Roiate",
+        "confinanti": [
+            "Affile",
+            "Arcinazzo Romano",
+            "Bellegra",
+            "Olevano Romano",
+            "Serrone"
+        ]
+    },
+    {
+        "COMUNE": "Roma",
+        "confinanti": [
+            "Albano Laziale",
+            "Anguillara Sabazia",
+            "Campagnano di Roma",
+            "Castel Gandolfo",
+            "Castel San Pietro Romano",
+            "Colonna",
+            "Formello",
+            "Frascati",
+            "Gallicano nel Lazio",
+            "Grottaferrata",
+            "Guidonia Montecelio",
+            "Marino",
+            "Mentana",
+            "Monte Compatri",
+            "Monte Porzio Catone",
+            "Monterotondo",
+            "Palestrina",
+            "Poli",
+            "Pomezia",
+            "Riano",
+            "Sacrofano",
+            "San Gregorio da Sassola",
+            "Tivoli",
+            "Trevignano Romano",
+            "Zagarolo",
+            "Ardea",
+            "Ciampino",
+            "Fiumicino",
+            "Fonte Nuova"
+        ]
+    },
+    {
+        "COMUNE": "Roviano",
+        "confinanti": [
+            "Anticoli Corrado",
+            "Arsoli",
+            "Cineto Romano",
+            "Mandela",
+            "Marano Equo",
+            "Riofreddo"
+        ]
+    },
+    {
+        "COMUNE": "Sacrofano",
+        "confinanti": [
+            "Campagnano di Roma",
+            "Castelnuovo di Porto",
+            "Formello",
+            "Magliano Romano",
+            "Riano",
+            "Roma"
+        ]
+    },
+    {
+        "COMUNE": "Sambuci",
+        "confinanti": [
+            "Castel Madama",
+            "Cerreto Laziale",
+            "Ciciliano",
+            "Saracinesco",
+            "Vicovaro"
+        ]
+    },
+    {
+        "COMUNE": "San Gregorio da Sassola",
+        "confinanti": [
+            "Capranica Prenestina",
+            "Casape",
+            "Castel Madama",
+            "Ciciliano",
+            "Poli",
+            "Roma",
+            "Tivoli"
+        ]
+    },
+    {
+        "COMUNE": "San Polo dei Cavalieri",
+        "confinanti": [
+            "Guidonia Montecelio",
+            "Licenza",
+            "Marcellina",
+            "Monteflavio",
+            "Palombara Sabina",
+            "Roccagiovine",
+            "Tivoli",
+            "Vicovaro"
+        ]
+    },
+    {
+        "COMUNE": "Santa Marinella",
+        "confinanti": [
+            "Allumiere",
+            "Cerveteri",
+            "Civitavecchia",
+            "Tolfa"
+        ]
+    },
+    {
+        "COMUNE": "Sant'Angelo Romano",
+        "confinanti": [
+            "Guidonia Montecelio",
+            "Mentana",
+            "Palombara Sabina",
+            "Fonte Nuova"
+        ]
+    },
+    {
+        "COMUNE": "Sant'Oreste",
+        "confinanti": [
+            "Stimigliano",
+            "Civita Castellana",
+            "Faleria",
+            "Civitella San Paolo",
+            "Nazzano",
+            "Ponzano Romano",
+            "Rignano Flaminio"
+        ]
+    },
+    {
+        "COMUNE": "San Vito Romano",
+        "confinanti": [
+            "Bellegra",
+            "Capranica Prenestina",
+            "Genazzano",
+            "Olevano Romano",
+            "Pisoniano"
+        ]
+    },
+    {
+        "COMUNE": "Saracinesco",
+        "confinanti": [
+            "Anticoli Corrado",
+            "Cerreto Laziale",
+            "Mandela",
+            "Rocca Canterano",
+            "Sambuci",
+            "Vicovaro"
+        ]
+    },
+    {
+        "COMUNE": "Segni",
+        "confinanti": [
+            "Artena",
+            "Cori",
+            "Rocca Massima",
+            "Colleferro",
+            "Gavignano",
+            "Montelanico",
+            "Paliano"
+        ]
+    },
+    {
+        "COMUNE": "Subiaco",
+        "confinanti": [
+            "Affile",
+            "Agosta",
+            "Arcinazzo Romano",
+            "Camerata Nuova",
+            "Canterano",
+            "Cervara di Roma",
+            "Jenne",
+            "Rocca Santo Stefano",
+            "Vallepietra"
+        ]
+    },
+    {
+        "COMUNE": "Tivoli",
+        "confinanti": [
+            "Castel Madama",
+            "Guidonia Montecelio",
+            "Marcellina",
+            "Roma",
+            "San Gregorio da Sassola",
+            "San Polo dei Cavalieri",
+            "Vicovaro"
+        ]
+    },
+    {
+        "COMUNE": "Tolfa",
+        "confinanti": [
+            "Allumiere",
+            "Bracciano",
+            "Canale Monterano",
+            "Blera",
+            "Monte Romano",
+            "Tarquinia",
+            "Vejano",
+            "Cerveteri",
+            "Manziana",
+            "Santa Marinella"
+        ]
+    },
+    {
+        "COMUNE": "Torrita Tiberina",
+        "confinanti": [
+            "Montopoli di Sabina",
+            "Poggio Mirteto",
+            "Filacciano",
+            "Nazzano"
+        ]
+    },
+    {
+        "COMUNE": "Trevignano Romano",
+        "confinanti": [
+            "Anguillara Sabazia",
+            "Bracciano",
+            "Campagnano di Roma",
+            "Monterosi",
+            "Nepi",
+            "Sutri",
+            "Roma"
+        ]
+    },
+    {
+        "COMUNE": "Vallepietra",
+        "confinanti": [
+            "Camerata Nuova",
+            "Jenne",
+            "Subiaco",
+            "Filettino",
+            "Trevi nel Lazio"
+        ]
+    },
+    {
+        "COMUNE": "Vallinfreda",
+        "confinanti": [
+            "Orvinio",
+            "Cineto Romano",
+            "Percile",
+            "Riofreddo",
+            "Vivaro Romano"
+        ]
+    },
+    {
+        "COMUNE": "Valmontone",
+        "confinanti": [
+            "Artena",
+            "Cave",
+            "Colleferro",
+            "Genazzano",
+            "Labico",
+            "Palestrina"
+        ]
+    },
+    {
+        "COMUNE": "Velletri",
+        "confinanti": [
+            "Artena",
+            "Genzano di Roma",
+            "Lanuvio",
+            "Nemi",
+            "Rocca di Papa",
+            "Lariano",
+            "Aprilia",
+            "Cisterna di Latina"
+        ]
+    },
+    {
+        "COMUNE": "Vicovaro",
+        "confinanti": [
+            "Castel Madama",
+            "Mandela",
+            "Roccagiovine",
+            "Sambuci",
+            "San Polo dei Cavalieri",
+            "Saracinesco",
+            "Tivoli"
+        ]
+    },
+    {
+        "COMUNE": "Vivaro Romano",
+        "confinanti": [
+            "Pozzaglia Sabina",
+            "Turania",
+            "Orvinio",
+            "Vallinfreda"
+        ]
+    },
+    {
+        "COMUNE": "Zagarolo",
+        "confinanti": [
+            "Gallicano nel Lazio",
+            "Monte Compatri",
+            "Palestrina",
+            "Roma",
+            "San Cesareo"
+        ]
+    },
+    {
+        "COMUNE": "Lariano",
+        "confinanti": [
+            "Artena",
+            "Cori",
+            "Rocca di Papa",
+            "Rocca Priora",
+            "Velletri"
+        ]
+    },
+    {
+        "COMUNE": "Ladispoli",
+        "confinanti": [
+            "Cerveteri",
+            "Fiumicino"
+        ]
+    },
+    {
+        "COMUNE": "Ardea",
+        "confinanti": [
+            "Albano Laziale",
+            "Anzio",
+            "Ariccia",
+            "Pomezia",
+            "Roma",
+            "Aprilia"
+        ]
+    },
+    {
+        "COMUNE": "Ciampino",
+        "confinanti": [
+            "Grottaferrata",
+            "Marino",
+            "Roma"
+        ]
+    },
+    {
+        "COMUNE": "San Cesareo",
+        "confinanti": [
+            "Colonna",
+            "Monte Compatri",
+            "Palestrina",
+            "Rocca Priora",
+            "Zagarolo"
+        ]
+    },
+    {
+        "COMUNE": "Fiumicino",
+        "confinanti": [
+            "Anguillara Sabazia",
+            "Cerveteri",
+            "Roma",
+            "Ladispoli"
+        ]
+    },
+    {
+        "COMUNE": "Fonte Nuova",
+        "confinanti": [
+            "Guidonia Montecelio",
+            "Mentana",
+            "Monterotondo",
+            "Roma",
+            "Sant'Angelo Romano"
+        ]
+    },
+    {
+        "COMUNE": "Aprilia",
+        "confinanti": [
+            "Anzio",
+            "Ariccia",
+            "Latina",
+            "Lanuvio",
+            "Nettuno",
+            "Velletri",
+            "Ardea",
+            "Cisterna di Latina"
+        ]
+    },
+    {
+        "COMUNE": "Bassiano",
+        "confinanti": [
+            "Norma",
+            "Sermoneta",
+            "Sezze",
+            "Carpineto Romano"
+        ]
+    },
+    {
+        "COMUNE": "Campodimele",
+        "confinanti": [
+            "Fondi",
+            "Itri",
+            "Lenola",
+            "Esperia",
+            "Pico",
+            "Pontecorvo"
+        ]
+    },
+    {
+        "COMUNE": "Castelforte",
+        "confinanti": [
+            "Santi Cosma e Damiano",
+            "Coreno Ausonio",
+            "Sant'Andrea del Garigliano",
+            "Vallemaio"
+        ]
+    },
+    {
+        "COMUNE": "Cisterna di Latina",
+        "confinanti": [
+            "Artena",
+            "Cori",
+            "Latina",
+            "Norma",
+            "Sermoneta",
+            "Velletri",
+            "Aprilia"
+        ]
+    },
+    {
+        "COMUNE": "Arpino",
+        "confinanti": [
+            "Broccostella",
+            "Casalattico",
+            "Casalvieri",
+            "Castelliri",
+            "Fontana Liri",
+            "Fontechiari",
+            "Isola del Liri",
+            "Monte San Giovanni Campano",
+            "Santopadre",
+            "Sora"
+        ]
+    },
+    {
+        "COMUNE": "Atina",
+        "confinanti": [
+            "Alvito",
+            "Belmonte Castello",
+            "Casalattico",
+            "Casalvieri",
+            "Gallinaro",
+            "Picinisco",
+            "Terelle",
+            "Villa Latina"
+        ]
+    },
+    {
+        "COMUNE": "Ausonia",
+        "confinanti": [
+            "Spigno Saturnia",
+            "Castelnuovo Parano",
+            "Coreno Ausonio",
+            "Esperia"
+        ]
+    },
+    {
+        "COMUNE": "Belmonte Castello",
+        "confinanti": [
+            "Atina",
+            "Sant'Elia Fiumerapido",
+            "Terelle",
+            "Villa Latina"
+        ]
+    },
+    {
+        "COMUNE": "Boville Ernica",
+        "confinanti": [
+            "Monte San Giovanni Campano",
+            "Ripi",
+            "Strangolagalli",
+            "Torrice",
+            "Veroli"
+        ]
+    },
+    {
+        "COMUNE": "Broccostella",
+        "confinanti": [
+            "Arpino",
+            "Campoli Appennino",
+            "Fontechiari",
+            "Posta Fibreno",
+            "Sora"
+        ]
+    },
+    {
+        "COMUNE": "Campoli Appennino",
+        "confinanti": [
+            "Alvito",
+            "Broccostella",
+            "Pescosolido",
+            "Posta Fibreno",
+            "Sora"
+        ]
+    },
+    {
+        "COMUNE": "Casalattico",
+        "confinanti": [
+            "Arpino",
+            "Atina",
+            "Casalvieri",
+            "Colle San Magno",
+            "Santopadre",
+            "Terelle"
+        ]
+    },
+    {
+        "COMUNE": "Casalvieri",
+        "confinanti": [
+            "Alvito",
+            "Arpino",
+            "Atina",
+            "Casalattico",
+            "Fontechiari",
+            "Vicalvi"
+        ]
+    },
+    {
+        "COMUNE": "Cassino",
+        "confinanti": [
+            "Cervaro",
+            "Pignataro Interamna",
+            "Sant'Apollinare",
+            "Sant'Elia Fiumerapido",
+            "San Vittore del Lazio",
+            "Terelle",
+            "Villa Santa Lucia"
+        ]
+    },
+    {
+        "COMUNE": "Castelliri",
+        "confinanti": [
+            "Arpino",
+            "Isola del Liri",
+            "Monte San Giovanni Campano",
+            "Sora"
+        ]
+    },
+    {
+        "COMUNE": "Castelnuovo Parano",
+        "confinanti": [
+            "Ausonia",
+            "Coreno Ausonio",
+            "Esperia",
+            "San Giorgio a Liri",
+            "Vallemaio"
+        ]
+    },
+    {
+        "COMUNE": "Castrocielo",
+        "confinanti": [
+            "Aquino",
+            "Colle San Magno",
+            "Piedimonte San Germano",
+            "Pontecorvo",
+            "Roccasecca"
+        ]
+    },
+    {
+        "COMUNE": "Castro dei Volsci",
+        "confinanti": [
+            "Lenola",
+            "Amaseno",
+            "Ceccano",
+            "Ceprano",
+            "Falvaterra",
+            "Pastena",
+            "Pofi",
+            "Vallecorsa",
+            "Villa Santo Stefano"
+        ]
+    },
+    {
+        "COMUNE": "Ceccano",
+        "confinanti": [
+            "Arnara",
+            "Castro dei Volsci",
+            "Frosinone",
+            "Giuliano di Roma",
+            "Patrica",
+            "Pofi",
+            "Villa Santo Stefano"
+        ]
+    },
+    {
+        "COMUNE": "Ceprano",
+        "confinanti": [
+            "Arce",
+            "Castro dei Volsci",
+            "Falvaterra",
+            "Pofi",
+            "Ripi",
+            "San Giovanni Incarico",
+            "Strangolagalli"
+        ]
+    },
+    {
+        "COMUNE": "Cervaro",
+        "confinanti": [
+            "Cassino",
+            "Sant'Elia Fiumerapido",
+            "San Vittore del Lazio",
+            "Vallerotonda",
+            "Viticuso"
+        ]
+    },
+    {
+        "COMUNE": "Colfelice",
+        "confinanti": [
+            "Arce",
+            "Rocca d'Arce",
+            "Roccasecca",
+            "San Giovanni Incarico"
+        ]
+    },
+    {
+        "COMUNE": "Collepardo",
+        "confinanti": [
+            "Alatri",
+            "Veroli",
+            "Vico nel Lazio"
+        ]
+    },
+    {
+        "COMUNE": "Colle San Magno",
+        "confinanti": [
+            "Casalattico",
+            "Castrocielo",
+            "Piedimonte San Germano",
+            "Roccasecca",
+            "Santopadre",
+            "Terelle"
+        ]
+    },
+    {
+        "COMUNE": "Coreno Ausonio",
+        "confinanti": [
+            "Minturno",
+            "Santi Cosma e Damiano",
+            "Spigno Saturnia",
+            "Castelforte",
+            "Ausonia",
+            "Castelnuovo Parano",
+            "Vallemaio"
+        ]
+    },
+    {
+        "COMUNE": "Esperia",
+        "confinanti": [
+            "Formia",
+            "Itri",
+            "Spigno Saturnia",
+            "Campodimele",
+            "Ausonia",
+            "Castelnuovo Parano",
+            "Pignataro Interamna",
+            "Pontecorvo",
+            "San Giorgio a Liri"
+        ]
+    },
+    {
+        "COMUNE": "Falvaterra",
+        "confinanti": [
+            "Arce",
+            "Castro dei Volsci",
+            "Ceprano",
+            "Pastena",
+            "San Giovanni Incarico"
+        ]
+    },
+    {
+        "COMUNE": "Ferentino",
+        "confinanti": [
+            "Acuto",
+            "Alatri",
+            "Anagni",
+            "Fiuggi",
+            "Frosinone",
+            "Fumone",
+            "Morolo",
+            "Sgurgola",
+            "Supino",
+            "Trivigliano"
+        ]
+    },
+    {
+        "COMUNE": "Filettino",
+        "confinanti": [
+            "Vallepietra",
+            "Guarcino",
+            "Trevi nel Lazio"
+        ]
+    },
+    {
+        "COMUNE": "Fiuggi",
+        "confinanti": [
+            "Acuto",
+            "Ferentino",
+            "Guarcino",
+            "Piglio",
+            "Torre Cajetani",
+            "Trevi nel Lazio",
+            "Trivigliano"
+        ]
+    },
+    {
+        "COMUNE": "Fontana Liri",
+        "confinanti": [
+            "Arce",
+            "Arpino",
+            "Monte San Giovanni Campano",
+            "Rocca d'Arce",
+            "Santopadre"
+        ]
+    },
+    {
+        "COMUNE": "Fontechiari",
+        "confinanti": [
+            "Arpino",
+            "Broccostella",
+            "Casalvieri",
+            "Posta Fibreno",
+            "Vicalvi"
+        ]
+    },
+    {
+        "COMUNE": "Frosinone",
+        "confinanti": [
+            "Alatri",
+            "Arnara",
+            "Ceccano",
+            "Ferentino",
+            "Patrica",
+            "Supino",
+            "Torrice",
+            "Veroli"
+        ]
+    },
+    {
+        "COMUNE": "Fumone",
+        "confinanti": [
+            "Alatri",
+            "Anagni",
+            "Ferentino",
+            "Trivigliano"
+        ]
+    },
+    {
+        "COMUNE": "Gallinaro",
+        "confinanti": [
+            "Alvito",
+            "Atina",
+            "Picinisco",
+            "San Donato Val di Comino",
+            "Settefrati"
+        ]
+    },
+    {
+        "COMUNE": "Giuliano di Roma",
+        "confinanti": [
+            "Maenza",
+            "Prossedi",
+            "Ceccano",
+            "Patrica",
+            "Supino",
+            "Villa Santo Stefano"
+        ]
+    },
+    {
+        "COMUNE": "Guarcino",
+        "confinanti": [
+            "Alatri",
+            "Filettino",
+            "Fiuggi",
+            "Torre Cajetani",
+            "Trevi nel Lazio",
+            "Trivigliano",
+            "Vico nel Lazio"
+        ]
+    },
+    {
+        "COMUNE": "Isola del Liri",
+        "confinanti": [
+            "Arpino",
+            "Castelliri",
+            "Sora"
+        ]
+    },
+    {
+        "COMUNE": "Monte San Giovanni Campano",
+        "confinanti": [
+            "Arce",
+            "Arpino",
+            "Boville Ernica",
+            "Castelliri",
+            "Fontana Liri",
+            "Sora",
+            "Strangolagalli",
+            "Veroli"
+        ]
+    },
+    {
+        "COMUNE": "Morolo",
+        "confinanti": [
+            "Gorga",
+            "Ferentino",
+            "Sgurgola",
+            "Supino"
+        ]
+    },
+    {
+        "COMUNE": "Paliano",
+        "confinanti": [
+            "Anagni",
+            "Colleferro",
+            "Gavignano",
+            "Genazzano",
+            "Olevano Romano",
+            "Segni",
+            "Piglio",
+            "Serrone"
+        ]
+    },
+    {
+        "COMUNE": "Pastena",
+        "confinanti": [
+            "Lenola",
+            "Castro dei Volsci",
+            "Falvaterra",
+            "Pico",
+            "San Giovanni Incarico"
+        ]
+    },
+    {
+        "COMUNE": "Patrica",
+        "confinanti": [
+            "Ceccano",
+            "Frosinone",
+            "Giuliano di Roma",
+            "Supino"
+        ]
+    },
+    {
+        "COMUNE": "Pescosolido",
+        "confinanti": [
+            "Campoli Appennino",
+            "Sora"
+        ]
+    },
+    {
+        "COMUNE": "Picinisco",
+        "confinanti": [
+            "Atina",
+            "Gallinaro",
+            "San Biagio Saracinisco",
+            "Sant'Elia Fiumerapido",
+            "Settefrati",
+            "Villa Latina"
+        ]
+    },
+    {
+        "COMUNE": "Pico",
+        "confinanti": [
+            "Lenola",
+            "Campodimele",
+            "Pastena",
+            "Pontecorvo",
+            "San Giovanni Incarico"
+        ]
+    },
+    {
+        "COMUNE": "Piedimonte San Germano",
+        "confinanti": [
+            "Aquino",
+            "Castrocielo",
+            "Colle San Magno",
+            "Pignataro Interamna",
+            "Terelle",
+            "Villa Santa Lucia"
+        ]
+    },
+    {
+        "COMUNE": "Piglio",
+        "confinanti": [
+            "Arcinazzo Romano",
+            "Acuto",
+            "Anagni",
+            "Fiuggi",
+            "Paliano",
+            "Serrone",
+            "Trevi nel Lazio"
+        ]
+    },
+    {
+        "COMUNE": "Pignataro Interamna",
+        "confinanti": [
+            "Aquino",
+            "Cassino",
+            "Esperia",
+            "Piedimonte San Germano",
+            "Pontecorvo",
+            "San Giorgio a Liri",
+            "Sant'Apollinare",
+            "Villa Santa Lucia"
+        ]
+    },
+    {
+        "COMUNE": "Pofi",
+        "confinanti": [
+            "Arnara",
+            "Castro dei Volsci",
+            "Ceccano",
+            "Ceprano",
+            "Ripi"
+        ]
+    },
+    {
+        "COMUNE": "Pontecorvo",
+        "confinanti": [
+            "Aquino",
+            "Campodimele",
+            "Castrocielo",
+            "Esperia",
+            "Pico",
+            "Pignataro Interamna",
+            "Roccasecca",
+            "San Giovanni Incarico"
+        ]
+    },
+    {
+        "COMUNE": "Posta Fibreno",
+        "confinanti": [
+            "Alvito",
+            "Broccostella",
+            "Campoli Appennino",
+            "Fontechiari",
+            "Vicalvi"
+        ]
+    },
+    {
+        "COMUNE": "Ripi",
+        "confinanti": [
+            "Arnara",
+            "Boville Ernica",
+            "Ceprano",
+            "Pofi",
+            "Strangolagalli",
+            "Torrice",
+            "Veroli"
+        ]
+    },
+    {
+        "COMUNE": "Rocca d'Arce",
+        "confinanti": [
+            "Arce",
+            "Colfelice",
+            "Fontana Liri",
+            "Roccasecca",
+            "Santopadre"
+        ]
+    },
+    {
+        "COMUNE": "Roccasecca",
+        "confinanti": [
+            "Castrocielo",
+            "Colfelice",
+            "Colle San Magno",
+            "Pontecorvo",
+            "Rocca d'Arce",
+            "San Giovanni Incarico",
+            "Santopadre"
+        ]
+    },
+    {
+        "COMUNE": "San Biagio Saracinisco",
+        "confinanti": [
+            "Picinisco",
+            "Sant'Elia Fiumerapido",
+            "Vallerotonda"
+        ]
+    },
+    {
+        "COMUNE": "San Donato Val di Comino",
+        "confinanti": [
+            "Alvito",
+            "Gallinaro",
+            "Settefrati"
+        ]
+    },
+    {
+        "COMUNE": "San Giorgio a Liri",
+        "confinanti": [
+            "Castelnuovo Parano",
+            "Esperia",
+            "Pignataro Interamna",
+            "Sant'Apollinare",
+            "Vallemaio"
+        ]
+    },
+    {
+        "COMUNE": "San Giovanni Incarico",
+        "confinanti": [
+            "Arce",
+            "Ceprano",
+            "Colfelice",
+            "Falvaterra",
+            "Pastena",
+            "Pico",
+            "Pontecorvo",
+            "Roccasecca"
+        ]
+    },
+    {
+        "COMUNE": "Sant'Ambrogio sul Garigliano",
+        "confinanti": [
+            "Sant'Andrea del Garigliano",
+            "Sant'Apollinare"
+        ]
+    },
+    {
+        "COMUNE": "Sant'Andrea del Garigliano",
+        "confinanti": [
+            "Castelforte",
+            "Sant'Ambrogio sul Garigliano",
+            "Sant'Apollinare",
+            "Vallemaio"
+        ]
+    },
+    {
+        "COMUNE": "Sant'Apollinare",
+        "confinanti": [
+            "Cassino",
+            "Pignataro Interamna",
+            "San Giorgio a Liri",
+            "Sant'Ambrogio sul Garigliano",
+            "Sant'Andrea del Garigliano",
+            "Vallemaio"
+        ]
+    },
+    {
+        "COMUNE": "Sant'Elia Fiumerapido",
+        "confinanti": [
+            "Belmonte Castello",
+            "Cassino",
+            "Cervaro",
+            "Picinisco",
+            "San Biagio Saracinisco",
+            "Terelle",
+            "Vallerotonda",
+            "Villa Latina"
+        ]
+    },
+    {
+        "COMUNE": "Santopadre",
+        "confinanti": [
+            "Arpino",
+            "Casalattico",
+            "Colle San Magno",
+            "Fontana Liri",
+            "Rocca d'Arce",
+            "Roccasecca"
+        ]
+    },
+    {
+        "COMUNE": "San Vittore del Lazio",
+        "confinanti": [
+            "Cassino",
+            "Cervaro",
+            "Viticuso"
+        ]
+    },
+    {
+        "COMUNE": "Serrone",
+        "confinanti": [
+            "Arcinazzo Romano",
+            "Olevano Romano",
+            "Roiate",
+            "Paliano",
+            "Piglio"
+        ]
+    },
+    {
+        "COMUNE": "Settefrati",
+        "confinanti": [
+            "Gallinaro",
+            "Picinisco",
+            "San Donato Val di Comino"
+        ]
+    },
+    {
+        "COMUNE": "Sgurgola",
+        "confinanti": [
+            "Anagni",
+            "Gorga",
+            "Ferentino",
+            "Morolo"
+        ]
+    },
+    {
+        "COMUNE": "Sora",
+        "confinanti": [
+            "Arpino",
+            "Broccostella",
+            "Campoli Appennino",
+            "Castelliri",
+            "Isola del Liri",
+            "Monte San Giovanni Campano",
+            "Pescosolido",
+            "Veroli"
+        ]
+    },
+    {
+        "COMUNE": "Strangolagalli",
+        "confinanti": [
+            "Arce",
+            "Boville Ernica",
+            "Ceprano",
+            "Monte San Giovanni Campano",
+            "Ripi"
+        ]
+    },
+    {
+        "COMUNE": "Supino",
+        "confinanti": [
+            "Maenza",
+            "Carpineto Romano",
+            "Gorga",
+            "Ferentino",
+            "Frosinone",
+            "Giuliano di Roma",
+            "Morolo",
+            "Patrica"
+        ]
+    },
+    {
+        "COMUNE": "Terelle",
+        "confinanti": [
+            "Atina",
+            "Belmonte Castello",
+            "Casalattico",
+            "Cassino",
+            "Colle San Magno",
+            "Piedimonte San Germano",
+            "Sant'Elia Fiumerapido",
+            "Villa Santa Lucia"
+        ]
+    },
+    {
+        "COMUNE": "Torre Cajetani",
+        "confinanti": [
+            "Fiuggi",
+            "Guarcino",
+            "Trivigliano"
+        ]
+    },
+    {
+        "COMUNE": "Torrice",
+        "confinanti": [
+            "Arnara",
+            "Boville Ernica",
+            "Frosinone",
+            "Ripi",
+            "Veroli"
+        ]
+    },
+    {
+        "COMUNE": "Trevi nel Lazio",
+        "confinanti": [
+            "Arcinazzo Romano",
+            "Jenne",
+            "Vallepietra",
+            "Filettino",
+            "Fiuggi",
+            "Guarcino",
+            "Piglio"
+        ]
+    },
+    {
+        "COMUNE": "Trivigliano",
+        "confinanti": [
+            "Alatri",
+            "Ferentino",
+            "Fiuggi",
+            "Fumone",
+            "Guarcino",
+            "Torre Cajetani"
+        ]
+    },
+    {
+        "COMUNE": "Vallecorsa",
+        "confinanti": [
+            "Fondi",
+            "Lenola",
+            "Monte San Biagio",
+            "Amaseno",
+            "Castro dei Volsci"
+        ]
+    },
+    {
+        "COMUNE": "Vallemaio",
+        "confinanti": [
+            "Castelforte",
+            "Castelnuovo Parano",
+            "Coreno Ausonio",
+            "San Giorgio a Liri",
+            "Sant'Andrea del Garigliano",
+            "Sant'Apollinare"
+        ]
+    },
+    {
+        "COMUNE": "Vallerotonda",
+        "confinanti": [
+            "Acquafondata",
+            "Cervaro",
+            "San Biagio Saracinisco",
+            "Sant'Elia Fiumerapido",
+            "Viticuso"
+        ]
+    },
+    {
+        "COMUNE": "Veroli",
+        "confinanti": [
+            "Alatri",
+            "Boville Ernica",
+            "Collepardo",
+            "Frosinone",
+            "Monte San Giovanni Campano",
+            "Ripi",
+            "Sora",
+            "Torrice"
+        ]
+    },
+    {
+        "COMUNE": "Vicalvi",
+        "confinanti": [
+            "Alvito",
+            "Casalvieri",
+            "Fontechiari",
+            "Posta Fibreno"
+        ]
+    },
+    {
+        "COMUNE": "Vico nel Lazio",
+        "confinanti": [
+            "Alatri",
+            "Collepardo",
+            "Guarcino"
+        ]
+    },
+    {
+        "COMUNE": "Villa Latina",
+        "confinanti": [
+            "Atina",
+            "Belmonte Castello",
+            "Picinisco",
+            "Sant'Elia Fiumerapido"
+        ]
+    },
+    {
+        "COMUNE": "Villa Santa Lucia",
+        "confinanti": [
+            "Cassino",
+            "Piedimonte San Germano",
+            "Pignataro Interamna",
+            "Terelle"
+        ]
+    },
+    {
+        "COMUNE": "Villa Santo Stefano",
+        "confinanti": [
+            "Prossedi",
+            "Amaseno",
+            "Castro dei Volsci",
+            "Ceccano",
+            "Giuliano di Roma"
+        ]
+    },
+    {
+        "COMUNE": "Viticuso",
+        "confinanti": [
+            "Acquafondata",
+            "Cervaro",
+            "San Vittore del Lazio",
+            "Vallerotonda"
+        ]
+    }
+]
