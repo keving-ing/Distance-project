@@ -21,6 +21,14 @@
     <div id="map" class="map"></div>
     <script type="module" src="./src/main.js"></script>
 
+    <div id="popup" class="ol-popup" style="display: none;">
+        <a href="#" id="popup-closer" class="ol-popup-closer">×</a>
+        <div id="popup-content">
+          <div id="popup-text"></div>
+          <div id="popup-map"></div>
+        </div>
+    </div>
+
     <!-- 🔹 Menu per la distanza -->
     <div id="controls" style="display: none;"> 
         <label for="searchComune">Cerca un comune:</label>

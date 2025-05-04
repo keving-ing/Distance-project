@@ -293,3 +293,43 @@ button, radio {
   margin: 0 10px;
   font-size: 18px;
 }
+
+.ol-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  padding: 20px;
+  z-index: 1000;
+  width: 400px;
+  max-width: 90%;
+  display: none;
+}
+
+#popup-closer {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 18px;
+  color: #888;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-closer:hover {
+  color: black;
+}
+
+#popup-content {
+  margin-top: 10px;
+}
+
+#popup-map {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ccc;
+}

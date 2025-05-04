@@ -5,6 +5,7 @@ import { loadNucleiData, updateMapColorsNuclei} from './nucleiProcessor.js';
 import { map, comuniLayer, nucleiLayer, defaultStyle } from './map.js';
 import { setupClickInteraction, setupPointerMoveInteraction, setupTooltip } from './interactions_map.js';
 import { setupUIEvents,setupMenuNavigation } from './uiEvents.js';
+import Overlay from 'ol/Overlay';
 
 const csvPath = "/data/aggregati_municipio.csv"; 
 let comuneData = {}; // Qui salveremo i dati del CSV
@@ -22,7 +23,18 @@ const outCsvPath = "/data/outliers_comuni.csv";
 let outliersTransport = {}; // Qui salveremo i dati del CSV
 
 outliersTransport
-setupClickInteraction(map);
+
+// 🎯 Seleziona gli elementi HTML del popup
+const closer = document.getElementById('popup-closer');
+
+closer.onclick = function () {
+  document.getElementById('popup').style.display = 'none';
+  closer.blur();
+  return false;
+};
+  
+
+//setupClickInteraction(map);
 setupPointerMoveInteraction(map, document.getElementById("infoBox"),comuneData);
 setupTooltip(map);
 
@@ -169,6 +181,9 @@ loadNucleiData(nucleiCsvPath).then(data => {
     nucleiData = data;
     nucleiDataReady = true;
     console.log("📊 Dati nuclei caricati:", nucleiData);
+    map.addLayer(nucleiLayer); // ✅ aggiunto ma invisibile
+    nucleiLayer.setVisible(false);
+    setupClickInteraction(map);
 });
 
 loadCsvData_diff(diffCsvPath).then(data => {

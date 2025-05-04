@@ -1,0 +1,6292 @@
+{
+    "ACCUMOLI": {
+        "medici": [
+            "P.ZZA S. FRANCESCO - EX SCUOLA ELEMENTARE, ACCUMOLI"
+        ],
+        "nuclei": [
+            5700110001.0,
+            5700110002.0,
+            5700110003.0,
+            5700124913.0,
+            5700124914.0,
+            5700126606.0,
+            5700120011.0,
+            5700120003.0,
+            5700120207.0,
+            5700126601.0,
+            5700126612.0,
+            5700126604.0,
+            5700126605.0,
+            5700124902.0,
+            5700126608.0,
+            5700126609.0,
+            5700127615.0,
+            5700126610.0,
+            5700140000.0
+        ]
+    },
+    "ACQUAFONDATA": {
+        "medici": [
+            "CASALCASSINESE, ACQUAFONDATA, 03040"
+        ],
+        "nuclei": [
+            6000110001.0,
+            6000110002.0,
+            6000126601.0,
+            6000126602.000001,
+            6000140000.000001
+        ]
+    },
+    "ACQUAPENDENTE": {
+        "medici": [
+            "DEL RIVO 34, ACQUAPENDENTE, 01021",
+            "VIA DEL TEATRO 14, ACQUAPENDENTE, 01021",
+            "VIA DEL FIORE 20, ACQUAPENDENTE, 01021",
+            "VIA F. CARDARELLI, 2 (FRAZ.TORRE ALFINA), ACQUAPENDENTE, 01021",
+            "VIA XV MAGGIO 45, ACQUAPENDENTE, 01021"
+        ],
+        "nuclei": [
+            5600110001.0,
+            5600110002.0,
+            5600120001.0,
+            5600110003.0,
+            5600130002.0,
+            5600130001.0,
+            5600130004.0,
+            5600130003.0,
+            5600140000.0
+        ]
+    },
+    "ACUTO": {
+        "medici": [
+            "VIA GIUSEPPE GERMINI SNC, ACUTO, 03010"
+        ],
+        "nuclei": [
+            6000210001.0,
+            6000220003.0,
+            6000220001.0,
+            6000226602.0,
+            6000226604.0,
+            6000240000.0
+        ]
+    },
+    "AFFILE": {
+        "medici": [
+            "VIA L. NADDEO 3, AFFILE, 00021"
+        ],
+        "nuclei": [
+            5800110001.0,
+            5800126602.0,
+            5800126701.0,
+            5800140000.0
+        ]
+    },
+    "AGOSTA": {
+        "medici": [
+            "VIA UNGHERIA 4, AGOSTA, 00020",
+            "VIA ROMA 74, AGOSTA, 00020"
+        ],
+        "nuclei": [
+            5800210001.0,
+            5800210002.0,
+            5800220002.0,
+            5800220003.0,
+            5800240000.0
+        ]
+    },
+    "ALATRI": {
+        "medici": [
+            "VIA LA STAZZA 79, ALATRI, 03011",
+            "VIA S.MANNO 32/A, ALATRI, 03011",
+            "VIA COLLETRAIANO 111, ALATRI, 03011",
+            "SS.155 COLLETRAIANO, ALATRI, 03011",
+            "VIA MOLE BISLETI, ALATRI, 03011",
+            "VIA ALCIDE DE GASPERI 53, ALATRI, 03011",
+            "VICOLO POMPEO MOLELLA N. 2, ALATRI, 03011",
+            "VIA FIURA 57, ALATRI, 03011",
+            "VIA MOLE BISLETI 51, ALATRI, 03011",
+            "VIA S.CECILIA,96, ALATRI, 03011"
+        ],
+        "nuclei": [
+            6000310005.999999,
+            6000310001.0,
+            6000320003.0,
+            6000320002.0,
+            6000310014.0,
+            6000310009.0,
+            6000320000.999999,
+            6000310013.0,
+            6000310016.999999,
+            6000310003.0,
+            6000310010.0,
+            6000310005.0,
+            6000310002.0,
+            6000310007.999999,
+            6000310007.0,
+            6000320004.0,
+            6000310011.0,
+            6000310015.000001,
+            6000310018.0,
+            6000310019.0,
+            6000310016.0,
+            6000339999.999999
+        ]
+    },
+    "ALBANO LAZIALE": {
+        "medici": [
+            "VIA BOLOGNA 3, ALBANO LAZIALE, 00041",
+            "VIA CASTRO PRETORIO 1, ALBANO LAZIALE, 00041",
+            "VIA RISORGIMENTO 131, ALBANO LAZIALE, 00041",
+            "VIA ROSSINI ,14 A, ALBANO LAZIALE, 00041",
+            "CORSO G. MATTEOTTI 69, ALBANO LAZIALE, 00041",
+            "VIALE RISORGIMENTO, 61, ALBANO LAZIALE, 00041",
+            "VIA PARCO DELLA RIMEMBRANZA 12, ALBANO LAZIALE, 00041",
+            "VIA RISORGIMENTO 131 INT. 2, ALBANO LAZIALE, 00041",
+            "BOLOGNA, 3, ALBANO LAZIALE, 00041",
+            "VIA A. SAFFI 121, ALBANO LAZIALE, 00041",
+            "VIA CELLOMAIO 29, ALBANO LAZIALE, 00041",
+            "VIA POMPEO MAGNO 24, ALBANO LAZIALE, 00041",
+            "VIA LEGIONE PARTICA 11, ALBANO LAZIALE, 00041",
+            "CORSO MATTEOTTI 146, ALBANO LAZIALE, 00041",
+            "VIA NETTUNENSE 123, ALBANO LAZIALE, 00041",
+            "VIA TOR PALUZZI 6 - CECCHINA, ALBANO LAZIALE, 00041",
+            "VIA TOR PALUZZI 6, ALBANO LAZIALE, 00041",
+            "VICOLO DEL MONTANO 1, ALBANO LAZIALE, 00041",
+            "VIA DON LUIGI MINZONI 8, ALBANO LAZIALE, 00041"
+        ],
+        "nuclei": [
+            5800310001.0,
+            5800310002.0,
+            5800320002.0,
+            5800320007.0,
+            5800320008.0,
+            5800320014.0,
+            5800320010.0,
+            5800320011.0,
+            5800340000.0
+        ]
+    },
+    "ALLUMIERE": {
+        "medici": [
+            "PIAZZA DELLA REPUBBLICA 21, ALLUMIERE, 00051",
+            "PIAZZA DELLA REPUBBLICA 10, ALLUMIERE, 00051"
+        ],
+        "nuclei": [
+            5800410001.0,
+            5800410002.0,
+            5800440000.0
+        ]
+    },
+    "ALVITO": {
+        "medici": [
+            "VIA DEL LITTORIO 9/C, ALVITO, 03041",
+            "VIA SILVIO CASTRUCCI N.4, ALVITO, 03041"
+        ],
+        "nuclei": [
+            6000410001.0,
+            6000410002.0,
+            6000420209.0,
+            6000420014.0,
+            6000420010.0,
+            6000426601.000001,
+            6000420204.0,
+            6000426615.0,
+            6000426615.999999,
+            6000440000.0
+        ]
+    },
+    "AMASENO": {
+        "medici": [
+            "VIA UMBERTO I, 3, AMASENO, 03021",
+            "VIA ALDO MORO 6, AMASENO, 03021"
+        ],
+        "nuclei": [
+            6000510001.0,
+            6000520002.0,
+            6000520004.0,
+            6000526601.0,
+            6000526606.0,
+            6000540000.000001
+        ]
+    },
+    "AMATRICE": {
+        "medici": [
+            "VIA GARIBALDI 4, AMATRICE, 02012",
+            "VIA F.GRIFONI 12, AMATRICE, 02012"
+        ],
+        "nuclei": [
+            5700210001.0,
+            5700210004.0,
+            5700210002.0,
+            5700220001.0,
+            5700210005.0,
+            5700210003.0,
+            5700220015.0,
+            5700220040.0,
+            5700220036.0,
+            5700220030.0,
+            5700220231.0,
+            5700220023.0,
+            5700220221.0,
+            5700226606.0,
+            5700220042.0,
+            5700220228.0,
+            5700220016.0,
+            5700220011.0,
+            5700220012.0,
+            5700226627.0,
+            5700226639.0,
+            5700226641.0,
+            5700226626.0,
+            5700226613.0,
+            5700226644.0,
+            5700226619.0,
+            5700226603.0,
+            5700226617.0,
+            5700226602.0,
+            5700226637.0,
+            5700226638.0,
+            5700226604.0,
+            5700220025.0,
+            5700226605.0,
+            5700220214.0,
+            5700220043.0,
+            5700220247.0,
+            5700226607.0,
+            5700220045.0,
+            5700226618.0,
+            5700226633.0,
+            5700226632.0,
+            5700226635.0,
+            5700226629.0,
+            5700226624.0,
+            5700226608.0,
+            5700226622.0,
+            5700227648.0,
+            5700227649.0,
+            5700227650.0,
+            5700226610.0,
+            5700227651.0,
+            5700227652.0,
+            5700227653.0,
+            5700227654.0,
+            5700227660.0,
+            5700240000.0
+        ]
+    },
+    "ANAGNI": {
+        "medici": [
+            "DELLA PESCHIERA 70, ANAGNI, 03012",
+            "VIA NINO STOPPANI 3, ANAGNI, 03012",
+            "VIA TARTARALTA, ANAGNI, 03012",
+            "VIA G. GIMINIANI 1/C, ANAGNI, 03012",
+            "CAVOUR 2, ANAGNI, 03012",
+            "VIA PRATO SERENO 20, ANAGNI, 03012",
+            "PIAZZA CAVOUR N. 3, ANAGNI, 03012",
+            "VIA DELLO SPIZZONE N.4, ANAGNI, 03012",
+            "VIALE REGINA MARGHERITA 80, ANAGNI, 03012",
+            "VIA STOPPANI, ANAGNI, 03012"
+        ],
+        "nuclei": [
+            6000610001.0,
+            6000610004.0,
+            6000620001.0,
+            6000620007.0,
+            6000610003.000001,
+            6000610005.000001,
+            6000610002.0,
+            6000620015.0,
+            6000620005.0,
+            6000620008.0,
+            6000620023.999999,
+            6000620014.0,
+            6000620004.0,
+            6000620009.000001,
+            6000620012.999999,
+            6000620012.0,
+            6000620016.0,
+            6000620019.0,
+            6000620021.999999,
+            6000620026.0,
+            6000626606.0,
+            6000620021.0,
+            6000630003.0,
+            6000626710.999999,
+            6000630002.0,
+            6000626703.0,
+            6000630001.0,
+            6000626717.0,
+            6000626718.000001,
+            6000640000.0
+        ]
+    },
+    "ANGUILLARA SABAZIA": {
+        "medici": [
+            "VIA ROMANA N.22, ANGUILLARA SABAZIA, 00061",
+            "VIA ANGUILLARESE 78 PIANO TERRA INT.B, ANGUILLARA SABAZIA, 00061",
+            "VIA ANGUILLARESE N.66/M, ANGUILLARA SABAZIA, 00061",
+            "LARGO MARIA FELICE N.4, ANGUILLARA SABAZIA, 00061",
+            "VIA TREVIGNANESE 1, ANGUILLARA SABAZIA, 00061",
+            "DEI GELSI 2A, ANGUILLARA SABAZIA, 00061",
+            "VIA ANGUILLARESE N.66, ANGUILLARA SABAZIA, 00061",
+            "VIA PONTE VALLE TRAVE N.6, ANGUILLARA SABAZIA, 00061",
+            "PIAZZA SAN FRANCESCO N.3, ANGUILLARA SABAZIA, 00061"
+        ],
+        "nuclei": [
+            5800510001.0,
+            5800510002.0,
+            5800520001.0,
+            5800520007.0,
+            5800520008.0,
+            5800520009.0,
+            5800520005.0,
+            5800520006.0,
+            5800520004.0,
+            5800520003.0,
+            5800526702.0,
+            5800540000.0
+        ]
+    },
+    "ANTICOLI CORRADO": {
+        "medici": [
+            "VIA ROMA N. 7, ANTICOLI CORRADO, 00022"
+        ],
+        "nuclei": [
+            5800610001.0,
+            5800640000.0
+        ]
+    },
+    "ANTRODOCO": {
+        "medici": [
+            "DELLE RIMEMBRANZE N. 4A, ANTRODOCO, 02013",
+            "VIA LUNGO VELINO S.N.C., ANTRODOCO, 02013",
+            "PIAZZA MARTIRI DELLA LIBERT\u00c0, 1, ANTRODOCO, 02013",
+            "VIA DEL CASTELLO 26, ANTRODOCO, 02013"
+        ],
+        "nuclei": [
+            5700310001.0,
+            5700320004.0,
+            5700320003.0,
+            5700326601.0,
+            5700326602.0,
+            5700326605.0,
+            5700326706.0,
+            5700340000.0
+        ]
+    },
+    "AQUINO": {
+        "medici": [
+            "A. LABRIOLA N\u00b03, AQUINO, 03031",
+            "VIA ALESSANDRO MANZONI, AQUINO, 03031",
+            "VIA ALDO MORO 02, AQUINO, 03031",
+            "VIA RINALDO D AQUINO 9, AQUINO, 03031",
+            "VIA RISORGIMENTO SNC, AQUINO, 03031",
+            "VIA NICOLA MAZZAROPPI, 38, AQUINO, 03031"
+        ],
+        "nuclei": [
+            6000710001.0,
+            6000720002.0,
+            6000720005.0,
+            6000720004.0,
+            6000726603.0,
+            6000726601.0,
+            6000726709.999999,
+            6000726606.0,
+            6000726607.0,
+            6000726711.999999,
+            6000726609.0,
+            6000726711.0,
+            6000726708.000001,
+            6000739999.999999
+        ]
+    },
+    "ARCE": {
+        "medici": [
+            "VIA MAGNI N. 6, ARCE, 03032",
+            "VIA G. MARCONI 007, ARCE, 03032",
+            "FONTANELLE, ARCE, 03033"
+        ],
+        "nuclei": [
+            6000810006.0,
+            6000810001.0,
+            6000810004.0,
+            6000810009.0,
+            6000820007.0,
+            6000810003.000001,
+            6000810010.0,
+            6000810005.000001,
+            6000810002.0,
+            6000810008.0,
+            6000820015.0,
+            6000810006.999999,
+            6000820212.000001,
+            6000820004.0,
+            6000820210.0,
+            6000826602.999999,
+            6000826601.000001,
+            6000826709.000001,
+            6000820215.999999,
+            6000826604.999999,
+            6000826713.0,
+            6000820202.0,
+            6000826606.0,
+            6000826608.0,
+            6000826714.0,
+            6000840000.0
+        ]
+    },
+    "ARCINAZZO ROMANO": {
+        "medici": [
+            "VIA P. BORSELLINO, ARCINAZZO ROMANO, 00020"
+        ],
+        "nuclei": [
+            5800810001.0,
+            5800810002.0,
+            5800840000.0
+        ]
+    },
+    "ARICCIA": {
+        "medici": [
+            "OSPEDALE SPOLVERINI VIA DELLE CERQUETTE 2, ARICCIA, 00072",
+            "VIA FONTANA DI PAPA, 6, ARICCIA, 00072"
+        ],
+        "nuclei": [
+            5800910001.0,
+            5800926702.0,
+            5800926701.0,
+            5800940000.0
+        ]
+    },
+    "ARLENA DI CASTRO": {
+        "medici": [
+            "VIA DEL CONVENTO SNC, TUSCANIA, 01017"
+        ],
+        "nuclei": [
+            5600210001.0,
+            5600240000.0
+        ]
+    },
+    "ARNARA": {
+        "medici": [
+            "PIAGGE 1, ARNARA, 03020",
+            "PIAZZA S. NICOLA, 8, ARNARA, 03020"
+        ],
+        "nuclei": [
+            6000910001.0,
+            6000920003.0,
+            6000910002.0,
+            6000920008.000001,
+            6000920004.0,
+            6000920009.0,
+            6000920017.0,
+            6000920011.999999,
+            6000920006.0,
+            6000926607.0,
+            6000926700.999999,
+            6000940000.000001
+        ]
+    },
+    "ARPINO": {
+        "medici": [
+            "CAVALIER D`ARPINO 2B, FRASCATI, 00044",
+            "SCAFFA 73/74, ARPINO, 03033",
+            "VIA RONDINELLA, ARPINO, 03033",
+            "G. CESARI 37, ARPINO, 03033",
+            "VIA SCAFFA 138, ARPINO, 03033",
+            "VIA ARPINO 15, ISOLA DEL LIRI, 03036",
+            "VIA SALITA DELL`ARCO, ARPINO, 03033"
+        ],
+        "nuclei": [
+            6001010001.0,
+            6001010004.0,
+            6001020001.0,
+            6001010003.000001,
+            6001010002.0,
+            6001020015.0,
+            6001020040.000001,
+            6001020220.0,
+            6001020029.0,
+            6001020230.0,
+            6001020004.0,
+            6001020017.0,
+            6001020202.999999,
+            6001020023.0,
+            6001020010.0,
+            6001026639.0,
+            6001026705.0,
+            6001026626.0,
+            6001026613.0,
+            6001026611.0,
+            6001026635.999999,
+            6001026602.0,
+            6001026637.0,
+            6001026638.0,
+            6001020234.000001,
+            6001026631.0,
+            6001020019.0,
+            6001020215.999999,
+            6001020027.0,
+            6001026607.0,
+            6001020035.0,
+            6001026633.0,
+            6001026632.000001,
+            6001026612.000001,
+            6001026613.999999,
+            6001026609.0,
+            6001040000.0
+        ]
+    },
+    "ARSOLI": {
+        "medici": [
+            "VIA TIBURTINA VALERIA N. 33, ARSOLI, 00023"
+        ],
+        "nuclei": [
+            5801010001.0,
+            5801040000.0
+        ]
+    },
+    "ARTENA": {
+        "medici": [
+            "VIA A. FLEMING, 30, ARTENA, 00031",
+            "VIA DI VITTORIO 68, ARTENA, 00031",
+            "PIAZZA GALILEO GALILEI N. 29, ARTENA, 00031",
+            "VIALE 1\u00b0 MAGGIO 32, ARTENA, 00031",
+            "VIA A. FLEMING 24, ARTENA, 00031",
+            "PIAZZA DELL`UNIONE 2, ARTENA, 00031"
+        ],
+        "nuclei": [
+            5801110001.0,
+            5801110004.0,
+            5801110002.0,
+            5801110005.0,
+            5801110003.0,
+            5801120204.0,
+            5801140000.0
+        ]
+    },
+    "ASCREA": {
+        "medici": [
+            "AMBULATORIO COMUNALE ASCREA, ASCREA, 02020"
+        ],
+        "nuclei": [
+            5700410001.0,
+            5700410002.0,
+            5700420001.0,
+            5700440000.0
+        ]
+    },
+    "ATINA": {
+        "medici": [
+            "VIA COLLE MELFA, ATINA, 03042",
+            "VIA MUNANZIO PLANCO 193, ATINA, 03042",
+            "PIAZZA VEROLI, ATINA, 03042"
+        ],
+        "nuclei": [
+            6001110001.0,
+            6001120003.0,
+            6001110003.0,
+            6001110002.0,
+            6001120008.000001,
+            6001120014.0,
+            6001120004.0,
+            6001120210.0,
+            6001120011.999999,
+            6001120006.0,
+            6001126620.0,
+            6001126617.0,
+            6001126611.000001,
+            6001120201.0,
+            6001120018.0,
+            6001126605.0,
+            6001120202.000001,
+            6001126607.0,
+            6001139999.999999
+        ]
+    },
+    "AUSONIA": {
+        "medici": [
+            "VIA PROVINCIALE 38, AUSONIA, 03040",
+            "VIA PROVINCIALE N\u00b0 33, AUSONIA, 03040",
+            "TORE 5, AUSONIA, 03040"
+        ],
+        "nuclei": [
+            6001210001.0,
+            6001220003.0,
+            6001220001.999999,
+            6001220001.0,
+            6001220007.0,
+            6001210002.0,
+            6001220004.0,
+            6001220006.0,
+            6001226604.999999,
+            6001226609.0,
+            6001226610.0,
+            6001226608.0,
+            6001230001.0,
+            6001240000.0
+        ]
+    },
+    "BAGNOREGIO": {
+        "medici": [
+            "VIA DANTE ALIGHIERI, 14, BAGNOREGIO, 01022"
+        ],
+        "nuclei": [
+            5600310001.0,
+            5600310004.0,
+            5600310002.0,
+            5600310003.0,
+            5600326601.0,
+            5600326602.0,
+            5600326604.0,
+            5600326703.0,
+            5600340000.0
+        ]
+    },
+    "BARBARANO ROMANO": {
+        "medici": [
+            "VIALE IV NOVEMBRE 24, BARBARANO ROMANO, 01010"
+        ],
+        "nuclei": [
+            5600410001.0,
+            5600420001.0,
+            5600430001.0,
+            5600440000.0
+        ]
+    },
+    "BASSANO IN TEVERINA": {
+        "medici": [
+            "VIA CESARE BATTISTI SNC, BASSANO IN TEVERINA, 01030"
+        ],
+        "nuclei": [
+            5600610001.0,
+            5600640000.0
+        ]
+    },
+    "BASSANO ROMANO": {
+        "medici": [
+            "VIA MARCO POLO, 1, BASSANO ROMANO, 01030",
+            "VIA S. GRATILIANO 59, BASSANO ROMANO, 01030"
+        ],
+        "nuclei": [
+            5600510001.0,
+            5600526601.0,
+            5600540000.0
+        ]
+    },
+    "BASSIANO": {
+        "medici": [
+            "VIA ALDO MANUNZIO 145, BASSIANO, 04010",
+            "VIA BASSIANO, 139, SEZZE, 04018",
+            "VIA DEI MARTIRI 14, BASSIANO, 04010"
+        ],
+        "nuclei": [
+            5900210001.0,
+            5900210002.0,
+            5900220003.0,
+            5900226604.0,
+            5900220202.0,
+            5900240000.0
+        ]
+    },
+    "BELLEGRA": {
+        "medici": [
+            "PIAZZA DELLA LIBERTA` 17, BELLEGRA, 00030",
+            "VIALE GIOVANNI XXIII, 29, BELLEGRA, 00030"
+        ],
+        "nuclei": [
+            5801210001.0,
+            5801220004.0,
+            5801220003.0,
+            5801226602.0,
+            5801240000.0
+        ]
+    },
+    "BELMONTE CASTELLO": {
+        "medici": [
+            "Via Stella, 3 Belmonte Castello"
+        ],
+        "nuclei": [
+            6001310001.0,
+            6001320000.999999,
+            6001326603.0,
+            6001320203.999999,
+            6001320205.0,
+            6001320206.0,
+            6001326610.0,
+            6001326711.0,
+            6001326709.0,
+            6001326707.0,
+            6001326708.000001,
+            6001340000.000001
+        ]
+    },
+    "BELMONTE IN SABINA": {
+        "medici": [
+            "VIA COLLE CATINO SNC, BELMONTE IN SABINA, 02020"
+        ],
+        "nuclei": [
+            5700510001.0,
+            5700520001.0,
+            5700520002.0,
+            5700526603.0,
+            5700540000.0
+        ]
+    },
+    "BLERA": {
+        "medici": [
+            "VIA UMBERTO I 11, BLERA, 01010",
+            "VIA UMBERTO I 38, BLERA, 01010"
+        ],
+        "nuclei": [
+            5600710001.0,
+            5600710002.0,
+            5600720001.0,
+            5600730001.0,
+            5600740000.0
+        ]
+    },
+    "BOLSENA": {
+        "medici": [
+            "PIAZZA NASSIRYA, 1, BOLSENA, 01023"
+        ],
+        "nuclei": [
+            5600810001.0,
+            5600826601.0,
+            5600826603.0,
+            5600824902.0,
+            5600840000.0
+        ]
+    },
+    "BOMARZO": {
+        "medici": [
+            "VIA SANDRO PERTINI SNC, BOMARZO, 01020"
+        ],
+        "nuclei": [
+            5600910001.0,
+            5600910002.0,
+            5600940000.0
+        ]
+    },
+    "BORBONA": {
+        "medici": [
+            "VIA S.GIUSEPPE 54/B, BORBONA, 02010",
+            "VIA S NICOLA, BORBONA, 02010"
+        ],
+        "nuclei": [
+            5700610001.0,
+            5700610002.0,
+            5700610003.0,
+            5700626602.0,
+            5700624903.0,
+            5700640000.0
+        ]
+    },
+    "BORGO VELINO": {
+        "medici": [
+            "VIA ALDO MORO, 45, BORGO VELINO, 02010"
+        ],
+        "nuclei": [
+            5700810001.0,
+            5700810002.0,
+            5700840000.0
+        ]
+    },
+    "BORGOROSE": {
+        "medici": [
+            "VIA DELLA CAPPELLA, BORGOROSE, 02021",
+            "VIA ROMA, BORGOROSE, 02021",
+            "VIA COSTANTINI,37, BORGOROSE, 02021"
+        ],
+        "nuclei": [
+            5700710006.0,
+            5700710001.0,
+            5700710004.0,
+            5700710002.0,
+            5700710009.0,
+            5700710010.0,
+            5700710005.0,
+            5700710003.0,
+            5700710008.0,
+            5700710007.0,
+            5700720009.0,
+            5700726606.0,
+            5700720005.0,
+            5700710011.0,
+            5700726603.0,
+            5700726602.0,
+            5700726604.0,
+            5700724908.0,
+            5700730001.0,
+            5700740000.0
+        ]
+    },
+    "BOVILLE ERNICA": {
+        "medici": [
+            "VIA CESARE BATTISTI 5, BOVILLE ERNICA, 03022",
+            "CORSO UMBERTO I SNC, BOVILLE ERNICA, 03022",
+            "VALLE PARADISO, 6, BOVILLE ERNICA, 03022",
+            "VIA ROTABILE, 174, BOVILLE ERNICA, 03022",
+            "VIA FONTANA ROSA 42, BOVILLE ERNICA, 03022",
+            "VIA SANTO STEFANO, 5, BOVILLE ERNICA, 03022"
+        ],
+        "nuclei": [
+            6001410006.0,
+            6001410001.0,
+            6001410005.000001,
+            6001410004.0,
+            6001410009.0,
+            6001420001.0,
+            6001420007.0,
+            6001410003.000001,
+            6001410010.0,
+            6001410008.0,
+            6001410002.0,
+            6001410006.999999,
+            6001420005.0,
+            6001420023.999999,
+            6001420014.0,
+            6001420009.000001,
+            6001420012.999999,
+            6001420020.000001,
+            6001420012.0,
+            6001426619.0,
+            6001426617.0,
+            6001426611.0,
+            6001426602.0,
+            6001426604.0,
+            6001420021.999999,
+            6001426618.0,
+            6001426615.0,
+            6001426610.0,
+            6001426608.0,
+            6001426615.999999,
+            6001440000.0
+        ]
+    },
+    "BRACCIANO": {
+        "medici": [
+            "VIA LUIGI DOMENICI N.10, BRACCIANO, 00062",
+            "VIA ARAZZARIA 20, BRACCIANO, 00062",
+            "VIA DELLE PALME N.5/C, BRACCIANO, 00062",
+            "VIA ODESCALCHI N.14, BRACCIANO, 00062",
+            "PRINCIPE DI NAPOLI 129 A, BRACCIANO, 00062"
+        ],
+        "nuclei": [
+            5801310006.0,
+            5801310001.0,
+            5801310004.0,
+            5801310002.0,
+            5801310005.0,
+            5801310003.0,
+            5801320005.0,
+            5801320006.0,
+            5801320003.0,
+            5801326704.0,
+            5801340000.0
+        ]
+    },
+    "BROCCOSTELLA": {
+        "medici": [
+            "VIA STELLA 3, BROCCOSTELLA, 03030",
+            "GIOVANNI FALCONE N.2, BROCCOSTELLA, 03030"
+        ],
+        "nuclei": [
+            6001510001.0,
+            6001510002.0,
+            6001520008.000001,
+            6001520009.0,
+            6001520016.0,
+            6001526603.0,
+            6001520207.0,
+            6001520206.0,
+            6001526612.0,
+            6001530001.0,
+            6001539999.999999
+        ]
+    },
+    "CALCATA": {
+        "medici": [
+            "VIA LAZIO, CALCATA, 01030"
+        ],
+        "nuclei": [
+            5601010001.0,
+            5601010002.0,
+            5601020001.0,
+            5601040000.0
+        ]
+    },
+    "CAMERATA NUOVA": {
+        "medici": [
+            "PIAZZA ROMA 33, CAMERATA NUOVA, 00020"
+        ],
+        "nuclei": [
+            5801410001.0,
+            5801426602.0,
+            5801440000.0
+        ]
+    },
+    "CAMPAGNANO DI ROMA": {
+        "medici": [
+            "VIA UNITA` D`ITALIA, 1/E, CAMPAGNANO DI ROMA, 00063",
+            "VIA SALVO D`ACQUISTO 3, CAMPAGNANO DI ROMA, 00063",
+            "VIA DEL PAVONE 3, CAMPAGNANO DI ROMA, 00063",
+            "Q. GENTILI, 10, CAMPAGNANO DI ROMA, 00063"
+        ],
+        "nuclei": [
+            5801510001.0,
+            5801520001.0,
+            5801520002.0,
+            5801520003.0,
+            5801540000.0
+        ]
+    },
+    "CAMPODIMELE": {
+        "medici": [
+            "SAN ROCCO N\u00b03, CAMPODIMELE, 04020"
+        ],
+        "nuclei": [
+            5900310001.0,
+            5900320001.0,
+            5900340000.0
+        ]
+    },
+    "CAMPOLI APPENNINO": {
+        "medici": [
+            "PIAZZA UMBERTO I, CAMPOLI APPENNINO, 03030"
+        ],
+        "nuclei": [
+            6001610001.0,
+            6001620004.0,
+            6001620209.0,
+            6001626602.999999,
+            6001626602.0,
+            6001620201.000001,
+            6001620207.0,
+            6001626604.999999,
+            6001626606.0,
+            6001626610.0,
+            6001626608.0,
+            6001640000.0
+        ]
+    },
+    "CANALE MONTERANO": {
+        "medici": [
+            "VIA ORIOLO ROMANO N.26, CANALE MONTERANO, 00060",
+            "PIAZZA COLUZIA DA MONTERANO N.2, CANALE MONTERANO, 00060"
+        ],
+        "nuclei": [
+            5801610001.0,
+            5801610002.0,
+            5801620005.0,
+            5801620004.0,
+            5801640000.0
+        ]
+    },
+    "CANEPINA": {
+        "medici": [
+            "PIAZZA MARCONI, CANEPINA, 01030",
+            "VIA PORTA PIAGGE VICICOLO II 7, CANEPINA, 01030"
+        ],
+        "nuclei": [
+            5601110001.0,
+            5601126701.0,
+            5601130001.0,
+            5601140000.0
+        ]
+    },
+    "CANINO": {
+        "medici": [
+            "VIA DELLA LIBERTA` 8, CANINO, 01011"
+        ],
+        "nuclei": [
+            5601210001.0,
+            5601226701.0,
+            5601240000.0
+        ]
+    },
+    "CANTALICE": {
+        "medici": [
+            "PIAZZA DELLA REPUBBLICA 1, CANTALICE, 02014",
+            "VIA DANTE ALIGHIERI SNC, CANTALICE, 02014"
+        ],
+        "nuclei": [
+            5700910001.0,
+            5700910004.0,
+            5700910002.0,
+            5700920002.0,
+            5700910005.0,
+            5700910003.0,
+            5700920008.0,
+            5700920009.0,
+            5700920005.0,
+            5700920004.0,
+            5700920003.0,
+            5700940000.0
+        ]
+    },
+    "CANTALUPO IN SABINA": {
+        "medici": [
+            "VIALE VERDI - 3/C, CANTALUPO IN SABINA, 02040"
+        ],
+        "nuclei": [
+            5701010001.0,
+            5701020002.0,
+            5701040000.0
+        ]
+    },
+    "CANTERANO": {
+        "medici": [
+            "PIAZZA F. ANTONIONI, 15, CANTERANO, 00020"
+        ],
+        "nuclei": [
+            5801710001.0,
+            5801726701.0,
+            5801740000.0
+        ]
+    },
+    "CAPENA": {
+        "medici": [
+            "VIA E. CURIEL 25, CAPENA, 00060",
+            "VIA PIAVE 10/B, CAPENA, 00060"
+        ],
+        "nuclei": [
+            5801810001.0,
+            5801810002.0,
+            5801820001.0,
+            5801810003.0,
+            5801820005.0,
+            5801820004.0,
+            5801820003.0,
+            5801830001.0,
+            5801840000.0
+        ]
+    },
+    "CAPODIMONTE": {
+        "medici": [
+            "VIA ROMA 35, CAPODIMONTE, 01010",
+            "VIA DEL PRATINO 114, CAPODIMONTE, 01010"
+        ],
+        "nuclei": [
+            5601310001.0,
+            5601320001.0,
+            5601320002.0,
+            5601340000.0
+        ]
+    },
+    "CAPRANICA": {
+        "medici": [
+            "VIA NARDINI, 11/A, CAPRANICA, 01012",
+            "VIA GIACOMO MATTEOTTI, 22, CAPRANICA, 01012",
+            "VIA DEL VIGNOLA, 1, CAPRANICA, 01012"
+        ],
+        "nuclei": [
+            5601410001.0,
+            5601410002.0,
+            5601426601.0,
+            5601426602.0,
+            5601430001.0,
+            5601440000.0
+        ]
+    },
+    "CAPRANICA PRENESTINA": {
+        "medici": [
+            "CAPRANICA-GUADAGNOLO, CAPRANICA PRENESTINA, 00030",
+            "VIA COMUNE, CAPRANICA PRENESTINA, 00030",
+            "GUAGAGNOLO, CAPRANICA PRENESTINA, 00030"
+        ],
+        "nuclei": [
+            5801910001.0,
+            5801910002.0,
+            5801920002.0,
+            5801940000.0
+        ]
+    },
+    "CAPRAROLA": {
+        "medici": [
+            "PIAZZA P. CUZZOLI, 11, CAPRAROLA, 01032",
+            "PIAZZA PIETRO CUZZOLI, 34, CAPRAROLA, 01032"
+        ],
+        "nuclei": [
+            5601510001.0,
+            5601520001.0,
+            5601540000.0
+        ]
+    },
+    "CARBOGNANO": {
+        "medici": [
+            "VIA FONTANAVECCHIA, 22, CARBOGNANO, 01030"
+        ],
+        "nuclei": [
+            5601610001.0,
+            5601630001.0,
+            5601640000.0
+        ]
+    },
+    "CARPINETO ROMANO": {
+        "medici": [
+            "VIA S. AGOSTINO,3, CARPINETO ROMANO, 00032",
+            "VIA LAVATOIO 8, CARPINETO ROMANO, 00032",
+            "PIAZZA REGINA MARGHERITA 10, CARPINETO ROMANO, 00032"
+        ],
+        "nuclei": [
+            5802010001.0,
+            5802040000.0
+        ]
+    },
+    "CASALATTICO": {
+        "medici": [
+            "Largo Fusciardi, 13 CASALATTICO"
+        ],
+        "nuclei": [
+            6001710001.0,
+            6001710005.0,
+            6001710004.000001,
+            6001710003.0,
+            6001710002.0,
+            6001720203.0,
+            6001726602.000001,
+            6001720201.0,
+            6001726606.0,
+            6001740000.000001
+        ]
+    },
+    "CASALVIERI": {
+        "medici": [
+            "VIA CAMPO SPORTIVO N. 28 -CASALVIERI-, CASALVIERI, 03034",
+            "PIAZZA SAN ROCCO,19, CASALVIERI, 03034"
+        ],
+        "nuclei": [
+            6001810001.0,
+            6001820003.0,
+            6001810003.000001,
+            6001810002.0,
+            6001820032.0,
+            6001820209.0,
+            6001820014.0,
+            6001820028.0,
+            6001820042.000001,
+            6001820226.0,
+            6001820010.999999,
+            6001826641.0,
+            6001826624.999999,
+            6001826601.000001,
+            6001826620.0,
+            6001826623.000001,
+            6001826617.0,
+            6001826635.999999,
+            6001826638.0,
+            6001826604.0,
+            6001826631.0,
+            6001820018.0,
+            6001820207.0,
+            6001826604.999999,
+            6001820213.0,
+            6001820043.0,
+            6001820043.999999,
+            6001820206.0,
+            6001826729.000001,
+            6001826615.0,
+            6001826621.0,
+            6001826612.000001,
+            6001826624.0,
+            6001826608.0,
+            6001826740.000001,
+            6001840000.0
+        ]
+    },
+    "CASAPE": {
+        "medici": [
+            "VIA ROMA 22, CASAPE, 00010"
+        ],
+        "nuclei": [
+            5802110001.0,
+            5802140000.0
+        ]
+    },
+    "CASAPROTA": {
+        "medici": [
+            "VIA VITTORIO EMANUELE 22, CASAPROTA, 02030",
+            "P.ZZA DEL MUNICIPIO 1, CASAPROTA, 02030"
+        ],
+        "nuclei": [
+            5701110001.0,
+            5701110002.0,
+            5701126701.0,
+            5701140000.0
+        ]
+    },
+    "CASPERIA": {
+        "medici": [
+            "VIA ROMA 34, CASPERIA, 02041"
+        ],
+        "nuclei": [
+            5701210001.0,
+            5701210002.0,
+            5701220002.0,
+            5701220004.0,
+            5701220003.0,
+            5701240000.0
+        ]
+    },
+    "CASSINO": {
+        "medici": [
+            "VIA PASCOLI 41, CASSINO, 03043",
+            "PIAZZA LABRIOLA 56, CASSINO, 03043",
+            "PIAZZA A.LABRIOLA N.56, CASSINO, 03043",
+            "PIAZZA MARCONI 19, CASSINO, 03043",
+            "G. DI BIASIO N\u00b0 95, CASSINO, 03043",
+            "CORSO TRIESTE SNC, CASSINO, 03043",
+            "CORSO S. BASILIO 42, CASSINO, 03043",
+            "VIA PO 49, CASSINO, 03043",
+            "VIA SECONDINO PAGANO 18, CASSINO, 03043",
+            "VIA SANDRO PERTINI, CASSINO, 03043",
+            "VIA CORTILE, CASSINO, 03043",
+            "VIA PASCOLI 59, CASSINO, 03043",
+            "VIA BOTTICELLI 26, CASSINO, 03043",
+            "PIAZZA MARCONI 18, CASSINO, 03043",
+            "VIA PASCOLI 57, CASSINO, 03043",
+            "S. BARTOLOMEO VIALE SEGNI SNC, CASSINO, 03043",
+            "CORSO TRIESTE, CASSINO, 03043",
+            "VIA PUCCINI 41, CASSINO, 03043",
+            "VIALE SEGNI SNC, CASSINO, 03043"
+        ],
+        "nuclei": [
+            6001910005.999999,
+            6001910001.0,
+            6001910005.0,
+            6001910004.000001,
+            6001920002.0,
+            6001910009.0,
+            6001910003.0,
+            6001910007.999999,
+            6001910002.0,
+            6001920008.000001,
+            6001920211.000001,
+            6001920009.0,
+            6001920020.0,
+            6001920010.000001,
+            6001920016.0,
+            6001910011.0,
+            6001926601.0,
+            6001926617.0,
+            6001926723.0,
+            6001920025.0,
+            6001926605.0,
+            6001920022.0,
+            6001920026.0,
+            6001920027.0,
+            6001926607.0,
+            6001926621.0,
+            6001930003.000001,
+            6001926714.0,
+            6001926703.0,
+            6001930002.0,
+            6001926704.0,
+            6001930001.0,
+            6001939999.999999
+        ]
+    },
+    "CASTEL DI TORA": {
+        "medici": [
+            "AMBULATORIO COMUNALE CASTEL DI TORA, CASTEL DI TORA, 02020"
+        ],
+        "nuclei": [
+            5701310001.0,
+            5701340000.0
+        ]
+    },
+    "CASTEL GANDOLFO": {
+        "medici": [
+            "VIA CARLO ROSSELLI 1, CASTEL GANDOLFO, 00073",
+            "VIA C. MERRY DEL VAL 1, CASTEL GANDOLFO, 00073",
+            "VIA VAGLIA 2, CASTEL GANDOLFO, 00073"
+        ],
+        "nuclei": [
+            5802210001.0,
+            5802210002.0,
+            5802220001.0,
+            5802240000.0
+        ]
+    },
+    "CASTEL MADAMA": {
+        "medici": [
+            "VIA DELLA LIBERTA 38, CASTEL MADAMA, 00024",
+            "PIAZZA DANTE 4, CASTEL MADAMA, 00024"
+        ],
+        "nuclei": [
+            5802310001.0,
+            5802310002.0,
+            5802320002.0,
+            5802320005.0,
+            5802320004.0,
+            5802326603.0,
+            5802340000.0
+        ]
+    },
+    "CASTEL SAN PIETRO ROMANO": {
+        "medici": [
+            "PIAZZA DANTE, 8, CASTEL SAN PIETRO ROMANO, 00030"
+        ],
+        "nuclei": [
+            5802510001.0,
+            5802510002.0,
+            5802520002.0,
+            5802510003.0,
+            5802526601.0,
+            5802540000.0
+        ]
+    },
+    "CASTEL SANT'ANGELO": {
+        "medici": [
+            "VIA NAZIONALE, 22 - CANETRA, CASTEL SANT'ANGELO",
+            "VIA SALARIA KM 102 - COTILIA, CASTEL SANT'ANGELO"
+        ],
+        "nuclei": [
+            5701510001.0,
+            5701510002.0,
+            5701520001.0,
+            5701520002.0,
+            5701520008.0,
+            5701520004.0,
+            5701520006.0,
+            5701526607.0,
+            5701540000.0
+        ]
+    },
+    "CASTEL SANT'ELIA": {
+        "medici": [
+            "VIA G. VERDI 66, CASTEL SANT ELIA, 01030",
+            "LOCALE COMUNALE C/O EX CONDOTA MEDICA, CASTEL SANT ELIA, 01030",
+            "VIA VERDI 66, CASTEL SANT ELIA, 01030"
+        ],
+        "nuclei": [
+            5601710001.0,
+            5601720004.0,
+            5601720003.0,
+            5601726601.0,
+            5601726602.0,
+            5601740000.0
+        ]
+    },
+    "CASTELFORTE": {
+        "medici": [
+            "VIA FUSCO 85, CASTELFORTE, 04021",
+            "VIA RISORGIMENTO 5, CASTELFORTE, 04021",
+            "VIA PER CASTELFORTE 112, MINTURNO, 04026",
+            "SUIO - VIA DELLE TERME SNC, CASTELFORTE, 04021",
+            "VIA COLA DI RIENZO 2 - VIA TERME 201, CASTELFORTE, 04021",
+            "VIA DIAZ 3, CASTELFORTE, 04021",
+            "VIA DELLE TERME, CASTELFORTE, 04021"
+        ],
+        "nuclei": [
+            5900410001.0,
+            5900420003.0,
+            5900420002.0,
+            5900410003.0,
+            5900420005.0,
+            5900426604.0,
+            5900440000.0
+        ]
+    },
+    "CASTELLIRI": {
+        "medici": [
+            "VIA ROMA, 183, CASTELLIRI, 03030"
+        ],
+        "nuclei": [
+            6002010001.0,
+            6002020009.000001,
+            6002026602.999999,
+            6002026602.0,
+            6002020201.000001,
+            6002026604.999999,
+            6002026606.0,
+            6002030001.0,
+            6002026708.0,
+            6002040000.0
+        ]
+    },
+    "CASTELNUOVO DI FARFA": {
+        "medici": [
+            "VIA ROMA SNC, CASTELNUOVO DI FARFA, 02031"
+        ],
+        "nuclei": [
+            5701410001.0,
+            5701440000.0
+        ]
+    },
+    "CASTELNUOVO DI PORTO": {
+        "medici": [
+            "VIA MARCANTONIO COLONNA 5/A, CASTELNUOVO DI PORTO, 00060",
+            "VIA GIRARDI 18, CASTELNUOVO DI PORTO, 00060"
+        ],
+        "nuclei": [
+            5802410001.0,
+            5802410002.0,
+            5802420001.0,
+            5802420005.0,
+            5802420006.0,
+            5802420004.0,
+            5802420003.0,
+            5802440000.0
+        ]
+    },
+    "CASTELNUOVO PARANO": {
+        "medici": [
+            "VIA VALLI, CASTELNUOVO PARANO, 03040"
+        ],
+        "nuclei": [
+            6002110001.0,
+            6002120003.0,
+            6002110003.0,
+            6002110002.0,
+            6002126605.0,
+            6002126601.0,
+            6002126602.000001,
+            6002126603.999999,
+            6002140000.000001
+        ]
+    },
+    "CASTIGLIONE IN TEVERINA": {
+        "medici": [
+            "VIA XXV APRILE 2/A, CASTIGLIONE IN TEVERINA, 01024"
+        ],
+        "nuclei": [
+            5601810001.0,
+            5601810002.0,
+            5601820001.0,
+            5601840000.0
+        ]
+    },
+    "CASTRO DEI VOLSCI": {
+        "medici": [
+            "VIA DEL FORMELLO 26, CASTRO DEI VOLSCI, 03020"
+        ],
+        "nuclei": [
+            6002310001.0,
+            6002310005.0,
+            6002310004.000001,
+            6002320003.0,
+            6002320000.999999,
+            6002310002.0,
+            6002310003.0,
+            6002320004.0,
+            6002326702.0,
+            6002339999.999999
+        ]
+    },
+    "CASTROCIELO": {
+        "medici": [
+            "PIAZZA SAN ROCCO N. 5, CASTROCIELO, 03030",
+            "VIA CASILINA N\u00b0 59, CASTROCIELO, 03030"
+        ],
+        "nuclei": [
+            6002210001.0,
+            6002220001.999999,
+            6002220007.0,
+            6002220008.0,
+            6002220211.0,
+            6002220010.0,
+            6002220016.0,
+            6002226602.999999,
+            6002230005.999999,
+            6002226601.000001,
+            6002226613.0,
+            6002226620.0,
+            6002226619.0,
+            6002226604.0,
+            6002226604.999999,
+            6002220021.0,
+            6002226618.0,
+            6002226612.000001,
+            6002230003.0,
+            6002226613.999999,
+            6002230005.0,
+            6002230007.0,
+            6002230002.0,
+            6002226715.0,
+            6002230001.0,
+            6002230004.000001,
+            6002226717.0,
+            6002240000.0
+        ]
+    },
+    "CAVE": {
+        "medici": [
+            "VIALE ORTI GIORGIOLI, 33, CAVE, 00033",
+            "VIA A.CHIALASTRI,1, CAVE, 00033",
+            "PIAZZA ZILUCA 1, CAVE, 00033",
+            "VIA MATTEUZZO, 2 - LOC.COLLE PALME, CAVE, 00033",
+            "V.LE PIO XII,77/A, CAVE, 00033",
+            "GIORGIOLI, 33, CAVE, 00033"
+        ],
+        "nuclei": [
+            5802610001.0,
+            5802610002.0,
+            5802620006.0,
+            5802620004.0,
+            5802640000.0
+        ]
+    },
+    "CECCANO": {
+        "medici": [
+            "VICOLO GIZZI 1, CECCANO, 03023",
+            "VIA FABRATERIA VETUS SNC, CECCANO, 03023",
+            "VIA ANTONIO GRAMSCI 16, CECCANO, 03023",
+            "VIA BORGO SANTA LUCIA 52, CECCANO, 03023",
+            "VIA ANIME SANTE 2, CECCANO, 03023",
+            "PIAZZA BERARDI 30, CECCANO, 03023"
+        ],
+        "nuclei": [
+            6002410006.0,
+            6002410001.0,
+            6002410005.000001,
+            6002410004.0,
+            6002420001.0,
+            6002410002.0,
+            6002410003.000001,
+            6002410008.0,
+            6002420015.0,
+            6002410006.999999,
+            6002420018.0,
+            6002420032.999999,
+            6002420041.0,
+            6002420023.999999,
+            6002420031.000001,
+            6002420029.0,
+            6002420014.0,
+            6002420009.000001,
+            6002420012.999999,
+            6002420028.0,
+            6002420042.000001,
+            6002420012.0,
+            6002420010.999999,
+            6002426602.999999,
+            6002420025.0,
+            6002420021.999999,
+            6002426604.999999,
+            6002420043.0,
+            6002420027.0,
+            6002420034.0,
+            6002420043.999999,
+            6002420045.0,
+            6002420047.0,
+            6002420035.0,
+            6002426621.0,
+            6002426632.000001,
+            6002426646.0,
+            6002426702.0,
+            6002426610.0,
+            6002426720.000001,
+            6002426738.0,
+            6002426739.0,
+            6002426706.0,
+            6002430001.0,
+            6002426707.000001,
+            6002426708.0,
+            6002440000.0
+        ]
+    },
+    "CELLENO": {
+        "medici": [
+            "VIA A.DE GASPERI, 9, CELLENO, 01020"
+        ],
+        "nuclei": [
+            5601910001.0,
+            5601920002.0,
+            5601926601.0,
+            5601926603.0,
+            5601930001.0,
+            5601940000.0
+        ]
+    },
+    "CELLERE": {
+        "medici": [
+            "VIA NAPOLI 94, CELLERE, 01010"
+        ],
+        "nuclei": [
+            5602010001.0,
+            5602026601.0,
+            5602040000.0
+        ]
+    },
+    "CEPRANO": {
+        "medici": [
+            "VIA PONTE CANALE 2, CEPRANO, 03024",
+            "VIA RIVIERA LIRI 4, CEPRANO, 03024",
+            "VIA RIVIERA LIRI 26, CEPRANO, 03024",
+            "VIA DON LUIGI CATELLII 18, CEPRANO, 03024",
+            "VIA CAMPIDOGLIO, 68, CEPRANO, 03024",
+            "CORSO DELLA REPUBBLICA, 13, CEPRANO, 03024"
+        ],
+        "nuclei": [
+            6002510001.0,
+            6002520003.0,
+            6002520002.0,
+            6002520000.999999,
+            6002530001.0,
+            6002540000.000001
+        ]
+    },
+    "CERRETO LAZIALE": {
+        "medici": [
+            "VIA S. MARIA 5, CERRETO LAZIALE, 00020"
+        ],
+        "nuclei": [
+            5802710001.0,
+            5802710002.0,
+            5802740000.0
+        ]
+    },
+    "CERVARA DI ROMA": {
+        "medici": [
+            "P.ZZA GIOVANNI XXIII, CERVARA DI ROMA, 00020"
+        ],
+        "nuclei": [
+            5802810001.0,
+            5802810002.0,
+            5802820001.0,
+            5802820006.0,
+            5802826603.0,
+            5802826705.0,
+            5802826602.0,
+            5802840000.0
+        ]
+    },
+    "CERVARO": {
+        "medici": [
+            "VIA RISORGIMENTO N\u00b044, CERVARO, 03044",
+            "CASABURI N\u00b0 67, CERVARO, 03044",
+            "VIA FADONI N\u00b026, CERVARO, 03044",
+            "VIA REGATELLO SNC, CERVARO, 03044"
+        ],
+        "nuclei": [
+            6002610006.0,
+            6002610001.0,
+            6002610005.000001,
+            6002610004.0,
+            6002620001.0,
+            6002610002.0,
+            6002610003.000001,
+            6002610008.0,
+            6002620015.0,
+            6002610006.999999,
+            6002620209.0,
+            6002620211.0,
+            6002620016.0,
+            6002626617.0,
+            6002620207.0,
+            6002626713.0,
+            6002626612.000001,
+            6002626714.0,
+            6002626703.0,
+            6002640000.0
+        ]
+    },
+    "CERVETERI": {
+        "medici": [
+            "MARIO PELAGALLI 101, CERVETERI, 00052",
+            "VIA VITTORIO VENETO N.4, CERVETERI, 00052",
+            "VIA ROSA CALABRESI N.10, CERVETERI, 00052",
+            "VIA GIOVAN BATTISTA PERGOLESI N.92, CERVETERI, 00052",
+            "VIA ANTONIO VIVALDI N.11/13, CERVETERI, 00052",
+            "VIA TUSCOLO N.11, CERVETERI, 00052"
+        ],
+        "nuclei": [
+            5802910006.0,
+            5802910001.0,
+            5802910002.0,
+            5802910004.0,
+            5802920001.0,
+            5802910005.0,
+            5802910003.0,
+            5802910007.0,
+            5802920014.0,
+            5802920005.0,
+            5802920013.0,
+            5802920006.0,
+            5802920011.0,
+            5802920004.0,
+            5802920003.0,
+            5802926620.0,
+            5802926612.0,
+            5802920019.0,
+            5802926622.0,
+            5802926607.0,
+            5802926615.0,
+            5802926609.0,
+            5802926610.0,
+            5802926616.0,
+            5802926717.0,
+            5802940000.0
+        ]
+    },
+    "CIAMPINO": {
+        "medici": [
+            "VIALE DI MARINO 51/C, CIAMPINO, 00043",
+            "VIALE KENNEDY 133, CIAMPINO, 00043",
+            "VIA VENEZIA 33, CIAMPINO, 00043",
+            "VIA DI MORENA 17, CIAMPINO, 00043",
+            "MARCANDREOLA,37, CIAMPINO, 00043",
+            "VIA ALCIDE DE GASPERI 11, CIAMPINO, 00043",
+            "VIA MURA DEI FRANCESI 37, CIAMPINO, 00043",
+            "VIA SAN FRANCESCO D`ASSISI 45, CIAMPINO, 00043",
+            "VIA BELFAST 3, CIAMPINO, 00043",
+            "VIA QUATTRO NOVEMBRE 80, CIAMPINO, 00043",
+            "VIA M DEI FRANCESI 173, CIAMPINO, 00043",
+            "VIA SAN FRANCESCO D`ASSISI 24, CIAMPINO, 00043",
+            "VIA FRANCESCO BARACCA 10, CIAMPINO, 00043",
+            "VIA M. DEI FRANCESI 89, CIAMPINO, 00043",
+            "VIA P PIGNATELLI 21, CIAMPINO, 00043",
+            "VIA DELLA FOLGARELLA 28/30, CIAMPINO, 00043",
+            "MARCANDREOLA, 29/A, CIAMPINO, 00043",
+            "VIA COL DI LANA, 69, CIAMPINO, 00043",
+            "VIA COL DI LANA 110, CIAMPINO, 00043",
+            "VIALE J. F. KENNEDY 37, CIAMPINO, 00043"
+        ],
+        "nuclei": [
+            5811810001.0,
+            5811810002.0,
+            5811820001.0,
+            5811810003.0,
+            5811820006.0,
+            5811820004.0,
+            5811826702.0,
+            5811830001.0,
+            5811840000.0
+        ]
+    },
+    "CICILIANO": {
+        "medici": [
+            "CORSO UMBERTO I 15, CICILIANO, 00020"
+        ],
+        "nuclei": [
+            5803010001.0,
+            5803020001.0,
+            5803040000.0
+        ]
+    },
+    "CINETO ROMANO": {
+        "medici": [
+            "PZZA S STEFANO SN, CINETO ROMANO, 00020"
+        ],
+        "nuclei": [
+            5803110001.0,
+            5803120001.0,
+            5803140000.0
+        ]
+    },
+    "CISTERNA DI LATINA": {
+        "medici": [
+            "VIA BRIGATE PARTIGIANE 9, CISTERNA DI LATINA, 04012",
+            "VIA GIOVANNI FALCONE SNC, CISTERNA DI LATINA, 04012",
+            "PIAZZA MICHELANGELO 12, CISTERNA DI LATINA, 04012",
+            "CORSO DELLA REPUBBLICA 256, CISTERNA DI LATINA, 04012",
+            "VIA MIGNANO MONTELUNGO 2, CISTERNA DI LATINA, 04012",
+            "VIA CORANA DOGANELLA DI NINFA, CISTERNA DI LATINA, 04012",
+            "VIA F CORRIDONI 86 BORGO FLORA, CISTERNA DI LATINA, 04012",
+            "CORSO DELLA REPUBBICA 256, CISTERNA DI LATINA, 04012",
+            "CORSO DELLA REPUBBLICA 64, CISTERNA DI LATINA, 04012",
+            "CORSO DELLA REPUBBLICA 109/F, CISTERNA DI LATINA, 04012",
+            "CORSO DELLA REPUBBLICA 80, CISTERNA DI LATINA, 04012"
+        ],
+        "nuclei": [
+            5900510006.0,
+            5900510001.0,
+            5900510002.0,
+            5900510004.0,
+            5900520001.0,
+            5900520007.0,
+            5900510005.0,
+            5900510003.0,
+            5900520005.0,
+            5900520008.0,
+            5900520009.0,
+            5900520013.0,
+            5900520023.0,
+            5900520006.0,
+            5900520016.0,
+            5900520012.0,
+            5900526620.0,
+            5900526619.0,
+            5900526617.0,
+            5900526611.0,
+            5900520022.0,
+            5900520026.0,
+            5900526724.0,
+            5900526725.0,
+            5900520027.0,
+            5900526615.0,
+            5900526621.0,
+            5900530003.0,
+            5900526614.0,
+            5900526710.0,
+            5900530002.0,
+            5900526704.0,
+            5900530001.0,
+            5900526718.0,
+            5900540000.0
+        ]
+    },
+    "CITTADUCALE": {
+        "medici": [
+            "CARCARIOLA-PENDENZA, CITTADUCALE, 02015",
+            "VIA COTILIA 15, CITTADUCALE, 02015",
+            "VIA DEL LAVORO 7, CITTADUCALE, 02015",
+            "VIA DEL LAVORO 9, CITTADUCALE, 02015"
+        ],
+        "nuclei": [
+            5701610006.0,
+            5701610001.0,
+            5701610004.0,
+            5701610002.0,
+            5701620007.0,
+            5701610005.0,
+            5701610003.0,
+            5701620009.0,
+            5701626606.0,
+            5701620005.0,
+            5701620003.0,
+            5701626602.0,
+            5701626701.0,
+            5701640000.0
+        ]
+    },
+    "CITTAREALE": {
+        "medici": [
+            "P.ZZA S. MARIA, 2 - C/O MUNICIPIO, CITTAREALE",
+            "LOC. PALLOTTINI, SNC, CITTAREALE"
+        ],
+        "nuclei": [
+            5701710001.0,
+            5701710004.0,
+            5701710002.0,
+            5701710003.0,
+            5701720008.0,
+            5701726606.0,
+            5701720011.0,
+            5701726613.0,
+            5701726612.0,
+            5701726603.0,
+            5701726602.0,
+            5701726604.0,
+            5701720215.0,
+            5701726605.0,
+            5701726614.0,
+            5701726610.0,
+            5701740000.0
+        ]
+    },
+    "CIVITA CASTELLANA": {
+        "medici": [
+            "VIA DI CORTE, 31/33, CIVITA CASTELLANA, 01033",
+            "VIA PETRARCA S.N.C., CIVITA CASTELLANA, 01033",
+            "VIA DI CORTE 33, CIVITA CASTELLANA, 01033",
+            "CORSO BRUNO BUOZZI 31, CIVITA CASTELLANA, 01033",
+            "VIA DI CORTE 12, CIVITA CASTELLANA, 01033"
+        ],
+        "nuclei": [
+            5602110001.0,
+            5602110002.0,
+            5602120002.0,
+            5602110003.0,
+            5602120004.0,
+            5602120003.0,
+            5602130002.0,
+            5602130003.0,
+            5602140000.0
+        ]
+    },
+    "CIVITELLA D'AGLIANO": {
+        "medici": [
+            "VIA XXV APRILE 2/A, CASTIGLIONE IN TEVERINA, 01024"
+        ],
+        "nuclei": [
+            5602210001.0,
+            5602210002.0,
+            5602220002.0,
+            5602220004.0,
+            5602220003.0,
+            5602226601.0,
+            5602226605.0,
+            5602240000.0
+        ]
+    },
+    "CIVITELLA SAN PAOLO": {
+        "medici": [
+            "VIA COLLEGAMENTO 22, CIVITELLA SAN PAOLO, 00060"
+        ],
+        "nuclei": [
+            5803310001.0,
+            5803320002.0,
+            5803326601.0,
+            5803340000.0
+        ]
+    },
+    "COLFELICE": {
+        "medici": [
+            "VIA CIFALELLA 3, COLFELICE, 03030"
+        ],
+        "nuclei": [
+            6002710001.0,
+            6002710002.0,
+            6002726603.0,
+            6002726601.0,
+            6002726605.0,
+            6002720202.000001,
+            6002726606.0,
+            6002726607.0,
+            6002739999.999999
+        ]
+    },
+    "COLLALTO SABINO": {
+        "medici": [
+            "P.ZZA VITTORIO EMANUELE, COLLALTO SABINO, 02022"
+        ],
+        "nuclei": [
+            5701810001.0,
+            5701820001.0,
+            5701826602.0,
+            5701840000.0
+        ]
+    },
+    "COLLE DI TORA": {
+        "medici": [
+            "AMBULATORIO COMUNALE COLLE DI TORA, COLLE DI TORA, 02020"
+        ],
+        "nuclei": [
+            5701910001.0,
+            5701940000.0
+        ]
+    },
+    "COLLE SAN MAGNO": {
+        "medici": [
+            "CONTRADA LAGO SNC, COLLE SAN MAGNO, 03030",
+            "PIAZZA UMBERTO I,9, COLLE SAN MAGNO, 03030"
+        ],
+        "nuclei": [
+            6002910001.0,
+            6002920202.000001,
+            6002940000.000001
+        ]
+    },
+    "COLLEFERRO": {
+        "medici": [
+            "VIA FONTANA DELL`OSTE, 27B, COLLEFERRO, 00034",
+            "VIA F. TURATI 44, COLLEFERRO, 00034",
+            "VIA FONTANA DELL`OSTE, 27, COLLEFERRO, 00034",
+            "VIA FONTANA BRACCHI 61/C, COLLEFERRO, 00034",
+            "VIA FONTANA DELL`OSTE, 27B, COLLEFERRO, 00034",
+            "VIA F. TURATI 44, COLLEFERRO, 00034",
+            "VIA E. FERRI 6, COLLEFERRO, 00034",
+            "VIA M. LAURENTI 8, COLLEFERRO, 00034",
+            "VIA P. MASCAGNI 11, COLLEFERRO, 00034",
+            "VIA FONTANA DELL`OSTE, 27, COLLEFERRO, 00034",
+            "VIA P. MASCAGNI, 11/13, COLLEFERRO, 00034",
+            "VIA TIEPOLO 35, COLLEFERRO, 00034",
+            "VIA 29 GENNAIO 9, COLLEFERRO, 00034",
+            "VIA G MARCONI 7, COLLEFERRO, 00034",
+            "VIALE SAVOIA 10, COLLEFERRO, 00034",
+            "VIALE SAVOIA 59, COLLEFERRO, 00034",
+            "CORSO F. TURATI 60, COLLEFERRO, 00034",
+            "VIA COLLE DELL`ELEFANTE 3/E, COLLEFERRO, 00034"
+        ],
+        "nuclei": [
+            5803410001.0,
+            5803420002.0,
+            5803420001.0,
+            5803410003.0,
+            5803430003.0,
+            5803430002.0,
+            5803430001.0,
+            5803440000.0
+        ]
+    },
+    "COLLEGIOVE": {
+        "medici": [
+            "VIA ROMA SNC, COLLEGIOVE, 02020"
+        ],
+        "nuclei": [
+            5702010001.0,
+            5702040000.0
+        ]
+    },
+    "COLLEPARDO": {
+        "medici": [
+            "VIA G.TANCREDI, COLLEPARDO, 03010"
+        ],
+        "nuclei": [
+            6002810001.0,
+            6002810002.0,
+            6002840000.0
+        ]
+    },
+    "COLLEVECCHIO": {
+        "medici": [
+            "VIA SAN VALENTINO, S.N.C., COLLEVECCHIO, 02042",
+            "VIA DELLE VIGNOLE 1, COLLEVECCHIO, 02042"
+        ],
+        "nuclei": [
+            5702110001.0,
+            5702110002.0,
+            5702120002.0,
+            5702110003.0,
+            5702120005.0,
+            5702120004.0,
+            5702120006.0,
+            5702120003.0,
+            5702126601.0,
+            5702140000.0
+        ]
+    },
+    "COLLI SUL VELINO": {
+        "medici": [
+            "CESARE BATTISTI, 32, COLLI SUL VELINO, 02010"
+        ],
+        "nuclei": [
+            5702210001.0,
+            5702240000.0
+        ]
+    },
+    "COLONNA": {
+        "medici": [
+            "VIA CIRCONVALLAZIONE 2, COLONNA, 00030",
+            "VIA DEI MONTI 4, COLONNA, 00030",
+            "P.ZZA VITTORIO EMANUELE II 11, COLONNA, 00030",
+            "VIA DELLA FONTANA 31, COLONNA, 00030"
+        ],
+        "nuclei": [
+            5803510001.0,
+            5803510002.0,
+            5803526601.0,
+            5803540000.0
+        ]
+    },
+    "CONCERVIANO": {
+        "medici": [
+            "BIVIO DI CONCERVIANO, CONCERVIANO, 02020"
+        ],
+        "nuclei": [
+            5702310001.0,
+            5702310002.0,
+            5702310003.0,
+            5702326602.0,
+            5702340000.0
+        ]
+    },
+    "CONFIGNI": {
+        "medici": [
+            "PIAZZA 20 SETTEMBRE, 10, CONFIGNI, 02040"
+        ],
+        "nuclei": [
+            5702410001.0,
+            5702410004.0,
+            5702410002.0,
+            5702420002.0,
+            5702410003.0,
+            5702420006.0,
+            5702440000.0
+        ]
+    },
+    "CONTIGLIANO": {
+        "medici": [
+            "PIAZZA FIUME, 2, CONTIGLIANO, 02043",
+            "VIA G. MATTEOTTI, CONTIGLIANO, 02043",
+            "VIA SOLIDATI TIBURZI 16, CONTIGLIANO, 02043"
+        ],
+        "nuclei": [
+            5702510001.0,
+            5702510002.0,
+            5702520007.0,
+            5702520001.0,
+            5702520002.0,
+            5702520004.0,
+            5702520003.0,
+            5702526605.0,
+            5702526608.0,
+            5702540000.0
+        ]
+    },
+    "CORCHIANO": {
+        "medici": [
+            "VIA G.D`ANNUNZIO, 6, CORCHIANO, 01030",
+            "VIA BORGO UMBERTO I\u00b0, N. 41, CORCHIANO, 01030"
+        ],
+        "nuclei": [
+            5602310001.0,
+            5602326702.0,
+            5602326701.0,
+            5602326703.0,
+            5602330001.0,
+            5602340000.0
+        ]
+    },
+    "CORENO AUSONIO": {
+        "medici": [
+            "VIA IV NOVEMBRE 93, CORENO AUSONIO, 03040",
+            "VIA MANZONI 11, CORENO AUSONIO, 03040"
+        ],
+        "nuclei": [
+            6003010001.0,
+            6003026604.0,
+            6003026604.999999,
+            6003026701.0,
+            6003026702.0,
+            6003026706.0,
+            6003040000.0
+        ]
+    },
+    "CORI": {
+        "medici": [
+            "VIA MARCONI 1 PRESSO OSPEDALE DI COMUNIT, CORI, 04010",
+            "VIA DEL SOCCORSO 5, CORI, 04010",
+            "VIA LEOPARDI 2, CORI, 04010",
+            "VIA SAN NICOLA 18, CORI, 04010",
+            "PZZA DELLA FONTANACCIA 7, CORI, 04010",
+            "PZZA ROMANA 14, CORI, 04010",
+            "PIAZZA GRANDI, CORI, 04010",
+            "VIA A GARIBALDI 39, CORI, 04010",
+            "VIA DEI LAVORATORI 123, CORI, 04012",
+            "VIA F CERVI 11, CORI, 04010"
+        ],
+        "nuclei": [
+            5900610001.0,
+            5900610002.0,
+            5900620002.0,
+            5900620001.0,
+            5900640000.0
+        ]
+    },
+    "COTTANELLO": {
+        "medici": [
+            "VIA FORCELLE, MONTASOLA, 02040"
+        ],
+        "nuclei": [
+            5702610001.0,
+            5702610002.0,
+            5702620002.0,
+            5702620005.0,
+            5702620003.0,
+            5702626601.0,
+            5702626604.0,
+            5702626607.0,
+            5702620206.0,
+            5702640000.0
+        ]
+    },
+    "ESPERIA": {
+        "medici": [
+            "CORSO VITTORIO EMANUELE, 23, ESPERIA, 03045",
+            "VIA PROVINCIALE 40, ESPERIA, 03045",
+            "VIA RAGAZZI DEL 99, ESPERIA, 03045",
+            "VIA VITTORIO VENETO, 14, ESPERIA, 03045"
+        ],
+        "nuclei": [
+            6003110001.0,
+            6003110002.0,
+            6003139999.999999
+        ]
+    },
+    "FABRICA DI ROMA": {
+        "medici": [
+            "VIA CAMPO SPORTIVO 2, FABRICA DI ROMA, 01034",
+            "VIA IV NOVEMBRE 4, FABRICA DI ROMA, 01034"
+        ],
+        "nuclei": [
+            5602410001.0,
+            5602410002.0,
+            5602410003.0,
+            5602430002.0,
+            5602430001.0,
+            5602440000.0
+        ]
+    },
+    "FALERIA": {
+        "medici": [
+            "VIA DON AURELIO CONTI, 15, FALERIA, 01030"
+        ],
+        "nuclei": [
+            5602510001.0,
+            5602520002.0,
+            5602526601.0,
+            5602540000.0
+        ]
+    },
+    "FALVATERRA": {
+        "medici": [
+            "VIA SIGISMONDI N.1, FALVATERRA, 03020"
+        ],
+        "nuclei": [
+            6003210001.0,
+            6003220001.999999,
+            6003220008.0,
+            6003220009.000001,
+            6003226602.999999,
+            6003226606.0,
+            6003226611.0,
+            6003226712.0,
+            6003226610.0,
+            6003240000.0
+        ]
+    },
+    "FARA IN SABINA": {
+        "medici": [
+            "VIA ENRICO FERMI 17, FARA IN SABINA, 02032",
+            "VIA E.FERMI,13, FARA IN SABINA, 02032",
+            "VIA SERVILIA SNC, FARA IN SABINA, 02032",
+            "VIA FARENSE SNC - COLTODINO, FARA IN SABINA, 02032",
+            "LARGO ENRICO FERMI SNC, FARA IN SABINA, 02032"
+        ],
+        "nuclei": [
+            5702710006.0,
+            5702710001.0,
+            5702710004.0,
+            5702710002.0,
+            5702720002.0,
+            5702720007.0,
+            5702710010.0,
+            5702710005.0,
+            5702710003.0,
+            5702710008.0,
+            5702720015.0,
+            5702710007.0,
+            5702720022.0,
+            5702720014.0,
+            5702720009.0,
+            5702720017.0,
+            5702720023.0,
+            5702720020.0,
+            5702720006.0,
+            5702720010.0,
+            5702720016.0,
+            5702720011.0,
+            5702710011.0,
+            5702720004.0,
+            5702720003.0,
+            5702726601.0,
+            5702726613.0,
+            5702726619.0,
+            5702720025.0,
+            5702726608.0,
+            5702720018.0,
+            5702720021.0,
+            5702740000.0
+        ]
+    },
+    "FARNESE": {
+        "medici": [
+            "VIA CESARE BATTISTI SNC, FARNESE, 01010"
+        ],
+        "nuclei": [
+            5602610001.0,
+            5602640000.0
+        ]
+    },
+    "FERENTINO": {
+        "medici": [
+            "VIA XX SETTEMBRE 7, FERENTINO, 03013",
+            "VICOLO MECCI, FERENTINO, 03013",
+            "VIA ANTICA CURIA 14, FERENTINO, 03013",
+            "VIA PALAZZO CONSOLARE, FERENTINO, 03013",
+            "VIA XX SETTEMBRE 37, FERENTINO, 03013",
+            "VIA G. FALCONE 2, FERENTINO, 03013",
+            "GIOVANNI FALCONE 1, FERENTINO, 03013",
+            "VIA CASILINA SUD, 176, FERENTINO, 03013",
+            "XX SETTEMBRE 30, FERENTINO, 03013"
+        ],
+        "nuclei": [
+            6003310005.999999,
+            6003310001.0,
+            6003310004.000001,
+            6003310002.0,
+            6003310003.0,
+            6003320015.0,
+            6003310007.0,
+            6003320005.0,
+            6003320029.0,
+            6003320009.0,
+            6003320017.0,
+            6003320020.0,
+            6003320028.0,
+            6003320011.999999,
+            6003320016.0,
+            6003326603.0,
+            6003326603.999999,
+            6003320025.0,
+            6003320022.0,
+            6003320027.0,
+            6003320021.000001,
+            6003326623.999999,
+            6003327232.999999,
+            6003326608.0,
+            6003330002.0,
+            6003330001.0,
+            6003340000.000001
+        ]
+    },
+    "FIAMIGNANO": {
+        "medici": [
+            "VIA SAN PAOLO, FIAMIGNANO, 02023",
+            "VIA DEI MARSI, FIAMIGNANO, 02023"
+        ],
+        "nuclei": [
+            5702810006.0,
+            5702810001.0,
+            5702810004.0,
+            5702810002.0,
+            5702810009.0,
+            5702820001.0,
+            5702810010.0,
+            5702810005.0,
+            5702810003.0,
+            5702810008.0,
+            5702810007.0,
+            5702820008.0,
+            5702820006.0,
+            5702810011.0,
+            5702826603.0,
+            5702826604.0,
+            5702826607.0,
+            5702826609.0,
+            5702826610.0,
+            5702840000.0
+        ]
+    },
+    "FIANO ROMANO": {
+        "medici": [
+            "VIA GUIDO ROSSA N. 31, FIANO ROMANO, 00065",
+            "VIA TIBERINA 75, FIANO ROMANO, 00065",
+            "VIA ALDO MORO, 103/C, FIANO ROMANO, 00065",
+            "VIA TIBERINA 31/B, FIANO ROMANO, 00065",
+            "VIA TIBERINA N. 31, FIANO ROMANO, 00065",
+            "VIA GUIDO ROSSA 29, FIANO ROMANO, 00065",
+            "VIA GUIDO ROSSA 20/2, FIANO ROMANO, 00065"
+        ],
+        "nuclei": [
+            5803610001.0,
+            5803640000.0
+        ]
+    },
+    "FILACCIANO": {
+        "medici": [
+            "PIAZZA DELLA FONTANA, FILACCIANO, 00060"
+        ],
+        "nuclei": [
+            5803710001.0,
+            5803740000.0
+        ]
+    },
+    "FILETTINO": {
+        "medici": [
+            "Via Variola FILETTINO"
+        ],
+        "nuclei": [
+            6003410001.0,
+            6003424901.0,
+            6003426602.0,
+            6003440000.0
+        ]
+    },
+    "FIUGGI": {
+        "medici": [
+            "VIA ARMANDO DIAZ 23, FIUGGI, 03014",
+            "VIA VAL MADONNA 1, FIUGGI, 03014",
+            "VIA CASAVETERE 35, FIUGGI, 03014"
+        ],
+        "nuclei": [
+            6003510001.0,
+            6003520002.0,
+            6003539999.999999
+        ]
+    },
+    "FONDI": {
+        "medici": [
+            "A. MARZANO 8, FONDI, 04022",
+            "SANT`ANTONIO 375, FONDI, 04022",
+            "VIA OSTIA SNC, FONDI, 04022",
+            "VIA SAN MAGNO C/O OSPEDALE S. GIOVANNI, FONDI, 04022",
+            "VIA A. MANZONI 3, FONDI, 04022",
+            "VIA C. PLACITELLI 9, FONDI, 04022",
+            "VIA ROMA 46, FONDI, 04022",
+            "PIAZZA GIUSEPPE DE SANTIS 6, FONDI, 04022",
+            "VIA FEUDO 24, FONDI, 04022",
+            "CORSO APPIO CLAUDIO 97, FONDI, 04022",
+            "VIA GENOVA 36, FONDI, 04022",
+            "VIA DEGLI AUSONI,14/B, FONDI, 04022",
+            "VIA G. CABOTO N\u00b0 13, FONDI, 04022",
+            "VIA SAN MAGNO C/O OSPEDALE SAN GIOVANNI, FONDI, 04022",
+            "VIA PONTE GAGLIARDO 160, FONDI, 04022"
+        ],
+        "nuclei": [
+            5900710001.0,
+            5900710002.0,
+            5900710004.0,
+            5900720001.0,
+            5900720007.0,
+            5900710003.0,
+            5900720015.0,
+            5900720008.0,
+            5900720014.0,
+            5900720009.0,
+            5900720205.0,
+            5900720013.0,
+            5900720020.0,
+            5900720010.0,
+            5900720006.0,
+            5900720016.0,
+            5900720011.0,
+            5900720012.0,
+            5900726619.0,
+            5900720217.0,
+            5900720021.0,
+            5900726618.0,
+            5900740000.0
+        ]
+    },
+    "FONTANA LIRI": {
+        "medici": [
+            "VIALE XXIX MAGGIO N. 1, FONTANA LIRI, 03035",
+            "VIA FIUME N.5, FONTANA LIRI, 03035",
+            "VIALE XXIX MAGGIO 26, FONTANA LIRI, 03035"
+        ],
+        "nuclei": [
+            6003610001.0,
+            6003610004.0,
+            6003610003.000001,
+            6003626606.0,
+            6003620201.000001,
+            6003640000.0
+        ]
+    },
+    "FONTE NUOVA": {
+        "medici": [
+            "VIA IV NOVEMBRE, 16, FONTE NUOVA, 00013",
+            "VIA ALFIERI, 1, FONTE NUOVA, 00013",
+            "VIA MACHIAVELLI 6, FONTE NUOVA, 00010",
+            "VIA GIULIO CESARE 1, FONTE NUOVA, 00010",
+            "VIA PALOMBARESE 175, FONTE NUOVA, 00010",
+            "VIA ALFIERI 12, FONTE NUOVA, 00013",
+            "VIA DI SANTA LUCIA 25, FONTE NUOVA, 00010",
+            "VENEZIA TRIDENTINA, 24, FONTE NUOVA, 00010",
+            "VIA I MAGGIO 32, FONTE NUOVA, 00010",
+            "VIA BRENNERO 100, FONTE NUOVA, 00010",
+            "VIA PALOMBARESE 558, FONTE NUOVA, 00010",
+            "VIA NOMENTANA KM 20, FONTE NUOVA, 00010",
+            "IV NOVEMBRE 16, FONTE NUOVA, 00013"
+        ],
+        "nuclei": [
+            5812210001.0,
+            5812210002.0,
+            5812210003.0,
+            5812220004.0,
+            5812226701.0,
+            5812240000.0
+        ]
+    },
+    "FONTECHIARI": {
+        "medici": [
+            "S. ANTONIO 12, FONTECHIARI, 03030",
+            "VIA GIZZI 1, FONTECHIARI, 03030"
+        ],
+        "nuclei": [
+            6003710001.0,
+            6003720203.0,
+            6003726601.0,
+            6003726606.0,
+            6003726602.000001,
+            6003726603.999999,
+            6003720205.0,
+            6003740000.000001
+        ]
+    },
+    "FORANO": {
+        "medici": [
+            "VIA POZZOLANE 5/A, FORANO, 02044",
+            "VIA GUGLIELMO MARCONI 34, FORANO, 02044",
+            "VIA DEL MATTONE SNC, FORANO, 02044",
+            "VIA LUIGI ANGELINI 5, FORANO, 02044",
+            "VIA SELCI - 22, FORANO, 02044",
+            "VIA G. MARCONI 36, FORANO, 02044"
+        ],
+        "nuclei": [
+            5702910001.0,
+            5702910002.0,
+            5702920001.0,
+            5702930001.0,
+            5702940000.0
+        ]
+    },
+    "FORMELLO": {
+        "medici": [
+            "VIALE AFRICA 17, FORMELLO, 00060",
+            "VIA ROMA 3, FORMELLO, 00060",
+            "VIA NAZARIO SAURO N.46/C, FORMELLO, 00060"
+        ],
+        "nuclei": [
+            5803810001.0,
+            5803810002.0,
+            5803820001.0,
+            5803820007.0,
+            5803820005.0,
+            5803820014.0,
+            5803820013.0,
+            5803830001.0,
+            5803840000.0
+        ]
+    },
+    "FORMIA": {
+        "medici": [
+            "VIA VITRUVIO 14, FORMIA, 04023",
+            "VIA B. ZAULI 4, FORMIA, 04023",
+            "VIA OLIVETANI 18, FORMIA, 04023",
+            "VIA CRISTOFORO COLOMBO 19, FORMIA, 04023",
+            "VIA MAMURRA 32, FORMIA, 04023",
+            "VIA APPIA LATO NAPOLI 228, FORMIA, 04023",
+            "VIA APPIA 228, FORMIA, 04023",
+            "PIAZZA T TESTA 16/A, FORMIA, 04023",
+            "VIA LAVANGA 92, FORMIA, 04023",
+            "VIA O. SPAVENTOLA - TRAV. MERCATO NUOVO, FORMIA, 04023",
+            "VIA S. JANNI N.13, FORMIA, 04023",
+            "VIA FERRUCCI 93, FORMIA, 04023",
+            "LARGO ENRICO BERLINGUER 23, FORMIA, 04023",
+            "VIA PLATANI 58, FORMIA, 04023",
+            "DEL CASTELLO 5-7, FORMIA, 04023",
+            "VIA DEI PLATANI 58/A - PENITRO, FORMIA, 04023",
+            "VIA LAVANGA 158, FORMIA, 04023",
+            "VIA APPIA LATO NAPOLI 7 (PIAZZA RISORGIM, FORMIA, 04023",
+            "VIA DELLA FORMA 19, FORMIA, 04023",
+            "VIA VITRUVIO 37, FORMIA, 04023"
+        ],
+        "nuclei": [
+            5900810001.0,
+            5900810002.0,
+            5900810004.0,
+            5900820001.0,
+            5900810003.0,
+            5900820004.0,
+            5900820011.0,
+            5900820012.0,
+            5900826605.0,
+            5900826610.0,
+            5900840000.0
+        ]
+    },
+    "FRASCATI": {
+        "medici": [
+            "VIA XX SETTEMBRE 16, FRASCATI, 00044",
+            "VIA LUNATI, 2, FRASCATI, 00044",
+            "VIA DEI COCCEI, 2, FRASCATI, 00044",
+            "VIA SANTA LUCIA FILIPPINI, 6, FRASCATI, 00044",
+            "VIA AJANI 33, FRASCATI, 00044",
+            "VIA XXII RUBBIA, 1, FRASCATI, 00044",
+            "VIA DEI COCCEI 2/B, FRASCATI, 00044",
+            "VIA MATTEOTTI, 12, FRASCATI, 00044",
+            "VIA MATTEOTTI 12/A, FRASCATI, 00044"
+        ],
+        "nuclei": [
+            5803910001.0,
+            5803930001.0,
+            5803940000.0
+        ]
+    },
+    "FRASSO SABINO": {
+        "medici": [
+            "VIA XX SETTEMBRE SNC (MUNICIPIO), FRASSO SABINO, 02030",
+            "VIA MIRTENSE 69, FRASSO SABINO, 02030"
+        ],
+        "nuclei": [
+            5703010001.0,
+            5703010002.0,
+            5703020001.0,
+            5703020002.0,
+            5703040000.0
+        ]
+    },
+    "FUMONE": {
+        "medici": [
+            "VIA VICINALE CANTERNO, 74, FUMONE, 03010",
+            "VIA PIE` DEL MONTE, 13, FUMONE, 03010"
+        ],
+        "nuclei": [
+            6003910001.0,
+            6003910002.0,
+            6003926601.0,
+            6003926606.0,
+            6003926602.000001,
+            6003926603.999999,
+            6003920205.0,
+            6003926703.0,
+            6003939999.999999
+        ]
+    },
+    "GAETA": {
+        "medici": [
+            "L.MARE G CABOTO VICO 16 8, GAETA, 04024",
+            "VIA SERMONETA 4, GAETA, 04024",
+            "VIA GARIBALDI 5, GAETA, 04024",
+            "VIA MONTEGRAPPA 27, GAETA, 04024",
+            "PIAZZETTA SAN GIACOMO 3, GAETA, 04024",
+            "VIA EUROPA 39, GAETA, 04024",
+            "VIA PIAVE 9, GAETA, 04024",
+            "VICO 15 CABOTO N. 9, GAETA, 04024",
+            "VIA VITTORIO VENETO 30, GAETA, 04024",
+            "CORSO CAVOUR 60, GAETA, 04024",
+            "PIAZZA TRANIELLO 24, GAETA, 04024",
+            "VIA BOLOGNA 12, GAETA, 04024",
+            "VIA NAPOLI 5, GAETA, 04024",
+            "VIA MONTEGRAPPA 10-12, GAETA, 04024"
+        ],
+        "nuclei": [
+            5900910001.0,
+            5900920001.0,
+            5900940000.0
+        ]
+    },
+    "GALLESE": {
+        "medici": [
+            "L.GO TRONSARELLI 39, GALLESE, 01035"
+        ],
+        "nuclei": [
+            5602710001.0,
+            5602710002.0,
+            5602720003.0,
+            5602740000.0
+        ]
+    },
+    "GALLICANO NEL LAZIO": {
+        "medici": [
+            "VIALE ALDO MORO 73, GALLICANO NEL LAZIO, 00010",
+            "VIA ALDO MORO 51/B, GALLICANO NEL LAZIO, 00010",
+            "VIA ALDO MORO, 120, GALLICANO NEL LAZIO, 00010"
+        ],
+        "nuclei": [
+            5804010001.0,
+            5804010002.0,
+            5804020003.0,
+            5804026604.0,
+            5804026606.0,
+            5804040000.0
+        ]
+    },
+    "GALLINARO": {
+        "medici": [
+            "VIA FORCA D`ACERO - GALLINARO, GALLINARO, 03040",
+            "VIA SS. FORCA S.S. 4466, GALLINARO, 03040"
+        ],
+        "nuclei": [
+            6004010001.0,
+            6004020007.0,
+            6004020006.0,
+            6004026601.000001,
+            6004026613.0,
+            6004026602.999999,
+            6004026617.0,
+            6004026602.0,
+            6004020215.999999,
+            6004020204.0,
+            6004020219.0,
+            6004026613.999999,
+            6004026608.0,
+            6004026710.999999,
+            6004026709.000001,
+            6004040000.0
+        ]
+    },
+    "GAVIGNANO": {
+        "medici": [
+            "VIA UNGHERIA, GAVIGNANO, 00030"
+        ],
+        "nuclei": [
+            5804110001.0,
+            5804120005.0,
+            5804120008.0,
+            5804120009.0,
+            5804120010.0,
+            5804120006.0,
+            5804120011.0,
+            5804140000.0
+        ]
+    },
+    "GENAZZANO": {
+        "medici": [
+            "ACQUA SANTA, 27, GENAZZANO, 00030",
+            "VIA ANDREANI 21, GENAZZANO, 00030",
+            "PIAZZA DELLA REPUBBLICA, 7, GENAZZANO, 00030"
+        ],
+        "nuclei": [
+            5804210001.0,
+            5804220002.0,
+            5804220003.0,
+            5804226601.0,
+            5804226604.0,
+            5804226706.0,
+            5804230001.0,
+            5804226707.0,
+            5804226708.0,
+            5804240000.0
+        ]
+    },
+    "GENZANO DI ROMA": {
+        "medici": [
+            "ACHILLE GRANDI, 6, GENZANO DI ROMA, 00045",
+            "VIA I. BELARDI 32, GENZANO DI ROMA, 00045",
+            "ITALO BELARDI, 14, GENZANO DI ROMA, 00045",
+            "VIA ITALO BELARDI, 19, GENZANO DI ROMA, 00045",
+            "G. CAVACEPPI 5, GENZANO DI ROMA, 00045",
+            "VIA GENZANO DI ROMA 16, ARDEA, 00040"
+        ],
+        "nuclei": [
+            5804310001.0,
+            5804310002.0,
+            5804320002.0,
+            5804320001.0,
+            5804310003.0,
+            5804320003.0,
+            5804326705.0,
+            5804326704.0,
+            5804330001.0,
+            5804340000.0
+        ]
+    },
+    "GERANO": {
+        "medici": [
+            "PIAZZA DELL`ANNUNZIATA 6, GERANO, 00025"
+        ],
+        "nuclei": [
+            5804410001.0,
+            5804426602.0,
+            5804440000.0
+        ]
+    },
+    "GIULIANO DI ROMA": {
+        "medici": [
+            "VIA XXIII MAGGIO SNC, GIULIANO DI ROMA, 03020"
+        ],
+        "nuclei": [
+            6004110001.0,
+            6004120003.0,
+            6004120002.0,
+            6004110002.0,
+            6004120004.0,
+            6004140000.000001
+        ]
+    },
+    "GORGA": {
+        "medici": [
+            "VIA F.TURATI, GORGA, 00030"
+        ],
+        "nuclei": [
+            5804510001.0,
+            5804510002.0,
+            5804526601.0,
+            5804540000.0
+        ]
+    },
+    "GRADOLI": {
+        "medici": [
+            "PIAZZA MARCONI, GRADOLI, 01010"
+        ],
+        "nuclei": [
+            5602810001.0,
+            5602810002.0,
+            5602820001.0,
+            5602840000.0
+        ]
+    },
+    "GRAFFIGNANO": {
+        "medici": [
+            "VIA XXV APRILE 2/A, CASTIGLIONE IN TEVERINA, 01024"
+        ],
+        "nuclei": [
+            5602910001.0,
+            5602910002.0,
+            5602920002.0,
+            5602910003.0,
+            5602926603.0,
+            5602926701.0,
+            5602940000.0
+        ]
+    },
+    "GRECCIO": {
+        "medici": [
+            "E.DE SANTIS 3, GRECCIO, 02045",
+            "E. DE SANTIS 9, GRECCIO, 02045"
+        ],
+        "nuclei": [
+            5703110001.0,
+            5703110004.0,
+            5703110002.0,
+            5703110003.0,
+            5703126601.0,
+            5703126603.0,
+            5703140000.0
+        ]
+    },
+    "GROTTAFERRATA": {
+        "medici": [
+            "VIALE SAN NILO, 101, GROTTAFERRATA, 00046",
+            "V.LE SAN NILO, 4, GROTTAFERRATA, 00046",
+            "VIALE VITTORIO VENETO, 119, GROTTAFERRATA, 00046",
+            "VIA IV NOVEMBRE, 54, GROTTAFERRATA, 00046",
+            "VIA G. QUATTRUCCI, 9, GROTTAFERRATA, 00046",
+            "VIA PIAVE, 3, GROTTAFERRATA, 00046",
+            "VIALE I MAGGIO 132, GROTTAFERRATA, 00046",
+            "VIA PIAVE, 2, GROTTAFERRATA, 00046",
+            "VIA ISONZO 9, GROTTAFERRATA, 00046"
+        ],
+        "nuclei": [
+            5804610002.0,
+            5804610004.0,
+            5804620007.0,
+            5804610005.0,
+            5804610003.0,
+            5804620006.0,
+            5804626611.0,
+            5804626605.0,
+            5804626701.0,
+            5804640000.0
+        ]
+    },
+    "GROTTE DI CASTRO": {
+        "medici": [
+            "VIA ROMA 3, GROTTE DI CASTRO, 01025",
+            "VIA VITTORIO VENETO, 98, GROTTE DI CASTRO, 01025"
+        ],
+        "nuclei": [
+            5603010001.0,
+            5603030001.0,
+            5603040000.0
+        ]
+    },
+    "GUARCINO": {
+        "medici": [
+            "VIA ALFONSO MILANI 1, GUARCINO, 03016"
+        ],
+        "nuclei": [
+            6004210001.0,
+            6004220003.0,
+            6004220001.999999,
+            6004224904.000001,
+            6004226601.000001,
+            6004240000.0
+        ]
+    },
+    "ISCHIA DI CASTRO": {
+        "medici": [
+            "VIA CELLERE, 4, ISCHIA DI CASTRO, 01010"
+        ],
+        "nuclei": [
+            5603110001.0,
+            5603140000.0
+        ]
+    },
+    "ISOLA DEL LIRI": {
+        "medici": [
+            "VIA BORGONUOVO 87, ISOLA DEL LIRI, 03036",
+            "VIA ROMA 13, ISOLA DEL LIRI, 03036",
+            "VIA TEVERE 37, ISOLA DEL LIRI, 03036",
+            "PO N. 15, ISOLA DEL LIRI, 03036",
+            "VIA CARNELLO 325, ISOLA DEL LIRI, 03036",
+            "VIA COLLE SAN LORENZO 3, ISOLA DEL LIRI, 03036",
+            "VIA PAGNANELLI 19, ISOLA DEL LIRI, 03036",
+            "SELVA N. 254/B, ISOLA DEL LIRI, 03036"
+        ],
+        "nuclei": [
+            6004310001.0,
+            6004310002.0,
+            6004320009.0,
+            6004326601.0,
+            6004326603.0,
+            6004326606.0,
+            6004326602.000001,
+            6004326603.999999,
+            6004326607.0,
+            6004326608.0,
+            6004339999.999999
+        ]
+    },
+    "ITRI": {
+        "medici": [
+            "CORSO APPIO CLAUDIO 35, ITRI, 04020",
+            "VIA GIACOMO MATTEOTTI 17, ITRI, 04020",
+            "C.SO APPIO CLAUDIO 11, ITRI, 04020",
+            "VIA 8 MARZO 34, ITRI, 04020"
+        ],
+        "nuclei": [
+            5901010001.0,
+            5901020008.0,
+            5901020004.0,
+            5901020006.0,
+            5901026603.0,
+            5901026602.0,
+            5901026605.0,
+            5901026607.0,
+            5901040000.0
+        ]
+    },
+    "JENNE": {
+        "medici": [
+            "VIA ROMA, JENNE, 00020"
+        ],
+        "nuclei": [
+            5804810001.0,
+            5804826601.0,
+            5804840000.0
+        ]
+    },
+    "LABICO": {
+        "medici": [
+            "VIA G. D`ANNUNZIO 8, LABICO, 00030",
+            "PIAZZA DEL MERCATO 2, LABICO, 00030",
+            "VIA D`ANNUNZIO 8, LABICO, 00030",
+            "VIA I CARNERA 2, LABICO, 00030"
+        ],
+        "nuclei": [
+            5804910001.0,
+            5804910002.0,
+            5804920001.0,
+            5804940000.0
+        ]
+    },
+    "LABRO": {
+        "medici": [
+            "VIA REGINA MARGHERITA, MORRO REATINO, 02010"
+        ],
+        "nuclei": [
+            5703210001.0,
+            5703226606.0,
+            5703226604.0,
+            5703240000.0
+        ]
+    },
+    "LANUVIO": {
+        "medici": [
+            "VIA DELLA MADDALENA, 7, LANUVIO, 00075",
+            "CARLO MARX, 2, LANUVIO, 00075",
+            "VIA TERESA DIONIGI, 2, LANUVIO, 00075",
+            "VIA DELLA MADDALENA 3, LANUVIO, 00075",
+            "VIA CARLO MARX, 4, LANUVIO, 00075",
+            "VIA A. DE GASPERI 2, LANUVIO, 00075"
+        ],
+        "nuclei": [
+            5805010001.0,
+            5805010002.0,
+            5805010004.0,
+            5805020002.0,
+            5805020001.0,
+            5805010003.0,
+            5805020004.0,
+            5805020003.0,
+            5805040000.0
+        ]
+    },
+    "LARIANO": {
+        "medici": [
+            "VIA NAPOLI,36, LARIANO, 00076",
+            "VIA NAPOLI 66, LARIANO, 00076",
+            "VIA NAPOLI 72, LARIANO, 00076",
+            "VIA ROMA 200, LARIANO, 00076"
+        ],
+        "nuclei": [
+            5811510001.0,
+            5811540000.0
+        ]
+    },
+    "LATERA": {
+        "medici": [
+            "VIA MONTEBELLO 1, LATERA, 01010"
+        ],
+        "nuclei": [
+            5603210001.0,
+            5603226602.0,
+            5603240000.0
+        ]
+    },
+    "LENOLA": {
+        "medici": [
+            "VIA MARCONI, 8, LENOLA, 04025",
+            "VIA ANNUNZIATA 1, LENOLA, 04025"
+        ],
+        "nuclei": [
+            5901210001.0,
+            5901210002.0,
+            5901220003.0,
+            5901220001.0,
+            5901220005.0,
+            5901226602.0,
+            5901226604.0,
+            5901240000.0
+        ]
+    },
+    "LEONESSA": {
+        "medici": [
+            "VIA SAN FRANCESCO 72, LEONESSA, 02016"
+        ],
+        "nuclei": [
+            5703310001.0,
+            5703310004.0,
+            5703310002.0,
+            5703310005.0,
+            5703310003.0,
+            5703320029.0,
+            5703320017.0,
+            5703320020.0,
+            5703320226.0,
+            5703320010.0,
+            5703320016.0,
+            5703320012.0,
+            5703320003.0,
+            5703324905.0,
+            5703326613.0,
+            5703326619.0,
+            5703326623.0,
+            5703326602.0,
+            5703326611.0,
+            5703326628.0,
+            5703326606.0,
+            5703320201.0,
+            5703320018.0,
+            5703320025.0,
+            5703320214.0,
+            5703320027.0,
+            5703326607.0,
+            5703326631.0,
+            5703326630.0,
+            5703326621.0,
+            5703326615.0,
+            5703326624.0,
+            5703326622.0,
+            5703326608.0,
+            5703340000.0
+        ]
+    },
+    "LICENZA": {
+        "medici": [
+            "VIA DON MINZONI 12, LICENZA, 00026",
+            "VIA G. MINZONI 14, LICENZA, 00020"
+        ],
+        "nuclei": [
+            5805110001.0,
+            5805110002.0,
+            5805140000.0
+        ]
+    },
+    "LONGONE SABINO": {
+        "medici": [
+            "ROCCA RANIERI, LONGONE SABINO",
+            "SAN SILVESTRO, LONGONE SABINO",
+            "FASSINORO, LONGONE SABINO"
+        ],
+        "nuclei": [
+            5703410001.0,
+            5703410004.0,
+            5703410002.0,
+            5703410003.0,
+            5703440000.0
+        ]
+    },
+    "LUBRIANO": {
+        "medici": [
+            "VIA DANTE ALIGHIERI, 14, BAGNOREGIO, 01022"
+        ],
+        "nuclei": [
+            5603310001.0,
+            5603340000.0
+        ]
+    },
+    "MAENZA": {
+        "medici": [
+            "VIA DELLA REPUBBLICA 38, MAENZA, 04010"
+        ],
+        "nuclei": [
+            5901310001.0,
+            5901320002.0,
+            5901320001.0,
+            5901340000.0
+        ]
+    },
+    "MAGLIANO ROMANO": {
+        "medici": [
+            "VIA DELLE CROCI 8, MAGLIANO ROMANO, 00060"
+        ],
+        "nuclei": [
+            5805210001.0,
+            5805240000.0
+        ]
+    },
+    "MAGLIANO SABINA": {
+        "medici": [
+            "VIA MANLIO 43, MAGLIANO SABINA, 02046",
+            "VIA DELLA REPUBBLICA 28, MAGLIANO SABINA, 02046",
+            "PIAZZA PRINCIPESSA PIEMONTE, 1, MAGLIANO SABINA, 02046"
+        ],
+        "nuclei": [
+            5703510001.0,
+            5703510002.0,
+            5703520002.0,
+            5703510003.0,
+            5703520008.0,
+            5703520005.0,
+            5703530002.0,
+            5703530001.0,
+            5703540000.0
+        ]
+    },
+    "MANDELA": {
+        "medici": [
+            "CORSO UMBERTO I 14, MANDELA, 00020",
+            "VIA G BONAPARTE,, MANDELA, 00020",
+            "VIA G. BONAPARE, SN, MANDELA, 00020"
+        ],
+        "nuclei": [
+            5805310001.0,
+            5805320001.0,
+            5805340000.0
+        ]
+    },
+    "MANZIANA": {
+        "medici": [
+            "VIA IV NOVEMBRE N.68, MANZIANA, 00066",
+            "VIA SAN GIOVANNI BOSCO N.2, MANZIANA, 00066",
+            "VIA DON CELESTINO ROGHI N.18, MANZIANA, 00066",
+            "VIA IV NOVEMBRE N.32, MANZIANA, 00066"
+        ],
+        "nuclei": [
+            5805410001.0,
+            5805420001.0,
+            5805420003.0,
+            5805426702.0,
+            5805440000.0
+        ]
+    },
+    "MARANO EQUO": {
+        "medici": [
+            "VIA ROMA, MARANO EQUO, 00020"
+        ],
+        "nuclei": [
+            5805510001.0,
+            5805540000.0
+        ]
+    },
+    "MARCELLINA": {
+        "medici": [
+            "VIA REGINA ELENA , 35 B/C, MARCELLINA, 00010",
+            "CORSO VITTORIO EMANUELE 146, MARCELLINA, 00010",
+            "CORSO VITTORIO EMANUELE, 26, MARCELLINA, 00010"
+        ],
+        "nuclei": [
+            5805610001.0,
+            5805620002.0,
+            5805620001.0,
+            5805630001.0,
+            5805640000.0
+        ]
+    },
+    "MARCETELLI": {
+        "medici": [
+            "AMBULATORIO COMUNALE ASCREA, ASCREA, 02020"
+        ],
+        "nuclei": [
+            5703610001.0,
+            5703640000.0
+        ]
+    },
+    "MARTA": {
+        "medici": [
+            "VIA S.ROCCO, SNC, MARTA, 01010",
+            "VIA TUSCANIA, 4/A, MARTA, 01010",
+            "VIA XXV APRILE, 10, MARTA, 01010"
+        ],
+        "nuclei": [
+            5603410001.0,
+            5603440000.0
+        ]
+    },
+    "MAZZANO ROMANO": {
+        "medici": [
+            "VIA ROMANA, 150/A, MAZZANO ROMANO, 00060"
+        ],
+        "nuclei": [
+            5805810001.0,
+            5805840000.0
+        ]
+    },
+    "MENTANA": {
+        "medici": [
+            "VIA DEL PISCIARELLO 4, MENTANA, 00013",
+            "NOMENTANA 30/A, MONTEROTONDO, 00015",
+            "III NOVEMBRE 115, MENTANA, 00013",
+            "VIA RUBICONE 7, MENTANA, 00013",
+            "VIA MENOTTI GARIBALDI 12, MENTANA, 00013",
+            "VIA TRE NOVEMBRE 164, MENTANA, 00013",
+            "TRE NOVEMBRE , 115, MENTANA, 00013",
+            "VIA NOMENTANA 30, MONTEROTONDO, 00015",
+            "VIA ARTURO MASSIMI 13, MENTANA, 00013"
+        ],
+        "nuclei": [
+            5805910001.0,
+            5805910002.0,
+            5805910004.0,
+            5805920001.0,
+            5805910003.0,
+            5805940000.0
+        ]
+    },
+    "MICIGLIANO": {
+        "medici": [
+            "PIAZZA MARTIRI DELLA LIBERT\u00c0, 1, ANTRODOCO, 02013"
+        ],
+        "nuclei": [
+            5703710001.0,
+            5703724901.0,
+            5703740000.0
+        ]
+    },
+    "MINTURNO": {
+        "medici": [
+            "VIA SANT`ALBINA 3, MINTURNO, 04026",
+            "VIA PIETRO FEDELE 148, MINTURNO, 04026",
+            "VIA ROMA 12, MINTURNO, 04026",
+            "VIA A. DIAZ 15 BIS, MINTURNO, 04026",
+            "VIA APPIA 1096, MINTURNO, 04026",
+            "A. SEBASTIANI 393, MINTURNO, 04026",
+            "VIA PRIVATA MALLOZZI 14, MINTURNO, 04026",
+            "VIA CADORNA 52, MINTURNO, 04026",
+            "VIA APPIA 491, MINTURNO, 04026",
+            "VIALE PIETRO FEDELE 188, MINTURNO, 04026",
+            "VIA APPIA 457, MINTURNO, 04028",
+            "VIA CADORNA 53, MINTURNO, 04026",
+            "VIA APPIA 638, MINTURNO, 04026",
+            "VIA APPIA 585, MINTURNO, 04026"
+        ],
+        "nuclei": [
+            5901410001.0,
+            5901410002.0,
+            5901410004.0,
+            5901420003.0,
+            5901420002.0,
+            5901420001.0,
+            5901410005.0,
+            5901410003.0,
+            5901420005.0,
+            5901420004.0,
+            5901420006.0,
+            5901430001.0,
+            5901440000.0
+        ]
+    },
+    "MOMPEO": {
+        "medici": [
+            "VIALE REGILLO, 21, MOMPEO, 02040"
+        ],
+        "nuclei": [
+            5703810001.0,
+            5703820002.0,
+            5703826604.0,
+            5703840000.0
+        ]
+    },
+    "MONTALTO DI CASTRO": {
+        "medici": [
+            "VIA CASTRENSE - LOC.TA` ROMPICOLLO, MONTALTO DI CASTRO, 01014",
+            "CASA DELLA SALUTE SP CASTRENSE, MONTALTO DI CASTRO, 01014",
+            "STRADA CASTRENSE, 312, MONTALTO DI CASTRO, 01014",
+            "PIAZZALE SAN SISTO SNC, MONTALTO DI CASTRO, 01014",
+            "VIA DEI PINI, SNC, MONTALTO DI CASTRO, 01014",
+            "PIAZZA DEI BERSAGLIERI, SNC, MONTALTO DI CASTRO, 01014"
+        ],
+        "nuclei": [
+            5603510001.0,
+            5603510002.0,
+            5603520007.0,
+            5603510003.0,
+            5603524901.0,
+            5603520005.0,
+            5603520006.0,
+            5603526602.0,
+            5603526604.0,
+            5603530002.0,
+            5603526703.0,
+            5603530001.0,
+            5603530003.0,
+            5603540000.0
+        ]
+    },
+    "MONTASOLA": {
+        "medici": [
+            "VIA FORCELLE, MONTASOLA, 02040"
+        ],
+        "nuclei": [
+            5703910001.0,
+            5703920001.0,
+            5703926603.0,
+            5703926602.0,
+            5703940000.0
+        ]
+    },
+    "MONTE COMPATRI": {
+        "medici": [
+            "VIA TUSCOLANA, KM 26700, MONTE COMPATRI, 00077",
+            "VIALE EUROPA 43, MONTE COMPATRI, 00077",
+            "PIAZZA DEL CUPELLARO, 3, MONTE COMPATRI, 00077",
+            "VIA M. D`AZEGLIO 2, MONTE COMPATRI, 00077",
+            "VIALE EUROPA 26, MONTE COMPATRI, 00077"
+        ],
+        "nuclei": [
+            5806010001.0,
+            5806010006.0,
+            5806010002.0,
+            5806010004.0,
+            5806020002.0,
+            5806020001.0,
+            5806010005.0,
+            5806010003.0,
+            5806010008.0,
+            5806010007.0,
+            5806020005.0,
+            5806020003.0,
+            5806040000.0
+        ]
+    },
+    "MONTE PORZIO CATONE": {
+        "medici": [
+            "IV NOVEMBRE, 1, MONTE PORZIO CATONE, 00078",
+            "VIA IV NOVEMBRE 28, MONTE PORZIO CATONE, 00078",
+            "VIA IV NOVEMBRE, 1, MONTE PORZIO CATONE, 00078",
+            "VIA DELLA CORDONATA 25, MONTE PORZIO CATONE, 00078",
+            "VIA FONTANA DEI DRAGHI, 16, MONTE PORZIO CATONE, 00078",
+            "FONTANA DELLA GIRANDOLA, 12, MONTE PORZIO CATONE, 00078"
+        ],
+        "nuclei": [
+            5806410001.0,
+            5806410002.0,
+            5806420007.0,
+            5806420005.0,
+            5806420006.0,
+            5806440000.0
+        ]
+    },
+    "MONTE ROMANO": {
+        "medici": [
+            "VIA TORINO 8, MONTE ROMANO, 01010",
+            "AURELIA NORD, 7, MONTE ROMANO, 01010"
+        ],
+        "nuclei": [
+            5603710001.0,
+            5603720201.0,
+            5603740000.0
+        ]
+    },
+    "MONTE SAN BIAGIO": {
+        "medici": [
+            "VIA EUROPA 73, MONTE SAN BIAGIO, 04020",
+            "VIALE EUROPA 64, MONTE SAN BIAGIO, 04020"
+        ],
+        "nuclei": [
+            5901510001.0,
+            5901510002.0,
+            5901520003.0,
+            5901520002.0,
+            5901510003.0,
+            5901520009.0,
+            5901520010.0,
+            5901526607.0,
+            5901526608.0,
+            5901540000.0
+        ]
+    },
+    "MONTE SAN GIOVANNI CAMPANO": {
+        "medici": [
+            "VIA POZZO S. PAOLO , 24, MONTE SAN GIOVANNI CAMPANO, 03025",
+            "VIA SANTA FILOMENA 48, MONTE SAN GIOVANNI CAMPANO, 03025",
+            "MASTRAZZE, MONTE SAN GIOVANNI CAMPANO, 03025",
+            "VIA CHIAIAMARI SNC, MONTE SAN GIOVANNI CAMPANO, 03025",
+            "VIA CASANUOVA 36, MONTE SAN GIOVANNI CAMPANO, 03025",
+            "VIA PORRINO, MONTE SAN GIOVANNI CAMPANO, 03025",
+            "CHIAIAMARI 73, MONTE SAN GIOVANNI CAMPANO, 03025",
+            "VALLE 46, MONTE SAN GIOVANNI CAMPANO, 03025",
+            "PIAZZA G. MARCONI 18, MONTE SAN GIOVANNI CAMPANO, 03025"
+        ],
+        "nuclei": [
+            6004410006.0,
+            6004410001.0,
+            6004410005.000001,
+            6004420003.0,
+            6004410004.0,
+            6004420001.999999,
+            6004420007.0,
+            6004410003.000001,
+            6004410008.0,
+            6004420015.0,
+            6004410006.999999,
+            6004420018.0,
+            6004420005.0,
+            6004420004.0,
+            6004420014.0,
+            6004420009.000001,
+            6004420012.999999,
+            6004420020.000001,
+            6004420023.0,
+            6004420010.0,
+            6004420012.0,
+            6004420006.0,
+            6004420016.0,
+            6004420010.999999,
+            6004420019.0,
+            6004420021.999999,
+            6004420021.0,
+            6004440000.0
+        ]
+    },
+    "MONTE SAN GIOVANNI IN SABINA": {
+        "medici": [
+            "PIAZZA VERDI, 15, SALISANO, 02040"
+        ],
+        "nuclei": [
+            5704310001.0,
+            5704310002.0,
+            5704320002.0,
+            5704310003.0,
+            5704320004.0,
+            5704326601.0,
+            5704326603.0,
+            5704340000.0
+        ]
+    },
+    "MONTEBUONO": {
+        "medici": [
+            "ROCCHETTE, MONTEBUONO, 02040",
+            "VIA ROMA, MONTEBUONO"
+        ],
+        "nuclei": [
+            5704010001.0,
+            5704010002.0,
+            5704020001.0,
+            5704020002.0,
+            5704020005.0,
+            5704020004.0,
+            5704020003.0,
+            5704040000.0
+        ]
+    },
+    "MONTEFIASCONE": {
+        "medici": [
+            "VIA CASSIA VECCHIA 19, MONTEFIASCONE, 01027",
+            "VIA ALDO MORO 15, MONTEFIASCONE, 01027",
+            "VIA GIGLIO VECCHIO, 1, MONTEFIASCONE, 01027",
+            "VIA DANTE ALIGHIERI 51, MONTEFIASCONE, 01027",
+            "V CAVALIERI V. VENETO N 1, MONTEFIASCONE, 01027",
+            "VIA VERENTANA 9/B, MONTEFIASCONE, 01027",
+            "VIA CARDINAL SALOTTI SNC, MONTEFIASCONE, 01027",
+            "VIA DEL LAGO, MONTEFIASCONE, 01027"
+        ],
+        "nuclei": [
+            5603610001.0,
+            5603610002.0,
+            5603620002.0,
+            5603620208.0,
+            5603620009.0,
+            5603620004.0,
+            5603640000.0
+        ]
+    },
+    "MONTEFLAVIO": {
+        "medici": [
+            "VIA DELLE CANTINE 69, MONTEFLAVIO, 00010"
+        ],
+        "nuclei": [
+            5806110001.0,
+            5806140000.0
+        ]
+    },
+    "MONTELANICO": {
+        "medici": [
+            "VIA DANTE ALIGHIERI 7, MONTELANICO, 00030"
+        ],
+        "nuclei": [
+            5806210001.0,
+            5806210002.0,
+            5806240000.0
+        ]
+    },
+    "MONTELEONE SABINO": {
+        "medici": [
+            "VIA LUCIO MUMMIO 13, MONTELEONE SABINO, 02033",
+            "VIA VIGNALETTI SNC, MONTELEONE SABINO, 02033"
+        ],
+        "nuclei": [
+            5704110001.0,
+            5704110002.0,
+            5704120202.0,
+            5704140000.0
+        ]
+    },
+    "MONTELIBRETTI": {
+        "medici": [
+            "PIAZZA CHIESA NUOVA 34, MONTELIBRETTI, 00010",
+            "PIAZZA CHIESA NUOVA,33, MONTELIBRETTI, 00010",
+            "VIA PARCO DELLA RESISTENZA 21, MONTELIBRETTI, 00010"
+        ],
+        "nuclei": [
+            5806310001.0,
+            5806310002.0,
+            5806310003.0,
+            5806326603.0,
+            5806320004.0,
+            5806330001.0,
+            5806340000.0
+        ]
+    },
+    "MONTENERO SABINO": {
+        "medici": [
+            "P.ZZA DEL MUNICIPIO 1, CASAPROTA, 02030"
+        ],
+        "nuclei": [
+            5704210001.0,
+            5704220003.0,
+            5704226601.0,
+            5704226602.0,
+            5704226606.0,
+            5704226604.0,
+            5704226605.0,
+            5704240000.0
+        ]
+    },
+    "MONTEROSI": {
+        "medici": [
+            "VIA URBANO DEL DRAGO 21, MONTEROSI, 01030",
+            "VIA PRINCIPE URBANO DEL DRAGO, 5, MONTEROSI, 01030",
+            "VIA PRATO DEL PORTONE 16, MONTEROSI, 01030",
+            "VIA PRINC.URBANO DEL DRAGO 5, MONTEROSI, 01030"
+        ],
+        "nuclei": [
+            5603810001.0,
+            5603820001.0,
+            5603820002.0,
+            5603826603.0,
+            5603840000.0
+        ]
+    },
+    "MONTOPOLI DI SABINA": {
+        "medici": [
+            "VIA ROMA, MONTOPOLI DI SABINA, 02034",
+            "VIA ROMA, 2, MONTOPOLI DI SABINA, 02034"
+        ],
+        "nuclei": [
+            5704410001.0,
+            5704410002.0,
+            5704420001.0,
+            5704420007.0,
+            5704410003.0,
+            5704420009.0,
+            5704420005.0,
+            5704420006.0,
+            5704420003.0,
+            5704440000.0
+        ]
+    },
+    "MONTORIO ROMANO": {
+        "medici": [
+            "VIA CLETO FIORAVANTI 18, MONTORIO ROMANO, 00010"
+        ],
+        "nuclei": [
+            5806610001.0,
+            5806640000.0
+        ]
+    },
+    "MORICONE": {
+        "medici": [
+            "ROMA, 1, MORICONE, 00010"
+        ],
+        "nuclei": [
+            5806710001.0,
+            5806740000.0
+        ]
+    },
+    "MORLUPO": {
+        "medici": [
+            "VIA SAN PELLEGRINO 4, MORLUPO, 00067",
+            "LARGO G. RONCACCI, 11, MORLUPO, 00067",
+            "CORSO UMBERTO 42, MORLUPO, 00067",
+            "CORSO UMBERTO 6, MORLUPO, 00067",
+            "CORSO UMBERTO 75/A, MORLUPO, 00067"
+        ],
+        "nuclei": [
+            5806810001.0,
+            5806810002.0,
+            5806820002.0,
+            5806810003.0,
+            5806820015.0,
+            5806820008.0,
+            5806820014.0,
+            5806820011.0,
+            5806820004.0,
+            5806820003.0,
+            5806826713.0,
+            5806840000.0
+        ]
+    },
+    "MOROLO": {
+        "medici": [
+            "VIA VICINALE DEL PRATARONE 7, MOROLO, 03017",
+            "P.ZZA DELLA LIBERTA` 2, MOROLO, 03017",
+            "VIA PROVINCIALE MOROLENSE 62/A, MOROLO, 03017",
+            "VIA G. MARCONI 32, MOROLO, 03017"
+        ],
+        "nuclei": [
+            6004510001.0,
+            6004520002.0,
+            6004520000.999999,
+            6004510002.0,
+            6004520010.000001,
+            6004520008.000001,
+            6004520006.0,
+            6004526611.000001,
+            6004526605.0,
+            6004526607.0,
+            6004526609.0,
+            6004540000.000001
+        ]
+    },
+    "MORRO REATINO": {
+        "medici": [
+            "VIA REGINA MARGHERITA, MORRO REATINO, 02010"
+        ],
+        "nuclei": [
+            5704510001.0,
+            5704520002.0,
+            5704526606.0,
+            5704526604.0,
+            5704520201.0,
+            5704540000.0
+        ]
+    },
+    "NAZZANO": {
+        "medici": [
+            "VIA IV NOVEMBRE 6, NAZZANO, 00060"
+        ],
+        "nuclei": [
+            5806910001.0,
+            5806920005.0,
+            5806920004.0,
+            5806926602.0,
+            5806940000.0
+        ]
+    },
+    "NEMI": {
+        "medici": [
+            "C.SO V. EMANUELE 18, NEMI, 00074"
+        ],
+        "nuclei": [
+            5807010001.0,
+            5807010002.0,
+            5807010004.0,
+            5807010005.0,
+            5807010003.0,
+            5807027401.0,
+            5807040000.0
+        ]
+    },
+    "NEPI": {
+        "medici": [
+            "M. OLIVARES, 1, NEPI, 01036",
+            "VIA FALISCA, 5, NEPI, 01036",
+            "VIA ROMA 69, NEPI, 01036",
+            "VIA ALDO MORO 15, NEPI, 01036"
+        ],
+        "nuclei": [
+            5603910001.0,
+            5603910002.0,
+            5603920001.0,
+            5603920007.0,
+            5603920009.0,
+            5603924913.0,
+            5603920005.0,
+            5603920011.0,
+            5603920012.0,
+            5603920006.0,
+            5603920003.0,
+            5603926713.0,
+            5603926614.0,
+            5603926610.0,
+            5603930002.0,
+            5603930001.0,
+            5603930003.0,
+            5603940000.0
+        ]
+    },
+    "NEROLA": {
+        "medici": [
+            "PIAZZA S. SEBASTIANO, NEROLA, 00017"
+        ],
+        "nuclei": [
+            5807110001.0,
+            5807110002.0,
+            5807110003.0,
+            5807126601.0,
+            5807126702.0,
+            5807140000.0
+        ]
+    },
+    "NESPOLO": {
+        "medici": [
+            "VIA ROMA, NESPOLO, 02020"
+        ],
+        "nuclei": [
+            5704610001.0,
+            5704640000.0
+        ]
+    },
+    "NORMA": {
+        "medici": [
+            "VIA XXV APRILE SNC, NORMA, 04010",
+            "VIA TIBERIA,3, NORMA, 04010"
+        ],
+        "nuclei": [
+            5901610001.0,
+            5901640000.0
+        ]
+    },
+    "OLEVANO ROMANO": {
+        "medici": [
+            "VIA SEI GIUGNO 114, OLEVANO ROMANO, 00035",
+            "VIALE VITTORIO VENETO, 27, OLEVANO ROMANO, 00035",
+            "VIALE VITTORIO VENETO 54, OLEVANO ROMANO, 00035"
+        ],
+        "nuclei": [
+            5807310001.0,
+            5807340000.0
+        ]
+    },
+    "ONANO": {
+        "medici": [
+            "VIA CAVOUR 2/4, ONANO, 01010"
+        ],
+        "nuclei": [
+            5604010001.0,
+            5604040000.0
+        ]
+    },
+    "ORIOLO ROMANO": {
+        "medici": [
+            "VIA DELLE DOGANELLE, 43, ORIOLO ROMANO, 01010",
+            "VIA MARCONI, 3, ORIOLO ROMANO, 01010",
+            "VIA XXV APRILE 5, ORIOLO ROMANO, 01010"
+        ],
+        "nuclei": [
+            5604110001.0,
+            5604120006.0,
+            5604140000.0
+        ]
+    },
+    "ORTE": {
+        "medici": [
+            "CORSO GARIBALDI 44, ORTE, 01028",
+            "VIA DEI CALEFATI SNC, ORTE, 01028",
+            "VIA BORGHETTO, ORTE, 01028",
+            "VIA BATTELLIERI, 4 - SCALA D, ORTE, 01028",
+            "VIA GRAMSCI, 66, ORTE, 01028",
+            "VIA DEI PESCATORI, 7, ORTE, 01028",
+            "P.SPORTELLO 6, ANZIO, 00042",
+            "VIA FRANCOFORTE 9, APRILIA, 04011"
+        ],
+        "nuclei": [
+            5604210001.0,
+            5604210002.0,
+            5604210003.0,
+            5604224305.0,
+            5604220005.0,
+            5604220003.0,
+            5604226601.0,
+            5604226702.0,
+            5604240000.0
+        ]
+    },
+    "ORVINIO": {
+        "medici": [
+            "AMBULATORIO COMUNALE, POZZAGLIA SABINA, 02030"
+        ],
+        "nuclei": [
+            5704710001.0,
+            5704740000.0
+        ]
+    },
+    "PAGANICO SABINO": {
+        "medici": [
+            "AMBULATORIO COMUNALE PAGANICO, PAGANICO SABINO, 02020"
+        ],
+        "nuclei": [
+            5704810001.0,
+            5704840000.0
+        ]
+    },
+    "PALESTRINA": {
+        "medici": [
+            "VIA PRENESTINA NUOVA , 307/A, PALESTRINA, 00036",
+            "VIA UNGHERIA SNC, PALESTRINA, 00036",
+            "VIA P. PETRINI, 56, PALESTRINA, 00036",
+            "VIA STRADA PROVINCIALE, 33, PALESTRINA, 00036",
+            "VIALE UNGHERIA, 9, PALESTRINA, 00036",
+            "DON. G. MINZONI ,2, PALESTRINA, 00036",
+            "VIA UNGHERIA,SNC, PALESTRINA, 00036",
+            "VIA ALCIDE DE GASPERI, 39, PALESTRINA, 00036",
+            "VIA PROVINCIALE, 33 - CARCHITTI, PALESTRINA, 00036",
+            "VIA DANTE ALIGHIERI 35, PALESTRINA, 00036",
+            "VIA ALIGHIERI ,35, PALESTRINA, 00036",
+            "P.ZZA COLLE BELVEDERE DELLA STAZIONE, 41, PALESTRINA, 00036",
+            "PIAZZA BELVEDERE DELLA STAZIONE, 41, PALESTRINA, 00036"
+        ],
+        "nuclei": [
+            5807410001.0,
+            5807410006.0,
+            5807410002.0,
+            5807410004.0,
+            5807420002.0,
+            5807420003.0,
+            5807410005.0,
+            5807410003.0,
+            5807420014.0,
+            5807420010.0,
+            5807420012.0,
+            5807420004.0,
+            5807426608.0,
+            5807426715.0,
+            5807440000.0
+        ]
+    },
+    "PALIANO": {
+        "medici": [
+            "VIA DEL PONTONE 4, PALIANO, 03018",
+            "VIA CAVOUR 116, PALIANO, 03018"
+        ],
+        "nuclei": [
+            6004620001.0,
+            6004610002.0,
+            6004620008.0,
+            6004620009.000001,
+            6004620012.0,
+            6004620006.0,
+            6004620010.999999,
+            6004626604.0,
+            6004626604.999999,
+            6004630003.0,
+            6004626610.0,
+            6004630005.0,
+            6004630002.0,
+            6004640000.0
+        ]
+    },
+    "PALOMBARA SABINA": {
+        "medici": [
+            "VIA A. PETROCCHI 21, PALOMBARA SABINA, 00018",
+            "VIA ALESSANDRO MANZONI,SNC, PALOMBARA SABINA, 00018",
+            "VIA ADRIANO PETROCCHI, 5L, PALOMBARA SABINA, 00018",
+            "VIA GORIZIA 19, PALOMBARA SABINA, 00018",
+            "VIA G. GARIBALDI, 15, PALOMBARA SABINA, 00018",
+            "VIALE ADRIANO PETROCCHI , 5, PALOMBARA SABINA, 00018",
+            "VIA MONTE GRAPPA 38, PALOMBARA SABINA, 00018"
+        ],
+        "nuclei": [
+            5807510001.0,
+            5807510002.0,
+            5807520003.0,
+            5807510003.0,
+            5807520005.0,
+            5807520006.0,
+            5807520004.0,
+            5807526601.0,
+            5807540000.0
+        ]
+    },
+    "PASTENA": {
+        "medici": [
+            "VIA PORTA NAPOLI, PASTENA, 03020",
+            "VIA ANNUNZIATA 27, PASTENA, 03020"
+        ],
+        "nuclei": [
+            6004710001.0,
+            6004726606.0,
+            6004726602.000001,
+            6004726603.999999,
+            6004720207.0,
+            6004726605.0,
+            6004726700.999999,
+            6004739999.999999
+        ]
+    },
+    "PATRICA": {
+        "medici": [
+            "VIA QUATTRO STRADE SNC, PATRICA, 03010",
+            "QUATTRO STRADE 29, PATRICA, 03010",
+            "VIA QUATTRO STRADE S.N.C., PATRICA, 03010"
+        ],
+        "nuclei": [
+            6004810001.0,
+            6004820003.0,
+            6004820001.999999,
+            6004820001.0,
+            6004820007.0,
+            6004810002.0,
+            6004810003.000001,
+            6004820015.0,
+            6004820018.0,
+            6004820014.0,
+            6004820017.0,
+            6004820010.999999,
+            6004826613.0,
+            6004826604.0,
+            6004826604.999999,
+            6004826612.000001,
+            6004826609.0,
+            6004826610.0,
+            6004826608.0,
+            6004830002.0,
+            6004830001.0,
+            6004840000.0
+        ]
+    },
+    "PERCILE": {
+        "medici": [
+            "VIA ROMA, PERCILE, 00020"
+        ],
+        "nuclei": [
+            5807610001.0,
+            5807626701.0,
+            5807640000.0
+        ]
+    },
+    "PESCOROCCHIANO": {
+        "medici": [
+            "VIA PILA,1, PESCOROCCHIANO, 02024",
+            "VIA PILA 2, PESCOROCCHIANO, 02024"
+        ],
+        "nuclei": [
+            5704910006.0,
+            5704910012.0,
+            5704910001.0,
+            5704910004.0,
+            5704910002.0,
+            5704910014.0,
+            5704910009.0,
+            5704910013.0,
+            5704910017.0,
+            5704910010.0,
+            5704910005.0,
+            5704910003.0,
+            5704910008.0,
+            5704910007.0,
+            5704920005.0,
+            5704910011.0,
+            5704910015.0,
+            5704910016.0,
+            5704926702.0,
+            5704930001.0,
+            5704940000.0
+        ]
+    },
+    "PESCOSOLIDO": {
+        "medici": [
+            "PIAZZA UMBERTO I, PESCOSOLIDO, 03030"
+        ],
+        "nuclei": [
+            6004910001.0,
+            6004910002.0,
+            6004910003.0,
+            6004920005.0,
+            6004920209.0,
+            6004920203.0,
+            6004926611.000001,
+            6004926603.999999,
+            6004920201.0,
+            6004926610.0,
+            6004940000.000001
+        ]
+    },
+    "PETRELLA SALTO": {
+        "medici": [
+            "VIA SAN ROCCO, PETRELLA SALTO, 02025"
+        ],
+        "nuclei": [
+            5705010006.0,
+            5705010001.0,
+            5705010004.0,
+            5705010002.0,
+            5705010005.0,
+            5705010003.0,
+            5705020208.0,
+            5705020009.0,
+            5705026613.0,
+            5705026612.0,
+            5705026602.0,
+            5705026611.0,
+            5705026604.0,
+            5705026605.0,
+            5705040000.0
+        ]
+    },
+    "PIANSANO": {
+        "medici": [
+            "VIA ETRURIA 19, PIANSANO, 01010"
+        ],
+        "nuclei": [
+            5604310001.0,
+            5604320001.0,
+            5604340000.0
+        ]
+    },
+    "PICINISCO": {
+        "medici": [
+            "LARGO MONTANO 29, PICINISCO, 03040"
+        ],
+        "nuclei": [
+            6005010001.0,
+            6005010002.0,
+            6005020018.0,
+            6005020208.0,
+            6005020211.0,
+            6005020202.999999,
+            6005026606.0,
+            6005026602.0,
+            6005020201.000001,
+            6005020207.0,
+            6005020215.999999,
+            6005020217.0,
+            6005020213.0,
+            6005020219.0,
+            6005020204.999999,
+            6005026612.000001,
+            6005026609.0,
+            6005026610.0,
+            6005040000.0
+        ]
+    },
+    "PICO": {
+        "medici": [
+            "VIA MARCONI 10, PICO, 03020"
+        ],
+        "nuclei": [
+            6005110001.0,
+            6005120002.0,
+            6005120210.0,
+            6005120006.0,
+            6005126603.0,
+            6005126611.000001,
+            6005126603.999999,
+            6005120207.0,
+            6005126605.0,
+            6005126700.999999,
+            6005126612.0,
+            6005126609.0,
+            6005126608.0,
+            6005139999.999999
+        ]
+    },
+    "PIEDIMONTE SAN GERMANO": {
+        "medici": [
+            "VIA DEI MILLE 37, PIEDIMONTE SAN GERMANO, 03030",
+            "VIA UMBERTO I 1, PIEDIMONTE SAN GERMANO, 03030",
+            "VIA MARSALA N.2, PIEDIMONTE SAN GERMANO, 03030",
+            "VIALE DEI MILLE, PIEDIMONTE SAN GERMANO, 03030",
+            "PIAZZA MUNICIPIO N\u00b0 6, PIEDIMONTE SAN GERMANO, 03030"
+        ],
+        "nuclei": [
+            6005210001.0,
+            6005220003.0,
+            6005220001.999999,
+            6005210002.0,
+            6005210003.000001,
+            6005220005.0,
+            6005226604.0,
+            6005230002.0,
+            6005240000.0
+        ]
+    },
+    "PIGLIO": {
+        "medici": [
+            "VIA ARCHIPIGLIONE SNC, POGGIO NATIVO, 02030",
+            "VIA CIRCONVALLAZIONE, PIGLIO, 03010"
+        ],
+        "nuclei": [
+            6005310001.0,
+            6005320003.0,
+            6005320002.0,
+            6005310002.0,
+            6005320010.000001,
+            6005320005.0,
+            6005320008.000001,
+            6005320004.0,
+            6005326601.0,
+            6005327206.0,
+            6005327207.0,
+            6005340000.000001
+        ]
+    },
+    "PIGNATARO INTERAMNA": {
+        "medici": [
+            "VIA ROMA SNC, PIGNATARO INTERAMNA, 03040"
+        ],
+        "nuclei": [
+            6005410001.0,
+            6005420001.999999,
+            6005420007.0,
+            6005420004.0,
+            6005426601.000001,
+            6005426606.0,
+            6005426604.999999,
+            6005426609.0,
+            6005426608.0,
+            6005426703.0,
+            6005430001.0,
+            6005440000.0
+        ]
+    },
+    "PISONIANO": {
+        "medici": [
+            "VIA DEL COLLE 4, PISONIANO, 00020"
+        ],
+        "nuclei": [
+            5807710001.0,
+            5807740000.0
+        ]
+    },
+    "POFI": {
+        "medici": [
+            "VIA G. GARIBALDI 2, POFI, 03026",
+            "VIA ROMA 16, POFI, 03026"
+        ],
+        "nuclei": [
+            6005510001.0,
+            6005520003.0,
+            6005510002.0,
+            6005520002.0,
+            6005520000.999999,
+            6005520007.0,
+            6005520015.0,
+            6005520033.0,
+            6005520010.000001,
+            6005520005.0,
+            6005520024.0,
+            6005520004.0,
+            6005520031.0,
+            6005520014.0,
+            6005520017.0,
+            6005520013.0,
+            6005520022.999999,
+            6005520011.999999,
+            6005520011.0,
+            6005526625.0,
+            6005526619.0,
+            6005526628.0,
+            6005520022.0,
+            6005520027.0,
+            6005520033.999999,
+            6005526618.0,
+            6005526630.0,
+            6005526632.0,
+            6005526629.0,
+            6005526609.0,
+            6005526608.0,
+            6005526720.0,
+            6005530001.0,
+            6005526716.0,
+            6005539999.999999
+        ]
+    },
+    "POGGIO BUSTONE": {
+        "medici": [
+            "VIA FRANCESCANA, POGGIO BUSTONE, 02018"
+        ],
+        "nuclei": [
+            5705110001.0,
+            5705110002.0,
+            5705120006.0,
+            5705120004.0,
+            5705120003.0,
+            5705126605.0,
+            5705140000.0
+        ]
+    },
+    "POGGIO CATINO": {
+        "medici": [
+            "VIA ROMA 61, POGGIO CATINO, 02040",
+            "VIA ROMA, POGGIO CATINO, 02040"
+        ],
+        "nuclei": [
+            5705210001.0,
+            5705210002.0,
+            5705220001.0,
+            5705220002.0,
+            5705220003.0,
+            5705240000.0
+        ]
+    },
+    "POGGIO MIRTETO": {
+        "medici": [
+            "PIAZZA DELLA VETRERIA 31, POGGIO MIRTETO, 02047",
+            "VIA SAN PAOLO, 31, POGGIO MIRTETO, 02047",
+            "VIA G. MATTEOTTI, 39, POGGIO MIRTETO, 02047",
+            "PIAZZA U. VOLPI, 7, POGGIO MIRTETO, 02047",
+            "VIA DIEGO EUSEBI 14, POGGIO MIRTETO, 02047",
+            "PIAZZA DELLA VETRERIA 33, POGGIO MIRTETO, 02047",
+            "VIA PIETRO BONFANTE SNC, POGGIO MIRTETO, 02047"
+        ],
+        "nuclei": [
+            5705310001.0,
+            5705310002.0,
+            5705310005.0,
+            5705310003.0,
+            5705320006.0,
+            5705320004.0,
+            5705320003.0,
+            5705340000.0
+        ]
+    },
+    "POGGIO MOIANO": {
+        "medici": [
+            "VIA UMBERTO I 68, POGGIO MOIANO, 02037",
+            "VIALE EUROPA 13, POGGIO MOIANO, 02037",
+            "VIALE EUROPA 5, POGGIO MOIANO, 02037"
+        ],
+        "nuclei": [
+            5705410001.0,
+            5705410002.0,
+            5705410003.0,
+            5705440000.0
+        ]
+    },
+    "POGGIO NATIVO": {
+        "medici": [
+            "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030",
+            "VIA PORTA ROMANA 113, POGGIO NATIVO, 02030",
+            "VIA OBERDAN 21, POGGIO NATIVO, 02030"
+        ],
+        "nuclei": [
+            5705510001.0,
+            5705510002.0,
+            5705520007.0,
+            5705510003.0,
+            5705520008.0,
+            5705520005.0,
+            5705520006.0,
+            5705520004.0,
+            5705526603.0,
+            5705540000.0
+        ]
+    },
+    "POGGIO SAN LORENZO": {
+        "medici": [
+            "VIA TORRE, 6, POGGIO SAN LORENZO, 02030",
+            "VIA ITALIA 2, POGGIO SAN LORENZO, 02030"
+        ],
+        "nuclei": [
+            5705610001.0,
+            5705640000.0
+        ]
+    },
+    "POLI": {
+        "medici": [
+            "VIA DELLA POLLEDRARA 1, POLI, 00010",
+            "VIA POLIBIO 6, GUIDONIA MONTECELIO, 00012",
+            "VIA POLI, 1, GUIDONIA MONTECELIO, 00012",
+            "VIA POLI 10, GUIDONIA MONTECELIO, 00012",
+            "VIA POLI 10/I, GUIDONIA MONTECELIO, 00012",
+            "VIA EMPOLITANA 115, TIVOLI, 00019",
+            "VIA PALO LAZIALE N.18, LADISPOLI, 00055",
+            "VIA LA SPEZIA N.38, LADISPOLI, 00055",
+            "VIA ORIONE N.1, LADISPOLI, 00055",
+            "VIA C. COLOMBO N.24/A, LADISPOLI, 00055",
+            "VIA DUCA DEGLI ABRUZZI 102, LADISPOLI, 00055",
+            "VIA AMALFI N. 19, LADISPOLI, 00055",
+            "VIA BERNA 6/A, LADISPOLI, 00055",
+            "VIA PARIGI N.17, LADISPOLI, 00055",
+            "VIA NAPOLI N.100, LADISPOLI, 00055",
+            "VIA ANCONA N.18, LADISPOLI, 00055",
+            "VIA BARI 33, LADISPOLI, 00055",
+            "VIA CASE CAMPOLI, SNC, VEROLI, 03029",
+            "VIA IPPOLITO NIEVO 42, SORA, 03039"
+        ],
+        "nuclei": [
+            5807810001.0,
+            5807820001.0,
+            5807826602.0,
+            5807840000.0
+        ]
+    },
+    "PONTECORVO": {
+        "medici": [
+            "C.SO VITTORIO EMANUELE N\u00b0 11, PONTECORVO, 03037",
+            "CASA DELLA SALUTE VIA SAN G. BATTISTA, PONTECORVO, 03037",
+            "VIA S.G. BATTISTA 1 CASA DELLA SALUTE, PONTECORVO, 03037",
+            "VIA ROMA N\u00b0 11, PONTECORVO, 03037",
+            "VIA TRIESTE SNC, PONTECORVO, 03037",
+            "VIA ALOISE MASELLA 23, PONTECORVO, 03037"
+        ],
+        "nuclei": [
+            6005610001.0,
+            6005620003.0,
+            6005610002.0,
+            6005620001.999999,
+            6005620001.0,
+            6005620007.0,
+            6005620010.0,
+            6005620008.0,
+            6005620009.000001,
+            6005626604.0,
+            6005626606.0,
+            6005626604.999999,
+            6005640000.0
+        ]
+    },
+    "PONTINIA": {
+        "medici": [
+            "RAFFAELE SANZIO SNC, PONTINIA, 04014",
+            "VIA G. MAMELI 26-28, PONTINIA, 04014",
+            "VIA PONTINIA,KM.50,850, APRILIA, 04011",
+            "VIA DEI VOLSCI N. 7 - PONTINIA (LLT), PONTINIA, 04014",
+            "VIA APPIA KM 85,300 - PONTINIA, PONTINIA, 04014",
+            "GIULIO CESARE N.29, PONTINIA, 04014"
+        ],
+        "nuclei": [
+            5901710001.0,
+            5901710002.0,
+            5901710004.0,
+            5901720003.0,
+            5901720002.0,
+            5901720001.0,
+            5901710003.0,
+            5901720005.0,
+            5901730002.0,
+            5901730001.0,
+            5901740000.0
+        ]
+    },
+    "PONZA": {
+        "medici": [
+            "LOCALITA` TRE VENTI, PONZA, 04027",
+            "VIA COMANDANTE 7, PONZA, 04027",
+            "VIA DANTE SNC, PONZA, 04027"
+        ],
+        "nuclei": [
+            5901810001.0,
+            5901810002.0,
+            5901820201.0,
+            5901840000.0
+        ]
+    },
+    "PONZANO ROMANO": {
+        "medici": [
+            "PIAZZA SANTA MARIA N.10, PONZANO ROMANO, 00060"
+        ],
+        "nuclei": [
+            5808010001.0,
+            5808040000.0
+        ]
+    },
+    "POSTA": {
+        "medici": [
+            "PIAZZA DEGLI EROI, POSTA, 02019",
+            "VIA TAGLIATA 49, POSTA FIBRENO, 03030"
+        ],
+        "nuclei": [
+            5705710001.0,
+            5705710002.0,
+            5705720001.0,
+            5705720009.0,
+            5705720005.0,
+            5705726603.0,
+            5705726602.0,
+            5705726606.0,
+            5705726604.0,
+            5705740000.0
+        ]
+    },
+    "POSTA FIBRENO": {
+        "medici": [
+            "Localit\u00e0 Piscina POSTA FIBRENO",
+            "Via Cina, 1 POSTA FIBRENO",
+            "Via Camminate, 2 POSTA FIBRENO"
+        ],
+        "nuclei": [
+            6005710001.0,
+            6005710002.0,
+            6005740000.000001
+        ]
+    },
+    "POZZAGLIA SABINA": {
+        "medici": [
+            "AMBULATORIO COMUNALE, POZZAGLIA SABINA, 02030"
+        ],
+        "nuclei": [
+            5705810001.0,
+            5705810002.0,
+            5705820001.0,
+            5705810003.0,
+            5705840000.0
+        ]
+    },
+    "PRIVERNO": {
+        "medici": [
+            "VIA DELLA GROTTA 12, PRIVERNO, 04015",
+            "VIA DELLA STAZIONE 2, PRIVERNO, 04015",
+            "SETINA DI CERIARA KM 29.200, PRIVERNO, 04015",
+            "VIA SETINA DI CERIARA, 117, PRIVERNO, 04015"
+        ],
+        "nuclei": [
+            5901910001.0,
+            5901910002.0,
+            5901920002.0,
+            5901920001.0,
+            5901910003.0,
+            5901924313.0,
+            5901920014.0,
+            5901920004.0,
+            5901920006.0,
+            5901920016.0,
+            5901920011.0,
+            5901926705.0,
+            5901920207.0,
+            5901926712.0,
+            5901926609.0,
+            5901926710.0,
+            5901926608.0,
+            5901940000.0
+        ]
+    },
+    "PROCENO": {
+        "medici": [
+            "VIA DEL COTONE SNC, PROCENO, 01020"
+        ],
+        "nuclei": [
+            5604410001.0,
+            5604440000.0
+        ]
+    },
+    "PROSSEDI": {
+        "medici": [
+            "VIA P.SSA A. GABRIELLI, 74 C/O COMUNE DI, PROSSEDI, 04010"
+        ],
+        "nuclei": [
+            5902010001.0,
+            5902010002.0,
+            5902020001.0,
+            5902026602.0,
+            5902040000.0
+        ]
+    },
+    "RIANO": {
+        "medici": [
+            "VIALE PARIGI, 2, RIANO, 00060",
+            "VIA DEI COSTARONI 37, RIANO, 00060",
+            "VIA G. MATTEOTTI 29, RIANO, 00060",
+            "VIALE PARIGI 61/A, RIANO, 00060",
+            "DANTE ALIGHIERI, 39/A, RIANO, 00060",
+            "VIA CARLO ALBERTO DALLA CHIESA 1, RIANO, 00060",
+            "CERCHIARA, 1/B, RIANO, 00060"
+        ],
+        "nuclei": [
+            5808110002.0,
+            5808120002.0,
+            5808120001.0,
+            5808110003.0,
+            5808120211.0,
+            5808120010.0,
+            5808120006.0,
+            5808126612.0,
+            5808126607.0,
+            5808126609.0,
+            5808126608.0,
+            5808140000.0
+        ]
+    },
+    "RIGNANO FLAMINIO": {
+        "medici": [
+            "VIA FLAMINIA 130, RIGNANO FLAMINIO, 00068",
+            "PIAZZA DEI BORGIA 8, RIGNANO FLAMINIO, 00068",
+            "PIAZZA VITTORIO EMANUELE, 51, RIGNANO FLAMINIO, 00068",
+            "PIAZZA BORGIA 1, RIGNANO FLAMINIO, 00068"
+        ],
+        "nuclei": [
+            5808210001.0,
+            5808220007.0,
+            5808210003.0,
+            5808220005.0,
+            5808220006.0,
+            5808220004.0,
+            5808220201.0,
+            5808226702.0,
+            5808240000.0
+        ]
+    },
+    "RIOFREDDO": {
+        "medici": [
+            "VIA PROVINCIALE, RIOFREDDO, 00020"
+        ],
+        "nuclei": [
+            5808310001.0,
+            5808340000.0
+        ]
+    },
+    "RIPI": {
+        "medici": [
+            "PIAZZA DELLA VITTORIA 9, RIPI, 03027",
+            "VIALE UMBERTO I, 50, RIPI, 03027"
+        ],
+        "nuclei": [
+            6005810001.0,
+            6005820003.0,
+            6005810002.0,
+            6005810004.0,
+            6005810003.000001,
+            6005820005.0,
+            6005820032.0,
+            6005820031.000001,
+            6005820020.000001,
+            6005820028.0,
+            6005820042.000001,
+            6005820012.0,
+            6005826627.0,
+            6005826623.000001,
+            6005826611.0,
+            6005826602.0,
+            6005826635.999999,
+            6005820215.0,
+            6005820025.0,
+            6005820026.0,
+            6005820049.0,
+            6005826646.999999,
+            6005820021.0,
+            6005820035.0,
+            6005826648.0,
+            6005826651.0,
+            6005826630.0,
+            6005826652.0,
+            6005826646.0,
+            6005826714.0,
+            6005826738.0,
+            6005826739.0,
+            6005826743.999999,
+            6005826745.0,
+            6005826707.000001,
+            6005840000.0
+        ]
+    },
+    "RIVODUTRI": {
+        "medici": [
+            "VIA PALAZZO, 1, RIVODUTRI, 02010"
+        ],
+        "nuclei": [
+            5706010001.0,
+            5706010004.0,
+            5706010002.0,
+            5706020001.0,
+            5706020002.0,
+            5706010003.0,
+            5706026603.0,
+            5706026604.0,
+            5706026606.0,
+            5706026609.0,
+            5706026610.0,
+            5706040000.0
+        ]
+    },
+    "ROCCA CANTERANO": {
+        "medici": [
+            "PIAZZA DEL MUNICIPIO, ROCCA CANTERANO, 00020"
+        ],
+        "nuclei": [
+            5808410001.0,
+            5808410002.0,
+            5808440000.0
+        ]
+    },
+    "ROCCA D'ARCE": {
+        "medici": [
+            "Via Re Manfredi ROCCA D'ARCE"
+        ],
+        "nuclei": [
+            6005910001.0,
+            6005920003.0,
+            6005910002.0,
+            6005910004.000001,
+            6005910003.0,
+            6005926602.000001,
+            6005920203.999999,
+            6005926708.000001,
+            6005939999.999999
+        ]
+    },
+    "ROCCA DI CAVE": {
+        "medici": [
+            "VIA GENAZZANO, ROCCA DI CAVE, 00030"
+        ],
+        "nuclei": [
+            5808510001.0,
+            5808510002.0,
+            5808540000.0
+        ]
+    },
+    "ROCCA DI PAPA": {
+        "medici": [
+            "VIA SILVIO SPAVENTA 8, ROCCA DI PAPA, 00040",
+            "VIA SILVIO SPAVENTA 16, ROCCA DI PAPA, 00040",
+            "VIA SILVIO SPAVENTA 10, ROCCA DI PAPA, 00040",
+            "PIAZZA ALCIDE DE GASPERI, 4, ROCCA DI PAPA, 00040",
+            "VIA VECCHIA DI VELLETRI, 10, ROCCA DI PAPA, 00040"
+        ],
+        "nuclei": [
+            5808610001.0,
+            5808610002.0,
+            5808620003.0,
+            5808626701.0,
+            5808626704.0,
+            5808640000.0
+        ]
+    },
+    "ROCCA MASSIMA": {
+        "medici": [
+            "VIA UMBERTO I 2, ROCCA MASSIMA, 04010",
+            "VIA BOSCHETTO SNC, ROCCA MASSIMA, 04010"
+        ],
+        "nuclei": [
+            5902210001.0,
+            5902210002.0,
+            5902220001.0,
+            5902240000.0
+        ]
+    },
+    "ROCCA PRIORA": {
+        "medici": [
+            "VIA MAL PASSO D ACQUA,2, ROCCA PRIORA, 00079",
+            "CARDINALE MICHELE LEGA, ROCCA PRIORA, 00079",
+            "VIA DEI VIGNETI 7, ROCCA PRIORA, 00079",
+            "VIA MAL PASSO D`ACQUA,2, ROCCA PRIORA, 00079",
+            "SOLAND SUL SPREE 4/B, ROCCA PRIORA, 00079"
+        ],
+        "nuclei": [
+            5808810001.0,
+            5808810002.0,
+            5808820001.0,
+            5808840000.0
+        ]
+    },
+    "ROCCA SANTO STEFANO": {
+        "medici": [
+            "CORSO DELLA LIBERT\u00c0, 28, ROCCA SANTO STEFANO, 00030"
+        ],
+        "nuclei": [
+            5808910001.0,
+            5808926601.0,
+            5808940000.0
+        ]
+    },
+    "ROCCA SINIBALDA": {
+        "medici": [
+            "VIA ROMA, ROCCA SINIBALDA, 02026",
+            "ROCCA SINIBALDA, ROCCA SINIBALDA, 02026",
+            "ROCCASINIBALDA, ROCCA SINIBALDA, 02026"
+        ],
+        "nuclei": [
+            5706210001.0,
+            5706210004.0,
+            5706210002.0,
+            5706220002.0,
+            5706210003.0,
+            5706220005.0,
+            5706220004.0,
+            5706220003.0,
+            5706240000.0
+        ]
+    },
+    "ROCCAGIOVINE": {
+        "medici": [
+            "VIA DEL RIO 1, ROCCAGIOVINE, 00020"
+        ],
+        "nuclei": [
+            5808710001.0,
+            5808740000.0
+        ]
+    },
+    "ROCCAGORGA": {
+        "medici": [
+            "VIA CRISTOFORO COLOMBO 3, ROCCAGORGA, 04010",
+            "GIACOMO MATTEOTTI N. 4, ROCCAGORGA, 04010",
+            "CORSO DELLA REPUBBLICA, 60, ROCCAGORGA, 04010",
+            "CORSO DELLA REPUBBLICA 58, ROCCAGORGA, 04010"
+        ],
+        "nuclei": [
+            5902110001.0,
+            5902110002.0,
+            5902110003.0,
+            5902140000.0
+        ]
+    },
+    "ROCCANTICA": {
+        "medici": [
+            "VIA SAN GIUSEPPE, ROCCANTICA, 02040"
+        ],
+        "nuclei": [
+            5706110001.0,
+            5706120001.0,
+            5706140000.0
+        ]
+    },
+    "ROCCASECCA": {
+        "medici": [
+            "VIA LAZIO, ROCCASECCA, 03038",
+            "VIA RIVOLTA, 78, ROCCASECCA, 03038",
+            "VIA RAMPA 10, ROCCASECCA, 03038",
+            "VIA DOMENICO TORRIERO SNC, ROCCASECCA, 03038",
+            "VIA PORTA 07, ROCCASECCA, 03038",
+            "VIA PIAVE I TRAVERSA, ROCCASECCA, 03038",
+            "VIA PIAVE 81, ROCCASECCA, 03038"
+        ],
+        "nuclei": [
+            6006010001.0,
+            6006010004.0,
+            6006010003.000001,
+            6006030001.0,
+            6006030002.0,
+            6006040000.0
+        ]
+    },
+    "ROCCASECCA DEI VOLSCI": {
+        "medici": [
+            "VIA ROMA,3,, ROCCASECCA DEI VOLSCI, 04010"
+        ],
+        "nuclei": [
+            5902310001.0,
+            5902320003.0,
+            5902326601.0,
+            5902326602.0,
+            5902340000.0
+        ]
+    },
+    "ROIATE": {
+        "medici": [
+            "SCALAMBRA, ROIATE, 00030"
+        ],
+        "nuclei": [
+            5809010001.0,
+            5809040000.0
+        ]
+    },
+    "RONCIGLIONE": {
+        "medici": [
+            "CORSO UMBERTO I , 65, RONCIGLIONE, 01037",
+            "VIA DELLE VIGNE, 41, RONCIGLIONE, 01037",
+            "SAN GIOVANNI, 37, RONCIGLIONE, 01037",
+            "VIA DELL`OLMO, 21, RONCIGLIONE, 01037",
+            "CORSO UMBERTO I , 93, RONCIGLIONE, 01037",
+            "VIA SOLFERINO 18, RONCIGLIONE, 01037"
+        ],
+        "nuclei": [
+            5604510001.0,
+            5604510002.0,
+            5604520007.0,
+            5604510003.0,
+            5604520203.0,
+            5604526601.0,
+            5604526604.0,
+            5604527202.0,
+            5604540000.0
+        ]
+    },
+    "ROVIANO": {
+        "medici": [
+            "PIAZZA DELLA REPUBBLICA 12, ROVIANO, 00027",
+            "PIAZZA DELLA REPUBBLICA 13, ROVIANO, 00027"
+        ],
+        "nuclei": [
+            5809210001.0,
+            5809240000.0
+        ]
+    },
+    "SABAUDIA": {
+        "medici": [
+            "VIA CARLO ALBERTO N.95 INT 11, SABAUDIA, 04016",
+            "VIA DEI BONIFICATORI SNC (B.GO VODICE), SABAUDIA, 04016",
+            "LARGO GIULIO CESARE, 3, SABAUDIA, 04016",
+            "VIA SABAUDIA ,141, SAN FELICE CIRCEO, 04017",
+            "VIA CARLO ALBERTO N.41, SABAUDIA, 04016",
+            "V.DEI BONIFICATORI - BORGO VODICE, SABAUDIA, 04016",
+            "VIA DUCA DELLA VITTORIA, SABAUDIA, 04016"
+        ],
+        "nuclei": [
+            5902410006.0,
+            5902410001.0,
+            5902410004.0,
+            5902420003.0,
+            5902420002.0,
+            5902420001.0,
+            5902420007.0,
+            5902410005.0,
+            5902410003.0,
+            5902410002.0,
+            5902420005.0,
+            5902420004.0,
+            5902420006.0,
+            5902426608.0,
+            5902430001.0,
+            5902440000.0
+        ]
+    },
+    "SACROFANO": {
+        "medici": [
+            "LARGO CARDINAL GASPARRI 14, SACROFANO, 00060"
+        ],
+        "nuclei": [
+            5809310001.0,
+            5809310002.0,
+            5809320001.0,
+            5809320007.0,
+            5809310003.0,
+            5809320005.0,
+            5809320008.0,
+            5809320009.0,
+            5809320004.0,
+            5809326611.0,
+            5809326606.0,
+            5809326610.0,
+            5809340000.0
+        ]
+    },
+    "SALISANO": {
+        "medici": [
+            "PIAZZA VERDI, 15, SALISANO, 02040"
+        ],
+        "nuclei": [
+            5706310001.0,
+            5706320203.0,
+            5706326605.0,
+            5706340000.0
+        ]
+    },
+    "SAMBUCI": {
+        "medici": [
+            "VIA G. THEODOLI 31, SAMBUCI, 00020"
+        ],
+        "nuclei": [
+            5809410001.0,
+            5809440000.0
+        ]
+    },
+    "SAN BIAGIO SARACINISCO": {
+        "medici": [
+            "DON DIAMANTE IACONELLI, 14, SAN BIAGIO SARACINISCO, 03040"
+        ],
+        "nuclei": [
+            6006110001.0,
+            6006120203.0,
+            6006126603.999999,
+            6006126605.0,
+            6006126607.0,
+            6006120206.0,
+            6006126608.0,
+            6006140000.000001
+        ]
+    },
+    "SAN CESAREO": {
+        "medici": [
+            "VIA GIORDANI 1, SAN CESAREO, 00030",
+            "VIA GIULIO GIORDANI 10, SAN CESAREO, 00030",
+            "VIA G. GIORDANI ,1, SAN CESAREO, 00030",
+            "VIA TRIESTE,27/F, SAN CESAREO, 00030",
+            "PRENESTINA NUOVA 36C, SAN CESAREO, 00030",
+            "VIA GIULIO GIORDANI, 1, SAN CESAREO, 00030"
+        ],
+        "nuclei": [
+            5811910001.0,
+            5811910002.0,
+            5811920003.0,
+            5811920002.0,
+            5811920001.0,
+            5811920005.0,
+            5811920006.0,
+            5811920004.0,
+            5811930002.0,
+            5811930001.0,
+            5811940000.0
+        ]
+    },
+    "SAN DONATO VAL DI COMINO": {
+        "medici": [
+            "VIA ROMA 7, SAN DONATO VAL DI COMINO, 03046"
+        ],
+        "nuclei": [
+            6006210001.0,
+            6006220010.999999,
+            6006226601.000001,
+            6006226613.0,
+            6006226602.999999,
+            6006226710.0,
+            6006226617.0,
+            6006226602.0,
+            6006226719.0,
+            6006226606.0,
+            6006226604.999999,
+            6006226607.0,
+            6006226712.0,
+            6006226714.0,
+            6006226615.999999,
+            6006226709.000001,
+            6006226704.0,
+            6006226715.0,
+            6006226718.000001,
+            6006240000.0
+        ]
+    },
+    "SAN FELICE CIRCEO": {
+        "medici": [
+            "VIA RAFFAELE RISALITI, SNC, SAN FELICE CIRCEO, 04017",
+            "VIA ALCIDE DE GASPERI, 77, SAN FELICE CIRCEO, 04017",
+            "VIALE TITTONI 40, SAN FELICE CIRCEO, 04017",
+            "VIA IV MAGGIO N. 29/A, SAN FELICE CIRCEO, 04017",
+            "LUDOVICO DOMENICHELLI 20, SAN FELICE CIRCEO, 04017",
+            "LITORANEA 24, SAN FELICE CIRCEO, 04017",
+            "VIA MONTE CIRCEO , 108 - BORGO MONTENERO, SAN FELICE CIRCEO, 04017"
+        ],
+        "nuclei": [
+            5902510004.0,
+            5902520001.0,
+            5902510003.0,
+            5902510002.0,
+            5902520005.0,
+            5902520006.0,
+            5902526603.0,
+            5902540000.0
+        ]
+    },
+    "SAN GIORGIO A LIRI": {
+        "medici": [
+            "VIA RIO DI COCCIA N\u00b0 8, SAN GIORGIO A LIRI, 03047",
+            "VIA CAVALIERI DI VITTORIO VENETO 6, SAN GIORGIO A LIRI, 03047",
+            "VIA RIO DI COCCIO,3, SAN GIORGIO A LIRI, 03047",
+            "VIA CAVALIERI VITTORIO VENET SNC, SAN GIORGIO A LIRI, 03047",
+            "CORSO SPATUZZI 38, SAN GIORGIO A LIRI, 03047"
+        ],
+        "nuclei": [
+            6006310001.0,
+            6006320003.0,
+            6006320002.0,
+            6006320000.999999,
+            6006320007.0,
+            6006320010.000001,
+            6006320014.0,
+            6006326611.000001,
+            6006326617.0,
+            6006326603.999999,
+            6006326614.999999,
+            6006326612.0,
+            6006326609.0,
+            6006326716.0,
+            6006339999.999999
+        ]
+    },
+    "SAN GIOVANNI INCARICO": {
+        "medici": [
+            "Via Civita Farnese, 77 SAN GIOVANNI INCARICO"
+        ],
+        "nuclei": [
+            6006410001.0,
+            6006410002.0,
+            6006420001.999999,
+            6006420007.0,
+            6006410003.000001,
+            6006420004.0,
+            6006426602.999999,
+            6006420201.000001,
+            6006426604.999999,
+            6006426610.0,
+            6006426710.999999,
+            6006426706.0,
+            6006440000.0
+        ]
+    },
+    "SAN GREGORIO DA SASSOLA": {
+        "medici": [
+            "VIA ROMA 22, CASAPE, 00010"
+        ],
+        "nuclei": [
+            5809510001.0,
+            5809540000.0
+        ]
+    },
+    "SAN LORENZO NUOVO": {
+        "medici": [
+            "VIA UMBERTO I - 68, SAN LORENZO NUOVO, 01020",
+            "VIA OSPEDALE 17, SAN LORENZO NUOVO, 01020"
+        ],
+        "nuclei": [
+            5604710001.0,
+            5604740000.0
+        ]
+    },
+    "SAN POLO DEI CAVALIERI": {
+        "medici": [
+            "VIA ROMA 8A, SAN POLO DEI CAVALIERI, 00010"
+        ],
+        "nuclei": [
+            5809610001.0,
+            5809610002.0,
+            5809620002.0,
+            5809640000.0
+        ]
+    },
+    "SAN VITO ROMANO": {
+        "medici": [
+            "VIA TRENTO E TRIESTE 1, SAN VITO ROMANO, 00030",
+            "VIA D.ALIGHIERI,3 INT.1, SAN VITO ROMANO, 00030",
+            "VIA DANTE ALIGHIERI 3, SAN VITO ROMANO, 00030"
+        ],
+        "nuclei": [
+            5810010001.0,
+            5810040000.0
+        ]
+    },
+    "SAN VITTORE DEL LAZIO": {
+        "medici": [
+            "VIA MARCONI N.10, SAN VITTORE DEL LAZIO, 03040",
+            "PIAZZA MUNICIPIO N.16, SAN VITTORE DEL LAZIO, 03040"
+        ],
+        "nuclei": [
+            6007010001.0,
+            6007020003.0,
+            6007010002.0,
+            6007010003.000001,
+            6007020210.0,
+            6007020006.0,
+            6007026613.0,
+            6007026611.0,
+            6007026604.999999,
+            6007026612.000001,
+            6007026702.0,
+            6007026708.0,
+            6007026709.000001,
+            6007040000.0
+        ]
+    },
+    "SANT'AMBROGIO SUL GARIGLIANO": {
+        "medici": [
+            "Piazza Albiano, 43 SANT'APOLLINARE"
+        ],
+        "nuclei": [
+            6006510001.0,
+            6006520003.0,
+            6006520002.0,
+            6006526601.0,
+            6006540000.000001
+        ]
+    },
+    "SANT'ANDREA DEL GARIGLIANO": {
+        "medici": [
+            "Via Roma Co/Comune, 38 SANT'ANDREA DEL GARIGLIANO",
+            "Via Domenico Forgnoli SANT'ANDREA DEL GARIGLIANO"
+        ],
+        "nuclei": [
+            6006610001.0,
+            6006620007.0,
+            6006620010.0,
+            6006620017.0,
+            6006626613.0,
+            6006626611.0,
+            6006620016.0,
+            6006626606.0,
+            6006626604.999999,
+            6006626715.0,
+            6006640000.0
+        ]
+    },
+    "SANT'ANGELO ROMANO": {
+        "medici": [
+            "VIA DEL PISCIARELLO 4, MENTANA, 00013"
+        ],
+        "nuclei": [
+            5809810001.0,
+            5809810002.0,
+            5809820003.0,
+            5809820005.0,
+            5809820004.0,
+            5809826701.0,
+            5809840000.0
+        ]
+    },
+    "SANT'APOLLINARE": {
+        "medici": [
+            "Via Roma, 3 SANT'APOLLINARE",
+            "Piazza Risorgimento, 13 SANT'APOLLINARE",
+            "Piazza Albiano, 43 SANT'APOLLINARE"
+        ],
+        "nuclei": [
+            6006710001.0,
+            6006720010.000001,
+            6006720009.0,
+            6006720011.0,
+            6006726601.0,
+            6006726603.0,
+            6006726603.999999,
+            6006726606.0,
+            6006726605.0,
+            6006726608.0,
+            6006739999.999999
+        ]
+    },
+    "SANT'ELIA FIUMERAPIDO": {
+        "medici": [
+            "Via E. Ferrara, 3 SANT'ELIA FIUMERAPIDO",
+            "Via Piesco SANT'ELIA FIUMERAPIDO",
+            "Via IV Novembre, 7 SANT'ELIA FIUMERAPIDO",
+            "Via G. Santilli, 23 SANT'ELIA FIUMERAPIDO",
+            "Via Cartiera, 13 SANT'ELIA FIUMERAPIDO"
+        ],
+        "nuclei": [
+            6006810001.0,
+            6006810002.0,
+            6006810004.0,
+            6006810003.000001,
+            6006820212.000001,
+            6006820010.999999,
+            6006826617.0,
+            6006826602.0,
+            6006820207.0,
+            6006820206.0,
+            6006826615.0,
+            6006826613.999999,
+            6006840000.0
+        ]
+    },
+    "SANT'ORESTE": {
+        "medici": [
+            "VIA INNOCENZO RICCI, 1, SANT ORESTE, 00060"
+        ],
+        "nuclei": [
+            5809910001.0,
+            5809920002.0,
+            5809926606.0,
+            5809940000.0
+        ]
+    },
+    "SANTA MARINELLA": {
+        "medici": [
+            "VIA RUCELLAI 9, SANTA MARINELLA, 00058",
+            "VIA DELLA LIBERTA` 73, SANTA MARINELLA, 00058",
+            "VIA LAZIO, 5, SANTA MARINELLA, 00058"
+        ],
+        "nuclei": [
+            5809710001.0,
+            5809710002.0,
+            5809720003.0,
+            5809710003.0,
+            5809720005.0,
+            5809720008.0,
+            5809720009.0,
+            5809720006.0,
+            5809720004.0,
+            5809726607.0,
+            5809726701.0,
+            5809740000.0
+        ]
+    },
+    "SANTI COSMA E DAMIANO": {
+        "medici": [
+            "VIA F. BARACCA 1755, SANTI COSMA E DAMIANO, 04020",
+            "VIA F.BARACCA 381, SANTI COSMA E DAMIANO, 04020",
+            "VIA F. BARACCA 1579, SANTI COSMA E DAMIANO, 04020",
+            "VIA FRANCESCO BARACCA 524, SANTI COSMA E DAMIANO, 04020",
+            "VIA MANNARELLA 77, SANTI COSMA E DAMIANO, 04020",
+            "VIA FERRARA 7, SANTI COSMA E DAMIANO, 04020"
+        ],
+        "nuclei": [
+            5902610006.0,
+            5902610001.0,
+            5902610004.0,
+            5902610003.0,
+            5902610002.0,
+            5902610007.0,
+            5902626601.0,
+            5902626604.0,
+            5902630001.0,
+            5902640000.0
+        ]
+    },
+    "SANTOPADRE": {
+        "medici": [
+            "VIA G. CORDA, SANTOPADRE, 03030"
+        ],
+        "nuclei": [
+            6006910001.0,
+            6006910002.0,
+            6006910003.0,
+            6006920006.0,
+            6006926709.999999,
+            6006926611.000001,
+            6006926603.999999,
+            6006920201.0,
+            6006920213.000001,
+            6006926612.0,
+            6006926609.0,
+            6006926702.0,
+            6006926608.0,
+            6006940000.000001
+        ]
+    },
+    "SARACINESCO": {
+        "medici": [
+            "P.ZZA ROMA, SARACINESCO, 00020"
+        ],
+        "nuclei": [
+            5810110001.0,
+            5810126701.0,
+            5810140000.0
+        ]
+    },
+    "SCANDRIGLIA": {
+        "medici": [
+            "VIA ROMA 29, SCANDRIGLIA, 02038",
+            "VIA RIETI 28, SCANDRIGLIA, 02038",
+            "VIA ROMA 8, SCANDRIGLIA, 02038"
+        ],
+        "nuclei": [
+            5706410001.0,
+            5706410002.0,
+            5706410003.0,
+            5706420004.0,
+            5706420003.0,
+            5706440000.0
+        ]
+    },
+    "SEGNI": {
+        "medici": [
+            "VIA PACINOTTI, 1, SEGNI, 00037",
+            "CORSO V. EMANUELE 5, SEGNI, 00037"
+        ],
+        "nuclei": [
+            5810210001.0,
+            5810210002.0,
+            5810220002.0,
+            5810220007.0,
+            5810220005.0,
+            5810220006.0,
+            5810220004.0,
+            5810240000.0
+        ]
+    },
+    "SELCI": {
+        "medici": [
+            "VIA ROMA, 12, SELCI, 02040"
+        ],
+        "nuclei": [
+            5706510001.0,
+            5706520001.0,
+            5706520002.0,
+            5706540000.0
+        ]
+    },
+    "SERMONETA": {
+        "medici": [
+            "VIA LELIA CAETANI N.2, SERMONETA, 04010",
+            "VIA LE PASTINE N\u00b0 135, SERMONETA, 04010",
+            "VIA FONTANA MURATA N.1, SERMONETA, 04010"
+        ],
+        "nuclei": [
+            5902710006.0,
+            5902710001.0,
+            5902710004.0,
+            5902720007.0,
+            5902710003.0,
+            5902710005.0,
+            5902710002.0,
+            5902720008.0,
+            5902720009.0,
+            5902720004.0,
+            5902720006.0,
+            5902720016.0,
+            5902720011.0,
+            5902720012.0,
+            5902726601.0,
+            5902726613.0,
+            5902726605.0,
+            5902726615.0,
+            5902726614.0,
+            5902730003.0,
+            5902726610.0,
+            5902730002.0,
+            5902740000.0
+        ]
+    },
+    "SERRONE": {
+        "medici": [
+            "VIA MERAGO 7, SERRONE, 03010"
+        ],
+        "nuclei": [
+            6007110001.0,
+            6007110002.0,
+            6007110003.0,
+            6007120004.0,
+            6007120010.000001,
+            6007120011.0,
+            6007126601.0,
+            6007124908.999999,
+            6007126608.0,
+            6007139999.999999
+        ]
+    },
+    "SETTEFRATI": {
+        "medici": [
+            "Via Roma, 6 SETTEFRATI"
+        ],
+        "nuclei": [
+            6007210001.0,
+            6007210003.000001,
+            6007220005.0,
+            6007226602.999999,
+            6007226601.000001,
+            6007226706.0,
+            6007240000.0
+        ]
+    },
+    "SEZZE": {
+        "medici": [
+            "VIA DELLA RESISTENZA, 32, SEZZE, 04018",
+            "VIA MARCONI, 4, SEZZE, 04018",
+            "VIA S. BARTOLOMEO (CASA DELLA SALUTE), SEZZE, 04018",
+            "VIA CALABRIA S.N.C., SEZZE, 04018",
+            "VIA FANFARA, 62, SEZZE, 04018",
+            "VIA SAN CARLO 85, SEZZE, 04018",
+            "VIA GUGLIELMO MARCONI 4, SEZZE, 04018",
+            "VIA PIEMONTE,7, SEZZE, 04018",
+            "VIA SCALELLE DEL DUOMO, 26, SEZZE, 04018",
+            "VIA CHIESA NUOVA 15, SEZZE, 04018",
+            "SICILIA 12, SEZZE, 04018",
+            "VIA CALABRIA S.N.C.- SEZZE SCALO, SEZZE, 04018"
+        ],
+        "nuclei": [
+            5902810001.0,
+            5902810003.0,
+            5902810002.0,
+            5902820017.0,
+            5902820004.0,
+            5902820013.0,
+            5902820023.0,
+            5902820006.0,
+            5902820011.0,
+            5902820012.0,
+            5902820018.0,
+            5902820022.0,
+            5902826701.0,
+            5902826621.0,
+            5902826714.0,
+            5902826720.0,
+            5902830001.0,
+            5902840000.0
+        ]
+    },
+    "SGURGOLA": {
+        "medici": [
+            "PIAZZA CARBONARA, 11, SGURGOLA, 03010"
+        ],
+        "nuclei": [
+            6007310001.0,
+            6007320002.0,
+            6007320000.999999,
+            6007340000.000001
+        ]
+    },
+    "SONNINO": {
+        "medici": [
+            "CONSOLARE CAPOCROCE, 5000, SONNINO, 04010",
+            "VIA SELVOTTA SNC, SONNINO, 04010",
+            "SELVOTTA, 16A, SONNINO, 04010",
+            "VIA SAN FRANCESCO, 53, SONNINO, 04010",
+            "VIA C.VINCENZO PELLEGRINI 20, SONNINO, 04010",
+            "SCALO FERROVIARIO, 65, SONNINO, 04010"
+        ],
+        "nuclei": [
+            5902910001.0,
+            5902910004.0,
+            5902920002.0,
+            5902920001.0,
+            5902910003.0,
+            5902910002.0,
+            5902920208.0,
+            5902920010.0,
+            5902920012.0,
+            5902920006.0,
+            5902920016.0,
+            5902926603.0,
+            5902926625.0,
+            5902926619.0,
+            5902926623.0,
+            5902926617.0,
+            5902926611.0,
+            5902920022.0,
+            5902920026.0,
+            5902926618.0,
+            5902926621.0,
+            5902926624.0,
+            5902926614.0,
+            5902926609.0,
+            5902926704.0,
+            5902926707.0,
+            5902940000.0
+        ]
+    },
+    "SORA": {
+        "medici": [
+            "VIA REGINA ELENA, SORA, 03039",
+            "PIAZZA MARCO TULLIO CICERONE 26, SORA, 03039",
+            "VIA LUNGOLIRI MAZZINI 59, SORA, 03039",
+            "VIA REGINA ELENA 27, SORA, 03039",
+            "PIAZZA MARCO TULLIO CICERONE SNC, SORA, 03039",
+            "VIA PIEMONTE 49, SORA, 03039",
+            "VIALE SAN DOMENICO 3, SORA, 03039"
+        ],
+        "nuclei": [
+            6007410001.0,
+            6007420230.0,
+            6007420232.000001,
+            6007420014.0,
+            6007420202.999999,
+            6007420228.0,
+            6007420229.0,
+            6007426627.0,
+            6007426620.0,
+            6007426602.0,
+            6007426719.0,
+            6007426604.0,
+            6007426631.0,
+            6007420016.0,
+            6007420026.0,
+            6007426724.0,
+            6007426725.0,
+            6007426633.0,
+            6007430001.0,
+            6007426713.0,
+            6007440000.0
+        ]
+    },
+    "SORIANO NEL CIMINO": {
+        "medici": [
+            "VIA GARIBALDI 10, SORIANO NEL CIMINO, 01038",
+            "G.GARIBALDI,8, SORIANO NEL CIMINO, 01038",
+            "VIA E. MONACI, 98 - 100, SORIANO NEL CIMINO, 01038",
+            "VIA ERNESTO MONACI N. 100/102, SORIANO NEL CIMINO, 01038",
+            "PIAZZA VITTORIO EMANUELE II, 18, SORIANO NEL CIMINO, 01038"
+        ],
+        "nuclei": [
+            5604810001.0,
+            5604810002.0,
+            5604810003.0,
+            5604820003.0,
+            5604826702.0,
+            5604840000.0
+        ]
+    },
+    "SPERLONGA": {
+        "medici": [
+            "VIA RAF VALLONE , 44, SPERLONGA, 04029",
+            "VIA LEPANTO 105, SPERLONGA, 04029"
+        ],
+        "nuclei": [
+            5903010001.0,
+            5903020001.999999,
+            5903020001.0,
+            5903020202.999999,
+            5903040000.0
+        ]
+    },
+    "SPIGNO SATURNIA": {
+        "medici": [
+            "VIA CARDUCCI 16, SPIGNO SATURNIA, 04020",
+            "VIA CARDUCCI 4, SPIGNO SATURNIA, 04020"
+        ],
+        "nuclei": [
+            5903110001.0,
+            5903120007.0,
+            5903110003.0,
+            5903110002.0,
+            5903126601.0,
+            5903126611.000001,
+            5903126610.0,
+            5903139999.999999
+        ]
+    },
+    "STIMIGLIANO": {
+        "medici": [
+            "VIA CAVOUR, 58, STIMIGLIANO, 02048",
+            "VIA LAMBRUSCHINA SNC, STIMIGLIANO, 02048",
+            "VIA LAMBRUSCHINA - 42, STIMIGLIANO, 02048",
+            "VIA LAMBRUSCHINI, 42, STIMIGLIANO, 02048",
+            "VIA CAVOUR 54, STIMIGLIANO, 02048"
+        ],
+        "nuclei": [
+            5706610001.0,
+            5706610002.0,
+            5706620002.0,
+            5706626603.0,
+            5706640000.0
+        ]
+    },
+    "STRANGOLAGALLI": {
+        "medici": [
+            "VIA CIRCONVALLAZIONE 1/A, STRANGOLAGALLI, 03020"
+        ],
+        "nuclei": [
+            6007510002.0,
+            6007520003.0,
+            6007520002.0,
+            6007520000.999999,
+            6007520018.0,
+            6007520024.0,
+            6007520010.000001,
+            6007520009.0,
+            6007520011.0,
+            6007526627.0,
+            6007526625.999999,
+            6007526625.0,
+            6007526620.0,
+            6007526617.0,
+            6007520016.0,
+            6007526622.000001,
+            6007526607.0,
+            6007526621.0,
+            6007526614.999999,
+            6007526614.0,
+            6007526608.0,
+            6007539999.999999
+        ]
+    },
+    "SUBIACO": {
+        "medici": [
+            "VIA GARIBALDI N. 5, SUBIACO, 00028",
+            "LARGO CAMPORESI, SUBIACO, 00028",
+            "CONTRADA MISOLA N. 6, SUBIACO, 00028",
+            "VIA FRANCESCO PETRARCA, 12, SUBIACO, 00028",
+            "VIA F PETRARCA 12, SUBIACO, 00028"
+        ],
+        "nuclei": [
+            5810310002.0,
+            5810310004.0,
+            5810320007.0,
+            5810310005.0,
+            5810310003.0,
+            5810320008.0,
+            5810320009.0,
+            5810320010.0,
+            5810320011.0,
+            5810320012.0,
+            5810340000.0
+        ]
+    },
+    "SUPINO": {
+        "medici": [
+            "LA MOLA SNC, SUPINO, 03019",
+            "VIA D`ITALIA, 14, SUPINO, 03019"
+        ],
+        "nuclei": [
+            6007610001.0,
+            6007620003.0,
+            6007620001.999999,
+            6007620001.0,
+            6007630001.0,
+            6007640000.0
+        ]
+    },
+    "SUTRI": {
+        "medici": [
+            "VIALE G. MARCONI, 78, SUTRI, 01015",
+            "VIALE GUGLIELMO MARCONI, 29, SUTRI, 01015",
+            "VIA G. MARCONI,41, SUTRI, 01015"
+        ],
+        "nuclei": [
+            5604910001.0,
+            5604920001.0,
+            5604920002.0,
+            5604920004.0,
+            5604920003.0,
+            5604926605.0,
+            5604930002.0,
+            5604930001.0,
+            5604930003.0,
+            5604940000.0
+        ]
+    },
+    "TARANO": {
+        "medici": [
+            "INDIRIZZO SCONOSCIUTO, TARANO, 02040",
+            "PIAZZA G. VERDI, 3, TARANO, 02040"
+        ],
+        "nuclei": [
+            5706710001.0,
+            5706710004.0,
+            5706710002.0,
+            5706710003.0,
+            5706720003.0,
+            5706726702.0,
+            5706740000.0
+        ]
+    },
+    "TARQUINIA": {
+        "medici": [
+            "VIA TARQUINIA 114, TUSCANIA, 01017",
+            "VIA CIRCONVALLAZIONE CARDARELLI, 2, TARQUINIA, 01016",
+            "CIRCONVALLAZIONE CARDARELLI 2, TARQUINIA, 01016",
+            "VIA IGEA, 27, TARQUINIA, 01016",
+            "VIA G.MARCONI 18, TARQUINIA, 01016",
+            "VIA TAGETE, 23, TARQUINIA, 01016",
+            "VIA CARLO ALBERO DALLA CHIESA, 1, TARQUINIA, 01016",
+            "VIA LUIGI DASTI 1/B, TARQUINIA, 01016",
+            "VIA DELLE TORRI 4, TARQUINIA, 01016",
+            "VIA DEI VELKA. 16 - 18, TARQUINIA, 01016",
+            "VIA TARCONTE 2, TARQUINIA, 01016",
+            "VIA DEI VELKA, 10, TARQUINIA, 01100"
+        ],
+        "nuclei": [
+            5605010001.0,
+            5605010004.0,
+            5605020001.0,
+            5605015702.0,
+            5605015705.0,
+            5605020202.0,
+            5605026703.0,
+            5605030001.0,
+            5605040000.0
+        ]
+    },
+    "TERELLE": {
+        "medici": [
+            "VIA LANDOLFO, TERELLE, 03040"
+        ],
+        "nuclei": [
+            6007710001.0,
+            6007740000.000001
+        ]
+    },
+    "TESSENNANO": {
+        "medici": [
+            "VIA DELLA LIBERTA` 8, CANINO, 01011"
+        ],
+        "nuclei": [
+            5605110001.0,
+            5605140000.0
+        ]
+    },
+    "TOFFIA": {
+        "medici": [
+            "VIA DI PORTA MAGGIORE, 26 TOFFIA"
+        ],
+        "nuclei": [
+            5706810001.0,
+            5706826601.0,
+            5706840000.0
+        ]
+    },
+    "TOLFA": {
+        "medici": [
+            "VIA ROMA 139, TOLFA, 00059",
+            "PIAZZA DELLA REPUBBLICA SNC, TOLFA, 00060",
+            "VIA DEL PARADISO 8, TOLFA, 00059"
+        ],
+        "nuclei": [
+            5810510001.0,
+            5810510002.0,
+            5810520201.0,
+            5810540000.0
+        ]
+    },
+    "TORRE CAJETANI": {
+        "medici": [
+            "VIA G.MARCONI 7, TORRE CAJETANI, 03010",
+            "G. MARCONI 30, TORRE CAJETANI, 03010"
+        ],
+        "nuclei": [
+            6007810001.0,
+            6007810002.0,
+            6007820001.999999,
+            6007810003.000001,
+            6007826602.999999,
+            6007840000.0
+        ]
+    },
+    "TORRI IN SABINA": {
+        "medici": [
+            "VIA FORO NOVO SNC, TORRI IN SABINA, 02049",
+            "TORRI IN SABINA, TORRI IN SABINA, 02049"
+        ],
+        "nuclei": [
+            5707010001.0,
+            5707010002.0,
+            5707026603.0,
+            5707026601.0,
+            5707026604.0,
+            5707026705.0,
+            5707026702.0,
+            5707040000.0
+        ]
+    },
+    "TORRICE": {
+        "medici": [
+            "VIA SAN MARTINO 6, TORRICE, 03020",
+            "INDIPENDENZA 6, TORRICE, 03020",
+            "VIA ROMA N.18, TORRICE, 03020"
+        ],
+        "nuclei": [
+            6007910001.0,
+            6007910002.0,
+            6007910005.0,
+            6007910004.000001,
+            6007910003.0,
+            6007920018.0,
+            6007920033.0,
+            6007920024.0,
+            6007920004.0,
+            6007920030.000001,
+            6007920031.0,
+            6007920014.0,
+            6007920028.0,
+            6007920011.0,
+            6007926627.0,
+            6007926620.0,
+            6007926623.0,
+            6007926636.0,
+            6007926719.000001,
+            6007920025.0,
+            6007920022.0,
+            6007920026.0,
+            6007926634.0,
+            6007926621.0,
+            6007926632.0,
+            6007926629.0,
+            6007939999.999999
+        ]
+    },
+    "TORRICELLA IN SABINA": {
+        "medici": [
+            "VIA ROMA 54, TORRICELLA IN SABINA, 02030"
+        ],
+        "nuclei": [
+            5706910001.0,
+            5706910004.0,
+            5706910002.0,
+            5706920001.0,
+            5706920002.0,
+            5706910003.0,
+            5706920004.0,
+            5706926603.0,
+            5706926605.0,
+            5706926606.0,
+            5706940000.0
+        ]
+    },
+    "TORRITA TIBERINA": {
+        "medici": [
+            "VIA TRIESTE 3, TORRITA TIBERINA, 00060"
+        ],
+        "nuclei": [
+            5810610002.0,
+            5810620001.0,
+            5810640000.0
+        ]
+    },
+    "TREVI NEL LAZIO": {
+        "medici": [
+            "VIA DELLE FORNACI SNC, TREVI NEL LAZIO, 03010"
+        ],
+        "nuclei": [
+            6008010001.0,
+            6008010002.0,
+            6008040000.0
+        ]
+    },
+    "TREVIGNANO ROMANO": {
+        "medici": [
+            "VIA IV NOVEMBRE N.110, TREVIGNANO ROMANO, 00069",
+            "VIA GIUSEPPE GARIBALDI N.4, TREVIGNANO ROMANO, 00069"
+        ],
+        "nuclei": [
+            5810710001.0,
+            5810720003.0,
+            5810720002.0,
+            5810720001.0,
+            5810720005.0,
+            5810720008.0,
+            5810720006.0,
+            5810720004.0,
+            5810724909.0,
+            5810726607.0,
+            5810726610.0,
+            5810740000.0
+        ]
+    },
+    "TRIVIGLIANO": {
+        "medici": [
+            "Via S. Giovanni TRIVIGLIANO"
+        ],
+        "nuclei": [
+            6008110001.0,
+            6008110002.0,
+            6008120002.0,
+            6008126603.0,
+            6008140000.000001
+        ]
+    },
+    "TURANIA": {
+        "medici": [
+            "VIA PORTA ROMANA, TURANIA, 02020"
+        ],
+        "nuclei": [
+            5707110001.0,
+            5707140000.0
+        ]
+    },
+    "TUSCANIA": {
+        "medici": [
+            "VIA CERASA 10, TUSCANIA, 01017",
+            "VIA NOVARA SNC, TUSCANIA, 01017",
+            "VIA DEL CONVENTO SNC, TUSCANIA, 01017"
+        ],
+        "nuclei": [
+            5605210001.0,
+            5605226601.0,
+            5605220202.0,
+            5605240000.0
+        ]
+    },
+    "VACONE": {
+        "medici": [
+            "VIAN MARCHESA AUGUSTA, VACONE, 02040"
+        ],
+        "nuclei": [
+            5707210001.0,
+            5707240000.0
+        ]
+    },
+    "VALENTANO": {
+        "medici": [
+            "PIAZZA DELLA VITTORIA, 8, VALENTANO, 01018",
+            "VIA DEL PLEBISCITO, 1, VALENTANO, 01018"
+        ],
+        "nuclei": [
+            5605310001.0,
+            5605340000.0
+        ]
+    },
+    "VALLECORSA": {
+        "medici": [
+            "VIA DELLA MADONNA, VALLECORSA, 03020",
+            "LARGO COLAGIOVANNI, VALLECORSA, 03020"
+        ],
+        "nuclei": [
+            6008210001.0,
+            6008240000.0
+        ]
+    },
+    "VALLEMAIO": {
+        "medici": [
+            "VIA MARTIRI CIVILI, VALLEMAIO, 03040",
+            "VIA MARTIRI CIVILI N\u00b0 9, VALLEMAIO, 03040"
+        ],
+        "nuclei": [
+            6008310001.0,
+            6008320003.0,
+            6008320007.0,
+            6008320010.000001,
+            6008326601.0,
+            6008326602.000001,
+            6008326603.999999,
+            6008326606.0,
+            6008326605.0,
+            6008326612.0,
+            6008339999.999999
+        ]
+    },
+    "VALLEPIETRA": {
+        "medici": [
+            "P.ZZA S. FRANCESCO 2, VALLEPIETRA, 00020"
+        ],
+        "nuclei": [
+            5810810001.0,
+            5810840000.0
+        ]
+    },
+    "VALLERANO": {
+        "medici": [
+            "VIA AUGUSTO RICCIARDI, 100, VALLERANO, 01030",
+            "VIA A. RICCIARDI 6, VALLERANO, 01030"
+        ],
+        "nuclei": [
+            5605410001.0,
+            5605440000.0
+        ]
+    },
+    "VALLEROTONDA": {
+        "medici": [
+            "CORSO DELLA REPUBBLICA VALVORI - CARDITO, VALLEROTONDA, 03040",
+            "VIA MONTE S.N.C., VALLEROTONDA, 03040"
+        ],
+        "nuclei": [
+            6008410001.0,
+            6008410002.0,
+            6008410005.000001,
+            6008410004.0,
+            6008420001.999999,
+            6008410003.000001,
+            6008420209.0,
+            6008420202.999999,
+            6008420210.0,
+            6008420208.0,
+            6008420201.000001,
+            6008420204.0,
+            6008420204.999999,
+            6008426607.0,
+            6008426612.000001,
+            6008440000.0
+        ]
+    },
+    "VALLINFREDA": {
+        "medici": [
+            "VIA ROMA 1, VALLINFREDA, 00020"
+        ],
+        "nuclei": [
+            5810910001.0,
+            5810920001.0,
+            5810940000.0
+        ]
+    },
+    "VALMONTONE": {
+        "medici": [
+            "VIA A. LANNA 8, VALMONTONE, 00038",
+            "VIA CASILINA 98, VALMONTONE, 00038",
+            "P.ZZA DELLA COSTITUENTE 8, VALMONTONE, 00038",
+            "VIA CASILINA 132, VALMONTONE, 00038",
+            "VIA G. MATTEOTTI 1, VALMONTONE, 00038",
+            "VIA GIACOMO MATTEOTTI 1, VALMONTONE, 00038"
+        ],
+        "nuclei": [
+            5811010001.0,
+            5811020003.0,
+            5811020005.0,
+            5811020004.0,
+            5811026601.0,
+            5811026702.0,
+            5811030001.0,
+            5811040000.0
+        ]
+    },
+    "VARCO SABINO": {
+        "medici": [
+            "BIVIO DI CONCERVIANO, CONCERVIANO, 02020"
+        ],
+        "nuclei": [
+            5707310001.0,
+            5707310002.0,
+            5707310003.0,
+            5707326601.0,
+            5707340000.0
+        ]
+    },
+    "VASANELLO": {
+        "medici": [
+            "P.ZZA DELLA REPUBBLICA 36, VASANELLO, 01030",
+            "PIAZZA DELLA REPUBBLICA SNC, VASANELLO, 01030",
+            "PIAZZA VITTORIO VENETO, 9, VASANELLO, 01030",
+            "VIA GUGLIELMO MARCONI 15, VASANELLO, 01030"
+        ],
+        "nuclei": [
+            5605510001.0,
+            5605530001.0,
+            5605540000.0
+        ]
+    },
+    "VEJANO": {
+        "medici": [
+            "LARGO SALVO D`ACQUISTO, SNC, VEJANO, 01010",
+            "VIA REGINA MARGHERITA, 20, VEJANO, 01010"
+        ],
+        "nuclei": [
+            5605610001.0,
+            5605640000.0
+        ]
+    },
+    "VENTOTENE": {
+        "medici": [
+            "VIA LUIGI IACONO, VENTOTENE, 04020"
+        ],
+        "nuclei": [
+            5903310001.0,
+            5903340000.000001
+        ]
+    },
+    "VEROLI": {
+        "medici": [
+            "VIA XXI APRILE 2, VEROLI, 03029",
+            "VIA TRETTICATORE 155, VEROLI, 03029",
+            "VIA CASE PANETTA 49, VEROLI, 03029",
+            "VIA SANTA FRANCESCA SNC, VEROLI, 03029",
+            "VIA VASAGALLI N. 21 AL GIGLIO DI VEROLI, VEROLI, 03029",
+            "VIA MARIA N.95, VEROLI, 03029",
+            "VIA PONTE VASAGALLI, 33, VEROLI, 03029",
+            "VIA VALLE S. ANDREA, 212, VEROLI, 03029",
+            "PASSEGGIATA SAN GIUSEPPE 96, VEROLI, 03029",
+            "VIA XXI APRILE 2 F, VEROLI, 03029",
+            "CASAMARI 25, VEROLI, 03029",
+            "VIA SANTA FRANCESCA, VEROLI, 03029",
+            "VIA SPELUCA, 69, VEROLI, 03029"
+        ],
+        "nuclei": [
+            6008510005.999999,
+            6008510012.0,
+            6008510001.0,
+            6008510005.0,
+            6008510002.0,
+            6008510004.000001,
+            6008520002.0,
+            6008510009.0,
+            6008520007.0,
+            6008510003.0,
+            6008510007.0,
+            6008520018.0,
+            6008520039.0,
+            6008520040.0,
+            6008520041.000001,
+            6008520055.999999,
+            6008520057.0,
+            6008520060.0,
+            6008520061.0,
+            6008520062.0,
+            6008520063.000001,
+            6008520064.0,
+            6008520032.000001,
+            6008520004.0,
+            6008520036.0,
+            6008520064.999999,
+            6008520017.0,
+            6008520055.0,
+            6008520042.0,
+            6008510011.0,
+            6008526705.0,
+            6008520019.000001,
+            6008520048.0,
+            6008520016.0,
+            6008520049.0,
+            6008520051.0,
+            6008520052.000001,
+            6008520053.0,
+            6008520053.999999,
+            6008520042.999999,
+            6008520021.000001,
+            6008520044.0,
+            6008520046.0,
+            6008520047.0,
+            6008526650.0,
+            6008526700.999999,
+            6008526658.0,
+            6008526659.0,
+            6008526623.999999,
+            6008526645.0,
+            6008526610.0,
+            6008526714.0,
+            6008527203.0,
+            6008540000.000001
+        ]
+    },
+    "VETRALLA": {
+        "medici": [
+            "VICOLO DEL LAVATOIO 10 - CURA DI VETR., VETRALLA, 01019",
+            "PIAZZA S. MARIA DEL SOCCORSO, 20, VETRALLA, 01019",
+            "P.ZA S.MARIA DEL SOCCORSO 20-CURA DI V., VETRALLA, 01019",
+            "VIA SAN MICHELE, 1, VETRALLA, 01019",
+            "PIAZZA VITTORIO EMANUELE II, SNC, VETRALLA, 01019",
+            "VIA CASSIA 38, VETRALLA, 01019",
+            "VIA CASSIA 151, VETRALLA, 01019",
+            "VIA ROMA 83, VETRALLA, 01019"
+        ],
+        "nuclei": [
+            5605710001.0,
+            5605710002.0,
+            5605720001.0,
+            5605720003.0,
+            5605726602.0,
+            5605740000.0
+        ]
+    },
+    "VICALVI": {
+        "medici": [
+            "VIA STORTA N.1, VICALVI, 03030"
+        ],
+        "nuclei": [
+            6008610001.0,
+            6008626602.999999,
+            6008626602.0,
+            6008626604.0,
+            6008626604.999999,
+            6008626607.0,
+            6008626706.0,
+            6008640000.0
+        ]
+    },
+    "VICO NEL LAZIO": {
+        "medici": [
+            "VIA NAZIONALE, VICO NEL LAZIO, 03010",
+            "VIA PITOCCO, VICO NEL LAZIO, 03010",
+            "VIA CIRCONVALLAZIONE, VICO NEL LAZIO, 03010"
+        ],
+        "nuclei": [
+            6008710001.0,
+            6008710002.0,
+            6008720002.0,
+            6008720000.999999,
+            6008710003.0,
+            6008720004.0,
+            6008726603.0,
+            6008739999.999999
+        ]
+    },
+    "VICOVARO": {
+        "medici": [
+            "PIAZZA DELLA RESISTENZA 5, VICOVARO, 00029"
+        ],
+        "nuclei": [
+            5811210001.0,
+            5811210002.0,
+            5811220004.0,
+            5811226602.0,
+            5811226605.0,
+            5811240000.0
+        ]
+    },
+    "VIGNANELLO": {
+        "medici": [
+            "C.SO GARIBALDI 37, VIGNANELLO, 01039",
+            "VIA DON ANICETO BRACCI 6/8, VIGNANELLO, 01039"
+        ],
+        "nuclei": [
+            5605810001.0,
+            5605820003.0,
+            5605826601.0,
+            5605826602.0,
+            5605840000.0
+        ]
+    },
+    "VILLA LATINA": {
+        "medici": [
+            "Via Roma, 27 VILLA LATINA"
+        ],
+        "nuclei": [
+            6008810001.0,
+            6008810002.0,
+            6008820201.000001,
+            6008826602.999999,
+            6008820204.0,
+            6008840000.0
+        ]
+    },
+    "VILLA SAN GIOVANNI IN TUSCIA": {
+        "medici": [
+            "PIAZZA SAVOIA, 1/A, VILLA SAN GIOVANNI IN TUSCIA, 01010"
+        ],
+        "nuclei": [
+            5604610001.0,
+            5604640000.0
+        ]
+    },
+    "VILLA SANTA LUCIA": {
+        "medici": [
+            "VIALE DANTE ALIGHIERI N\u00b0 10, VILLA SANTA LUCIA, 03030"
+        ],
+        "nuclei": [
+            6008910001.0,
+            6008910002.0,
+            6008920002.0,
+            6008910003.0,
+            6008920223.0,
+            6008920013.0,
+            6008920011.999999,
+            6008926625.0,
+            6008926617.0,
+            6008926603.999999,
+            6008920019.000001,
+            6008926606.0,
+            6008926605.0,
+            6008920021.000001,
+            6008926607.0,
+            6008926623.999999,
+            6008926614.0,
+            6008926609.0,
+            6008926610.0,
+            6008930001.0,
+            6008926718.0,
+            6008940000.000001
+        ]
+    },
+    "VILLA SANTO STEFANO": {
+        "medici": [
+            "VIA ROMA 83, VILLA SANTO STEFANO, 03020"
+        ],
+        "nuclei": [
+            6009010002.0,
+            6009020007.0,
+            6009020001.0,
+            6009020014.0,
+            6009020006.0,
+            6009020012.0,
+            6009020015.0,
+            6009026705.0,
+            6009026613.0,
+            6009026619.0,
+            6009026710.0,
+            6009026618.0,
+            6009026709.000001,
+            6009026703.0,
+            6009026716.0,
+            6009040000.0
+        ]
+    },
+    "VITICUSO": {
+        "medici": [
+            "C/O COMUNE, VITICUSO, 03040",
+            "VIA STRADANUOVA, VITICUSO, 03040"
+        ],
+        "nuclei": [
+            6009110001.0,
+            6009139999.999999
+        ]
+    },
+    "VITORCHIANO": {
+        "medici": [
+            "PIAZZA DONATORI DI SANGUE, 5, VITORCHIANO, 01030",
+            "VIA MONTE BIANCO 1/E, VITORCHIANO, 01030",
+            "VIA A. MANZONI, SNC, VITORCHIANO, 01030"
+        ],
+        "nuclei": [
+            5606010001.0,
+            5606020005.0,
+            5606020003.0,
+            5606040000.0
+        ]
+    },
+    "VIVARO ROMANO": {
+        "medici": [
+            "VIA CARDINAL DI PIETRO 3, VIVARO ROMANO, 00020"
+        ],
+        "nuclei": [
+            5811310001.0,
+            5811340000.0
+        ]
+    },
+    "ZAGAROLO": {
+        "medici": [
+            "VIALE UNGHERIA, 83, ZAGAROLO, 00039",
+            "VIALE UNGHERIA, 91, ZAGAROLO, 00039",
+            "CORSO GARIBALDI, 99, ZAGAROLO, 00039",
+            "VIALE UNGHERIA, 49, ZAGAROLO, 00039",
+            "ALESSANDRO SCARLATTI SNC, ZAGAROLO, 00039",
+            "PIAZZA G. MARCONI 10, ZAGAROLO, 00039"
+        ],
+        "nuclei": [
+            5811410001.0,
+            5811410002.0,
+            5811420001.0,
+            5811426702.0,
+            5811440000.0
+        ]
+    }
+}

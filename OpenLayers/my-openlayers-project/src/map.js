@@ -9,6 +9,8 @@ import GeoJSON from 'ol/format/GeoJSON';
 import Stroke from 'ol/style/Stroke';
 import Style from 'ol/style/Style';
 import { fromLonLat } from 'ol/proj';
+import Fill from 'ol/style/Fill';
+
 
 // Creazione della mappa OpenLayers
 export const map = new Map({
@@ -21,7 +23,7 @@ export const map = new Map({
         })
     ],
     view: new View({
-        center: fromLonLat([12.5, 42.1]), // Lazio
+        center: fromLonLat([12.5, 42.1]),
         zoom: 8.5 
     })
 });
@@ -35,7 +37,7 @@ export const comuniLayer = new VectorLayer({
     style: new Style({
         stroke: new Stroke({
             color: 'black', // Contorno nero per i comuni
-            width: 2
+            width: 1
         })
     })
 });
@@ -43,22 +45,26 @@ export const comuniLayer = new VectorLayer({
 // Aggiungi layer con i confini dei nuclei
 export const nucleiLayer = new VectorLayer({
     source: new VectorSource({
-        url: '/nucleos_Lazio.geojson', // Percorso corretto
+        url: '/nucleos_Lazio.geojson',
         format: new GeoJSON()
     }),
     style: new Style({
         stroke: new Stroke({
-            color: 'black', // Contorno nero per i nuclei
+            color: 'black',
             width: 1
         })
-    })
+    }),
+    visible: false // di default nascosto
 });
 
 const comuneStyle = new Style({
     stroke: new Stroke({
         color: 'black',
-        width: 2
+        width: 1
     }),
+    fill: new Fill({
+        color: 'rgba(255, 255, 255, 0.001)'  // quasi trasparente, ma interattivo!
+    })
 });
 
 const nucleiStyle = new Style({
@@ -71,9 +77,24 @@ const nucleiStyle = new Style({
 export const defaultStyle = new Style({
     stroke: new Stroke({
         color: 'black',
-        width: 2
+        width: 1
     }),
 });
+
+const regioneLayer = new VectorLayer({
+    source: new VectorSource({
+        url: '/perimetroLazio.geojson',
+        format: new GeoJSON()
+    }),
+    style: new Style({
+        stroke: new Stroke({
+            color: 'black',
+            width: 4
+        })
+    })
+});
+
+
 
 // Applica gli stili ai layer
 comuniLayer.setStyle(comuneStyle);
@@ -81,4 +102,5 @@ nucleiLayer.setStyle(nucleiStyle);
 
 // Aggiungi i layer alla mappa
 map.addLayer(comuniLayer);
-map.addLayer(nucleiLayer);
+//map.addLayer(nucleiLayer);
+map.addLayer(regioneLayer);

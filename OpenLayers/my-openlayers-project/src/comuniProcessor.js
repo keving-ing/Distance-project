@@ -74,7 +74,7 @@ export function updateMapColors(schoolType, modeType, metric, comuniLayer, comun
 
 
             feature.setStyle(new Style({
-                stroke: new Stroke({ color: 'black', width: 2 })
+                stroke: new Stroke({ color: 'black', width: 1 })
             }));
             return;
         }
@@ -89,7 +89,7 @@ export function updateMapColors(schoolType, modeType, metric, comuniLayer, comun
         if (isNaN(value) || value === null) {
             feature.setStyle(new Style({
                 fill: new Fill({ color: 'rgba(255, 255, 255, 0.7)' }),
-                stroke: new Stroke({ color: 'black', width: 2 })
+                stroke: new Stroke({ color: 'black', width: 1 })
             }));
             return;
         }
@@ -110,7 +110,7 @@ export function updateMapColors(schoolType, modeType, metric, comuniLayer, comun
 
         feature.setStyle(new Style({
             fill: new Fill({ color: color }),
-            stroke: new Stroke({ color: 'black', width: 2 })
+            stroke: new Stroke({ color: 'black', width: 1 })
         }));
 
         feature.set('originalColor', color); // Memorizziamo il colore originale

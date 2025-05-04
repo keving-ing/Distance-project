@@ -2,7 +2,7 @@ import json
 import geopandas as gpd
 
 # Caricare il file JSON delle scuole per comune
-with open("C:/Users/vehico/Documents/Thesis/Distance-project/hospitals_by_municipality_updated_OK.json", "r", encoding="utf-8") as f:
+with open("Raw_data_processing\DATA\medici_assegnati.json", "r", encoding="utf-8") as f:
     school_data = json.load(f)
 
 # Caricare lo shapefile dei comuni (estraiamo PRO_COM e nome comune)
@@ -25,13 +25,13 @@ for comune, ospedali in school_data.items():
         nuclei_urbani = nuclei_dict.get(pro_com, [])
         # Ricostruiamo la struttura come dizionario
         school_data[comune] = {
-            "ospedali": ospedali,
+            "medici": ospedali,
             "nuclei": nuclei_urbani
         }
 
 
 # Salvare il file aggiornato
-with open("hospital_by_municipality_with_nuclei.json", "w", encoding="utf-8") as f:
+with open("medici_by_municipality_with_nuclei.json", "w", encoding="utf-8") as f:
     json.dump(school_data, f, indent=4, ensure_ascii=False)
 
-print("✅ File aggiornato con i nuclei urbani salvato come 'hospital_by_municipality_with_nuclei.json'")
+print("✅ File aggiornato con i nuclei urbani salvato come 'medici_by_municipality_with_nuclei.json'")
