@@ -9,7 +9,7 @@ from pyproj import Transformer
 
 # "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
 # === CONFIG ===
-GOOGLE_MAPS_API_KEY = ""
+GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
 CACHE_FILE = "google_distances_medici_cache.json"
 MAX_ELEMENTS = 100
 MAX_ORIGINS = 25
@@ -99,6 +99,7 @@ for comune, data in medici_data.items():
 
     for origin_batch, destination_batch in itertools.product(origin_batches, destination_batches):
         if len(origin_batch) * len(destination_batch) > MAX_ELEMENTS:
+            print("SALTO - ", comune, " ", str(len(origin_batch) * len(destination_batch)))
             continue
 
         result = get_distance_matrix(origin_batch, destination_batch)
