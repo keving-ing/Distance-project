@@ -2,7 +2,7 @@ import json
 import geopandas as gpd
 
 # Caricare il file JSON delle scuole per comune
-with open("Raw_data_processing/DATA/hospital_by_municipality_with_nuclei.json", "r", encoding="utf-8") as f:
+with open("Raw_data_processing\DATA\medici_by_municipality_with_nuclei.json", "r", encoding="utf-8") as f:
     school_data = json.load(f)
 
 # Caricare lo shapefile dei comuni (estraiamo anche COD_UTS)
@@ -31,7 +31,7 @@ for comune, dati in school_data.items():
         filtered_school_data[comune] = dati
 
 # Salvare il file aggiornato solo con i comuni selezionati
-with open("hospital_by_municipality_with_nuclei_ROMA_OK.json", "w", encoding="utf-8") as f:
+with open("medici_by_municipality_with_nuclei_ROMA_OK.json", "w", encoding="utf-8") as f:
     json.dump(filtered_school_data, f, indent=4, ensure_ascii=False)
 
-print("✅ File filtrato e aggiornato salvato come 'hospital_by_municipality_with_nuclei_filtered.json'")
+print("✅ File filtrato e aggiornato salvato come 'medici_by_municipality_with_nuclei_ROMA.json'")

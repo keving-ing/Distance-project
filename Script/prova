@@ -1,0 +1,37 @@
+import requests
+from urllib.parse import quote
+import time
+
+GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
+
+origin = "42.204606822548264,12.798208267807416"
+destinations = [
+    'VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030',
+    'VIA GIARDINO S.N.C., POGGIO NATIVO, 02030',
+    'VIA OBERDAN 21, POGGIO NATIVO, 02030'
+]
+
+# Funzione di test singolo
+def test_destination(origin, destination):
+    dest_encoded = quote(destination, safe='')
+    params = {
+        "origins": origin,
+        "destinations": dest_encoded,
+        "key": GOOGLE_MAPS_API_KEY,
+        "mode": "driving"
+    }
+
+    response = requests.get("https://maps.googleapis.com/maps/api/distancematrix/json", params=params)
+    data = response.json()
+
+    print(f"🔎 Testando: {destination}")
+    if data["status"] != "OK" or data["rows"][0]["elements"][0]["status"] != "OK":
+        print(f"❌ Errore per '{destination}': {data}")
+    else:
+        print(f"✅ Successo per '{destination}': {data['rows'][0]['elements'][0]['distance']['text']}")
+    print("-" * 60)
+    time.sleep(1)  # Rispetta quota API
+
+# Testa ogni indirizzo singolarmente
+for dest in destinations:
+    test_destination(origin, dest)

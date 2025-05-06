@@ -17289,12 +17289,12 @@
                     "tempo_s": 938
                 },
                 "VIA G BONAPARTE,, MANDELA, 00020": {
-                    "distanza_m": 29801,
-                    "tempo_s": 2395
+                    "distanza_m": 550,
+                    "tempo_s": 120
                 },
                 "VIA G. BONAPARE, SN, MANDELA, 00020": {
-                    "distanza_m": 29801,
-                    "tempo_s": 2395
+                    "distanza_m": 550,
+                    "tempo_s": 120
                 }
             },
             "5805320001": {
@@ -17303,12 +17303,12 @@
                     "tempo_s": 1067
                 },
                 "VIA G BONAPARTE,, MANDELA, 00020": {
-                    "distanza_m": 30884,
-                    "tempo_s": 2519
+                    "distanza_m": 1500,
+                    "tempo_s": 180
                 },
                 "VIA G. BONAPARE, SN, MANDELA, 00020": {
-                    "distanza_m": 30884,
-                    "tempo_s": 2519
+                    "distanza_m": 1500,
+                    "tempo_s": 180
                 }
             }
         }
@@ -20343,12 +20343,12 @@
                     "tempo_s": 141
                 },
                 "VIALE VITTORIO VENETO, 27, OLEVANO ROMANO, 00035": {
-                    "distanza_m": 84646,
-                    "tempo_s": 5285
+                    "distanza_m": 300,
+                    "tempo_s": 120
                 },
                 "VIALE VITTORIO VENETO 54, OLEVANO ROMANO, 00035": {
-                    "distanza_m": 52049,
-                    "tempo_s": 3062
+                    "distanza_m": 100,
+                    "tempo_s": 50
                 }
             }
         }
@@ -22182,7 +22182,6 @@
     },
     "PIGLIO": {
         "medici": [
-            "VIA ARCHIPIGLIONE SNC, POGGIO NATIVO, 02030",
             "VIA CIRCONVALLAZIONE, PIGLIO, 03010"
         ],
         "nuclei": [
@@ -22201,90 +22200,54 @@
         ],
         "DISTANCE": {
             "6005310001": {
-                "VIA ARCHIPIGLIONE SNC, POGGIO NATIVO, 02030": {
-                    "distanza_m": 121730,
-                    "tempo_s": 5600
-                },
                 "VIA CIRCONVALLAZIONE, PIGLIO, 03010": {
                     "distanza_m": 8138,
                     "tempo_s": 772
                 }
             },
             "6005320003": {
-                "VIA ARCHIPIGLIONE SNC, POGGIO NATIVO, 02030": {
-                    "distanza_m": 111624,
-                    "tempo_s": 4694
-                },
                 "VIA CIRCONVALLAZIONE, PIGLIO, 03010": {
                     "distanza_m": 3515,
                     "tempo_s": 337
                 }
             },
             "6005320002": {
-                "VIA ARCHIPIGLIONE SNC, POGGIO NATIVO, 02030": {
-                    "distanza_m": 115605,
-                    "tempo_s": 4996
-                },
                 "VIA CIRCONVALLAZIONE, PIGLIO, 03010": {
                     "distanza_m": 1478,
                     "tempo_s": 178
                 }
             },
             "6005310002": {
-                "VIA ARCHIPIGLIONE SNC, POGGIO NATIVO, 02030": {
-                    "distanza_m": 114893,
-                    "tempo_s": 4911
-                },
                 "VIA CIRCONVALLAZIONE, PIGLIO, 03010": {
                     "distanza_m": 1383,
                     "tempo_s": 169
                 }
             },
             "6005320010": {
-                "VIA ARCHIPIGLIONE SNC, POGGIO NATIVO, 02030": {
-                    "distanza_m": 109830,
-                    "tempo_s": 4535
-                },
                 "VIA CIRCONVALLAZIONE, PIGLIO, 03010": {
                     "distanza_m": 5513,
                     "tempo_s": 517
                 }
             },
             "6005320005": {
-                "VIA ARCHIPIGLIONE SNC, POGGIO NATIVO, 02030": {
-                    "distanza_m": 111502,
-                    "tempo_s": 4680
-                },
                 "VIA CIRCONVALLAZIONE, PIGLIO, 03010": {
                     "distanza_m": 3526,
                     "tempo_s": 337
                 }
             },
             "6005320008": {
-                "VIA ARCHIPIGLIONE SNC, POGGIO NATIVO, 02030": {
-                    "distanza_m": 110630,
-                    "tempo_s": 4634
-                },
                 "VIA CIRCONVALLAZIONE, PIGLIO, 03010": {
                     "distanza_m": 3808,
                     "tempo_s": 379
                 }
             },
             "6005320004": {
-                "VIA ARCHIPIGLIONE SNC, POGGIO NATIVO, 02030": {
-                    "distanza_m": 110507,
-                    "tempo_s": 4592
-                },
                 "VIA CIRCONVALLAZIONE, PIGLIO, 03010": {
                     "distanza_m": 4794,
                     "tempo_s": 456
                 }
             },
             "6005326601": {
-                "VIA ARCHIPIGLIONE SNC, POGGIO NATIVO, 02030": {
-                    "distanza_m": 109970,
-                    "tempo_s": 4711
-                },
                 "VIA CIRCONVALLAZIONE, PIGLIO, 03010": {
                     "distanza_m": 7145,
                     "tempo_s": 716
@@ -23029,7 +22992,8 @@
         "medici": [
             "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030",
             "VIA PORTA ROMANA 113, POGGIO NATIVO, 02030",
-            "VIA OBERDAN 21, POGGIO NATIVO, 02030"
+            "VIA OBERDAN 21, POGGIO NATIVO, 02030",
+            "VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030"
         ],
         "nuclei": [
             5705510001.0,
@@ -23045,24 +23009,20 @@
         ],
         "DISTANCE": {
             "5705510001": {
+                "VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030": {
+                    "distanza_m": 619,
+                    "tempo_s": 94
+                },
                 "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030": {
                     "distanza_m": 3054,
-                    "tempo_s": 550
-                },
-                "VIA PORTA ROMANA 113, POGGIO NATIVO, 02030": {
-                    "distanza_m": 9052,
-                    "tempo_s": 818
+                    "tempo_s": 545
                 },
                 "VIA OBERDAN 21, POGGIO NATIVO, 02030": {
                     "distanza_m": 3145,
-                    "tempo_s": 563
+                    "tempo_s": 555
                 }
             },
             "5705510002": {
-                "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030": {
-                    "distanza_m": 3804,
-                    "tempo_s": 343
-                },
                 "VIA PORTA ROMANA 113, POGGIO NATIVO, 02030": {
                     "distanza_m": 424,
                     "tempo_s": 120
@@ -23070,104 +23030,108 @@
                 "VIA OBERDAN 21, POGGIO NATIVO, 02030": {
                     "distanza_m": 3680,
                     "tempo_s": 310
+                },
+                "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030": {
+                    "distanza_m": 3804,
+                    "tempo_s": 344
                 }
             },
             "5705520007": {
+                "VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030": {
+                    "distanza_m": 1943,
+                    "tempo_s": 185
+                },
                 "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030": {
                     "distanza_m": 4272,
-                    "tempo_s": 572
-                },
-                "VIA PORTA ROMANA 113, POGGIO NATIVO, 02030": {
-                    "distanza_m": 10270,
-                    "tempo_s": 840
+                    "tempo_s": 564
                 },
                 "VIA OBERDAN 21, POGGIO NATIVO, 02030": {
                     "distanza_m": 4363,
-                    "tempo_s": 585
+                    "tempo_s": 575
                 }
             },
             "5705510003": {
-                "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030": {
-                    "distanza_m": 209,
-                    "tempo_s": 50
-                },
-                "VIA PORTA ROMANA 113, POGGIO NATIVO, 02030": {
-                    "distanza_m": 4477,
-                    "tempo_s": 455
-                },
                 "VIA OBERDAN 21, POGGIO NATIVO, 02030": {
                     "distanza_m": 611,
-                    "tempo_s": 139
+                    "tempo_s": 140
+                },
+                "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030": {
+                    "distanza_m": 209,
+                    "tempo_s": 52
+                },
+                "VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030": {
+                    "distanza_m": 3757,
+                    "tempo_s": 545
                 }
             },
             "5705520008": {
+                "VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030": {
+                    "distanza_m": 796,
+                    "tempo_s": 93
+                },
                 "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030": {
                     "distanza_m": 4442,
-                    "tempo_s": 619
-                },
-                "VIA PORTA ROMANA 113, POGGIO NATIVO, 02030": {
-                    "distanza_m": 9161,
-                    "tempo_s": 682
+                    "tempo_s": 624
                 },
                 "VIA OBERDAN 21, POGGIO NATIVO, 02030": {
-                    "distanza_m": 7077,
-                    "tempo_s": 524
+                    "distanza_m": 4533,
+                    "tempo_s": 634
                 }
             },
             "5705520005": {
-                "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030": {
-                    "distanza_m": 8293,
-                    "tempo_s": 746
-                },
                 "VIA PORTA ROMANA 113, POGGIO NATIVO, 02030": {
                     "distanza_m": 4735,
-                    "tempo_s": 497
+                    "tempo_s": 499
                 },
                 "VIA OBERDAN 21, POGGIO NATIVO, 02030": {
                     "distanza_m": 8169,
-                    "tempo_s": 713
+                    "tempo_s": 716
+                },
+                "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030": {
+                    "distanza_m": 8293,
+                    "tempo_s": 750
                 }
             },
             "5705520006": {
                 "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030": {
                     "distanza_m": 4014,
-                    "tempo_s": 461
-                },
-                "VIA PORTA ROMANA 113, POGGIO NATIVO, 02030": {
-                    "distanza_m": 5974,
-                    "tempo_s": 585
+                    "tempo_s": 469
                 },
                 "VIA OBERDAN 21, POGGIO NATIVO, 02030": {
                     "distanza_m": 3890,
-                    "tempo_s": 428
+                    "tempo_s": 435
+                },
+                "VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030": {
+                    "distanza_m": 6307,
+                    "tempo_s": 540
                 }
             },
             "5705520004": {
+                "VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030": {
+                    "distanza_m": 2201,
+                    "tempo_s": 224
+                },
                 "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030": {
                     "distanza_m": 4530,
-                    "tempo_s": 607
-                },
-                "VIA PORTA ROMANA 113, POGGIO NATIVO, 02030": {
-                    "distanza_m": 10527,
-                    "tempo_s": 875
+                    "tempo_s": 603
                 },
                 "VIA OBERDAN 21, POGGIO NATIVO, 02030": {
                     "distanza_m": 4621,
-                    "tempo_s": 621
+                    "tempo_s": 614
                 }
             },
             "5705526603": {
-                "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030": {
-                    "distanza_m": 2062,
-                    "tempo_s": 236
-                },
-                "VIA PORTA ROMANA 113, POGGIO NATIVO, 02030": {
-                    "distanza_m": 2374,
-                    "tempo_s": 246
-                },
                 "VIA OBERDAN 21, POGGIO NATIVO, 02030": {
                     "distanza_m": 1938,
                     "tempo_s": 202
+                },
+                "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030": {
+                    "distanza_m": 2062,
+                    "tempo_s": 237
+                },
+                "VIA PORTA ROMANA 113, POGGIO NATIVO, 02030": {
+                    "distanza_m": 2374,
+                    "tempo_s": 245
                 }
             }
         }
@@ -23647,8 +23611,7 @@
     },
     "POSTA": {
         "medici": [
-            "PIAZZA DEGLI EROI, POSTA, 02019",
-            "VIA TAGLIATA 49, POSTA FIBRENO, 03030"
+            "PIAZZA DEGLI EROI, POSTA, 02019"
         ],
         "nuclei": [
             5705710001.0,
@@ -23667,90 +23630,54 @@
                 "PIAZZA DEGLI EROI, POSTA, 02019": {
                     "distanza_m": 3091,
                     "tempo_s": 344
-                },
-                "VIA TAGLIATA 49, POSTA FIBRENO, 03030": {
-                    "distanza_m": 135155,
-                    "tempo_s": 7204
                 }
             },
             "5705710002": {
                 "PIAZZA DEGLI EROI, POSTA, 02019": {
                     "distanza_m": 2260,
                     "tempo_s": 244
-                },
-                "VIA TAGLIATA 49, POSTA FIBRENO, 03030": {
-                    "distanza_m": 131279,
-                    "tempo_s": 6753
                 }
             },
             "5705720001": {
                 "PIAZZA DEGLI EROI, POSTA, 02019": {
                     "distanza_m": 7006,
                     "tempo_s": 555
-                },
-                "VIA TAGLIATA 49, POSTA FIBRENO, 03030": {
-                    "distanza_m": 139070,
-                    "tempo_s": 7415
                 }
             },
             "5705720009": {
                 "PIAZZA DEGLI EROI, POSTA, 02019": {
                     "distanza_m": 6717,
                     "tempo_s": 711
-                },
-                "VIA TAGLIATA 49, POSTA FIBRENO, 03030": {
-                    "distanza_m": 138781,
-                    "tempo_s": 7571
                 }
             },
             "5705720005": {
                 "PIAZZA DEGLI EROI, POSTA, 02019": {
                     "distanza_m": 7237,
                     "tempo_s": 576
-                },
-                "VIA TAGLIATA 49, POSTA FIBRENO, 03030": {
-                    "distanza_m": 139301,
-                    "tempo_s": 7437
                 }
             },
             "5705726603": {
                 "PIAZZA DEGLI EROI, POSTA, 02019": {
                     "distanza_m": 4534,
                     "tempo_s": 463
-                },
-                "VIA TAGLIATA 49, POSTA FIBRENO, 03030": {
-                    "distanza_m": 136597,
-                    "tempo_s": 7324
                 }
             },
             "5705726602": {
                 "PIAZZA DEGLI EROI, POSTA, 02019": {
                     "distanza_m": 4158,
                     "tempo_s": 396
-                },
-                "VIA TAGLIATA 49, POSTA FIBRENO, 03030": {
-                    "distanza_m": 136222,
-                    "tempo_s": 7257
                 }
             },
             "5705726606": {
                 "PIAZZA DEGLI EROI, POSTA, 02019": {
                     "distanza_m": 8289,
                     "tempo_s": 873
-                },
-                "VIA TAGLIATA 49, POSTA FIBRENO, 03030": {
-                    "distanza_m": 140352,
-                    "tempo_s": 7734
                 }
             },
             "5705726604": {
                 "PIAZZA DEGLI EROI, POSTA, 02019": {
                     "distanza_m": 7613,
                     "tempo_s": 632
-                },
-                "VIA TAGLIATA 49, POSTA FIBRENO, 03030": {
-                    "distanza_m": 142332,
-                    "tempo_s": 7609
                 }
             }
         }
@@ -23759,7 +23686,8 @@
         "medici": [
             "Localit\u00e0 Piscina POSTA FIBRENO",
             "Via Cina, 1 POSTA FIBRENO",
-            "Via Camminate, 2 POSTA FIBRENO"
+            "Via Camminate, 2 POSTA FIBRENO",
+            "VIA TAGLIATA 49, POSTA FIBRENO, 03030"
         ],
         "nuclei": [
             6005710001.0,
@@ -23768,31 +23696,31 @@
         ],
         "DISTANCE": {
             "6005710001": {
-                "Localit\u00e0 Piscina POSTA FIBRENO": {
-                    "distanza_m": 1685,
-                    "tempo_s": 171
-                },
-                "Via Cina, 1 POSTA FIBRENO": {
-                    "distanza_m": 1685,
-                    "tempo_s": 171
+                "VIA TAGLIATA 49, POSTA FIBRENO, 03030": {
+                    "distanza_m": 1610,
+                    "tempo_s": 236
                 },
                 "Via Camminate, 2 POSTA FIBRENO": {
                     "distanza_m": 3576,
-                    "tempo_s": 323
+                    "tempo_s": 326
+                },
+                "Localit\u00e0 Piscina POSTA FIBRENO": {
+                    "distanza_m": 1685,
+                    "tempo_s": 173
                 }
             },
             "6005710002": {
                 "Localit\u00e0 Piscina POSTA FIBRENO": {
                     "distanza_m": 479,
-                    "tempo_s": 96
+                    "tempo_s": 95
                 },
                 "Via Cina, 1 POSTA FIBRENO": {
                     "distanza_m": 479,
-                    "tempo_s": 96
+                    "tempo_s": 95
                 },
-                "Via Camminate, 2 POSTA FIBRENO": {
-                    "distanza_m": 1351,
-                    "tempo_s": 221
+                "VIA TAGLIATA 49, POSTA FIBRENO, 03030": {
+                    "distanza_m": 1985,
+                    "tempo_s": 297
                 }
             }
         }
@@ -26019,74 +25947,74 @@
         "DISTANCE": {
             "5809310001": {
                 "LARGO CARDINAL GASPARRI 14, SACROFANO, 00060": {
-                    "distanza_m": 29554,
-                    "tempo_s": 2157
+                    "distanza_m": 3800,
+                    "tempo_s": 420
                 }
             },
             "5809310002": {
                 "LARGO CARDINAL GASPARRI 14, SACROFANO, 00060": {
-                    "distanza_m": 32095,
-                    "tempo_s": 2450
+                    "distanza_m": 5800,
+                    "tempo_s": 620
                 }
             },
             "5809320001": {
                 "LARGO CARDINAL GASPARRI 14, SACROFANO, 00060": {
-                    "distanza_m": 30053,
-                    "tempo_s": 2263
+                    "distanza_m": 3600,
+                    "tempo_s": 420
                 }
             },
             "5809320007": {
                 "LARGO CARDINAL GASPARRI 14, SACROFANO, 00060": {
-                    "distanza_m": 27999,
-                    "tempo_s": 2055
+                    "distanza_m": 2300,
+                    "tempo_s": 300
                 }
             },
             "5809310003": {
                 "LARGO CARDINAL GASPARRI 14, SACROFANO, 00060": {
-                    "distanza_m": 26951,
-                    "tempo_s": 2044
+                    "distanza_m": 43,
+                    "tempo_s": 30
                 }
             },
             "5809320005": {
                 "LARGO CARDINAL GASPARRI 14, SACROFANO, 00060": {
-                    "distanza_m": 25118,
-                    "tempo_s": 1848
+                    "distanza_m": 2800,
+                    "tempo_s": 360
                 }
             },
             "5809320008": {
                 "LARGO CARDINAL GASPARRI 14, SACROFANO, 00060": {
-                    "distanza_m": 31711,
-                    "tempo_s": 2317
+                    "distanza_m": 6000,
+                    "tempo_s": 650
                 }
             },
             "5809320009": {
                 "LARGO CARDINAL GASPARRI 14, SACROFANO, 00060": {
-                    "distanza_m": 31100,
-                    "tempo_s": 2243
+                    "distanza_m": 5400,
+                    "tempo_s": 545
                 }
             },
             "5809320004": {
                 "LARGO CARDINAL GASPARRI 14, SACROFANO, 00060": {
-                    "distanza_m": 30543,
-                    "tempo_s": 2294
+                    "distanza_m": 4200,
+                    "tempo_s": 480
                 }
             },
             "5809326611": {
                 "LARGO CARDINAL GASPARRI 14, SACROFANO, 00060": {
-                    "distanza_m": 30198,
-                    "tempo_s": 2223
+                    "distanza_m": 4500,
+                    "tempo_s": 500
                 }
             },
             "5809326606": {
                 "LARGO CARDINAL GASPARRI 14, SACROFANO, 00060": {
-                    "distanza_m": 29422,
-                    "tempo_s": 2209
+                    "distanza_m": 2600,
+                    "tempo_s": 366
                 }
             },
             "5809326610": {
                 "LARGO CARDINAL GASPARRI 14, SACROFANO, 00060": {
-                    "distanza_m": 31506,
-                    "tempo_s": 2324
+                    "distanza_m": 5800,
+                    "tempo_s": 720
                 }
             }
         }
@@ -26924,7 +26852,6 @@
     "SAN VITO ROMANO": {
         "medici": [
             "VIA TRENTO E TRIESTE 1, SAN VITO ROMANO, 00030",
-            "VIA D.ALIGHIERI,3 INT.1, SAN VITO ROMANO, 00030",
             "VIA DANTE ALIGHIERI 3, SAN VITO ROMANO, 00030"
         ],
         "nuclei": [
@@ -26936,10 +26863,6 @@
                 "VIA TRENTO E TRIESTE 1, SAN VITO ROMANO, 00030": {
                     "distanza_m": 471,
                     "tempo_s": 77
-                },
-                "VIA D.ALIGHIERI,3 INT.1, SAN VITO ROMANO, 00030": {
-                    "distanza_m": 998967,
-                    "tempo_s": 39950
                 },
                 "VIA DANTE ALIGHIERI 3, SAN VITO ROMANO, 00030": {
                     "distanza_m": 1129,
@@ -33635,92 +33558,92 @@
         "DISTANCE": {
             "6009010002": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 19908,
-                    "tempo_s": 1497
+                    "distanza_m": 550,
+                    "tempo_s": 125
                 }
             },
             "6009020007": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 21211,
-                    "tempo_s": 1640
+                    "distanza_m": 800,
+                    "tempo_s": 80
                 }
             },
             "6009020001": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 22915,
-                    "tempo_s": 1730
+                    "distanza_m": 2800,
+                    "tempo_s": 340
                 }
             },
             "6009020014": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 18612,
-                    "tempo_s": 1364
+                    "distanza_m": 1500,
+                    "tempo_s": 190
                 }
             },
             "6009020006": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 18851,
-                    "tempo_s": 1350
+                    "distanza_m": 2800,
+                    "tempo_s": 375
                 }
             },
             "6009020012": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 19721,
-                    "tempo_s": 1429
+                    "distanza_m": 3800,
+                    "tempo_s": 462
                 }
             },
             "6009020015": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 23077,
-                    "tempo_s": 1785
+                    "distanza_m": 1600,
+                    "tempo_s": 178
                 }
             },
             "6009026705": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 20801,
-                    "tempo_s": 1556
+                    "distanza_m": 1100,
+                    "tempo_s": 110
                 }
             },
             "6009026613": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 21535,
-                    "tempo_s": 1681
+                    "distanza_m": 1900,
+                    "tempo_s": 320
                 }
             },
             "6009026619": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 20135,
-                    "tempo_s": 1479
+                    "distanza_m": 2700,
+                    "tempo_s": 300
                 }
             },
             "6009026710": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 18028,
-                    "tempo_s": 1295
+                    "distanza_m": 3000,
+                    "tempo_s": 3600
                 }
             },
             "6009026618": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 18558,
-                    "tempo_s": 1362
+                    "distanza_m": 1200,
+                    "tempo_s": 240
                 }
             },
             "6009026709": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 20969,
-                    "tempo_s": 1582
+                    "distanza_m": 2300,
+                    "tempo_s": 300
                 }
             },
             "6009026703": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 22619,
-                    "tempo_s": 1773
+                    "distanza_m": 2300,
+                    "tempo_s": 300
                 }
             },
             "6009026716": {
                 "VIA ROMA 83, VILLA SANTO STEFANO, 03020": {
-                    "distanza_m": 20062,
-                    "tempo_s": 1486
+                    "distanza_m": 2400,
+                    "tempo_s": 356
                 }
             }
         }

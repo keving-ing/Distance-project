@@ -1,0 +1,684 @@
+{
+    "('42.204606822548264,12.798208267807416',)-('VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030', 'VIA GIARDINO S.N.C., POGGIO NATIVO, 02030', 'VIA OBERDAN 21, POGGIO NATIVO, 02030')": {
+        "destination_addresses": [
+            "Via Archipiglione, 02030 Poggio Nativo RI, Italy",
+            "Via Giardino, 02030 Poggio Nativo RI, Italy",
+            "Via Guglielmo Oberdan, 21, 02030 Poggio Nativo RI, Italy"
+        ],
+        "origin_addresses": [
+            "Via dei Ciliegi, 6, 02030 Poggio Nativo RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "0.6 km",
+                            "value": 619
+                        },
+                        "duration": {
+                            "text": "2 mins",
+                            "value": 94
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 mins",
+                            "value": 94
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "3.1 km",
+                            "value": 3054
+                        },
+                        "duration": {
+                            "text": "9 mins",
+                            "value": 545
+                        },
+                        "duration_in_traffic": {
+                            "text": "8 mins",
+                            "value": 498
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "3.1 km",
+                            "value": 3145
+                        },
+                        "duration": {
+                            "text": "9 mins",
+                            "value": 555
+                        },
+                        "duration_in_traffic": {
+                            "text": "8 mins",
+                            "value": 499
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "('42.22425540175182,12.775545571447001',)-('VIA PORTA ROMANA 113, POGGIO NATIVO, 02030', 'VIA OBERDAN 21, POGGIO NATIVO, 02030', 'VIA GIARDINO S.N.C., POGGIO NATIVO, 02030')": {
+        "destination_addresses": [
+            "Via Porta Romana, 113, 02030 Monte Santa Maria RI, Italy",
+            "Via Guglielmo Oberdan, 21, 02030 Poggio Nativo RI, Italy",
+            "Via Giardino, 02030 Poggio Nativo RI, Italy"
+        ],
+        "origin_addresses": [
+            "Via Mirtense, 68, 02030 Monte Santa Maria RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "0.4 km",
+                            "value": 424
+                        },
+                        "duration": {
+                            "text": "2 mins",
+                            "value": 120
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 mins",
+                            "value": 97
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "3.7 km",
+                            "value": 3680
+                        },
+                        "duration": {
+                            "text": "5 mins",
+                            "value": 310
+                        },
+                        "duration_in_traffic": {
+                            "text": "5 mins",
+                            "value": 317
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "3.8 km",
+                            "value": 3804
+                        },
+                        "duration": {
+                            "text": "6 mins",
+                            "value": 344
+                        },
+                        "duration_in_traffic": {
+                            "text": "6 mins",
+                            "value": 348
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "('42.203769972213856,12.785216839191577',)-('VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030', 'VIA GIARDINO S.N.C., POGGIO NATIVO, 02030', 'VIA OBERDAN 21, POGGIO NATIVO, 02030')": {
+        "destination_addresses": [
+            "Via Archipiglione, 02030 Poggio Nativo RI, Italy",
+            "Via Giardino, 02030 Poggio Nativo RI, Italy",
+            "Via Guglielmo Oberdan, 21, 02030 Poggio Nativo RI, Italy"
+        ],
+        "origin_addresses": [
+            "Via Capolli, 5, 02030 Poggio Nativo RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "1.9 km",
+                            "value": 1943
+                        },
+                        "duration": {
+                            "text": "3 mins",
+                            "value": 185
+                        },
+                        "duration_in_traffic": {
+                            "text": "3 mins",
+                            "value": 190
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "4.3 km",
+                            "value": 4272
+                        },
+                        "duration": {
+                            "text": "9 mins",
+                            "value": 564
+                        },
+                        "duration_in_traffic": {
+                            "text": "9 mins",
+                            "value": 537
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "4.4 km",
+                            "value": 4363
+                        },
+                        "duration": {
+                            "text": "10 mins",
+                            "value": 575
+                        },
+                        "duration_in_traffic": {
+                            "text": "9 mins",
+                            "value": 534
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "('42.21746475767128,12.797927958400784',)-('VIA OBERDAN 21, POGGIO NATIVO, 02030', 'VIA GIARDINO S.N.C., POGGIO NATIVO, 02030', 'VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030')": {
+        "destination_addresses": [
+            "Via Guglielmo Oberdan, 21, 02030 Poggio Nativo RI, Italy",
+            "Via Giardino, 02030 Poggio Nativo RI, Italy",
+            "Via Archipiglione, 02030 Poggio Nativo RI, Italy"
+        ],
+        "origin_addresses": [
+            "Viale Roma, 37, 02030 Poggio Nativo RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "0.6 km",
+                            "value": 611
+                        },
+                        "duration": {
+                            "text": "2 mins",
+                            "value": 140
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 mins",
+                            "value": 140
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "0.2 km",
+                            "value": 209
+                        },
+                        "duration": {
+                            "text": "1 min",
+                            "value": 52
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 min",
+                            "value": 51
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "3.8 km",
+                            "value": 3757
+                        },
+                        "duration": {
+                            "text": "9 mins",
+                            "value": 545
+                        },
+                        "duration_in_traffic": {
+                            "text": "9 mins",
+                            "value": 530
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "('42.1945472942563,12.796801136022028',)-('VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030', 'VIA GIARDINO S.N.C., POGGIO NATIVO, 02030', 'VIA OBERDAN 21, POGGIO NATIVO, 02030')": {
+        "destination_addresses": [
+            "Via Archipiglione, 02030 Poggio Nativo RI, Italy",
+            "Via Giardino, 02030 Poggio Nativo RI, Italy",
+            "Via Guglielmo Oberdan, 21, 02030 Poggio Nativo RI, Italy"
+        ],
+        "origin_addresses": [
+            "Via Salaria Vecchia, 20, 02030 Poggio Nativo RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "0.8 km",
+                            "value": 796
+                        },
+                        "duration": {
+                            "text": "2 mins",
+                            "value": 93
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 mins",
+                            "value": 92
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "4.4 km",
+                            "value": 4442
+                        },
+                        "duration": {
+                            "text": "10 mins",
+                            "value": 624
+                        },
+                        "duration_in_traffic": {
+                            "text": "10 mins",
+                            "value": 590
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "4.5 km",
+                            "value": 4533
+                        },
+                        "duration": {
+                            "text": "11 mins",
+                            "value": 634
+                        },
+                        "duration_in_traffic": {
+                            "text": "10 mins",
+                            "value": 595
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "('42.23791642022637,12.758443831084644',)-('VIA PORTA ROMANA 113, POGGIO NATIVO, 02030', 'VIA OBERDAN 21, POGGIO NATIVO, 02030', 'VIA GIARDINO S.N.C., POGGIO NATIVO, 02030')": {
+        "destination_addresses": [
+            "Via Porta Romana, 113, 02030 Monte Santa Maria RI, Italy",
+            "Via Guglielmo Oberdan, 21, 02030 Poggio Nativo RI, Italy",
+            "Via Giardino, 02030 Poggio Nativo RI, Italy"
+        ],
+        "origin_addresses": [
+            "Via Conca di Cornazzano, 6, 02030 Poggio Nativo RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "4.7 km",
+                            "value": 4735
+                        },
+                        "duration": {
+                            "text": "8 mins",
+                            "value": 499
+                        },
+                        "duration_in_traffic": {
+                            "text": "8 mins",
+                            "value": 496
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "8.2 km",
+                            "value": 8169
+                        },
+                        "duration": {
+                            "text": "12 mins",
+                            "value": 716
+                        },
+                        "duration_in_traffic": {
+                            "text": "12 mins",
+                            "value": 741
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "8.3 km",
+                            "value": 8293
+                        },
+                        "duration": {
+                            "text": "13 mins",
+                            "value": 750
+                        },
+                        "duration_in_traffic": {
+                            "text": "13 mins",
+                            "value": 771
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "('42.212687608495486,12.807904131102985',)-('VIA GIARDINO S.N.C., POGGIO NATIVO, 02030', 'VIA OBERDAN 21, POGGIO NATIVO, 02030', 'VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030')": {
+        "destination_addresses": [
+            "Via Giardino, 02030 Poggio Nativo RI, Italy",
+            "Via Guglielmo Oberdan, 21, 02030 Poggio Nativo RI, Italy",
+            "Via Archipiglione, 02030 Poggio Nativo RI, Italy"
+        ],
+        "origin_addresses": [
+            "Via Brulla, 11, 02030 Poggio Nativo RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "4.0 km",
+                            "value": 4014
+                        },
+                        "duration": {
+                            "text": "8 mins",
+                            "value": 469
+                        },
+                        "duration_in_traffic": {
+                            "text": "8 mins",
+                            "value": 475
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "3.9 km",
+                            "value": 3890
+                        },
+                        "duration": {
+                            "text": "7 mins",
+                            "value": 435
+                        },
+                        "duration_in_traffic": {
+                            "text": "7 mins",
+                            "value": 446
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "6.3 km",
+                            "value": 6307
+                        },
+                        "duration": {
+                            "text": "9 mins",
+                            "value": 540
+                        },
+                        "duration_in_traffic": {
+                            "text": "9 mins",
+                            "value": 563
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "('42.207536747401534,12.78006942176237',)-('VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030', 'VIA GIARDINO S.N.C., POGGIO NATIVO, 02030', 'VIA OBERDAN 21, POGGIO NATIVO, 02030')": {
+        "destination_addresses": [
+            "Via Archipiglione, 02030 Poggio Nativo RI, Italy",
+            "Via Giardino, 02030 Poggio Nativo RI, Italy",
+            "Via Guglielmo Oberdan, 21, 02030 Poggio Nativo RI, Italy"
+        ],
+        "origin_addresses": [
+            "Via Farense, 77, 02030 San Benedetto RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "2.2 km",
+                            "value": 2201
+                        },
+                        "duration": {
+                            "text": "4 mins",
+                            "value": 224
+                        },
+                        "duration_in_traffic": {
+                            "text": "4 mins",
+                            "value": 219
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "4.5 km",
+                            "value": 4530
+                        },
+                        "duration": {
+                            "text": "10 mins",
+                            "value": 603
+                        },
+                        "duration_in_traffic": {
+                            "text": "9 mins",
+                            "value": 554
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "4.6 km",
+                            "value": 4621
+                        },
+                        "duration": {
+                            "text": "10 mins",
+                            "value": 614
+                        },
+                        "duration_in_traffic": {
+                            "text": "9 mins",
+                            "value": 562
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "('42.22529893426512,12.795116221870368',)-('VIA OBERDAN 21, POGGIO NATIVO, 02030', 'VIA GIARDINO S.N.C., POGGIO NATIVO, 02030', 'VIA PORTA ROMANA 113, POGGIO NATIVO, 02030')": {
+        "destination_addresses": [
+            "Via Guglielmo Oberdan, 21, 02030 Poggio Nativo RI, Italy",
+            "Via Giardino, 02030 Poggio Nativo RI, Italy",
+            "Via Porta Romana, 113, 02030 Monte Santa Maria RI, Italy"
+        ],
+        "origin_addresses": [
+            "Via Mirtense, 30, 02030 Macaiola RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "1.9 km",
+                            "value": 1938
+                        },
+                        "duration": {
+                            "text": "3 mins",
+                            "value": 202
+                        },
+                        "duration_in_traffic": {
+                            "text": "3 mins",
+                            "value": 198
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "2.1 km",
+                            "value": 2062
+                        },
+                        "duration": {
+                            "text": "4 mins",
+                            "value": 237
+                        },
+                        "duration_in_traffic": {
+                            "text": "4 mins",
+                            "value": 228
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "2.4 km",
+                            "value": 2374
+                        },
+                        "duration": {
+                            "text": "4 mins",
+                            "value": 245
+                        },
+                        "duration_in_traffic": {
+                            "text": "4 mins",
+                            "value": 223
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "('41.70242140828819,13.687686359323692',)-('VIA TAGLIATA 49, POSTA FIBRENO, 03030', 'Via Camminate, 2 POSTA FIBRENO', 'Localit\u00e0 Piscina POSTA FIBRENO')": {
+        "destination_addresses": [
+            "Via Tagliata, 49, 03030 Posta Fibreno FR, Italy",
+            "Via Camminate, 2, 03030 Posta Fibreno FR, Italy",
+            "03030 Posta Fibreno, Province of Frosinone, Italy"
+        ],
+        "origin_addresses": [
+            "Contrada Carpello, 32, 03030 Carpello FR, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "1.6 km",
+                            "value": 1610
+                        },
+                        "duration": {
+                            "text": "4 mins",
+                            "value": 236
+                        },
+                        "duration_in_traffic": {
+                            "text": "4 mins",
+                            "value": 236
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "3.6 km",
+                            "value": 3576
+                        },
+                        "duration": {
+                            "text": "5 mins",
+                            "value": 326
+                        },
+                        "duration_in_traffic": {
+                            "text": "6 mins",
+                            "value": 354
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "1.7 km",
+                            "value": 1685
+                        },
+                        "duration": {
+                            "text": "3 mins",
+                            "value": 173
+                        },
+                        "duration_in_traffic": {
+                            "text": "3 mins",
+                            "value": 173
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "('41.691152379929925,13.690148388303571',)-('Localit\u00e0 Piscina POSTA FIBRENO', 'Via Cina, 1 POSTA FIBRENO', 'VIA TAGLIATA 49, POSTA FIBRENO, 03030')": {
+        "destination_addresses": [
+            "03030 Posta Fibreno, Province of Frosinone, Italy",
+            "03030 Posta Fibreno, Province of Frosinone, Italy",
+            "Via Tagliata, 49, 03030 Posta Fibreno FR, Italy"
+        ],
+        "origin_addresses": [
+            "Via Castagna, 22, 03030 Posta Fibreno FR, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "0.5 km",
+                            "value": 479
+                        },
+                        "duration": {
+                            "text": "2 mins",
+                            "value": 95
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 mins",
+                            "value": 95
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "0.5 km",
+                            "value": 479
+                        },
+                        "duration": {
+                            "text": "2 mins",
+                            "value": 95
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 mins",
+                            "value": 95
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "2.0 km",
+                            "value": 1985
+                        },
+                        "duration": {
+                            "text": "5 mins",
+                            "value": 297
+                        },
+                        "duration_in_traffic": {
+                            "text": "5 mins",
+                            "value": 297
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    }
+}

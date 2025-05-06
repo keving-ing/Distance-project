@@ -356,7 +356,7 @@
         "medici": [
             "DELLE RIMEMBRANZE N. 4A, ANTRODOCO, 02013",
             "VIA LUNGO VELINO S.N.C., ANTRODOCO, 02013",
-            "PIAZZA MARTIRI DELLA LIBERTÀ, 1, ANTRODOCO, 02013",
+            "PIAZZA MARTIRI DELLA LIBERT\u00c0, 1, ANTRODOCO, 02013",
             "VIA DEL CASTELLO 26, ANTRODOCO, 02013"
         ],
         "nuclei": [
@@ -372,7 +372,7 @@
     },
     "AQUINO": {
         "medici": [
-            "A. LABRIOLA N°3, AQUINO, 03031",
+            "A. LABRIOLA N\u00b03, AQUINO, 03031",
             "VIA ALESSANDRO MANZONI, AQUINO, 03031",
             "VIA ALDO MORO 02, AQUINO, 03031",
             "VIA RINALDO D AQUINO 9, AQUINO, 03031",
@@ -546,7 +546,7 @@
             "VIA A. FLEMING, 30, ARTENA, 00031",
             "VIA DI VITTORIO 68, ARTENA, 00031",
             "PIAZZA GALILEO GALILEI N. 29, ARTENA, 00031",
-            "VIALE 1° MAGGIO 32, ARTENA, 00031",
+            "VIALE 1\u00b0 MAGGIO 32, ARTENA, 00031",
             "VIA A. FLEMING 24, ARTENA, 00031",
             "PIAZZA DELL`UNIONE 2, ARTENA, 00031"
         ],
@@ -602,7 +602,7 @@
     "AUSONIA": {
         "medici": [
             "VIA PROVINCIALE 38, AUSONIA, 03040",
-            "VIA PROVINCIALE N° 33, AUSONIA, 03040",
+            "VIA PROVINCIALE N\u00b0 33, AUSONIA, 03040",
             "TORE 5, AUSONIA, 03040"
         ],
         "nuclei": [
@@ -938,7 +938,7 @@
     },
     "CAMPODIMELE": {
         "medici": [
-            "SAN ROCCO N°3, CAMPODIMELE, 04020"
+            "SAN ROCCO N\u00b03, CAMPODIMELE, 04020"
         ],
         "nuclei": [
             5900310001.0,
@@ -1230,7 +1230,7 @@
             "PIAZZA LABRIOLA 56, CASSINO, 03043",
             "PIAZZA A.LABRIOLA N.56, CASSINO, 03043",
             "PIAZZA MARCONI 19, CASSINO, 03043",
-            "G. DI BIASIO N° 95, CASSINO, 03043",
+            "G. DI BIASIO N\u00b0 95, CASSINO, 03043",
             "CORSO TRIESTE SNC, CASSINO, 03043",
             "CORSO S. BASILIO 42, CASSINO, 03043",
             "VIA PO 49, CASSINO, 03043",
@@ -1473,7 +1473,7 @@
     "CASTROCIELO": {
         "medici": [
             "PIAZZA SAN ROCCO N. 5, CASTROCIELO, 03030",
-            "VIA CASILINA N° 59, CASTROCIELO, 03030"
+            "VIA CASILINA N\u00b0 59, CASTROCIELO, 03030"
         ],
         "nuclei": [
             6002210001.0,
@@ -1650,9 +1650,9 @@
     },
     "CERVARO": {
         "medici": [
-            "VIA RISORGIMENTO N°44, CERVARO, 03044",
-            "CASABURI N° 67, CERVARO, 03044",
-            "VIA FADONI N°26, CERVARO, 03044",
+            "VIA RISORGIMENTO N\u00b044, CERVARO, 03044",
+            "CASABURI N\u00b0 67, CERVARO, 03044",
+            "VIA FADONI N\u00b026, CERVARO, 03044",
             "VIA REGATELLO SNC, CERVARO, 03044"
         ],
         "nuclei": [
@@ -2105,7 +2105,7 @@
     "CORCHIANO": {
         "medici": [
             "VIA G.D`ANNUNZIO, 6, CORCHIANO, 01030",
-            "VIA BORGO UMBERTO I°, N. 41, CORCHIANO, 01030"
+            "VIA BORGO UMBERTO I\u00b0, N. 41, CORCHIANO, 01030"
         ],
         "nuclei": [
             5602310001.0,
@@ -2408,7 +2408,7 @@
             "CORSO APPIO CLAUDIO 97, FONDI, 04022",
             "VIA GENOVA 36, FONDI, 04022",
             "VIA DEGLI AUSONI,14/B, FONDI, 04022",
-            "VIA G. CABOTO N° 13, FONDI, 04022",
+            "VIA G. CABOTO N\u00b0 13, FONDI, 04022",
             "VIA SAN MAGNO C/O OSPEDALE SAN GIOVANNI, FONDI, 04022",
             "VIA PONTE GAGLIARDO 160, FONDI, 04022"
         ],
@@ -3229,7 +3229,7 @@
     },
     "MICIGLIANO": {
         "medici": [
-            "PIAZZA MARTIRI DELLA LIBERTÀ, 1, ANTRODOCO, 02013"
+            "PIAZZA MARTIRI DELLA LIBERT\u00c0, 1, ANTRODOCO, 02013"
         ],
         "nuclei": [
             5703710001.0,
@@ -4082,7 +4082,7 @@
             "VIA UMBERTO I 1, PIEDIMONTE SAN GERMANO, 03030",
             "VIA MARSALA N.2, PIEDIMONTE SAN GERMANO, 03030",
             "VIALE DEI MILLE, PIEDIMONTE SAN GERMANO, 03030",
-            "PIAZZA MUNICIPIO N° 6, PIEDIMONTE SAN GERMANO, 03030"
+            "PIAZZA MUNICIPIO N\u00b0 6, PIEDIMONTE SAN GERMANO, 03030"
         ],
         "nuclei": [
             6005210001.0,
@@ -4098,7 +4098,6 @@
     },
     "PIGLIO": {
         "medici": [
-            "VIA ARCHIPIGLIONE SNC, POGGIO NATIVO, 02030",
             "VIA CIRCONVALLAZIONE, PIGLIO, 03010"
         ],
         "nuclei": [
@@ -4253,7 +4252,8 @@
         "medici": [
             "VIA GIARDINO S.N.C., POGGIO NATIVO, 02030",
             "VIA PORTA ROMANA 113, POGGIO NATIVO, 02030",
-            "VIA OBERDAN 21, POGGIO NATIVO, 02030"
+            "VIA OBERDAN 21, POGGIO NATIVO, 02030",
+            "VIA ARCHIPIGLIONE, POGGIO NATIVO, 02030"
         ],
         "nuclei": [
             5705510001.0,
@@ -4309,10 +4309,10 @@
     },
     "PONTECORVO": {
         "medici": [
-            "C.SO VITTORIO EMANUELE N° 11, PONTECORVO, 03037",
+            "C.SO VITTORIO EMANUELE N\u00b0 11, PONTECORVO, 03037",
             "CASA DELLA SALUTE VIA SAN G. BATTISTA, PONTECORVO, 03037",
             "VIA S.G. BATTISTA 1 CASA DELLA SALUTE, PONTECORVO, 03037",
-            "VIA ROMA N° 11, PONTECORVO, 03037",
+            "VIA ROMA N\u00b0 11, PONTECORVO, 03037",
             "VIA TRIESTE SNC, PONTECORVO, 03037",
             "VIA ALOISE MASELLA 23, PONTECORVO, 03037"
         ],
@@ -4370,7 +4370,7 @@
     },
     "PONZANO ROMANO": {
         "medici": [
-           "PIAZZA SANTA MARIA N.10, PONZANO ROMANO, 00060"
+            "PIAZZA SANTA MARIA N.10, PONZANO ROMANO, 00060"
         ],
         "nuclei": [
             5808010001.0,
@@ -4379,8 +4379,7 @@
     },
     "POSTA": {
         "medici": [
-            "PIAZZA DEGLI EROI, POSTA, 02019",
-            "VIA TAGLIATA 49, POSTA FIBRENO, 03030"
+            "PIAZZA DEGLI EROI, POSTA, 02019"
         ],
         "nuclei": [
             5705710001.0,
@@ -4397,15 +4396,46 @@
     },
     "POSTA FIBRENO": {
         "medici": [
-            "Località Piscina POSTA FIBRENO",
+            "Localit\u00e0 Piscina POSTA FIBRENO",
             "Via Cina, 1 POSTA FIBRENO",
-            "Via Camminate, 2 POSTA FIBRENO"
+            "Via Camminate, 2 POSTA FIBRENO",
+            "VIA TAGLIATA 49, POSTA FIBRENO, 03030"
         ],
         "nuclei": [
             6005710001.0,
             6005710002.0,
             6005740000.000001
-        ]
+        ],
+        "DISTANCE": {
+            "6005710001": {
+                "VIA TAGLIATA 49, POSTA FIBRENO, 03030": {
+                    "distanza_m": 1610,
+                    "tempo_s": 236
+                },
+                "Via Camminate, 2 POSTA FIBRENO": {
+                    "distanza_m": 3576,
+                    "tempo_s": 326
+                },
+                "Localit\u00e0 Piscina POSTA FIBRENO": {
+                    "distanza_m": 1685,
+                    "tempo_s": 173
+                }
+            },
+            "6005710002": {
+                "Localit\u00e0 Piscina POSTA FIBRENO": {
+                    "distanza_m": 479,
+                    "tempo_s": 95
+                },
+                "Via Cina, 1 POSTA FIBRENO": {
+                    "distanza_m": 479,
+                    "tempo_s": 95
+                },
+                "VIA TAGLIATA 49, POSTA FIBRENO, 03030": {
+                    "distanza_m": 1985,
+                    "tempo_s": 297
+                }
+            }
+        }
     },
     "POZZAGLIA SABINA": {
         "medici": [
@@ -4666,7 +4696,7 @@
     },
     "ROCCA SANTO STEFANO": {
         "medici": [
-            "CORSO DELLA LIBERTÀ, 28, ROCCA SANTO STEFANO, 00030"
+            "CORSO DELLA LIBERT\u00c0, 28, ROCCA SANTO STEFANO, 00030"
         ],
         "nuclei": [
             5808910001.0,
@@ -4953,7 +4983,7 @@
     },
     "SAN GIORGIO A LIRI": {
         "medici": [
-            "VIA RIO DI COCCIA N° 8, SAN GIORGIO A LIRI, 03047",
+            "VIA RIO DI COCCIA N\u00b0 8, SAN GIORGIO A LIRI, 03047",
             "VIA CAVALIERI DI VITTORIO VENETO 6, SAN GIORGIO A LIRI, 03047",
             "VIA RIO DI COCCIO,3, SAN GIORGIO A LIRI, 03047",
             "VIA CAVALIERI VITTORIO VENET SNC, SAN GIORGIO A LIRI, 03047",
@@ -5279,7 +5309,7 @@
     "SERMONETA": {
         "medici": [
             "VIA LELIA CAETANI N.2, SERMONETA, 04010",
-            "VIA LE PASTINE N° 135, SERMONETA, 04010",
+            "VIA LE PASTINE N\u00b0 135, SERMONETA, 04010",
             "VIA FONTANA MURATA N.1, SERMONETA, 04010"
         ],
         "nuclei": [
@@ -5878,7 +5908,7 @@
     "VALLEMAIO": {
         "medici": [
             "VIA MARTIRI CIVILI, VALLEMAIO, 03040",
-            "VIA MARTIRI CIVILI N° 9, VALLEMAIO, 03040"
+            "VIA MARTIRI CIVILI N\u00b0 9, VALLEMAIO, 03040"
         ],
         "nuclei": [
             6008310001.0,
@@ -6186,7 +6216,7 @@
     },
     "VILLA SANTA LUCIA": {
         "medici": [
-            "VIALE DANTE ALIGHIERI N° 10, VILLA SANTA LUCIA, 03030"
+            "VIALE DANTE ALIGHIERI N\u00b0 10, VILLA SANTA LUCIA, 03030"
         ],
         "nuclei": [
             6008910001.0,

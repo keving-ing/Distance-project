@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 
 # === Percorsi File ===
-INPUT_FILE = "aggregated_hospital_distances_weighted.csv"
-OUTPUT_FILE = "aggregated_hospital_by_municipality.csv"
-OUTPUT_EXCEL_FILE = "aggregated_hospital_by_municipality.xlsx"
+INPUT_FILE = "aggregated_medici_distances_weighted.csv"
+OUTPUT_FILE = "aggregated_medici_by_municipality.csv"
+OUTPUT_EXCEL_FILE = "aggregated_medici_by_municipality.xlsx"
 
 # === Caricamento Dati ===
 df = pd.read_csv(INPUT_FILE)
@@ -60,6 +60,6 @@ df_finale = pd.merge(df_finale, df_std, on="Comune", how="left")
 
 # === Salvataggio Output ===
 df_finale.to_csv(OUTPUT_FILE, index=False)
-df_finale.to_excel(OUTPUT_EXCEL_FILE, index=False, sheet_name="Hospitals_Aggregated")
+df_finale.to_excel(OUTPUT_EXCEL_FILE, index=False, sheet_name="Medici_Aggregated")
 
 print(f"✅ Dati aggregati salvati in {OUTPUT_FILE} e {OUTPUT_EXCEL_FILE}")

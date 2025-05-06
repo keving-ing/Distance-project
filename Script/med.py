@@ -7,10 +7,13 @@ import time
 from pyproj import Transformer
 from math import radians, sin, cos, sqrt, atan2
 
+
+#AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E
+
 # === CONFIG ===
 GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
-CACHE_FILE = "google_distances_medici_cache.json"
-GEOCODE_CACHE = "geocode_cache_medici.json"
+CACHE_FILE = "google_distances_medici_cache_ROMA.json"
+GEOCODE_CACHE = "DATA_DISTANCIAS\geocode_cache_medici.json"
 MAX_ELEMENTS = 100
 MAX_ORIGINS = 25
 MAX_DESTINATIONS = 25
@@ -59,6 +62,8 @@ def geocode_address(address):
 
     elementi_geo = elementi_geo + 1
 
+
+
     response = requests.get("https://maps.googleapis.com/maps/api/geocode/json", params=params)
     time.sleep(1)
     data = response.json()
@@ -71,7 +76,7 @@ def geocode_address(address):
     else:
         log_message = f"❌ Errore geocoding per '{address}': {data.get('status')}\n"
         print(log_message)
-        with open("geocoding_errors_medici.log", "a", encoding="utf-8") as f:
+        with open("geocoding_errors_mediciROMA.log", "a", encoding="utf-8") as f:
             f.write(log_message)
         return None, None
 
@@ -88,10 +93,11 @@ def get_distance_matrix(origins, destinations):
         "destinations": "|".join(destinations),
         "key": GOOGLE_MAPS_API_KEY,
         "mode": "driving",
-        "departure_time": 1746522000  # Considera il traffico attuale
+        "departure_time": 1746608400  # Considera il traffico attuale
     }
 
     elementi += len(origins) * len(destinations)
+
 
     response = requests.get("https://maps.googleapis.com/maps/api/distancematrix/json", params=params)
     data = response.json()
@@ -105,11 +111,11 @@ def get_distance_matrix(origins, destinations):
     else:
         log_message = f"❌ Errore Distance Matrix API per origins={origins} e destinations={destinations}: {data.get('status')}\n"
         print(log_message)
-        with open("distance_matrix_errors_medici.log", "a", encoding="utf-8") as f:
+        with open("distance_matrix_errors_mediciROMA.log", "a", encoding="utf-8") as f:
             f.write(log_message)
 
 # === Caricamento dati ===
-with open("medici_by_municipality_with_nuclei.json", "r", encoding="utf-8") as f:
+with open("medici_by_municipality_with_nuclei_ROMA_OK.json", "r", encoding="utf-8") as f:
     medici_data = json.load(f)
 
 with open("C:/Users/vehico/Documents/centroidi_salute.geojson", "r", encoding="utf-8") as f:
@@ -128,7 +134,9 @@ for feature in centroidi_data["features"]:
 
 # === Calcolo distanze ===
 for comune, data in medici_data.items():
+    
     print(comune)
+
     nuclei = data.get("nuclei", [])
     medici = data.get("medici", [])
 
@@ -152,6 +160,9 @@ for comune, data in medici_data.items():
             coords_dist = []
             for medico in medici:
                 lat_m, lon_m = geocode_address(medico)
+
+
+
                 if lat_m is not None and lon_m is not None:
                     dist = euclidean_distance(lat_n, lon_n, lat_m, lon_m)
                     coords_dist.append((medico, dist))
@@ -160,6 +171,7 @@ for comune, data in medici_data.items():
         
         if (len([origin])*len(destinations)) > 100:
             print(comune)
+
 
         result = get_distance_matrix([origin], destinations)
 
@@ -185,8 +197,9 @@ for comune, data in medici_data.items():
 
 
 
+
 # === Salvataggio finale ===
-with open("medici_by_municipality_with_distances.json", "w", encoding="utf-8") as f:
+with open("medici_by_municipality_with_distances_ROMA.json", "w", encoding="utf-8") as f:
     json.dump(medici_data, f, indent=4)
 
 print("✅ Distanze calcolate e file salvato! - elementi:", elementi, " de geocoding: ", elementi_geo)

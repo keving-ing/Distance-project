@@ -9,7 +9,7 @@ from pyproj import Transformer
 
 # "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
 # === CONFIG ===
-GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
+GOOGLE_MAPS_API_KEY = ""
 CACHE_FILE = "google_distances_medici_cache.json"
 MAX_ELEMENTS = 100
 MAX_ORIGINS = 25
@@ -22,10 +22,10 @@ def convert_utm_to_wgs84(easting, northing):
     return lat, lon
 
 # === Caricamento dati ===
-with open("medici_by_municipality_with_nuclei.json", "r", encoding="utf-8") as f:
+with open("medici_by_municipality_with_nuclei_ROMA_OK.json", "r", encoding="utf-8") as f:
     medici_data = json.load(f)
 
-with open("C:/Users/vehico/Documents/centroidi_salute.geojson", "r", encoding="utf-8") as f:
+with open("C:/Users/vehico/Documents/centroides_rivisitato.geojson", "r", encoding="utf-8") as f:
     centroidi_data = json.load(f)
 
 # === Costruzione dizionario centroidi ===
@@ -63,7 +63,8 @@ def get_distance_matrix(origins, destinations):
 
     elementi += len(origins) * len(destinations)
 
-    return 
+    return
+
     response = requests.get("https://maps.googleapis.com/maps/api/distancematrix/json", params=params)
     data = response.json()
     time.sleep(1)

@@ -3,10 +3,10 @@ import pandas as pd
 import geopandas as gpd
 
 # === Percorsi File ===
-INPUT_FILE = "hospital_by_municipality_with_distances.json"
+INPUT_FILE = "DATA_DISTANCIAS/medici_by_municipality_with_distances.json"
 POPULATION_FILE = "C:/Users/vehico/Documents/Thesis/geometrias_Lazio.shp"
-OUTPUT_FILE = "aggregated_hospital_distances_weighted.csv"
-OUTPUT_EXCEL_FILE = "aggregated_hospital_distances_weighted.xlsx"
+OUTPUT_FILE = "aggregated_medici_distances_weighted.csv"
+OUTPUT_EXCEL_FILE = "aggregated_medici_distances_weighted.xlsx"
 
 # === Caricamento popolazione nuclei urbani ===
 gdf = gpd.read_file(POPULATION_FILE)
@@ -26,7 +26,7 @@ def analyze_hospital_distances_weighted(input_file, output_file, output_excel):
             nucleo_id_float = float(nucleo_id)
             pop = population_data.get(nucleo_id_float, 0)
 
-            if pop <= 20:
+            if pop <= 0:
                 continue  # Salta nuclei con popolazione nulla o troppo bassa
 
             distances = []
@@ -68,7 +68,7 @@ def analyze_hospital_distances_weighted(input_file, output_file, output_excel):
     df = pd.DataFrame(results)
 
     df.to_csv(output_file, index=False, encoding="utf-8")
-    df.to_excel(output_excel, index=False, sheet_name="Distanze Ospedali")
+    df.to_excel(output_excel, index=False, sheet_name="Distanze MEDICI")
 
     print(f"✅ File '{output_file}' salvato con statistiche ponderate sulle distanze agli ospedali.")
 
