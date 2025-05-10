@@ -21,14 +21,14 @@ def convert_utm_to_wgs84(easting, northing):
     lon, lat = transformer.transform(easting, northing)
     return lat, lon
 
-# === Caricamento dati ===
+# === Loading data ===
 with open("medici_by_municipality_with_nuclei_ROMA_OK.json", "r", encoding="utf-8") as f:
     medici_data = json.load(f)
 
 with open("C:/Users/vehico/Documents/centroides_rivisitato.geojson", "r", encoding="utf-8") as f:
     centroidi_data = json.load(f)
 
-# === Costruzione dizionario centroidi ===
+# === Building centroid dictionary ===
 nuclei_centroidi = {}
 for feature in centroidi_data["features"]:
     props = feature["properties"]
@@ -46,7 +46,7 @@ if os.path.exists(CACHE_FILE):
 else:
     distance_cache = {}
 
-# === Funzione per chiamata Distance Matrix API ===
+# === Function for Distance Matrix API call ===
 elementi = 0
 def get_distance_matrix(origins, destinations):
     global elementi
@@ -75,10 +75,10 @@ def get_distance_matrix(origins, destinations):
             json.dump(distance_cache, f, indent=4)
         return data
     else:
-        print(f"⚠️ Errore API: {data}")
+        print(f"⚠️ API Error: {data}")
         return None
 
-# === Calcolo delle distanze ===
+# === Calculating distances ===
 for comune, data in medici_data.items():
     nuclei = data.get("nuclei", [])
     medici = data.get("medici", [])
@@ -100,7 +100,7 @@ for comune, data in medici_data.items():
 
     for origin_batch, destination_batch in itertools.product(origin_batches, destination_batches):
         if len(origin_batch) * len(destination_batch) > MAX_ELEMENTS:
-            print("SALTO - ", comune, " ", str(len(origin_batch) * len(destination_batch)))
+            print("SKIPPING - ", comune, " ", str(len(origin_batch) * len(destination_batch)))
             continue
 
         result = get_distance_matrix(origin_batch, destination_batch)
@@ -134,8 +134,8 @@ for comune, data in medici_data.items():
                     with open("distance_matrix_errors_medici.log", "a", encoding="utf-8") as f:
                         f.write(log_message)
 
-# === Salvataggio finale ===
+# === Final save ===
 with open("medici_by_municipality_with_distances.json", "w", encoding="utf-8") as f:
     json.dump(medici_data, f, indent=4)
 
-print("✅ Distanze calcolate e file salvato! - elementi: ", elementi)
+print("✅ Distances calculated and file saved! - elements: ", elementi)

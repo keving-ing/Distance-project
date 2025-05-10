@@ -2,13 +2,13 @@ import json
 import pandas as pd
 import geopandas as gpd
 
-# === Percorsi File ===
-INPUT_FILE = "DATA_DISTANCIAS/medici_by_municipality_with_distances.json"
+# === File paths ===
+INPUT_FILE = "ps_by_municipality_with_distances.json"
 POPULATION_FILE = "C:/Users/vehico/Documents/Thesis/geometrias_Lazio.shp"
-OUTPUT_FILE = "aggregated_medici_distances_weighted.csv"
-OUTPUT_EXCEL_FILE = "aggregated_medici_distances_weighted.xlsx"
+OUTPUT_FILE = "aggregated_ps_distances_weighted.csv"
+OUTPUT_EXCEL_FILE = "aggregated_ps_distances_weighted.xlsx"
 
-# === Caricamento popolazione nuclei urbani ===
+# === Loading population data for urban areas ===
 gdf = gpd.read_file(POPULATION_FILE)
 population_data = gdf.set_index("LOC21_ID")["POP21"].to_dict()
 
@@ -27,7 +27,7 @@ def analyze_hospital_distances_weighted(input_file, output_file, output_excel):
             pop = population_data.get(nucleo_id_float, 0)
 
             if pop <= 0:
-                continue  # Salta nuclei con popolazione nulla o troppo bassa
+                continue  # Skip areas with zero or very low population
 
             distances = []
             durations = []
@@ -35,8 +35,8 @@ def analyze_hospital_distances_weighted(input_file, output_file, output_excel):
 
             for dest, info in destinations.items():
                 distances.append(info["distanza_m"] / 1000)  # km
-                durations.append(info["tempo_s"] / 60)       # minuti
-                weights.append(pop)  # La popolazione pesa ogni entry
+                durations.append(info["tempo_s"] / 60)       # minutes
+                weights.append(pop)  # Population weights each entry
 
             if distances:
                 weights_series = pd.Series(weights)
@@ -68,9 +68,9 @@ def analyze_hospital_distances_weighted(input_file, output_file, output_excel):
     df = pd.DataFrame(results)
 
     df.to_csv(output_file, index=False, encoding="utf-8")
-    df.to_excel(output_excel, index=False, sheet_name="Distanze MEDICI")
+    df.to_excel(output_excel, index=False, sheet_name="Hospital Distances")
 
-    print(f"✅ File '{output_file}' salvato con statistiche ponderate sulle distanze agli ospedali.")
+    print(f"✅ File '{output_file}' saved with weighted statistics on hospital distances.")
 
-# === Esegui Aggregazione ===
+# === Execute Aggregation ===
 analyze_hospital_distances_weighted(INPUT_FILE, OUTPUT_FILE, OUTPUT_EXCEL_FILE)

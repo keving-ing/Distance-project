@@ -1,20 +1,65 @@
 import { searchComune } from './filters.js';
 import { updateMapColors } from './comuniProcessor.js';
 import { updateMapColorsNuclei } from './nucleiProcessor.js';
-import { map, comuniLayer, nucleiLayer, defaultStyle } from './map.js';
+import { map, comuniLayer, nucleiLayer, defaultStyle, regioneLayer } from './map.js';
+import { romaLayer, perimetroRomaLayer } from './mapRoma.js';
+import { resetAll } from './utilities.js';
+import { fromLonLat } from 'ol/proj';
 
 
 export function setupMenuNavigation() {
+
+    // Gestione pulsanti nella barra superiore
     document.getElementById("btnDistance").addEventListener("click", function () {
-        document.getElementById("controls").style.display = "block";  // Mostra il menu distanza
-        document.getElementById("transportAnalysisControls").style.display = "none"; // Nasconde l'altro menu
+        resetAll();
+        romaLayer.setVisible(false);
+        perimetroRomaLayer.setVisible(false);
+        comuniLayer.setVisible(true);
+        regioneLayer.setVisible(true);
+        map.getView().setCenter(fromLonLat([12.5, 42.1]));
+        map.getView().setZoom(8.5)
+        document.getElementById("controls").style.display = "block"; // ✅ Mostra EDUCAZIONE
+    });
+
+    document.getElementById("btnDistanceSalud").addEventListener("click", function () {
+        resetAll();
+        romaLayer.setVisible(false);
+        perimetroRomaLayer.setVisible(false);
+        comuniLayer.setVisible(true);
+        regioneLayer.setVisible(true)
+        map.getView().setCenter(fromLonLat([12.5, 42.1]));
+        map.getView().setZoom(8.5)
+        document.getElementById("healthAnalysisControls").style.display = "block"; // ✅ Mostra SALUTE
     });
 
     document.getElementById("btnTransport").addEventListener("click", function () {
-        document.getElementById("controls").style.display = "none"; // Nasconde il menu distanza
-        document.getElementById("transportAnalysisControls").style.display = "block"; // Mostra il menu trasporto pubblico
+        resetAll();
+        document.getElementById("transportAnalysisControls").style.display = "block"; // ✅ Mostra TRASPORTI
+        comuniLayer.setVisible(false);
+        nucleiLayer.setVisible(false);
+        regioneLayer.setVisible(false)
+        romaLayer.setVisible(true);
+        perimetroRomaLayer.setVisible(true);
+        document.getElementById('transportAnalysisControls').style.display = "block";
+        document.getElementById('controls').style.display = "none";
+        document.getElementById('healthAnalysisControls').style.display = "none";
+
+        // 🔍 Zoom sulla provincia di Roma
+        romaLayer.getSource().on('change', function () {
+    if (romaLayer.getSource().getState() === 'ready') {
+        const extent = romaLayer.getSource().getExtent();
+        if (!extent || extent.every(isNaN)) return;
+
+       map.getView().fit(extent, {
+            duration: 800,
+            padding: [100, 50, 30, 50],  // TOP, RIGHT, BOTTOM, LEFT
+            maxZoom: 11
+        });
+    }
+});
     });
 }
+
 
 /**
  * 🔥 Inizializza gli eventi della UI
@@ -33,6 +78,12 @@ export function setupUIEvents(comuneData, nucleiData) {
         }
     });
 
+    document.getElementById('searchComuneSalute').addEventListener('keypress', function (event) {
+        if (event.key === 'Enter') {
+            searchComune(map, comuniLayer, this.value);
+        }
+    });
+
     function checkFilters() {
         const educationFilter = document.getElementById('educationFilter').value;
         const modeFilter = document.getElementById('modeFilter').value;
@@ -46,19 +97,62 @@ export function setupUIEvents(comuneData, nucleiData) {
     }
 
     function checkFilters1() {
-        const educationFilter = document.getElementById('educationFilter1').value;
+        const tipoFilter = document.getElementById('tipo').value;
+        const modalitaSelect = document.getElementById('modFilterContainer1');
+        const educationSelect = document.getElementById('educationFilterContainer1');
+        const education = document.getElementById('educationFilter1');
+        const health = document.getElementById('healthFilter1');
+        const mode = document.getElementById('modalita');
+        const healthSelect = document.getElementById('healthFilterContainer1');
         const extraFilterContainer = document.getElementById('extraFilterContainer1');
 
-        if (educationFilter) {  
-            extraFilterContainer.style.display = "block";  // 🔥 Mostra il secondo menu solo se entrambi i filtri sono selezionati
+
+        if (tipoFilter === "SA") {
+            // EDUCAZIONE
+            educationSelect.style.display = "block";
+
+            if (education.value) {
+                modalitaSelect.style.display = "block";
+
+                if(mode.value){
+                    extraFilterContainer.style.display = "block";
+                }
+            }
+
+        } else if (tipoFilter === "ED") {
+            
+            healthSelect.style.display = "block";
+
+            if (health.value) {
+                modalitaSelect.style.display = "block";
+
+                if(mode.value){
+                    extraFilterContainer.style.display = "block";
+                }
+            }
+    }
+    }
+
+    function checkHealthFilters() {
+        const healthFilter = document.getElementById('healthFilter').value;
+        const modeFilter = document.getElementById('healthModeFilter').value;
+        const container = document.getElementById('extraHealthFilterContainer');
+    
+        if (healthFilter && modeFilter) {
+            container.style.display = "block";
         } else {
-            extraFilterContainer.style.display = "none";   // ❌ Nasconde il secondo menu se manca uno dei due
+            container.style.display = "none";
         }
     }
 
     document.getElementById('educationFilter').addEventListener('change', checkFilters);
     document.getElementById('modeFilter').addEventListener('change', checkFilters);
     document.getElementById('educationFilter1').addEventListener('change', checkFilters1);
+    document.getElementById('healthFilter').addEventListener('change', checkHealthFilters);
+    document.getElementById('healthModeFilter').addEventListener('change', checkHealthFilters);
+    document.getElementById('healthFilter1').addEventListener('change', checkFilters1);
+    document.getElementById('tipo').addEventListener('change', checkFilters1);
+    document.getElementById('modalita').addEventListener('change', checkFilters1);
 
     document.getElementById('resetFilters').addEventListener('click', function () {
         document.getElementById('searchComune').value = "";
@@ -97,16 +191,29 @@ export function setupUIEvents(comuneData, nucleiData) {
             let color = 'rgba(255, 255, 255, 0)';
             feature.set('originalColor', color);
         });
-    
-        
-         // Imposta i layer iniziali
-        nucleiLayer.setVisible(false); // ❌ Nuclei inizialmente nascosti
-        comuniLayer.setVisible(true);  // 🔥 Mostrati di default
-        document.querySelector('input[name="layer"][value="comuni"]').checked = true;
-    
-        console.log("🔄 Filtri resettati e mappa ripristinata!");
-    });
+   });
 
+        document.getElementById('resetHealthFilters').addEventListener('click', function () {
+            document.getElementById('searchComuneSalute').value = "";
+            document.getElementById('healthFilter').value = "";
+            document.getElementById('healthModeFilter').value = "";
+            document.getElementById('extraHealthFilter').value = "";
+            document.getElementById('extraHealthFilterContainer').style.display = "none";
+            infoBox.style.display = "none";
+            document.getElementById('color-bar-container').style.display = "none";
+
+            comuniLayer.getSource().getFeatures().forEach(feature => {
+                feature.setStyle(defaultStyle);
+                let color = 'rgba(255, 255, 255, 0)';
+                feature.set('originalColor', color);
+            });
+
+            nucleiLayer.setVisible(false);
+            comuniLayer.setVisible(true);
+            document.querySelector('input[name="layer"][value="comuni"]').checked = true;
+
+            console.log("🔄 Filtri SALUTE resettati e mappa ripristinata!");
+        });
 
     window.addEventListener('load', function () {
         console.log("🔄 Reset della mappa e dei filtri all'avvio!");
@@ -136,6 +243,11 @@ export function setupUIEvents(comuneData, nucleiData) {
             let color = 'rgba(255, 255, 255, 0)'; // Colore originale
             feature.set('originalColor', color);
         });
+
+        document.getElementById('healthFilter').value = "";
+        document.getElementById('healthModeFilter').value = "";
+        document.getElementById('extraHealthFilter').value = "";
+        document.getElementById('extraHealthFilterContainer').style.display = "none";
     
         console.log("✅ Reset completato!");
     });

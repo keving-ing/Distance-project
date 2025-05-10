@@ -8,7 +8,7 @@ from pyproj import Transformer
 
 #AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E
 
-# === CONFIGURAZIONI ===
+# === CONFIGURATION ===
 GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
 CACHE_FILE = "google_distances_hospitals_cache_transit_ROMA.json"
 MAX_ELEMENTS = 100
@@ -21,7 +21,7 @@ def convert_utm_to_wgs84(easting, northing):
     lon, lat = transformer.transform(easting, northing)
     return lat, lon
 
-# === 1️⃣ Caricamento Dati ===
+# === 1️⃣ Loading Data ===
 with open("C:/Users/vehico/Documents/Thesis/Distance-project/hospital_by_municipality_with_nuclei_ROMA_OK.json", "r", encoding="utf-8") as f:
     hospital_data = json.load(f)
 
@@ -29,7 +29,7 @@ pop_df = pd.read_csv("C:/Users/vehico/Documents/Thesis/Distance-project/Raw_data
 pop_df = pop_df.rename(columns={"ITTER107": "PRO_COM", "Territorio": "Comune", "Value": "Popolazione"})
 pop_df["Comune"] = pop_df["Comune"].str.upper()
 
-# Filtrare solo comuni con meno di 40.000 abitanti
+# Filter only municipalities with less than 40,000 inhabitants
 filtered_comuni = pop_df[pop_df["Popolazione"] < 40000]["Comune"].tolist()
 
 with open("C:/Users/vehico/Documents/centroides_rivisitato.geojson", "r", encoding="utf-8") as f:
@@ -38,7 +38,7 @@ with open("C:/Users/vehico/Documents/centroides_rivisitato.geojson", "r", encodi
 df_ospedali = pd.read_csv("C:/Users/vehico/Documents/Thesis/Distance-project/Raw_data_processing/Raw_data/elencoospedali.csv")
 df_ospedali['comune'] = df_ospedali['comune'].str.upper()
 
-# === 2️⃣ Preparazione Centroidi Nuclei Urbani ===
+# === 2️⃣ Preparing Urban Nuclei Centroids ===
 nuclei_centroidi = {}
 for feature in centroidi_data["features"]:
     props = feature["properties"]
@@ -49,14 +49,14 @@ for feature in centroidi_data["features"]:
         lat, lon = convert_utm_to_wgs84(easting, northing)
         nuclei_centroidi[loc_id] = (lat, lon)
 
-# === 3️⃣ Carica Cache ===
+# === 3️⃣ Load Cache ===
 if os.path.exists(CACHE_FILE):
     with open(CACHE_FILE, "r", encoding="utf-8") as f:
         distance_cache = json.load(f)
 else:
     distance_cache = {}
 
-# === 4️⃣ Funzione Chiamata API ===
+# === 4️⃣ API call function ===
 
 elementi = 0
 def get_distance_matrix(origins, destinations):
@@ -72,7 +72,7 @@ def get_distance_matrix(origins, destinations):
         "destinations": "|".join(destinations),
         "key": GOOGLE_MAPS_API_KEY,
         "mode": "transit",
-        "departure_time": 1745499600  # Considera il traffico attuale
+        "departure_time": 1745499600  # Consider current traffic
     }
 
     elementi = elementi + (len(origins)*len(destinations))
@@ -81,7 +81,7 @@ def get_distance_matrix(origins, destinations):
     response = requests.get("https://maps.googleapis.com/maps/api/distancematrix/json", params=params)
     data = response.json()
 
-    time.sleep(1)  # Rispetta i limiti API
+    time.sleep(1)  # Respect API limits
 
     if data["status"] == "OK":
         distance_cache[cache_key] = data
@@ -89,10 +89,10 @@ def get_distance_matrix(origins, destinations):
             json.dump(distance_cache, f, indent=4)
         return data
     else:
-        print(f"⚠️ Errore API: {data}")
+        print(f"⚠️ API Error: {data}")
         return None
 
-# === 5️⃣ Calcolo Distanze ===
+# === 5️⃣ Calculating Distances ===
 for comune, data in hospital_data.items():
     if comune not in filtered_comuni:
         continue
@@ -103,7 +103,6 @@ for comune, data in hospital_data.items():
     if not nuclei or not ospedali_ids:
         continue
 
-
     origin_coords = [
         f"{lat},{lon}"
         for n in nuclei
@@ -111,10 +110,9 @@ for comune, data in hospital_data.items():
         for lat, lon in [nuclei_centroidi[str(int(float(n)))]]
     ]
 
-
-    # Prepara destinazioni come stringhe "Nome, Comune, Provincia"
+    # Prepare destinations as strings "Name, Municipality, Province"
     destination_strs = []
-    ospedale_map = {}  # Mappa per risalire agli ID
+    ospedale_map = {}  # Map to trace back IDs
 
     for osp_id in ospedali_ids:
         osp_row = df_ospedali[df_ospedali['Id_struttura'] == osp_id]
@@ -131,10 +129,9 @@ for comune, data in hospital_data.items():
 
     for origin_batch, destination_batch in itertools.product(origin_batches, destination_batches):
         if len(origin_batch) * len(destination_batch) > MAX_ELEMENTS:
-            continue  # (Per semplicità ora saltiamo, puoi gestire i sotto-batch come nello script originale)
+            continue  # (For simplicity, skipping now; you can handle sub-batches as in the original script)
 
         result = get_distance_matrix(origin_batch, destination_batch)
-
 
         if not result or "rows" not in result:
             continue
@@ -161,13 +158,12 @@ for comune, data in hospital_data.items():
                     }
                 else:
                     log_message = f"NO RESULT for: {origin} - {destination}\n"
-                    print(log_message)  # Stampa in console
+                    print(log_message)  # Print to console
                     with open("distance_matrix_errors_hospital_ROMA.log", "a", encoding="utf-8") as f:
-                        f.write(log_message)  # Scrive nel file
+                        f.write(log_message)  # Write to file
 
-
-# === 6️⃣ Salvataggio Output ===
+# === 6️⃣ Saving Output ===
 with open("hospital_by_municipality_with_distances_transit_ROMA.json", "w", encoding="utf-8") as f:
     json.dump(hospital_data, f, indent=4)
 
-print("✅ Distanze calcolate e file salvato! - elementi: ", elementi)
+print("✅ Distances calculated and file saved! - elements: ", elementi)

@@ -1,0 +1,5075 @@
+{
+    "AFFILE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.8843873,
+                "LONG": 13.0972683
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.8843873,
+                "LONG": 13.0972683
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.8822263,
+                "LONG": 13.100403
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.8822263,
+                "LONG": 13.100403
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "NUCLEOS": [
+            5800110001.0,
+            5800126602.0,
+            5800126701.0,
+            5800140000.0
+        ]
+    },
+    "AGOSTA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9807073,
+                "LONG": 13.0335235
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9807073,
+                "LONG": 13.0335235
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9808735,
+                "LONG": 13.0334311
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "NUCLEOS": [
+            5800210001.0,
+            5800210002.0,
+            5800220002.0,
+            5800220003.0,
+            5800240000.0
+        ]
+    },
+    "ALBANO LAZIALE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AX006",
+                "LAT": 41.6973786,
+                "LONG": 12.6244023
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AX006",
+                "LAT": 41.722796,
+                "LONG": 12.6096064
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AY002",
+                "LAT": 41.6988326,
+                "LONG": 12.6496668
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AY002",
+                "LAT": 41.6972395,
+                "LONG": 12.6513014
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8GB00T",
+                "LAT": 41.7252366,
+                "LONG": 12.6556394
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8GB00T",
+                "LAT": 41.7266811,
+                "LONG": 12.6631464
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8GB00T",
+                "LAT": 41.7252366,
+                "LONG": 12.6556394
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8GB00T",
+                "LAT": 41.7266811,
+                "LONG": 12.6631464
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AX006",
+                "LAT": 41.7225825,
+                "LONG": 12.6122039
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AY002",
+                "LAT": 41.6940616,
+                "LONG": 12.6488292
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AX006",
+                "LAT": 41.6973786,
+                "LONG": 12.6244023
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8GB00T",
+                "LAT": 41.7277776,
+                "LONG": 12.6646983
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AX006",
+                "LAT": 41.7231735,
+                "LONG": 12.6060371
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AY002",
+                "LAT": 41.6958805,
+                "LONG": 12.6498104
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8GB00T",
+                "LAT": 41.7266811,
+                "LONG": 12.6631464
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AX006",
+                "LAT": 41.7257871,
+                "LONG": 12.608252
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AY002",
+                "LAT": 41.6958805,
+                "LONG": 12.6498104
+            }
+        ],
+        "NUCLEOS": [
+            5800310001.0,
+            5800310002.0,
+            5800320002.0,
+            5800320007.0,
+            5800320008.0,
+            5800320014.0,
+            5800320010.0,
+            5800320011.0,
+            5800340000.0
+        ]
+    },
+    "ALLUMIERE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89400P",
+                "LAT": 42.1562996,
+                "LONG": 11.9015434
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89400P",
+                "LAT": 42.1553006,
+                "LONG": 11.9047215
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89400P",
+                "LAT": 42.1575425,
+                "LONG": 11.9090099
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89400P",
+                "LAT": 42.1494495,
+                "LONG": 11.9362193
+            }
+        ],
+        "NUCLEOS": [
+            5800410001.0,
+            5800410002.0,
+            5800440000.0
+        ]
+    },
+    "ANGUILLARA SABAZIA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87200T",
+                "LAT": 42.0892368,
+                "LONG": 12.2667969
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87200T",
+                "LAT": 42.0904343,
+                "LONG": 12.2712892
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87200T",
+                "LAT": 42.0695184,
+                "LONG": 12.2949521
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87200T",
+                "LAT": 42.067839,
+                "LONG": 12.292235
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87200T",
+                "LAT": 42.0893234,
+                "LONG": 12.2683641
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87200T",
+                "LAT": 42.0904343,
+                "LONG": 12.2712892
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87200T",
+                "LAT": 42.0875305,
+                "LONG": 12.2731567
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87200T",
+                "LAT": 42.0875305,
+                "LONG": 12.2731567
+            }
+        ],
+        "NUCLEOS": [
+            5800510001.0,
+            5800510002.0,
+            5800520001.0,
+            5800520007.0,
+            5800520008.0,
+            5800520009.0,
+            5800520005.0,
+            5800520006.0,
+            5800520004.0,
+            5800520003.0,
+            5800526702.0,
+            5800540000.0
+        ]
+    },
+    "ANTICOLI CORRADO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.025551,
+                "LONG": 12.9975801
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.00946763000294,
+                "LONG": 12.990528557437909,
+                "LAT_IN": 42.1965664,
+                "LONG_IN": 12.3102435
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.00946763000294,
+                "LONG": 12.990528557437909,
+                "LAT_IN": 42.1965664,
+                "LONG_IN": 12.3102435
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [],
+        "NUCLEOS": [
+            5800610001.0,
+            5800640000.0
+        ]
+    },
+    "ARCINAZZO ROMANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.8843873,
+                "LONG": 13.0972683
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.8487759,
+                "LONG": 13.1890612
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.8799707,
+                "LONG": 13.1142273
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.8798701,
+                "LONG": 13.1143131
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "FRIC80700X",
+                "LAT": 41.8307334,
+                "LONG": 13.1397546
+            }
+        ],
+        "NUCLEOS": [
+            5800810001.0,
+            5800810002.0,
+            5800840000.0
+        ]
+    },
+    "ARICCIA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A3002",
+                "LAT": 41.7194803,
+                "LONG": 12.6717001
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A3002",
+                "LAT": 41.7195393,
+                "LONG": 12.659578
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A3002",
+                "LAT": 41.7255969,
+                "LONG": 12.6670765
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A3002",
+                "LAT": 41.7211357,
+                "LONG": 12.6729714
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A3002",
+                "LAT": 41.6774633,
+                "LONG": 12.6532594
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A3002",
+                "LAT": 41.7193548,
+                "LONG": 12.6718688
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A3002",
+                "LAT": 41.7194444,
+                "LONG": 12.6599934
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A3002",
+                "LAT": 41.7250521,
+                "LONG": 12.6665173
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A3002",
+                "LAT": 41.6774633,
+                "LONG": 12.6532594
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A3002",
+                "LAT": 41.7211357,
+                "LONG": 12.6729714
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A3002",
+                "LAT": 41.7197803,
+                "LONG": 12.6730675
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A3002",
+                "LAT": 41.7197803,
+                "LONG": 12.6730675
+            }
+        ],
+        "NUCLEOS": [
+            5800910001.0,
+            5800926702.0,
+            5800926701.0,
+            5800940000.0
+        ]
+    },
+    "ARSOLI": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.038094,
+                "LONG": 13.0147363
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.042107,
+                "LONG": 13.01586
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.04141329999999,
+                "LONG": 13.0161213
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [],
+        "NUCLEOS": [
+            5801010001.0,
+            5801040000.0
+        ]
+    },
+    "ARTENA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DB002",
+                "LAT": 41.7477045,
+                "LONG": 12.8750046
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DB002",
+                "LAT": 41.7308396,
+                "LONG": 12.8845575
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DB002",
+                "LAT": 41.7337841,
+                "LONG": 12.9330319
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DB002",
+                "LAT": 41.7520408,
+                "LONG": 12.8534819
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DB002",
+                "LAT": 41.7430999,
+                "LONG": 12.9128239
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DB002",
+                "LAT": 41.7531148,
+                "LONG": 12.8540845
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DB002",
+                "LAT": 41.7422344,
+                "LONG": 12.9125287
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DB002",
+                "LAT": 41.7398056,
+                "LONG": 12.8914909
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DB002",
+                "LAT": 41.7430999,
+                "LONG": 12.9128239
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DB002",
+                "LAT": 41.7431855,
+                "LONG": 12.9122533
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DB002",
+                "LAT": 41.7431855,
+                "LONG": 12.9122533
+            }
+        ],
+        "NUCLEOS": [
+            5801110001.0,
+            5801110004.0,
+            5801110002.0,
+            5801110005.0,
+            5801110003.0,
+            5801120204.0,
+            5801140000.0
+        ]
+    },
+    "BELLEGRA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AM006",
+                "LAT": 41.8817581,
+                "LONG": 13.029088
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AM006",
+                "LAT": 41.8817581,
+                "LONG": 13.029088
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AM006",
+                "LAT": 41.8796082,
+                "LONG": 13.029086
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AM006",
+                "LAT": 41.86359849999999,
+                "LONG": 13.0342341
+            }
+        ],
+        "NUCLEOS": [
+            5801210001.0,
+            5801220004.0,
+            5801220003.0,
+            5801226602.0,
+            5801240000.0
+        ]
+    },
+    "BRACCIANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8GJ002",
+                "LAT": 42.1021626,
+                "LONG": 12.1747502
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC871002",
+                "LAT": 42.1009293,
+                "LONG": 12.1588681
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC871002",
+                "LAT": 42.0994556,
+                "LONG": 12.175708
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC871002",
+                "LAT": 42.10022,
+                "LONG": 12.15851
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8GJ002",
+                "LAT": 42.1021626,
+                "LONG": 12.1747502
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8GJ002",
+                "LAT": 42.1014864,
+                "LONG": 12.171189
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8GJ002",
+                "LAT": 42.1021626,
+                "LONG": 12.1747502
+            }
+        ],
+        "NUCLEOS": [
+            5801310006.0,
+            5801310001.0,
+            5801310004.0,
+            5801310002.0,
+            5801310005.0,
+            5801310003.0,
+            5801320005.0,
+            5801320006.0,
+            5801320003.0,
+            5801326704.0,
+            5801340000.0
+        ]
+    },
+    "CAMERATA NUOVA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0181317,
+                "LONG": 13.1078343
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "NUCLEOS": [
+            5801410001.0,
+            5801426602.0,
+            5801440000.0
+        ]
+    },
+    "CAMPAGNANO DI ROMA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC86600E",
+                "LAT": 42.14083420000001,
+                "LONG": 12.3802111
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC86600E",
+                "LAT": 42.1407318,
+                "LONG": 12.3799705
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC86600E",
+                "LAT": 42.138129,
+                "LONG": 12.3803196
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC86600E",
+                "LAT": 42.138129,
+                "LONG": 12.3803196
+            }
+        ],
+        "NUCLEOS": [
+            5801510001.0,
+            5801520001.0,
+            5801520002.0,
+            5801520003.0,
+            5801540000.0
+        ]
+    },
+    "CANALE MONTERANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87300N",
+                "LAT": 42.13596649999999,
+                "LONG": 12.1022076
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87300N",
+                "LAT": 42.1389609,
+                "LONG": 12.1046942
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87300N",
+                "LAT": 42.1395385,
+                "LONG": 12.1049855
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87300N",
+                "LAT": 42.13596649999999,
+                "LONG": 12.1022076
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87300N",
+                "LAT": 42.1332564,
+                "LONG": 12.1271273
+            }
+        ],
+        "NUCLEOS": [
+            5801610001.0,
+            5801610002.0,
+            5801620005.0,
+            5801620004.0,
+            5801640000.0
+        ]
+    },
+    "CANTERANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9807073,
+                "LONG": 13.0335235
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9424522,
+                "LONG": 13.0373112
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9808735,
+                "LONG": 13.0334311
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "NUCLEOS": [
+            5801710001.0,
+            5801726701.0,
+            5801740000.0
+        ]
+    },
+    "CAPENA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC868006",
+                "LAT": 42.1394994,
+                "LONG": 12.5404698
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC868006",
+                "LAT": 42.1259395,
+                "LONG": 12.5814697
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC868006",
+                "LAT": 42.1392678,
+                "LONG": 12.5420903
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC868006",
+                "LAT": 42.0854626,
+                "LONG": 12.5600245
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC868006",
+                "LAT": 42.1394566,
+                "LONG": 12.5423151
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC868006",
+                "LAT": 42.1394566,
+                "LONG": 12.5423151
+            }
+        ],
+        "NUCLEOS": [
+            5801810001.0,
+            5801810002.0,
+            5801820001.0,
+            5801810003.0,
+            5801820005.0,
+            5801820004.0,
+            5801820003.0,
+            5801830001.0,
+            5801840000.0
+        ]
+    },
+    "CAPRANICA PRENESTINA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DR00R",
+                "LAT": 41.8447317,
+                "LONG": 12.8952022
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC892003",
+                "LAT": 41.9069547,
+                "LONG": 12.8877942
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC892003",
+                "LAT": 41.9203308,
+                "LONG": 12.8743375
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.82136080000001,
+                "LONG": 12.9749855
+            }
+        ],
+        "NUCLEOS": [
+            5801910001.0,
+            5801910002.0,
+            5801920002.0,
+            5801940000.0
+        ]
+    },
+    "CARPINETO ROMANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6037118,
+                "LONG": 13.0873277
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6038428,
+                "LONG": 13.0873181
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6048453,
+                "LONG": 13.0838436
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "LTIC80800B",
+                "LAT": 41.5255629,
+                "LONG": 13.1483641
+            }
+        ],
+        "NUCLEOS": [
+            5802010001.0,
+            5802040000.0
+        ]
+    },
+    "CASAPE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AB006",
+                "LAT": 41.8910234,
+                "LONG": 12.8903796
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC892003",
+                "LAT": 41.9069547,
+                "LONG": 12.8877942
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC892003",
+                "LAT": 41.9203308,
+                "LONG": 12.8743375
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.82136080000001,
+                "LONG": 12.9749855
+            }
+        ],
+        "NUCLEOS": [
+            5802110001.0,
+            5802140000.0
+        ]
+    },
+    "CASTEL GANDOLFO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A500N",
+                "LAT": 41.7379315,
+                "LONG": 12.6221731
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A500N",
+                "LAT": 41.7098685,
+                "LONG": 12.6374227
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A500N",
+                "LAT": 41.7405615,
+                "LONG": 12.6410601
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A500N",
+                "LAT": 41.7442777,
+                "LONG": 12.6461682
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A500N",
+                "LAT": 41.7442777,
+                "LONG": 12.6461682
+            }
+        ],
+        "NUCLEOS": [
+            5802210001.0,
+            5802210002.0,
+            5802220001.0,
+            5802240000.0
+        ]
+    },
+    "CASTEL MADAMA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BF004",
+                "LAT": 41.9717868,
+                "LONG": 12.8667949
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BF004",
+                "LAT": 41.9711515,
+                "LONG": 12.8654125
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BF004",
+                "LAT": 41.975758,
+                "LONG": 12.8695876
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BF004",
+                "LAT": 41.975758,
+                "LONG": 12.8695876
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BF004",
+                "LAT": 41.972332,
+                "LONG": 12.867176
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BF004",
+                "LAT": 41.972332,
+                "LONG": 12.867176
+            }
+        ],
+        "NUCLEOS": [
+            5802310001.0,
+            5802310002.0,
+            5802320002.0,
+            5802320005.0,
+            5802320004.0,
+            5802326603.0,
+            5802340000.0
+        ]
+    },
+    "CASTELNUOVO DI PORTO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88100L",
+                "LAT": 42.1269162,
+                "LONG": 12.5000311
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88100L",
+                "LAT": 42.1270312,
+                "LONG": 12.5007191
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88100L",
+                "LAT": 42.0854626,
+                "LONG": 12.5600245
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88100L",
+                "LAT": 42.1278422,
+                "LONG": 12.5007398
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88100L",
+                "LAT": 42.1270312,
+                "LONG": 12.5007191
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88100L",
+                "LAT": 42.1269162,
+                "LONG": 12.5000311
+            }
+        ],
+        "NUCLEOS": [
+            5802410001.0,
+            5802410002.0,
+            5802420001.0,
+            5802420005.0,
+            5802420006.0,
+            5802420004.0,
+            5802420003.0,
+            5802440000.0
+        ]
+    },
+    "CASTEL SAN PIETRO ROMANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DR00R",
+                "LAT": 41.8447317,
+                "LONG": 12.8952022
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DR00R",
+                "LAT": 41.8447317,
+                "LONG": 12.8952022
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DR00R",
+                "LAT": 41.8392766,
+                "LONG": 12.8863343
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DR00R",
+                "LAT": 41.8392766,
+                "LONG": 12.8863343
+            }
+        ],
+        "NUCLEOS": [
+            5802510001.0,
+            5802510002.0,
+            5802520002.0,
+            5802510003.0,
+            5802526601.0,
+            5802540000.0
+        ]
+    },
+    "CAVE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CD003",
+                "LAT": 41.8174623,
+                "LONG": 12.9356157
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CD003",
+                "LAT": 41.8177505,
+                "LONG": 12.9348789
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CD003",
+                "LAT": 41.8207074,
+                "LONG": 12.9301074
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CD003",
+                "LAT": 41.8177505,
+                "LONG": 12.9348789
+            }
+        ],
+        "NUCLEOS": [
+            5802610001.0,
+            5802610002.0,
+            5802620006.0,
+            5802620004.0,
+            5802640000.0
+        ]
+    },
+    "CERRETO LAZIALE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.9450858,
+                "LONG": 12.9824056
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.9047974,
+                "LONG": 12.958335
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.9047974,
+                "LONG": 12.958335
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [],
+        "NUCLEOS": [
+            5802710001.0,
+            5802710002.0,
+            5802740000.0
+        ]
+    },
+    "CERVARA DI ROMA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9293519,
+                "LONG": 13.0928266
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9275895,
+                "LONG": 13.0934048
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.04141329999999,
+                "LONG": 13.0161213
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "NUCLEOS": [
+            5802810001.0,
+            5802810002.0,
+            5802820001.0,
+            5802820006.0,
+            5802826603.0,
+            5802826705.0,
+            5802826602.0,
+            5802840000.0
+        ]
+    },
+    "CERVETERI": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC891007",
+                "LAT": 41.9988398,
+                "LONG": 12.0888321
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DD00N",
+                "LAT": 41.9901522,
+                "LONG": 12.0884183
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DD00N",
+                "LAT": 41.9918855,
+                "LONG": 12.0856891
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC891007",
+                "LAT": 41.9965789,
+                "LONG": 12.0974393
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DC00T",
+                "LAT": 41.9862361,
+                "LONG": 12.0802567
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC891007",
+                "LAT": 41.9847478,
+                "LONG": 12.0465069
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC891007",
+                "LAT": 41.9965789,
+                "LONG": 12.0974393
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC891007",
+                "LAT": 41.9965789,
+                "LONG": 12.0974393
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC891007",
+                "LAT": 41.9748667,
+                "LONG": 12.1609491
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DC00T",
+                "LAT": 41.9901522,
+                "LONG": 12.0884183
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DC00T",
+                "LAT": 41.9879136,
+                "LONG": 12.0903628
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DD00N",
+                "LAT": 41.9912039,
+                "LONG": 12.0995032
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC891007",
+                "LAT": 41.99920209052865,
+                "LONG": 12.018331106336278,
+                "LAT_IN": 41.9805972,
+                "LONG_IN": 12.1929682
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC891007",
+                "LAT": 41.981567513608255,
+                "LONG": 12.062563298663026,
+                "LAT_IN": 42.0253087,
+                "LONG_IN": 12.0299274
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC891007",
+                "LAT": 41.9790856,
+                "LONG": 12.0623641
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DC00T",
+                "LAT": 41.9965789,
+                "LONG": 12.0974393
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DD00N",
+                "LAT": 41.9912039,
+                "LONG": 12.0995032
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC891007",
+                "LAT": 41.9842737,
+                "LONG": 12.0459452
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DC00T",
+                "LAT": 41.9965789,
+                "LONG": 12.0974393
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DD00N",
+                "LAT": 41.9912039,
+                "LONG": 12.0995032
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC891007",
+                "LAT": 41.9847478,
+                "LONG": 12.0465069
+            }
+        ],
+        "NUCLEOS": [
+            5802910006.0,
+            5802910001.0,
+            5802910002.0,
+            5802910004.0,
+            5802920001.0,
+            5802910005.0,
+            5802910003.0,
+            5802910007.0,
+            5802920014.0,
+            5802920005.0,
+            5802920013.0,
+            5802920006.0,
+            5802920011.0,
+            5802920004.0,
+            5802920003.0,
+            5802926620.0,
+            5802926612.0,
+            5802920019.0,
+            5802926622.0,
+            5802926607.0,
+            5802926615.0,
+            5802926609.0,
+            5802926610.0,
+            5802926616.0,
+            5802926717.0,
+            5802940000.0
+        ]
+    },
+    "CICILIANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.9604172,
+                "LONG": 12.9384317
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.9047974,
+                "LONG": 12.958335
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.9047974,
+                "LONG": 12.958335
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BF004",
+                "LAT": 41.972332,
+                "LONG": 12.867176
+            }
+        ],
+        "NUCLEOS": [
+            5803010001.0,
+            5803020001.0,
+            5803040000.0
+        ]
+    },
+    "CINETO ROMANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0274054,
+                "LONG": 12.9214063
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0274054,
+                "LONG": 12.9214063
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.025551,
+                "LONG": 12.9975801
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [],
+        "NUCLEOS": [
+            5803110001.0,
+            5803120001.0,
+            5803140000.0
+        ]
+    },
+    "CIVITELLA SAN PAOLO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.1968688,
+                "LONG": 12.5801656
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.1968688,
+                "LONG": 12.5801656
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.195692,
+                "LONG": 12.579477
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.1968688,
+                "LONG": 12.5801656
+            }
+        ],
+        "NUCLEOS": [
+            5803310001.0,
+            5803320002.0,
+            5803326601.0,
+            5803340000.0
+        ]
+    },
+    "COLLEFERRO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C200B",
+                "LAT": 41.7302048,
+                "LONG": 13.0069557
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C200B",
+                "LAT": 41.7413557,
+                "LONG": 13.0004548
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C200B",
+                "LAT": 41.7282871,
+                "LONG": 13.0082684
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DG005",
+                "LAT": 41.72502137003421,
+                "LONG": 13.001361002957937,
+                "LAT_IN": 41.9126146,
+                "LONG_IN": 12.4599045
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DG005",
+                "LAT": 41.7237806,
+                "LONG": 13.0008103
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C200B",
+                "LAT": 41.7303567,
+                "LONG": 13.0071452
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C200B",
+                "LAT": 41.7281634,
+                "LONG": 13.0092999
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DG005",
+                "LAT": 41.7244011,
+                "LONG": 13.0056777
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DG005",
+                "LAT": 41.72545059999999,
+                "LONG": 13.0017631
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C200B",
+                "LAT": 41.7413557,
+                "LONG": 13.0004548
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C200B",
+                "LAT": 41.7257431,
+                "LONG": 13.008884
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DG005",
+                "LAT": 41.7294843,
+                "LONG": 13.0049577
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C200B",
+                "LAT": 41.7257431,
+                "LONG": 13.008884
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DG005",
+                "LAT": 41.7244011,
+                "LONG": 13.0056777
+            }
+        ],
+        "NUCLEOS": [
+            5803410001.0,
+            5803420002.0,
+            5803420001.0,
+            5803410003.0,
+            5803430003.0,
+            5803430002.0,
+            5803430001.0,
+            5803440000.0
+        ]
+    },
+    "COLONNA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AT005",
+                "LAT": 41.833292,
+                "LONG": 12.7520712
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AT005",
+                "LAT": 41.833292,
+                "LONG": 12.7520712
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AT005",
+                "LAT": 41.833292,
+                "LONG": 12.7520712
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AC002",
+                "LAT": 41.8054844,
+                "LONG": 12.7385744
+            }
+        ],
+        "NUCLEOS": [
+            5803510001.0,
+            5803510002.0,
+            5803526601.0,
+            5803540000.0
+        ]
+    },
+    "FIANO ROMANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87400D",
+                "LAT": 42.1715237,
+                "LONG": 12.590544
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87400D",
+                "LAT": 42.1619626,
+                "LONG": 12.5881222
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87400D",
+                "LAT": 42.1717455,
+                "LONG": 12.5881118
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87400D",
+                "LAT": 42.1603088,
+                "LONG": 12.5886676
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87400D",
+                "LAT": 42.1713654,
+                "LONG": 12.5897141
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87400D",
+                "LAT": 42.1547044,
+                "LONG": 12.5916959
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87400D",
+                "LAT": 42.1713654,
+                "LONG": 12.5897141
+            }
+        ],
+        "NUCLEOS": [
+            5803610001.0,
+            5803640000.0
+        ]
+    },
+    "FILACCIANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.2554848,
+                "LONG": 12.6033508
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.2303593,
+                "LONG": 12.5967814
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.2368959,
+                "LONG": 12.6177545
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RIIC80800X",
+                "LAT": 42.3311634,
+                "LONG": 12.6048341
+            }
+        ],
+        "NUCLEOS": [
+            5803710001.0,
+            5803740000.0
+        ]
+    },
+    "FORMELLO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88500X",
+                "LAT": 42.0745988,
+                "LONG": 12.3786984
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88500X",
+                "LAT": 42.0764646,
+                "LONG": 12.3944974
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88500X",
+                "LAT": 42.0808869,
+                "LONG": 12.399838
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88500X",
+                "LAT": 42.0742982,
+                "LONG": 12.3782535
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88500X",
+                "LAT": 42.0740888,
+                "LONG": 12.3951969
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88500X",
+                "LAT": 42.0808869,
+                "LONG": 12.399838
+            }
+        ],
+        "NUCLEOS": [
+            5803810001.0,
+            5803810002.0,
+            5803820001.0,
+            5803820007.0,
+            5803820005.0,
+            5803820014.0,
+            5803820013.0,
+            5803830001.0,
+            5803840000.0
+        ]
+    },
+    "FRASCATI": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C3007",
+                "LAT": 41.8049178,
+                "LONG": 12.6695917
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DE00D",
+                "LAT": 41.8200765,
+                "LONG": 12.6891299
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C3007",
+                "LAT": 41.8063308,
+                "LONG": 12.6742405
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C3007",
+                "LAT": 41.8160749,
+                "LONG": 12.6446103
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DE00D",
+                "LAT": 41.8105954,
+                "LONG": 12.679135
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DE00D",
+                "LAT": 41.8185235,
+                "LONG": 12.6895288
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C3007",
+                "LAT": 41.8063308,
+                "LONG": 12.6742405
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C3007",
+                "LAT": 41.8160749,
+                "LONG": 12.6446103
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DE00D",
+                "LAT": 41.8176556,
+                "LONG": 12.6862185
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DE00D",
+                "LAT": 41.8086488,
+                "LONG": 12.6824347
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DE00D",
+                "LAT": 41.8326435,
+                "LONG": 12.6767183
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C3007",
+                "LAT": 41.808434,
+                "LONG": 12.6761326
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DE00D",
+                "LAT": 41.8085679,
+                "LONG": 12.6825482
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8C3007",
+                "LAT": 41.8063308,
+                "LONG": 12.6742405
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DE00D",
+                "LAT": 41.8085679,
+                "LONG": 12.6825482
+            }
+        ],
+        "NUCLEOS": [
+            5803910001.0,
+            5803930001.0,
+            5803940000.0
+        ]
+    },
+    "GALLICANO NEL LAZIO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AB006",
+                "LAT": 41.8642808,
+                "LONG": 12.8334946
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AB006",
+                "LAT": 41.8678159,
+                "LONG": 12.8263929
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AB006",
+                "LAT": 41.86936,
+                "LONG": 12.82358
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AB006",
+                "LAT": 41.86936,
+                "LONG": 12.82358
+            }
+        ],
+        "NUCLEOS": [
+            5804010001.0,
+            5804010002.0,
+            5804020003.0,
+            5804026604.0,
+            5804026606.0,
+            5804040000.0
+        ]
+    },
+    "GAVIGNANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DG005",
+                "LAT": 41.7007183,
+                "LONG": 13.0487397
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DG005",
+                "LAT": 41.7011511,
+                "LONG": 13.0483156
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DG005",
+                "LAT": 41.6991524,
+                "LONG": 13.0507479
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6897341,
+                "LONG": 13.0203345
+            }
+        ],
+        "NUCLEOS": [
+            5804110001.0,
+            5804120005.0,
+            5804120008.0,
+            5804120009.0,
+            5804120010.0,
+            5804120006.0,
+            5804120011.0,
+            5804140000.0
+        ]
+    },
+    "GENAZZANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.7683188,
+                "LONG": 13.1426783
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.82136080000001,
+                "LONG": 12.9749855
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.82649194115472,
+                "LONG": 12.973599587497544,
+                "LAT_IN": 41.8530216,
+                "LONG_IN": 12.5345171
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.82136080000001,
+                "LONG": 12.9749855
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.82136080000001,
+                "LONG": 12.9749855
+            }
+        ],
+        "NUCLEOS": [
+            5804210001.0,
+            5804220002.0,
+            5804220003.0,
+            5804226601.0,
+            5804226604.0,
+            5804226706.0,
+            5804230001.0,
+            5804226707.0,
+            5804226708.0,
+            5804240000.0
+        ]
+    },
+    "GENZANO DI ROMA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BA001",
+                "LAT": 41.692798,
+                "LONG": 12.6886945
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BA001",
+                "LAT": 41.650303,
+                "LONG": 12.7145172
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BA001",
+                "LAT": 41.7053846,
+                "LONG": 12.6889227
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BJ00G",
+                "LAT": 41.7095967,
+                "LONG": 12.6891414
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BJ00G",
+                "LAT": 41.7012456,
+                "LONG": 12.6953715
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BA001",
+                "LAT": 41.7048355,
+                "LONG": 12.6885431
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BA001",
+                "LAT": 41.692798,
+                "LONG": 12.6886945
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BA001",
+                "LAT": 41.650303,
+                "LONG": 12.7145172
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BJ00G",
+                "LAT": 41.7098055,
+                "LONG": 12.6891956
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BJ00G",
+                "LAT": 41.7010023,
+                "LONG": 12.6969467
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BA001",
+                "LAT": 41.7047693,
+                "LONG": 12.687065
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BJ00G",
+                "LAT": 41.7108728,
+                "LONG": 12.6887511
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BA001",
+                "LAT": 41.7047693,
+                "LONG": 12.687065
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BJ00G",
+                "LAT": 41.7043689,
+                "LONG": 12.6924063
+            }
+        ],
+        "NUCLEOS": [
+            5804310001.0,
+            5804310002.0,
+            5804320002.0,
+            5804320001.0,
+            5804310003.0,
+            5804320003.0,
+            5804326705.0,
+            5804326704.0,
+            5804330001.0,
+            5804340000.0
+        ]
+    },
+    "GERANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.9321203,
+                "LONG": 12.9903256
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.9047974,
+                "LONG": 12.958335
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.9047974,
+                "LONG": 12.958335
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "NUCLEOS": [
+            5804410001.0,
+            5804426602.0,
+            5804440000.0
+        ]
+    },
+    "GORGA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6555741,
+                "LONG": 13.1066944
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6555741,
+                "LONG": 13.1066944
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "FRIC84500P",
+                "LAT": 41.6713369,
+                "LONG": 13.148117
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "FRIC84400V",
+                "LAT": 41.7459596,
+                "LONG": 13.1507574
+            }
+        ],
+        "NUCLEOS": [
+            5804510001.0,
+            5804510002.0,
+            5804526601.0,
+            5804540000.0
+        ]
+    },
+    "GROTTAFERRATA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BU00G",
+                "LAT": 41.7821344,
+                "LONG": 12.6877276
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BT00Q",
+                "LAT": 41.7886555,
+                "LONG": 12.6676595
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BU00G",
+                "LAT": 41.785551,
+                "LONG": 12.6710049
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BT00Q",
+                "LAT": 41.7914922,
+                "LONG": 12.6666468
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BU00G",
+                "LAT": 41.7821344,
+                "LONG": 12.6877276
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BU00G",
+                "LAT": 41.7860515,
+                "LONG": 12.6706562
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BU00G",
+                "LAT": 41.7781098,
+                "LONG": 12.6799198
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BT00Q",
+                "LAT": 41.7889853,
+                "LONG": 12.6672483
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BT00Q",
+                "LAT": 41.7889853,
+                "LONG": 12.6672483
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BU00G",
+                "LAT": 41.7854769,
+                "LONG": 12.670307
+            }
+        ],
+        "NUCLEOS": [
+            5804610002.0,
+            5804610004.0,
+            5804620007.0,
+            5804610005.0,
+            5804610003.0,
+            5804620006.0,
+            5804626611.0,
+            5804626605.0,
+            5804626701.0,
+            5804640000.0
+        ]
+    },
+    "JENNE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "FRIC80700X",
+                "LAT": 41.8629761,
+                "LONG": 13.2462377
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "NUCLEOS": [
+            5804810001.0,
+            5804826601.0,
+            5804840000.0
+        ]
+    },
+    "LABICO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CE00V",
+                "LAT": 41.7875105,
+                "LONG": 12.8823672
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CE00V",
+                "LAT": 41.78566300000001,
+                "LONG": 12.885745
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CE00V",
+                "LAT": 41.7872602,
+                "LONG": 12.8827529
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CE00V",
+                "LAT": 41.78660259999999,
+                "LONG": 12.885142
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CE00V",
+                "LAT": 41.7877489,
+                "LONG": 12.8814866
+            }
+        ],
+        "NUCLEOS": [
+            5804910001.0,
+            5804910002.0,
+            5804920001.0,
+            5804940000.0
+        ]
+    },
+    "LANUVIO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BH00Q",
+                "LAT": 41.6782091,
+                "LONG": 12.6926189
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BH00Q",
+                "LAT": 41.5506601,
+                "LONG": 12.6352518
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BH00Q",
+                "LAT": 41.6753396,
+                "LONG": 12.6981485
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BH00Q",
+                "LAT": 41.6753396,
+                "LONG": 12.6981485
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BH00Q",
+                "LAT": 41.67859869999999,
+                "LONG": 12.6929331
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BH00Q",
+                "LAT": 41.6888777,
+                "LONG": 12.6487366
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BH00Q",
+                "LAT": 41.67807639999999,
+                "LONG": 12.6964299
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BH00Q",
+                "LAT": 41.677703,
+                "LONG": 12.6965982
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BH00Q",
+                "LAT": 41.677703,
+                "LONG": 12.6965982
+            }
+        ],
+        "NUCLEOS": [
+            5805010001.0,
+            5805010002.0,
+            5805010004.0,
+            5805020002.0,
+            5805020001.0,
+            5805010003.0,
+            5805020004.0,
+            5805020003.0,
+            5805040000.0
+        ]
+    },
+    "LICENZA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.07428609999999,
+                "LONG": 12.8994779
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0740648,
+                "LONG": 12.9013033
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89300V",
+                "LAT": 42.0122666,
+                "LONG": 12.8401167
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AU001",
+                "LAT": 42.1101357,
+                "LONG": 12.8311572
+            }
+        ],
+        "NUCLEOS": [
+            5805110001.0,
+            5805110002.0,
+            5805140000.0
+        ]
+    },
+    "MAGLIANO ROMANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88100L",
+                "LAT": 42.1589224,
+                "LONG": 12.4365873
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88100L",
+                "LAT": 42.1535818,
+                "LONG": 12.4361537
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88100L",
+                "LAT": 42.1535818,
+                "LONG": 12.4361537
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC86600E",
+                "LAT": 42.138129,
+                "LONG": 12.3803196
+            }
+        ],
+        "NUCLEOS": [
+            5805210001.0,
+            5805240000.0
+        ]
+    },
+    "MANDELA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0274054,
+                "LONG": 12.9214063
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0274054,
+                "LONG": 12.9214063
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0189818,
+                "LONG": 12.8978051
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0189818,
+                "LONG": 12.8978051
+            }
+        ],
+        "NUCLEOS": [
+            5805310001.0,
+            5805320001.0,
+            5805340000.0
+        ]
+    },
+    "MANZIANA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87300N",
+                "LAT": 42.1318719,
+                "LONG": 12.1265665
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87300N",
+                "LAT": 42.1318719,
+                "LONG": 12.1265665
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87300N",
+                "LAT": 42.1332564,
+                "LONG": 12.1271273
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87300N",
+                "LAT": 42.1307118,
+                "LONG": 12.129736
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87300N",
+                "LAT": 42.1332564,
+                "LONG": 12.1271273
+            }
+        ],
+        "NUCLEOS": [
+            5805410001.0,
+            5805420001.0,
+            5805420003.0,
+            5805426702.0,
+            5805440000.0
+        ]
+    },
+    "MARANO EQUO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9931881,
+                "LONG": 13.0179173
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9934087,
+                "LONG": 13.0170019
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9808735,
+                "LONG": 13.0334311
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "NUCLEOS": [
+            5805510001.0,
+            5805540000.0
+        ]
+    },
+    "MARCELLINA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AS009",
+                "LAT": 42.0220753,
+                "LONG": 12.8017232
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AS009",
+                "LAT": 42.0235818,
+                "LONG": 12.8072427
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AS009",
+                "LAT": 42.0251637,
+                "LONG": 12.8032723
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AS009",
+                "LAT": 42.0247121,
+                "LONG": 12.8033829
+            }
+        ],
+        "NUCLEOS": [
+            5805610001.0,
+            5805620002.0,
+            5805620001.0,
+            5805630001.0,
+            5805640000.0
+        ]
+    },
+    "MAZZANO ROMANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC86600E",
+                "LAT": 42.2039359,
+                "LONG": 12.3977522
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC86600E",
+                "LAT": 42.2039359,
+                "LONG": 12.3977522
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC86600E",
+                "LAT": 42.2039359,
+                "LONG": 12.3977522
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "VTIC81400X",
+                "LAT": 42.2408532,
+                "LONG": 12.3375768
+            }
+        ],
+        "NUCLEOS": [
+            5805810001.0,
+            5805840000.0
+        ]
+    },
+    "MENTANA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CB00B",
+                "LAT": 42.0279899,
+                "LONG": 12.6474466
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CB00B",
+                "LAT": 42.0502543,
+                "LONG": 12.6221334
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DP005",
+                "LAT": 42.0372103,
+                "LONG": 12.6368714
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DP005",
+                "LAT": 42.0463377,
+                "LONG": 12.6417812
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CB00B",
+                "LAT": 42.0326859,
+                "LONG": 12.6404616
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CB00B",
+                "LAT": 42.0358842,
+                "LONG": 12.6448417
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DP005",
+                "LAT": 42.0372103,
+                "LONG": 12.6368714
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CB00B",
+                "LAT": 42.0358842,
+                "LONG": 12.6448417
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DP005",
+                "LAT": 42.0372103,
+                "LONG": 12.6368714
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CB00B",
+                "LAT": 42.0358842,
+                "LONG": 12.6448417
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DP005",
+                "LAT": 42.0372103,
+                "LONG": 12.6368714
+            }
+        ],
+        "NUCLEOS": [
+            5805910001.0,
+            5805910002.0,
+            5805910004.0,
+            5805920001.0,
+            5805910003.0,
+            5805940000.0
+        ]
+    },
+    "MONTE COMPATRI": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AC002",
+                "LAT": 41.8467889,
+                "LONG": 12.7349405
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AC002",
+                "LAT": 41.78775419999999,
+                "LONG": 12.7321836
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AC002",
+                "LAT": 41.8036912,
+                "LONG": 12.7441961
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AC002",
+                "LAT": 41.8448326,
+                "LONG": 12.7374333
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AC002",
+                "LAT": 41.8063672,
+                "LONG": 12.7373692
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AC002",
+                "LAT": 41.8054844,
+                "LONG": 12.7385744
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AC002",
+                "LAT": 41.8054844,
+                "LONG": 12.7385744
+            }
+        ],
+        "NUCLEOS": [
+            5806010001.0,
+            5806010006.0,
+            5806010002.0,
+            5806010004.0,
+            5806020002.0,
+            5806020001.0,
+            5806010005.0,
+            5806010003.0,
+            5806010008.0,
+            5806010007.0,
+            5806020005.0,
+            5806020003.0,
+            5806040000.0
+        ]
+    },
+    "MONTEFLAVIO": {
+        "SCUOLA INFANZIA": [],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AU001",
+                "LAT": 42.1107367,
+                "LONG": 12.8309299
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AU001",
+                "LAT": 42.1107367,
+                "LONG": 12.8309299
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AU001",
+                "LAT": 42.1101357,
+                "LONG": 12.8311572
+            }
+        ],
+        "NUCLEOS": [
+            5806110001.0,
+            5806140000.0
+        ]
+    },
+    "MONTELANICO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6492696,
+                "LONG": 13.038813
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6518715,
+                "LONG": 13.040495
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6518715,
+                "LONG": 13.040495
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6897341,
+                "LONG": 13.0203345
+            }
+        ],
+        "NUCLEOS": [
+            5806210001.0,
+            5806210002.0,
+            5806240000.0
+        ]
+    },
+    "MONTELIBRETTI": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AW00A",
+                "LAT": 42.1420969,
+                "LONG": 12.7327262
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AW00A",
+                "LAT": 42.1522606,
+                "LONG": 12.68185
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AW00A",
+                "LAT": 42.1355761,
+                "LONG": 12.7380849
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AW00A",
+                "LAT": 42.1522606,
+                "LONG": 12.68185
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AW00A",
+                "LAT": 42.1381851,
+                "LONG": 12.734593
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AW00A",
+                "LAT": 42.1355761,
+                "LONG": 12.7380849
+            }
+        ],
+        "NUCLEOS": [
+            5806310001.0,
+            5806310002.0,
+            5806310003.0,
+            5806326603.0,
+            5806320004.0,
+            5806330001.0,
+            5806340000.0
+        ]
+    },
+    "MONTE PORZIO CATONE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AT005",
+                "LAT": 41.8134093,
+                "LONG": 12.7076586
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AT005",
+                "LAT": 41.8172437,
+                "LONG": 12.7180467
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AT005",
+                "LAT": 41.8168643,
+                "LONG": 12.7157075
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AT005",
+                "LAT": 41.8159686,
+                "LONG": 12.7182581
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AT005",
+                "LAT": 41.8161736,
+                "LONG": 12.7184487
+            }
+        ],
+        "NUCLEOS": [
+            5806410001.0,
+            5806410002.0,
+            5806420007.0,
+            5806420005.0,
+            5806420006.0,
+            5806440000.0
+        ]
+    },
+    "MONTORIO ROMANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AU001",
+                "LAT": 42.139397,
+                "LONG": 12.8056414
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AU001",
+                "LAT": 42.1389665,
+                "LONG": 12.8063143
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AU001",
+                "LAT": 42.1365793,
+                "LONG": 12.8078493
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AU001",
+                "LAT": 42.138273,
+                "LONG": 12.807133
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AU001",
+                "LAT": 42.1101357,
+                "LONG": 12.8311572
+            }
+        ],
+        "NUCLEOS": [
+            5806610001.0,
+            5806640000.0
+        ]
+    },
+    "MORICONE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AW00A",
+                "LAT": 42.1167579,
+                "LONG": 12.773645
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AW00A",
+                "LAT": 42.1168882,
+                "LONG": 12.7731087
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AW00A",
+                "LAT": 42.1151484,
+                "LONG": 12.7742459
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AW00A",
+                "LAT": 42.1355761,
+                "LONG": 12.7380849
+            }
+        ],
+        "NUCLEOS": [
+            5806710001.0,
+            5806740000.0
+        ]
+    },
+    "MORLUPO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88600Q",
+                "LAT": 42.1475906,
+                "LONG": 12.4910719
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88600Q",
+                "LAT": 42.1462188,
+                "LONG": 12.5050638
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88600Q",
+                "LAT": 42.1474348,
+                "LONG": 12.4910877
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88600Q",
+                "LAT": 42.147924,
+                "LONG": 12.5115272,
+                "LAT_IN": 41.5394999,
+                "LONG_IN": 13.279173
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88600Q",
+                "LAT": 42.147924,
+                "LONG": 12.5115272
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88600Q",
+                "LAT": 42.147924,
+                "LONG": 12.5115272
+            }
+        ],
+        "NUCLEOS": [
+            5806810001.0,
+            5806810002.0,
+            5806820002.0,
+            5806810003.0,
+            5806820015.0,
+            5806820008.0,
+            5806820014.0,
+            5806820011.0,
+            5806820004.0,
+            5806820003.0,
+            5806826713.0,
+            5806840000.0
+        ]
+    },
+    "NAZZANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.2303593,
+                "LONG": 12.5967814
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.2303593,
+                "LONG": 12.5967814
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.2368959,
+                "LONG": 12.6177545
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.1968688,
+                "LONG": 12.5801656
+            }
+        ],
+        "NUCLEOS": [
+            5806910001.0,
+            5806920005.0,
+            5806920004.0,
+            5806926602.0,
+            5806940000.0
+        ]
+    },
+    "NEMI": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BH00Q",
+                "LAT": 41.7189421,
+                "LONG": 12.7147265
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BH00Q",
+                "LAT": 41.7189421,
+                "LONG": 12.7147265
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BH00Q",
+                "LAT": 41.7191976,
+                "LONG": 12.7150162
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BJ00G",
+                "LAT": 41.7043689,
+                "LONG": 12.6924063
+            }
+        ],
+        "NUCLEOS": [
+            5807010001.0,
+            5807010002.0,
+            5807010004.0,
+            5807010005.0,
+            5807010003.0,
+            5807027401.0,
+            5807040000.0
+        ]
+    },
+    "NEROLA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AU001",
+                "LAT": 42.1624846,
+                "LONG": 12.7860075
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AU001",
+                "LAT": 42.1624846,
+                "LONG": 12.7860075
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AU001",
+                "LAT": 42.1624846,
+                "LONG": 12.7860075
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AW00A",
+                "LAT": 42.1355761,
+                "LONG": 12.7380849
+            }
+        ],
+        "NUCLEOS": [
+            5807110001.0,
+            5807110002.0,
+            5807110003.0,
+            5807126601.0,
+            5807126702.0,
+            5807140000.0
+        ]
+    },
+    "OLEVANO ROMANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AM006",
+                "LAT": 41.86359849999999,
+                "LONG": 13.0342341
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AM006",
+                "LAT": 41.86359849999999,
+                "LONG": 13.0342341
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AM006",
+                "LAT": 41.86359849999999,
+                "LONG": 13.0342341
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AM006",
+                "LAT": 41.86359849999999,
+                "LONG": 13.0342341
+            }
+        ],
+        "NUCLEOS": [
+            5807310001.0,
+            5807340000.0
+        ]
+    },
+    "PALESTRINA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DQ001",
+                "LAT": 41.8386846,
+                "LONG": 12.8950521
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DQ001",
+                "LAT": 41.7923752,
+                "LONG": 12.8266294
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DS002",
+                "LAT": 41.8380459,
+                "LONG": 12.8872153
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DS002",
+                "LAT": 41.8328952,
+                "LONG": 12.8834835
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DR00R",
+                "LAT": 41.8406183,
+                "LONG": 12.8913445
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DS002",
+                "LAT": 41.8380459,
+                "LONG": 12.8872153
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DQ001",
+                "LAT": 41.833743,
+                "LONG": 12.8877304
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DQ001",
+                "LAT": 41.788042,
+                "LONG": 12.8211492
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DR00R",
+                "LAT": 41.8406183,
+                "LONG": 12.8913445
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DS002",
+                "LAT": 41.8337251,
+                "LONG": 12.8839733
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DR00R",
+                "LAT": 41.8392766,
+                "LONG": 12.8863343
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DQ001",
+                "LAT": 41.7923752,
+                "LONG": 12.8266294
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DS002",
+                "LAT": 41.8337251,
+                "LONG": 12.8839733
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DR00R",
+                "LAT": 41.8392766,
+                "LONG": 12.8863343
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DQ001",
+                "LAT": 41.8385353,
+                "LONG": 12.894835
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DS002",
+                "LAT": 41.8334809,
+                "LONG": 12.883574
+            }
+        ],
+        "NUCLEOS": [
+            5807410001.0,
+            5807410006.0,
+            5807410002.0,
+            5807410004.0,
+            5807420002.0,
+            5807420003.0,
+            5807410005.0,
+            5807410003.0,
+            5807420014.0,
+            5807420010.0,
+            5807420012.0,
+            5807420004.0,
+            5807426608.0,
+            5807426715.0,
+            5807440000.0
+        ]
+    },
+    "PALOMBARA SABINA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AK00E",
+                "LAT": 42.0707272,
+                "LONG": 12.7666451
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AK00E",
+                "LAT": 42.0680608,
+                "LONG": 12.7635531
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AK00E",
+                "LAT": 42.0707272,
+                "LONG": 12.7666451
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AK00E",
+                "LAT": 42.0697914,
+                "LONG": 12.7640502
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AK00E",
+                "LAT": 42.0707272,
+                "LONG": 12.7666451
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AK00E",
+                "LAT": 42.0697914,
+                "LONG": 12.7640502
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AK00E",
+                "LAT": 42.0700916,
+                "LONG": 12.7637677
+            }
+        ],
+        "NUCLEOS": [
+            5807510001.0,
+            5807510002.0,
+            5807520003.0,
+            5807510003.0,
+            5807520005.0,
+            5807520006.0,
+            5807520004.0,
+            5807526601.0,
+            5807540000.0
+        ]
+    },
+    "PERCILE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.07428609999999,
+                "LONG": 12.8994779
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0740648,
+                "LONG": 12.9013033
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0189818,
+                "LONG": 12.8978051
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0189818,
+                "LONG": 12.8978051
+            }
+        ],
+        "NUCLEOS": [
+            5807610001.0,
+            5807626701.0,
+            5807640000.0
+        ]
+    },
+    "PISONIANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.9056621,
+                "LONG": 12.9596346
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.9047974,
+                "LONG": 12.958335
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.9047974,
+                "LONG": 12.958335
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.82136080000001,
+                "LONG": 12.9749855
+            }
+        ],
+        "NUCLEOS": [
+            5807710001.0,
+            5807740000.0
+        ]
+    },
+    "POLI": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AB006",
+                "LAT": 41.8910234,
+                "LONG": 12.8903796
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AB006",
+                "LAT": 41.8895913,
+                "LONG": 12.8926553
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AB006",
+                "LAT": 41.8910234,
+                "LONG": 12.8903796
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DR00R",
+                "LAT": 41.8392766,
+                "LONG": 12.8863343
+            }
+        ],
+        "NUCLEOS": [
+            5807810001.0,
+            5807820001.0,
+            5807826602.0,
+            5807840000.0
+        ]
+    },
+    "PONZANO ROMANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.25725177504055,
+                "LONG": 12.571811509729768,
+                "LAT_IN": 45.7275425,
+                "LONG_IN": 12.1970828
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.25725177504055,
+                "LONG": 12.571811509729768,
+                "LAT_IN": 45.7275425,
+                "LONG_IN": 12.1970828
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RIIC82400T",
+                "LAT": 42.2988458,
+                "LONG": 12.5658848
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.1968688,
+                "LONG": 12.5801656
+            }
+        ],
+        "NUCLEOS": [
+            5808010001.0,
+            5808040000.0
+        ]
+    },
+    "RIANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC876005",
+                "LAT": 42.099878,
+                "LONG": 12.5047832
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC876005",
+                "LAT": 42.099878,
+                "LONG": 12.5047832
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC876005",
+                "LAT": 42.099878,
+                "LONG": 12.5047832
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC876005",
+                "LAT": 42.1008251,
+                "LONG": 12.5068992
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC876005",
+                "LAT": 42.0885454,
+                "LONG": 12.5226834
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC876005",
+                "LAT": 42.0902926,
+                "LONG": 12.5233908
+            }
+        ],
+        "NUCLEOS": [
+            5808110002.0,
+            5808120002.0,
+            5808120001.0,
+            5808110003.0,
+            5808120211.0,
+            5808120010.0,
+            5808120006.0,
+            5808126612.0,
+            5808126607.0,
+            5808126609.0,
+            5808126608.0,
+            5808140000.0
+        ]
+    },
+    "RIGNANO FLAMINIO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC877001",
+                "LAT": 42.2053805,
+                "LONG": 12.4790472
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC877001",
+                "LAT": 42.2081027,
+                "LONG": 12.4796417
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC877001",
+                "LAT": 42.2092366,
+                "LONG": 12.4801135
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC877001",
+                "LAT": 42.2092366,
+                "LONG": 12.4801135
+            }
+        ],
+        "NUCLEOS": [
+            5808210001.0,
+            5808220007.0,
+            5808210003.0,
+            5808220005.0,
+            5808220006.0,
+            5808220004.0,
+            5808220201.0,
+            5808226702.0,
+            5808240000.0
+        ]
+    },
+    "RIOFREDDO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0596247,
+                "LONG": 12.9976456,
+                "LAT_IN": 42.7337956,
+                "LONG_IN": 12.7371574
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0596247,
+                "LONG": 12.9976456
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0596247,
+                "LONG": 12.9976456,
+                "LAT_IN": 42.7337956,
+                "LONG_IN": 12.7371574
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [],
+        "NUCLEOS": [
+            5808310001.0,
+            5808340000.0
+        ]
+    },
+    "ROCCA CANTERANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.9321203,
+                "LONG": 12.9903256
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9424522,
+                "LONG": 13.0373112
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9808735,
+                "LONG": 13.0334311
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "NUCLEOS": [
+            5808410001.0,
+            5808410002.0,
+            5808440000.0
+        ]
+    },
+    "ROCCA DI CAVE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CD003",
+                "LAT": 41.8174623,
+                "LONG": 12.9356157
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CD003",
+                "LAT": 41.8177505,
+                "LONG": 12.9348789
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CD003",
+                "LAT": 41.8207074,
+                "LONG": 12.9301074
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CD003",
+                "LAT": 41.8177505,
+                "LONG": 12.9348789
+            }
+        ],
+        "NUCLEOS": [
+            5808510001.0,
+            5808510002.0,
+            5808540000.0
+        ]
+    },
+    "ROCCA DI PAPA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AQ00N",
+                "LAT": 41.7615682,
+                "LONG": 12.7078911
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AQ00N",
+                "LAT": 41.7597368,
+                "LONG": 12.7127702
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AQ00N",
+                "LAT": 41.7770481,
+                "LONG": 12.6934884
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AQ00N",
+                "LAT": 41.7770481,
+                "LONG": 12.6934884
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AQ00N",
+                "LAT": 41.7597368,
+                "LONG": 12.7127702
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AQ00N",
+                "LAT": 41.7620126,
+                "LONG": 12.708208
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AQ00N",
+                "LAT": 41.7637096,
+                "LONG": 12.7025863
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AQ00N",
+                "LAT": 41.7637096,
+                "LONG": 12.7025863
+            }
+        ],
+        "NUCLEOS": [
+            5808610001.0,
+            5808610002.0,
+            5808620003.0,
+            5808626701.0,
+            5808626704.0,
+            5808640000.0
+        ]
+    },
+    "ROCCAGIOVINE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.07428609999999,
+                "LONG": 12.8994779
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0740648,
+                "LONG": 12.9013033
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0189818,
+                "LONG": 12.8978051
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0189818,
+                "LONG": 12.8978051
+            }
+        ],
+        "NUCLEOS": [
+            5808710001.0,
+            5808740000.0
+        ]
+    },
+    "ROCCA PRIORA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AP00T",
+                "LAT": 41.7903887,
+                "LONG": 12.7616805
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AP00T",
+                "LAT": 41.794743,
+                "LONG": 12.8039696
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AP00T",
+                "LAT": 41.7954513,
+                "LONG": 12.8055466
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AP00T",
+                "LAT": 41.7895902,
+                "LONG": 12.7600528
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AP00T",
+                "LAT": 41.7914183,
+                "LONG": 12.7576343
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AP00T",
+                "LAT": 41.7914183,
+                "LONG": 12.7576343
+            }
+        ],
+        "NUCLEOS": [
+            5808810001.0,
+            5808810002.0,
+            5808820001.0,
+            5808840000.0
+        ]
+    },
+    "ROCCA SANTO STEFANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AM006",
+                "LAT": 41.9112555,
+                "LONG": 13.0242194
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AM006",
+                "LAT": 41.9110047,
+                "LONG": 13.0248336
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AM006",
+                "LAT": 41.9110631,
+                "LONG": 13.0246165
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "NUCLEOS": [
+            5808910001.0,
+            5808926601.0,
+            5808940000.0
+        ]
+    },
+    "ROIATE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "FRIC80700X",
+                "LAT": 41.8434212,
+                "LONG": 13.094062
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AM006",
+                "LAT": 41.873888,
+                "LONG": 13.0664791
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "FRIC80700X",
+                "LAT": 41.8434212,
+                "LONG": 13.094062
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AM006",
+                "LAT": 41.86359849999999,
+                "LONG": 13.0342341
+            }
+        ],
+        "NUCLEOS": [
+            5809010001.0,
+            5809040000.0
+        ]
+    },
+    "ROVIANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.025551,
+                "LONG": 12.9975801
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.025551,
+                "LONG": 12.9975801
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.025551,
+                "LONG": 12.9975801
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0189818,
+                "LONG": 12.8978051
+            }
+        ],
+        "NUCLEOS": [
+            5809210001.0,
+            5809240000.0
+        ]
+    },
+    "SACROFANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88100L",
+                "LAT": 42.101138,
+                "LONG": 12.4495671
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88100L",
+                "LAT": 42.1009221,
+                "LONG": 12.450028
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC88100L",
+                "LAT": 42.1009769,
+                "LONG": 12.4509896
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC86600E",
+                "LAT": 42.138129,
+                "LONG": 12.3803196
+            }
+        ],
+        "NUCLEOS": [
+            5809310001.0,
+            5809310002.0,
+            5809320001.0,
+            5809320007.0,
+            5809310003.0,
+            5809320005.0,
+            5809320008.0,
+            5809320009.0,
+            5809320004.0,
+            5809326611.0,
+            5809326606.0,
+            5809326610.0,
+            5809340000.0
+        ]
+    },
+    "SAMBUCI": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.9866976,
+                "LONG": 12.9382268
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.015635,
+                "LONG": 12.891799
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0189818,
+                "LONG": 12.8978051
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0189818,
+                "LONG": 12.8978051
+            }
+        ],
+        "NUCLEOS": [
+            5809410001.0,
+            5809440000.0
+        ]
+    },
+    "SAN GREGORIO DA SASSOLA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC892003",
+                "LAT": 41.9597095,
+                "LONG": 12.8021341
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC892003",
+                "LAT": 41.9203308,
+                "LONG": 12.8743375
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC892003",
+                "LAT": 41.9203308,
+                "LONG": 12.8743375
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8F600E",
+                "LAT": 41.9561378,
+                "LONG": 12.806283
+            }
+        ],
+        "NUCLEOS": [
+            5809510001.0,
+            5809540000.0
+        ]
+    },
+    "SAN POLO DEI CAVALIERI": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89300V",
+                "LAT": 42.0122666,
+                "LONG": 12.8401167
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89300V",
+                "LAT": 42.0122666,
+                "LONG": 12.8401167
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89300V",
+                "LAT": 42.0122666,
+                "LONG": 12.8401167
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AS009",
+                "LAT": 42.0247121,
+                "LONG": 12.8033829
+            }
+        ],
+        "NUCLEOS": [
+            5809610001.0,
+            5809610002.0,
+            5809620002.0,
+            5809640000.0
+        ]
+    },
+    "SANTA MARINELLA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CA00G",
+                "LAT": 42.035445,
+                "LONG": 11.8671325
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CA00G",
+                "LAT": 42.04249859999999,
+                "LONG": 11.8716442
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CA00G",
+                "LAT": 42.0350698,
+                "LONG": 11.8453372
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CA00G",
+                "LAT": 42.0347677,
+                "LONG": 11.8456659
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CA00G",
+                "LAT": 42.0423665,
+                "LONG": 11.8729222
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CA00G",
+                "LAT": 42.035284,
+                "LONG": 11.8666307
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CA00G",
+                "LAT": 42.0375488,
+                "LONG": 11.8547903
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CA00G",
+                "LAT": 42.0375488,
+                "LONG": 11.8547903
+            }
+        ],
+        "NUCLEOS": [
+            5809710001.0,
+            5809710002.0,
+            5809720003.0,
+            5809710003.0,
+            5809720005.0,
+            5809720008.0,
+            5809720009.0,
+            5809720006.0,
+            5809720004.0,
+            5809726607.0,
+            5809726701.0,
+            5809740000.0
+        ]
+    },
+    "SANT'ANGELO ROMANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89900T",
+                "LAT": 42.033782,
+                "LONG": 12.7151163
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89900T",
+                "LAT": 42.033782,
+                "LONG": 12.7151163
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89900T",
+                "LAT": 42.0335087,
+                "LONG": 12.7143163
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC898002",
+                "LAT": 42.0003869,
+                "LONG": 12.7268624
+            }
+        ],
+        "NUCLEOS": [
+            5809810001.0,
+            5809810002.0,
+            5809820003.0,
+            5809820005.0,
+            5809820004.0,
+            5809826701.0,
+            5809840000.0
+        ]
+    },
+    "SANT'ORESTE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.2311511,
+                "LONG": 12.5146875
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.2341717,
+                "LONG": 12.5216059
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.23363440000001,
+                "LONG": 12.514595
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC877001",
+                "LAT": 42.2092366,
+                "LONG": 12.4801135
+            }
+        ],
+        "NUCLEOS": [
+            5809910001.0,
+            5809920002.0,
+            5809926606.0,
+            5809940000.0
+        ]
+    },
+    "SAN VITO ROMANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.8781357,
+                "LONG": 12.9798743
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.8779651,
+                "LONG": 12.9796726
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.8779651,
+                "LONG": 12.9796726
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AD00T",
+                "LAT": 41.82136080000001,
+                "LONG": 12.9749855
+            }
+        ],
+        "NUCLEOS": [
+            5810010001.0,
+            5810040000.0
+        ]
+    },
+    "SARACINESCO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0274054,
+                "LONG": 12.9214063
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0274054,
+                "LONG": 12.9214063
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0189818,
+                "LONG": 12.8978051
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0189818,
+                "LONG": 12.8978051
+            }
+        ],
+        "NUCLEOS": [
+            5810110001.0,
+            5810126701.0,
+            5810140000.0
+        ]
+    },
+    "SEGNI": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6959159,
+                "LONG": 13.023816
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6902317,
+                "LONG": 13.0205129
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.723295,
+                "LONG": 13.036182
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6959159,
+                "LONG": 13.023816
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.71347049041495,
+                "LONG": 13.032642010453763,
+                "LAT_IN": 41.5581602,
+                "LONG_IN": 13.4293228
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6897341,
+                "LONG": 13.0203345
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AZ00T",
+                "LAT": 41.6897341,
+                "LONG": 13.0203345
+            }
+        ],
+        "NUCLEOS": [
+            5810210001.0,
+            5810210002.0,
+            5810220002.0,
+            5810220007.0,
+            5810220005.0,
+            5810220006.0,
+            5810220004.0,
+            5810240000.0
+        ]
+    },
+    "SUBIACO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9293519,
+                "LONG": 13.0928266
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.92497199345666,
+                "LONG": 13.092827691031234,
+                "LAT_IN": 42.3823459,
+                "LONG_IN": 12.260116
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9424522,
+                "LONG": 13.0373112
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9275895,
+                "LONG": 13.0934048
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "NUCLEOS": [
+            5810310002.0,
+            5810310004.0,
+            5810320007.0,
+            5810310005.0,
+            5810310003.0,
+            5810320008.0,
+            5810320009.0,
+            5810320010.0,
+            5810320011.0,
+            5810320012.0,
+            5810340000.0
+        ]
+    },
+    "TOLFA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89400P",
+                "LAT": 42.150059,
+                "LONG": 11.938546
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89400P",
+                "LAT": 42.1494495,
+                "LONG": 11.9362193
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89400P",
+                "LAT": 42.150059,
+                "LONG": 11.938546
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89400P",
+                "LAT": 42.1494495,
+                "LONG": 11.9362193
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89400P",
+                "LAT": 42.1519951,
+                "LONG": 11.9361546
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC89400P",
+                "LAT": 42.1494495,
+                "LONG": 11.9362193
+            }
+        ],
+        "NUCLEOS": [
+            5810510001.0,
+            5810510002.0,
+            5810520201.0,
+            5810540000.0
+        ]
+    },
+    "TORRITA TIBERINA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.23627109885465,
+                "LONG": 12.61856140364629,
+                "LAT_IN": 43.1672299,
+                "LONG_IN": 11.7719749
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RIIC82500N",
+                "LAT": 42.2464462,
+                "LONG": 12.6354973
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.2368959,
+                "LONG": 12.6177545
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC870006",
+                "LAT": 42.1968688,
+                "LONG": 12.5801656
+            }
+        ],
+        "NUCLEOS": [
+            5810610002.0,
+            5810620001.0,
+            5810640000.0
+        ]
+    },
+    "TREVIGNANO ROMANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC871002",
+                "LAT": 42.1605671,
+                "LONG": 12.2444067
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC871002",
+                "LAT": 42.1568788,
+                "LONG": 12.2438906
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC871002",
+                "LAT": 42.1557232,
+                "LONG": 12.2456418
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC871002",
+                "LAT": 42.1557232,
+                "LONG": 12.2456418
+            }
+        ],
+        "NUCLEOS": [
+            5810710001.0,
+            5810720003.0,
+            5810720002.0,
+            5810720001.0,
+            5810720005.0,
+            5810720008.0,
+            5810720006.0,
+            5810720004.0,
+            5810724909.0,
+            5810726607.0,
+            5810726610.0,
+            5810740000.0
+        ]
+    },
+    "VALLEPIETRA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "FRIC80700X",
+                "LAT": 41.8629761,
+                "LONG": 13.2462377
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "FRIC80700X",
+                "LAT": 41.8629761,
+                "LONG": 13.2462377
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "FRIC80700X",
+                "LAT": 41.8629761,
+                "LONG": 13.2462377
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8DZ00R",
+                "LAT": 41.9242555,
+                "LONG": 13.0941288
+            }
+        ],
+        "NUCLEOS": [
+            5810810001.0,
+            5810840000.0
+        ]
+    },
+    "VALLINFREDA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.07428609999999,
+                "LONG": 12.8994779
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0596247,
+                "LONG": 12.9976456
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.025551,
+                "LONG": 12.9975801
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RIIC81700P",
+                "LAT": 42.2059647,
+                "LONG": 12.8817787
+            }
+        ],
+        "NUCLEOS": [
+            5810910001.0,
+            5810920001.0,
+            5810940000.0
+        ]
+    },
+    "VALMONTONE": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BD00C",
+                "LAT": 41.7746888,
+                "LONG": 12.9212582
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BD00C",
+                "LAT": 41.7686807,
+                "LONG": 12.9254826
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CF00P",
+                "LAT": 41.7761924,
+                "LONG": 12.9173587
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CF00P",
+                "LAT": 41.7767539,
+                "LONG": 12.9315351
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CF00P",
+                "LAT": 41.785503,
+                "LONG": 12.945622
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CF00P",
+                "LAT": 41.7695718,
+                "LONG": 12.8910485
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BD00C",
+                "LAT": 41.771302,
+                "LONG": 12.9214906
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BD00C",
+                "LAT": 41.759564,
+                "LONG": 12.9208892
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CF00P",
+                "LAT": 41.7695718,
+                "LONG": 12.8910485
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CF00P",
+                "LAT": 41.7767539,
+                "LONG": 12.9315351
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CF00P",
+                "LAT": 41.7761157,
+                "LONG": 12.9176431
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BD00C",
+                "LAT": 41.7686807,
+                "LONG": 12.9254826
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CF00P",
+                "LAT": 41.7749814,
+                "LONG": 12.9200392
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BD00C",
+                "LAT": 41.7686807,
+                "LONG": 12.9254826
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8CF00P",
+                "LAT": 41.7761157,
+                "LONG": 12.9176431
+            }
+        ],
+        "NUCLEOS": [
+            5811010001.0,
+            5811020003.0,
+            5811020005.0,
+            5811020004.0,
+            5811026601.0,
+            5811026702.0,
+            5811030001.0,
+            5811040000.0
+        ]
+    },
+    "VICOVARO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0173481,
+                "LONG": 12.895735
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.015635,
+                "LONG": 12.891799
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0189818,
+                "LONG": 12.8978051
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0189818,
+                "LONG": 12.8978051
+            }
+        ],
+        "NUCLEOS": [
+            5811210001.0,
+            5811210002.0,
+            5811220004.0,
+            5811226602.0,
+            5811226605.0,
+            5811240000.0
+        ]
+    },
+    "VIVARO ROMANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.07428609999999,
+                "LONG": 12.8994779
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.0596247,
+                "LONG": 12.9976456
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AL00A",
+                "LAT": 42.025551,
+                "LONG": 12.9975801
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RIIC81700P",
+                "LAT": 42.2059647,
+                "LONG": 12.8817787
+            }
+        ],
+        "NUCLEOS": [
+            5811310001.0,
+            5811340000.0
+        ]
+    },
+    "ZAGAROLO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A600D",
+                "LAT": 41.8311488,
+                "LONG": 12.8361569
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A600D",
+                "LAT": 41.842157,
+                "LONG": 12.8280674
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A600D",
+                "LAT": 41.8323428,
+                "LONG": 12.8350947
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8B300L",
+                "LAT": 41.8764163,
+                "LONG": 12.7576964
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8B300L",
+                "LAT": 41.8764163,
+                "LONG": 12.7576964
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A600D",
+                "LAT": 41.8311488,
+                "LONG": 12.8361569
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A600D",
+                "LAT": 41.8323428,
+                "LONG": 12.8350947
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A600D",
+                "LAT": 41.83178230000001,
+                "LONG": 12.835419
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8B300L",
+                "LAT": 41.8764163,
+                "LONG": 12.7576964
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A600D",
+                "LAT": 41.83178230000001,
+                "LONG": 12.835419
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8B300L",
+                "LAT": 41.8764163,
+                "LONG": 12.7576964
+            }
+        ],
+        "NUCLEOS": [
+            5811410001.0,
+            5811410002.0,
+            5811420001.0,
+            5811426702.0,
+            5811440000.0
+        ]
+    },
+    "LARIANO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BR004",
+                "LAT": 41.7276573,
+                "LONG": 12.8347425
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BR004",
+                "LAT": 41.730338620532414,
+                "LONG": 12.824675405954796,
+                "LAT_IN": 42.65912280000001,
+                "LONG_IN": 13.7031198
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BR004",
+                "LAT": 41.73032449999999,
+                "LONG": 12.8246659
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BR004",
+                "LAT": 41.7216557,
+                "LONG": 12.8324104
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BR004",
+                "LAT": 41.7111673,
+                "LONG": 12.8332969
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BR004",
+                "LAT": 41.7147515,
+                "LONG": 12.8426528
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BR004",
+                "LAT": 41.7276573,
+                "LONG": 12.8347425
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8BR004",
+                "LAT": 41.7276573,
+                "LONG": 12.8347425
+            }
+        ],
+        "NUCLEOS": [
+            5811510001.0,
+            5811540000.0
+        ]
+    },
+    "CIAMPINO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE22100R",
+                "LAT": 41.7910032,
+                "LONG": 12.6204502
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A000E",
+                "LAT": 41.8078874,
+                "LONG": 12.5945437
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE22100R",
+                "LAT": 41.7892209,
+                "LONG": 12.612304
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE220001",
+                "LAT": 41.7969589,
+                "LONG": 12.6098613
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE22100R",
+                "LAT": 41.80446560000001,
+                "LONG": 12.6119563
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE220001",
+                "LAT": 41.8013043,
+                "LONG": 12.6038677
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE22100R",
+                "LAT": 41.8051746,
+                "LONG": 12.6006762
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE22100R",
+                "LAT": 41.7892209,
+                "LONG": 12.612304
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE220001",
+                "LAT": 41.7964048,
+                "LONG": 12.6079287
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE220001",
+                "LAT": 41.8012557,
+                "LONG": 12.6037112
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A000E",
+                "LAT": 41.8078874,
+                "LONG": 12.5945437
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE22100R",
+                "LAT": 41.80446560000001,
+                "LONG": 12.6119563
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE22100R",
+                "LAT": 41.7904475,
+                "LONG": 12.6206568
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE220001",
+                "LAT": 41.7963584,
+                "LONG": 12.6094442
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE22100R",
+                "LAT": 41.7892209,
+                "LONG": 12.612304
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE22100R",
+                "LAT": 41.8049656,
+                "LONG": 12.6010333
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMEE220001",
+                "LAT": 41.8012557,
+                "LONG": 12.6037112
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A000E",
+                "LAT": 41.8096803,
+                "LONG": 12.5954752
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8A000E",
+                "LAT": 41.8096803,
+                "LONG": 12.5954752
+            }
+        ],
+        "NUCLEOS": [
+            5811810001.0,
+            5811810002.0,
+            5811820001.0,
+            5811810003.0,
+            5811820006.0,
+            5811820004.0,
+            5811826702.0,
+            5811830001.0,
+            5811840000.0
+        ]
+    },
+    "SAN CESAREO": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AE00N",
+                "LAT": 41.8216899,
+                "LONG": 12.8014504
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AE00N",
+                "LAT": 41.8216899,
+                "LONG": 12.8014504
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AE00N",
+                "LAT": 41.8216899,
+                "LONG": 12.8014504
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AE00N",
+                "LAT": 41.8211152,
+                "LONG": 12.8036815
+            }
+        ],
+        "NUCLEOS": [
+            5811910001.0,
+            5811910002.0,
+            5811920003.0,
+            5811920002.0,
+            5811920001.0,
+            5811920005.0,
+            5811920006.0,
+            5811920004.0,
+            5811930002.0,
+            5811930001.0,
+            5811940000.0
+        ]
+    },
+    "FONTE NUOVA": {
+        "SCUOLA INFANZIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC875009",
+                "LAT": 41.9823464,
+                "LONG": 12.652105
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87800R",
+                "LAT": 42.0007644,
+                "LONG": 12.6244066
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AF00D",
+                "LAT": 42.0004664905576,
+                "LONG": 12.637608904778935,
+                "LAT_IN": 42.1069518,
+                "LONG_IN": 14.6015839
+            }
+        ],
+        "SCUOLA PRIMARIA": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC875009",
+                "LAT": 41.9834678,
+                "LONG": 12.6532177
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC8AF00D",
+                "LAT": 41.993939,
+                "LONG": 12.62089
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87800R",
+                "LAT": 42.0021724,
+                "LONG": 12.6236508
+            }
+        ],
+        "SCUOLA PRIMO GRADO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC875009",
+                "LAT": 41.9832403,
+                "LONG": 12.6530655
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87800R",
+                "LAT": 42.0019073,
+                "LONG": 12.6328637
+            }
+        ],
+        "ISTITUTO COMPRENSIVO": [
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC875009",
+                "LAT": 41.9832403,
+                "LONG": 12.6530655
+            },
+            {
+                "CODICEISTITUTORIFERIMENTO": "RMIC87800R",
+                "LAT": 42.0021724,
+                "LONG": 12.6236508
+            }
+        ],
+        "NUCLEOS": [
+            5812210001.0,
+            5812210002.0,
+            5812210003.0,
+            5812220004.0,
+            5812226701.0,
+            5812240000.0
+        ]
+    }
+}

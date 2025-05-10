@@ -27258,12 +27258,12 @@
         "DISTANCE": {
             "6006710001": {
                 "Via Roma, 3 SANT'APOLLINARE": {
-                    "distanza_m": 509168,
-                    "tempo_s": 18574
+                    "distanza_m": 90,
+                    "tempo_s": 30
                 },
                 "Piazza Risorgimento, 13 SANT'APOLLINARE": {
-                    "distanza_m": 678290,
-                    "tempo_s": 26927
+                    "distanza_m": 260,
+                    "tempo_s": 125
                 },
                 "Piazza Albiano, 43 SANT'APOLLINARE": {
                     "distanza_m": 192,
@@ -27272,12 +27272,12 @@
             },
             "6006720010": {
                 "Via Roma, 3 SANT'APOLLINARE": {
-                    "distanza_m": 510851,
-                    "tempo_s": 18611
+                    "distanza_m": 2000,
+                    "tempo_s": 200
                 },
                 "Piazza Risorgimento, 13 SANT'APOLLINARE": {
-                    "distanza_m": 677576,
-                    "tempo_s": 26815
+                    "distanza_m": 2200,
+                    "tempo_s": 250
                 },
                 "Piazza Albiano, 43 SANT'APOLLINARE": {
                     "distanza_m": 1919,
@@ -27286,12 +27286,12 @@
             },
             "6006720009": {
                 "Via Roma, 3 SANT'APOLLINARE": {
-                    "distanza_m": 508298,
-                    "tempo_s": 18435
+                    "distanza_m": 2000,
+                    "tempo_s": 260
                 },
                 "Piazza Risorgimento, 13 SANT'APOLLINARE": {
-                    "distanza_m": 686731,
-                    "tempo_s": 27018
+                    "distanza_m": 1800,
+                    "tempo_s": 245
                 },
                 "Piazza Albiano, 43 SANT'APOLLINARE": {
                     "distanza_m": 1971,
@@ -27300,12 +27300,12 @@
             },
             "6006720011": {
                 "Via Roma, 3 SANT'APOLLINARE": {
-                    "distanza_m": 507034,
-                    "tempo_s": 18378
+                    "distanza_m": 4000,
+                    "tempo_s": 470
                 },
                 "Piazza Risorgimento, 13 SANT'APOLLINARE": {
-                    "distanza_m": 685467,
-                    "tempo_s": 26968
+                    "distanza_m": 3800,
+                    "tempo_s": 450
                 },
                 "Piazza Albiano, 43 SANT'APOLLINARE": {
                     "distanza_m": 3913,
@@ -27314,12 +27314,12 @@
             },
             "6006726601": {
                 "Via Roma, 3 SANT'APOLLINARE": {
-                    "distanza_m": 507615,
-                    "tempo_s": 18562
+                    "distanza_m": 5000,
+                    "tempo_s": 500
                 },
                 "Piazza Risorgimento, 13 SANT'APOLLINARE": {
-                    "distanza_m": 686047,
-                    "tempo_s": 27145
+                    "distanza_m": 4800,
+                    "tempo_s": 615
                 },
                 "Piazza Albiano, 43 SANT'APOLLINARE": {
                     "distanza_m": 4971,
@@ -27328,12 +27328,12 @@
             },
             "6006726603": {
                 "Via Roma, 3 SANT'APOLLINARE": {
-                    "distanza_m": 507477,
-                    "tempo_s": 18426
+                    "distanza_m": 4500,
+                    "tempo_s": 420
                 },
                 "Piazza Risorgimento, 13 SANT'APOLLINARE": {
-                    "distanza_m": 685910,
-                    "tempo_s": 27018
+                    "distanza_m": 4300,
+                    "tempo_s": 420
                 },
                 "Piazza Albiano, 43 SANT'APOLLINARE": {
                     "distanza_m": 4356,
@@ -27342,12 +27342,12 @@
             },
             "6006726606": {
                 "Via Roma, 3 SANT'APOLLINARE": {
-                    "distanza_m": 507808,
-                    "tempo_s": 18446
+                    "distanza_m": 4000,
+                    "tempo_s": 427
                 },
                 "Piazza Risorgimento, 13 SANT'APOLLINARE": {
-                    "distanza_m": 686241,
-                    "tempo_s": 27030
+                    "distanza_m": 3800,
+                    "tempo_s": 398
                 },
                 "Piazza Albiano, 43 SANT'APOLLINARE": {
                     "distanza_m": 4688,
@@ -27356,12 +27356,12 @@
             },
             "6006726605": {
                 "Via Roma, 3 SANT'APOLLINARE": {
-                    "distanza_m": 509614,
-                    "tempo_s": 18626
+                    "distanza_m": 1300,
+                    "tempo_s": 215
                 },
                 "Piazza Risorgimento, 13 SANT'APOLLINARE": {
-                    "distanza_m": 680109,
-                    "tempo_s": 27094
+                    "distanza_m": 1300,
+                    "tempo_s": 200
                 },
                 "Piazza Albiano, 43 SANT'APOLLINARE": {
                     "distanza_m": 1373,
@@ -27370,12 +27370,12 @@
             },
             "6006726608": {
                 "Via Roma, 3 SANT'APOLLINARE": {
-                    "distanza_m": 508612,
-                    "tempo_s": 18474
+                    "distanza_m": 2000,
+                    "tempo_s": 300
                 },
                 "Piazza Risorgimento, 13 SANT'APOLLINARE": {
-                    "distanza_m": 687045,
-                    "tempo_s": 27064
+                    "distanza_m": 1600,
+                    "tempo_s": 240
                 },
                 "Piazza Albiano, 43 SANT'APOLLINARE": {
                     "distanza_m": 1689,

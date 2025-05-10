@@ -3,13 +3,13 @@ import pandas as pd
 import geopandas as gpd
 import numpy as np
 
-# === Percorsi File ===
-INPUT_FILE_TRANSIT = "C:/Users/vehico/Documents/Thesis/Distance-project/hospital_by_municipality_with_distances_transit_ROMA.json"
+# === File paths ===
+INPUT_FILE_TRANSIT = "DATA_DISTANCIAS\medici_by_municipality_with_distances_ROMA.json"
 POPULATION_FILE = "C:/Users/vehico/Documents/Thesis/geometrias_Lazio.shp"
-OUTPUT_FILE = "aggregated_hospital_distances_transit_ROMA.csv"
-OUTPUT_EXCEL_FILE = "aggregated_hospital_distances_transit_ROMA.xlsx"
+OUTPUT_FILE = "aggregated_medici_distances_transit_ROMA.csv"
+OUTPUT_EXCEL_FILE = "aggregated_medici_distances_transit_ROMA.xlsx"
 
-# === Caricamento popolazione nuclei urbani ===
+# === Loading population data for urban areas ===
 gdf = gpd.read_file(POPULATION_FILE)
 population_data = gdf.set_index("LOC21_ID")[["POP21", "COD_UTS"]].to_dict(orient="index")
 
@@ -40,12 +40,12 @@ def analyze_hospital_distances_transit(input_transit, output_file, output_excel)
                 tempo = info.get("tempo_s")
 
                 if distanza is not None and tempo is not None:
-                    distances.append(distanza / 1000)  # Converti in km
-                    durations.append(tempo / 60)       # Converti in minuti
+                    distances.append(distanza / 1000)  # Convert to km
+                    durations.append(tempo / 60)       # Convert to minutes
                     found_count += 1
 
             if distances:
-                weights = [pop] * len(distances)  # Pesi uguali per ogni destinazione
+                weights = [pop] * len(distances)  # Equal weights for each destination
                 distances_series = pd.Series(distances)
                 durations_series = pd.Series(durations)
 
@@ -78,7 +78,7 @@ def analyze_hospital_distances_transit(input_transit, output_file, output_excel)
     df.to_csv(output_file, index=False, encoding="utf-8")
     df.to_excel(output_excel, index=False, sheet_name="Aggregated_Transit")
 
-    print(f"✅ File '{output_file}' salvato con le distanze aggregate per trasporto pubblico (Roma).")
+    print(f"✅ File '{output_file}' saved with aggregated distances for public transport (Rome).")
 
-# === Esecuzione ===
+# === Execution ===
 analyze_hospital_distances_transit(INPUT_FILE_TRANSIT, OUTPUT_FILE, OUTPUT_EXCEL_FILE)

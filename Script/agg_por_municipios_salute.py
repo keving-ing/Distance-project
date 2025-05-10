@@ -1,26 +1,26 @@
 import pandas as pd
 import numpy as np
 
-# === Percorsi File ===
-INPUT_FILE = "aggregated_medici_distances_weighted.csv"
-OUTPUT_FILE = "aggregated_medici_by_municipality.csv"
-OUTPUT_EXCEL_FILE = "aggregated_medici_by_municipality.xlsx"
+# === File paths ===
+INPUT_FILE = "aggregated_ps_distances_weighted.csv"
+OUTPUT_FILE = "aggregated_ps_by_municipality.csv"
+OUTPUT_EXCEL_FILE = "aggregated_ps_by_municipality.xlsx"
 
-# === Caricamento Dati ===
+# === Loading data ===
 df = pd.read_csv(INPUT_FILE)
 
 df['Comune'] = df['Comune'].astype(str)
 df['Nucleo_ID'] = df['Nucleo_ID'].astype(str)
 df['Popolazione'] = df['Popolazione'].astype(float)
 
-# === Metriche da Calcolare ===
+# === Metrics to calculate ===
 metriche = ["mean_km", "mean_min"]
 
-# === Calcolo Popolazione Totale per Comune ===
+# === Calculation of total population per municipality based on the population of individual cores ===
 comune_peso = df.groupby('Comune')['Popolazione'].sum().reset_index()
 comune_peso.rename(columns={'Popolazione': 'Popolazione_totale'}, inplace=True)
 
-# === Funzione per Media Ponderata ===
+# === Weighted averaging fFunction ===
 def weighted_metrics(group):
     popolazione = group['Popolazione']
     results = {}
@@ -38,10 +38,10 @@ def weighted_metrics(group):
 
     return pd.Series(results)
 
-# === Aggregazione per Comune ===
+# === Aggregation by municipality ===
 df_aggregato = df.groupby('Comune').apply(weighted_metrics).reset_index()
 
-# === Calcolo Deviazione Standard ===
+# === Standard deviation calculation ===
 def compute_std(group, metriche):
     results = {}
     for col in metriche:
@@ -54,12 +54,12 @@ def compute_std(group, metriche):
 
 df_std = df.groupby('Comune').apply(lambda group: compute_std(group, metriche)).reset_index()
 
-# === Merge Finale ===
+# === Final merge ===
 df_finale = pd.merge(comune_peso, df_aggregato, on="Comune", how="left")
 df_finale = pd.merge(df_finale, df_std, on="Comune", how="left")
 
-# === Salvataggio Output ===
+# === Saving output ===
 df_finale.to_csv(OUTPUT_FILE, index=False)
-df_finale.to_excel(OUTPUT_EXCEL_FILE, index=False, sheet_name="Medici_Aggregated")
+df_finale.to_excel(OUTPUT_EXCEL_FILE, index=False, sheet_name="Ps_Aggregated")
 
-print(f"✅ Dati aggregati salvati in {OUTPUT_FILE} e {OUTPUT_EXCEL_FILE}")
+print(f"✅ Aggregated data saved in {OUTPUT_FILE} e {OUTPUT_EXCEL_FILE}")

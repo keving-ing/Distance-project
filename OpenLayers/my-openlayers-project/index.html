@@ -12,9 +12,9 @@
     <div id="topBar">
         <span id="btnDistance" class="topbar-item">Analisi accessibilitá EDUCAZIONE</span>
         <span class="topbar-item separator">|</span>
-        <span id="btnDistance" class="topbar-item">Analisi accessibilitá SALUTE</span>
+        <span id="btnDistanceSalud" class="topbar-item">Analisi accessibilitá SALUTE</span>
         <span class="topbar-item separator">|</span>
-        <span id="btnTransport" class="topbar-item">Analisi del trasporto pubblico provincia di ROMA</span>
+        <span id="btnTransport" class="topbar-item">Accessibilitá trasporto pubblico ROMA</span>
     </div>
 
     <!-- Mappa -->
@@ -46,7 +46,6 @@
         <select id="modeFilter">
             <option value="">-- Seleziona --</option>
             <option value="DR">Driving con traffico</option>
-            <option value="TP">Trasporto pubblico</option>
         </select>
 
         <div id="extraFilterContainer" style="display: none;">
@@ -61,18 +60,78 @@
         <button id="resetFilters">Mappa originale</button>
     </div>
 
+    <!-- 🔹 Menu per l'accessibilità salute -->
+    <div id="healthAnalysisControls" style="display: none;"> 
+        <label for="searchComuneSalute">Cerca un comune:</label>
+        <input type="text" id="searchComuneSalute" placeholder="Cerca un comune..." />
+
+        <label for="healthFilter">Accesso a servizi sanitari:</label>
+        <select id="healthFilter">
+            <option value="">-- Seleziona --</option>
+            <option value="MG">Medicina Generale</option>
+            <option value="OS">Ospedali</option>
+            <option value="UR">Urgenza</option>
+        </select>
+
+        <label for="healthModeFilter">Modo:</label>
+        <select id="healthModeFilter">
+            <option value="">-- Seleziona --</option>
+            <option value="DR">Driving con traffico</option>
+        </select>
+
+        <div id="extraHealthFilterContainer" style="display: none;">
+            <label for="extraHealthFilter">Scegli il criterio:</label>
+            <select id="extraHealthFilter">
+                <option value="">-- Seleziona --</option>
+                <option value="distanza">Distanza Km</option>
+                <option value="tempo">Tempo</option>
+            </select>
+        </div>
+
+        <button id="resetHealthFilters">Mappa originale</button>
+    </div>
+
     <!-- 🔹 Menu per l'analisi del trasporto pubblico -->
     <div id="transportAnalysisControls" style="display: none;">
         <label for="searchComune1">Cerca un comune:</label>
         <input type="text" id="searchComune1" placeholder="Cerca un comune..." />
 
-        <label for="educationFilter1">Differenza educazione:</label>
-        <select id="educationFilter1">
+        <label for="tipo">Accessibilitá per:</label>
+        <select id="tipo">
             <option value="">-- Seleziona --</option>
-            <option value="SI">Infanzia</option>
-            <option value="SP">Primaria</option>
-            <option value="SS">Secondaria</option>
+            <option value="SA">EDUCAZIONE</option>
+            <option value="ED">SALUTE</option>
         </select>
+
+        <div id="educationFilterContainer1" style="display: none;">
+            <label for="educationFilter1">Distanza educazione:</label>
+            <select id="educationFilter1" >
+                <option value="">-- Seleziona --</option>
+                <option value="SI">Infanzia</option>
+                <option value="SP">Primaria</option>
+                <option value="SS">Secondaria</option>
+            </select>
+        </div>
+        
+        <div id="healthFilterContainer1" style="display: none;">
+            <label for="healthFilter1">Distanza salute:</label>
+            <select id="healthFilter1">
+                <option value="">-- Seleziona --</option>
+                <option value="MG">Medicina generale</option>
+                <option value="OS">Ospedali</option>
+                <option value="UR">Urgenza</option>
+            </select>
+        </div>
+
+        <div id="modFilterContainer1" style="display: none;">
+            <label for="modalita">Modaliá:</label>
+            <select id="modalita">
+                <option value="">-- Seleziona --</option>
+                <option value="DR">Driving</option>
+                <option value="PT">Transporto Pubblico</option>
+                <option value="DI">Differenze</option>
+            </select>
+        </div>
 
         <div id="extraFilterContainer1" style="display: none;">
             <label for="extraFilter1">Scegli il criterio:</label>

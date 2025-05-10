@@ -89,6 +89,6 @@ unique_ids_str = ",".join(str(int(id_)) for id_ in sorted(unique_ids))
 print("LOC21_ID trovati:", unique_ids_str)
 print("Numero LOC21_ID trovati:", len(unique_ids))
 
-# Converti di nuovo in DataFrame puro e salva
+# Convert back to pure DataFrame and save
 df_results = pd.DataFrame(gdf_joined.drop(columns="geometry"))
 df_results.to_csv("risultati_driving_per_no_result_transit_with_locid.csv", index=False)

@@ -10,6 +10,7 @@ import Stroke from 'ol/style/Stroke';
 import Style from 'ol/style/Style';
 import { fromLonLat } from 'ol/proj';
 import Fill from 'ol/style/Fill';
+import { romaLayer, perimetroRomaLayer } from './mapRoma.js';
 
 
 // Creazione della mappa OpenLayers
@@ -81,7 +82,7 @@ export const defaultStyle = new Style({
     }),
 });
 
-const regioneLayer = new VectorLayer({
+export const regioneLayer = new VectorLayer({
     source: new VectorSource({
         url: '/perimetroLazio.geojson',
         format: new GeoJSON()
@@ -104,3 +105,6 @@ nucleiLayer.setStyle(nucleiStyle);
 map.addLayer(comuniLayer);
 //map.addLayer(nucleiLayer);
 map.addLayer(regioneLayer);
+
+map.addLayer(romaLayer);
+map.addLayer(perimetroRomaLayer);

@@ -9,6 +9,7 @@ import Style from 'ol/style/Style';
 import Stroke from 'ol/style/Stroke';
 import Fill from 'ol/style/Fill';
 import { comuniLayer, nucleiLayer } from './map.js';
+import { romaLayer, perimetroRomaLayer } from './mapRoma.js';
 
 /**
  * 🔥 Funzione per gestire il click sui comuni
@@ -72,6 +73,35 @@ export function setupClickInteraction(map, overlay) {
         controls: []
       });
 
+      const tooltip = document.createElement('div');
+        tooltip.className = 'popup-tooltip';
+        tooltip.style.cssText = `
+        position: absolute;
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 4px 6px;
+        border-radius: 4px;
+        font-size: 12px;
+        pointer-events: none;
+        display: none;
+        `;
+        document.getElementById('popup-map').appendChild(tooltip);
+
+        miniMap.on('pointermove', function (evt) {
+        const pixel = miniMap.getEventPixel(evt.originalEvent);
+        const hit = miniMap.hasFeatureAtPixel(pixel);
+        if (hit) {
+            const feature = miniMap.forEachFeatureAtPixel(pixel, f => f);
+            const nome = feature.get('NOME') || 'Nucleo sconosciuto';
+            tooltip.innerText = nome;
+            tooltip.style.left = `${evt.originalEvent.offsetX + 10}px`;
+            tooltip.style.top = `${evt.originalEvent.offsetY + 10}px`;
+            tooltip.style.display = 'block';
+        } else {
+            tooltip.style.display = 'none';
+        }
+        });
+
       console.log("🔁 Mini-mappa aggiornata.");
     }
   });
@@ -79,96 +109,110 @@ export function setupClickInteraction(map, overlay) {
 /**
  * 🔥 Funzione per evidenziare il bordo dei comuni quando il mouse passa sopra
  */
+let currentPointerMoveHandler = null;
+
 export function setupPointerMoveInteraction(map, infoBox, comuneData, selectedMetric) {
+
+    console.log("🧪 Comuni presenti in comuneData:", Object.keys(comuneData));
+    
+    // 🔄 Rimuovi il precedente listener se esistente
+    if (currentPointerMoveHandler) {
+        map.un('pointermove', currentPointerMoveHandler);
+    }
+
     let highlightedFeature = null;
 
-    map.on('pointermove', function (event) {
+    // 🔁 Nuovo handler da salvare
+    currentPointerMoveHandler = function (event) {
         const comuneDataReady = comuneData && Object.keys(comuneData).length > 0;
-    
-        const feature = map.forEachFeatureAtPixel(event.pixel, feature => feature, {
-            layerFilter: layer => layer === comuniLayer
+
+       
+
+        const feature = map.forEachFeatureAtPixel(event.pixel, f => f, {
+            layerFilter: layer => layer === comuniLayer || layer === romaLayer
         });
-    
+
         if (!feature) {
             if (highlightedFeature) {
                 highlightedFeature.setStyle(new Style({
                     fill: new Fill({
-                        color: highlightedFeature.get('originalFillColor') || 'rgba(255, 255, 255, 0.001)'
+                        color: highlightedFeature.get('originalColor') || 'rgba(255, 255, 255, 0.001)'
                     }),
-                    stroke: new Stroke({
-                        color: 'black',
-                        width: 1
-                    })
+                    stroke: new Stroke({ color: 'black', width: 1 })
                 }));
                 highlightedFeature = null;
             }
             infoBox.style.display = "none";
             return;
         }
-    
+
         if (feature !== highlightedFeature) {
-            // Ripristina la precedente
             if (highlightedFeature) {
                 highlightedFeature.setStyle(new Style({
                     fill: new Fill({
-                        color: highlightedFeature.get('originalFillColor') || 'rgba(255, 255, 255, 0.001)'
+                        color: highlightedFeature.get('originalColor') || 'rgba(255, 255, 255, 0.001)'
                     }),
-                    stroke: new Stroke({
-                        color: 'black',
-                        width: 1
-                    })
+                    stroke: new Stroke({ color: 'black', width: 1 })
                 }));
             }
-    
+
             highlightedFeature = feature;
-    
-            // Salva il colore originale di riempimento se non già salvato
-            if (!feature.get('originalFillColor')) {
-                const currentStyle = feature.getStyle();
-                if (currentStyle && currentStyle.getFill()) {
-                    feature.set('originalFillColor', currentStyle.getFill().getColor());
-                } else {
-                    feature.set('originalFillColor', 'rgba(255, 255, 255, 0.001)');
-                }
-            }
-    
-            // Evidenzia con bordo giallo
+
             feature.setStyle(new Style({
                 fill: new Fill({
-                    color: feature.get('originalFillColor')
+                    color: feature.get('originalColor') || 'rgba(255,255,255,0)'
                 }),
                 stroke: new Stroke({
                     color: 'yellow',
                     width: 3
                 })
             }));
-    
-            // Mostra il nome del comune sempre
+
             const comuneName = feature.get('COMUNE')?.trim().toUpperCase();
-    
-            // Mostra infoBox solo se i dati sono pronti
+            console.log(`🧪 comuneName: ${comuneName}`);
+
             const comuneInfo = comuneDataReady ? comuneData[comuneName] : null;
-    
+            console.log(`🧪 comuneInfo per ${comuneName}:`, comuneInfo);
+
             if (!comuneDataReady || !comuneInfo) {
+                console.warn(`⚠️ Nessuna info per: ${comuneName}`);
                 infoBox.style.display = "none";
+                return;
+            }
+
+            let value = null;
+            let label = null;
+
+            // EDUCAZIONE
+            const schoolType = document.getElementById('educationFilter').value || document.getElementById('educationFilter1').value;
+            if (schoolType && `${schoolType}_${selectedMetric}` in comuneInfo) {
+                value = comuneInfo[`${schoolType}_${selectedMetric}`];
+                label = `Educazione (${schoolType})`;
+            }
+            // SALUTE
+            else if (`km` in comuneInfo || `min` in comuneInfo) {
+                value = comuneInfo[selectedMetric];
+                const healthType = document.getElementById('healthFilter').value;
+                label = `Salute (${healthType})`;
+            }
+
+            if (label && selectedMetric && value !== undefined) {
+                infoBox.innerHTML = `
+                    <strong>COMUNE:</strong> ${comuneName}<br>
+                    <strong>${label}:</strong> ${value ? value.toFixed(2) : "N/A"} ${selectedMetric}
+                `;
+                infoBox.style.display = "block";
             } else {
-                const selectedSchoolType = document.getElementById('educationFilter').value || document.getElementById('educationFilter1').value;
-                const value = comuneInfo[`${selectedSchoolType}_${selectedMetric}`];
-    
-                if (selectedSchoolType && selectedMetric) {
-                    infoBox.innerHTML = `
-                        <strong>COMUNE:</strong> ${comuneName}<br>
-                        <strong>Distanza:</strong> ${value ? value.toFixed(2) : "N/A"} ${selectedMetric}
-                    `;
-                    infoBox.style.display = "block";
-                } else {
-                    infoBox.style.display = "none";
-                }
+                console.warn(`❌ Dati incompleti per ${comuneName} → label:${label}, metric:${selectedMetric}, value:${value}`);
+                infoBox.style.display = "none";
             }
         }
-    });
+    };
 
+    // ✅ Registra il nuovo listener
+    map.on('pointermove', currentPointerMoveHandler);
 }
+
 
 /**
  * 🔥 Funzione per creare un tooltip con il nome del comune

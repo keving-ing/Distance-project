@@ -31,15 +31,13 @@ def analyze_distances_by_type_weighted(input_transit, output_file, output_excel)
     Calculation of the weighted average and standard deviation of distances and times for each urban core, 
     using the population as a weight.
     """
-    with open(input_file, "r", encoding="utf-8") as f:
-        data = json.load(f)
 
     with open(input_transit, "r", encoding="utf-8") as f:
         data_transit = json.load(f)
 
     results = []
 
-    for comune, comune_data in data.items():
+    for comune, comune_data in data_transit.items():
         if "DISTANCE" not in comune_data:
             continue
             

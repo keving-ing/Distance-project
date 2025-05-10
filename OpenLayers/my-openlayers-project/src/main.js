@@ -1,5 +1,6 @@
 import 'ol/ol.css';
 import { loadCsvData, updateMapColors } from './comuniProcessor.js';
+import { loadHealthCsvData, updateMapColorsHealth } from './comuniProcessorSalute.js';
 import { loadCsvData_diff, updateMapDifferenceColors } from './differenceProcessor.js';
 import { loadNucleiData, updateMapColorsNuclei} from './nucleiProcessor.js';
 import { map, comuniLayer, nucleiLayer, defaultStyle } from './map.js';
@@ -21,6 +22,12 @@ let diffComuneData = {}; // Qui salveremo i dati del CSV
 
 const outCsvPath = "/data/outliers_comuni.csv";
 let outliersTransport = {}; // Qui salveremo i dati del CSV
+
+const hospitalCsvPath = "/data/aggregated_hospital_by_municipality.csv";
+let hospitalData = {}; // Qui salveremo i dati del CSV
+
+const healthMGPath = "/data/aggregated_medici_by_municipality.csv";
+let healthMG = {};
 
 outliersTransport
 
@@ -79,6 +86,9 @@ document.getElementById('extraFilter').addEventListener('change', function () {
     if (schoolType && metric && modeType) { // 🔥 Controllo per evitare errori
         const selectedData = modeType === 'DR' ? comuneData : comune_transit_Data;
         updateMapColors(schoolType, modeType, metric, comuniLayer, selectedData);
+
+        console.log(`🧪 metric: ${metric}`);
+        console.log("🧪 Comuni presenti in comuneData:", Object.keys(selectedData));
         setupPointerMoveInteraction(map, document.getElementById("infoBox"), selectedData, metric);
     } else {
         console.warn("⚠️ Uno dei parametri è mancante, impossibile aggiornare la mappa.");
@@ -101,11 +111,47 @@ document.getElementById('extraFilter1').addEventListener('change', function () {
 
     if (schoolType && metric) { // 🔥 Controllo per evitare errori
         updateMapDifferenceColors(schoolType, metric, comuniLayer, diffComuneData);
+        console.log(`🧪 metric: ${metric}`);
+        console.log("🧪 Comuni presenti in comuneData:", Object.keys(diffComuneData));
         setupPointerMoveInteraction(map, document.getElementById("infoBox"), diffComuneData, metric);
     } else {
         console.warn("⚠️ Uno dei parametri è mancante, impossibile aggiornare la mappa.");
     }
 });
+
+document.getElementById('extraHealthFilter').addEventListener('change', function () {
+
+    // 🔄 Reset stili
+    comuniLayer.getSource().getFeatures().forEach(feature => {
+        feature.setStyle(defaultStyle);
+        let color = 'rgba(255, 255, 255, 0)';
+        feature.set('originalColor', color);
+    });
+
+    const metric = this.value === "distanza" ? "km" : "min";
+    const healthType = document.getElementById('healthFilter').value;
+    const mode = document.getElementById('healthModeFilter').value;
+
+    // 🔁 Mappa tra tipi di dato e dataset caricati
+    const healthDataMap = {
+        MG: healthMG,
+        OS: hospitalData
+        //UR: healthUR
+    };
+
+    const selectedData = healthDataMap[healthType];
+
+    if (healthType && metric && selectedData) {
+        console.log(`🎨 Applicazione colori salute: tipo=${healthType}, unità=${metric}`);
+        updateMapColorsHealth(metric, comuniLayer, selectedData, healthType);
+        console.log(`🧪 metric: ${metric}`);
+        console.log("🧪 Comuni presenti in comuneData:", Object.keys(selectedData));
+        setupPointerMoveInteraction(map, document.getElementById("infoBox"), selectedData, metric);
+    } else {
+        console.warn("⚠️ Parametri mancanti o dati non caricati:", { healthType, metric });
+    }
+});
+
 
 document.getElementById('outliers').addEventListener('click', function () {
 
@@ -197,6 +243,22 @@ loadCsvData_diff(diffCsvPath).then(data => {
 loadCsvData_diff(outCsvPath).then(data => {
     outliersTransport = data;
     console.log("📊 Dati CSV caricati:", outliersTransport);
+
+    // Avvia le interazioni dopo aver caricato i dati
+    //setupPointerMoveInteraction(map, document.getElementById("infoBox"), outliersTransport);
+});
+
+loadHealthCsvData(hospitalCsvPath).then(data => {
+    hospitalData = data;
+    console.log("📊 Dati CSV caricati:", hospitalData);
+
+    // Avvia le interazioni dopo aver caricato i dati
+    //setupPointerMoveInteraction(map, document.getElementById("infoBox"), outliersTransport);
+});
+
+loadHealthCsvData(healthMGPath).then(data => {
+    healthMG = data;
+    console.log("📊 Dati CSV caricati:", healthMG);
 
     // Avvia le interazioni dopo aver caricato i dati
     //setupPointerMoveInteraction(map, document.getElementById("infoBox"), outliersTransport);

@@ -25,13 +25,13 @@ for comune, ospedali in school_data.items():
         nuclei_urbani = nuclei_dict.get(pro_com, [])
         # Ricostruiamo la struttura come dizionario
         school_data[comune] = {
-            "medici": ospedali,
+            "pronto_soccorso":[],
             "nuclei": nuclei_urbani
         }
 
 
 # Salvare il file aggiornato
-with open("medici_by_municipality_with_nuclei.json", "w", encoding="utf-8") as f:
+with open("ps_by_municipality_with_nuclei.json", "w", encoding="utf-8") as f:
     json.dump(school_data, f, indent=4, ensure_ascii=False)
 
-print("✅ File aggiornato con i nuclei urbani salvato come 'medici_by_municipality_with_nuclei.json'")
+print("✅ File aggiornato con i nuclei urbani salvato come 'ps_by_municipality_with_nuclei.json'")

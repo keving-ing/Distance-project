@@ -112,8 +112,9 @@ export function updateMapColors(schoolType, modeType, metric, comuniLayer, comun
             fill: new Fill({ color: color }),
             stroke: new Stroke({ color: 'black', width: 1 })
         }));
-
-        feature.set('originalColor', color); // Memorizziamo il colore originale
+        
+        // ✅ Salva anche il colore originale nel feature
+        feature.set('originalColor', color);
     });
 
     updateLegend(min, max, schoolType, metric, modeType);
