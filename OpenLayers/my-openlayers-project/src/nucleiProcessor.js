@@ -44,11 +44,14 @@ export function updateMapColorsNuclei(schoolType, metric, nucleiLayer, nucleiDat
 
     let min = Infinity;
     let max = -Infinity;
+    let sum = 0;          
+    let count = 0; 
 
    
     // 🔥 PRIMA PASSATA: Trova Min/Max
     nucleiLayer.getSource().getFeatures().forEach(feature => {
         let nucleoID = feature.get('LOC21_ID');  // ID dal GeoJSON
+
         
 
         if (!nucleoID) {
@@ -69,12 +72,15 @@ export function updateMapColorsNuclei(schoolType, metric, nucleiLayer, nucleiDat
             if (!isNaN(value) && value !== null) {
                 min = Math.min(min, value);
                 max = Math.max(max, value);
+                sum += value;
+                count++;
             }
         } else {
             
         }
     });
 
+    let media = count > 0 ? (sum / count) : 0;
     console.log(`📊 Min: ${min}, Max: ${max}`);
 
     // 🔥 SECONDA PASSATA: Applica colori normalizzati
@@ -94,8 +100,18 @@ export function updateMapColorsNuclei(schoolType, metric, nucleiLayer, nucleiDat
 
         if (isNaN(value) || value === null) return;
 
-        let ratio = (value - min) / (max - min);
-        let color = `rgba(${Math.floor(255 * ratio)}, 50, ${Math.floor(255 * (1 - ratio))}, 1)`;
+        let ratio
+        let color;
+
+        if(value <= media){
+            ratio = (value - min) / (media - min); // Normalizzazione tra 0 e 1
+            const r = Math.max(0, Math.min(1, ratio));
+            color = `rgb(${Math.floor(0 + 80 * r)}, ${Math.floor(50 + 130 * r)}, ${ Math.floor(200 + 55 * r)})`;
+        }else{
+            ratio = (value - media) / (max - media);
+            const r = Math.max(0, Math.min(1, ratio));
+            color = `rgb(${Math.floor(80 + 140 * r)}, ${Math.floor(180 - 140 * r)}, ${Math.floor(255 - 215 * r)})`;
+        }
 
 
         feature.setStyle(new Style({
@@ -106,7 +122,7 @@ export function updateMapColorsNuclei(schoolType, metric, nucleiLayer, nucleiDat
         feature.set('originalColor', color);
     });
     
-    updateLegend(min, max);
+    //updateLegend(min, max);
     console.log("✅ Nuclei aggiornati!");
 }
 

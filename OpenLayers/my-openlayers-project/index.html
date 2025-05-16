@@ -3,18 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Distanza Lazio</title>
+    <title>Visor de accesibilidad - Lazio</title>
+    <link rel="icon" href="logo_ping.png" type="image/png">
     <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
     
     <!-- 🔹 Barra superiore -->
     <div id="topBar">
-        <span id="btnDistance" class="topbar-item">Analisi accessibilitá EDUCAZIONE</span>
+    <div id="topBarLeft">
+        <span id="btnDistance" class="topbar-item">Analisi accessibilità EDUCAZIONE</span>
         <span class="topbar-item separator">|</span>
-        <span id="btnDistanceSalud" class="topbar-item">Analisi accessibilitá SALUTE</span>
+        <span id="btnDistanceSalud" class="topbar-item">Analisi accessibilità SALUTE</span>
         <span class="topbar-item separator">|</span>
-        <span id="btnTransport" class="topbar-item">Accessibilitá trasporto pubblico ROMA</span>
+        <span id="btnTransport" class="topbar-item">Accessibilità trasporto pubblico ROMA</span>
+    </div>
+    <div id="topBarRight">
+        <button id="settingsBtn" class="settings-button">⚙️</button>
+    </div>
+    </div>
+
+
+    <!-- 🔧 Pannello impostazioni -->
+    <div id="settingsPanel" style="display: none; position: absolute; top: 50px; right: 20px; background: white; border: 1px solid #ccc; padding: 10px; z-index: 1000;">
+        <label for="languageSelect"><strong>Lingua:</strong></label>
+        <select id="languageSelect">
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="es">🇪🇸 Español</option>
+            <!-- altre lingue qui -->
+        </select>
     </div>
 
     <!-- Mappa -->
@@ -31,10 +49,10 @@
 
     <!-- 🔹 Menu per la distanza -->
     <div id="controls" style="display: none;"> 
-        <label for="searchComune">Cerca un comune:</label>
+        <label id="labelSearchComune" for="searchComune">Cerca un comune:</label>
         <input type="text" id="searchComune" placeholder="Cerca un comune..." />
 
-        <label for="educationFilter">Distanza educazione:</label>
+        <label id="labelEducationFilter" for="educationFilter">Distanza educazione:</label>
         <select id="educationFilter">
             <option value="">-- Seleziona --</option>
             <option value="SI">Infanzia</option>
@@ -42,14 +60,14 @@
             <option value="SS">Secondaria</option>
         </select>
 
-        <label for="modeFilter">Modo:</label>
+        <label id="labelModeFilter" for="modeFilter">Modo:</label>
         <select id="modeFilter">
             <option value="">-- Seleziona --</option>
             <option value="DR">Driving con traffico</option>
         </select>
 
         <div id="extraFilterContainer" style="display: none;">
-            <label for="extraFilter">Scegli il criterio:</label>
+            <label id="labelExtraFilter" for="extraFilter">Scegli il criterio:</label>
             <select id="extraFilter">
                 <option value="">-- Seleziona --</option>
                 <option value="distanza">Distanza Km</option>
@@ -62,10 +80,10 @@
 
     <!-- 🔹 Menu per l'accessibilità salute -->
     <div id="healthAnalysisControls" style="display: none;"> 
-        <label for="searchComuneSalute">Cerca un comune:</label>
+        <label id="labelSearchComuneSalute" for="searchComuneSalute">Cerca un comune:</label>
         <input type="text" id="searchComuneSalute" placeholder="Cerca un comune..." />
 
-        <label for="healthFilter">Accesso a servizi sanitari:</label>
+        <label id="labelHealthFilter" for="healthFilter">Accesso a servizi sanitari:</label>
         <select id="healthFilter">
             <option value="">-- Seleziona --</option>
             <option value="MG">Medicina Generale</option>
@@ -73,14 +91,14 @@
             <option value="UR">Urgenza</option>
         </select>
 
-        <label for="healthModeFilter">Modo:</label>
+        <label id="labelHealthModeFilter" for="healthModeFilter">Modo:</label>
         <select id="healthModeFilter">
             <option value="">-- Seleziona --</option>
             <option value="DR">Driving con traffico</option>
         </select>
 
         <div id="extraHealthFilterContainer" style="display: none;">
-            <label for="extraHealthFilter">Scegli il criterio:</label>
+            <label id="labelExtraHealthFilter" for="extraHealthFilter">Scegli il criterio:</label>
             <select id="extraHealthFilter">
                 <option value="">-- Seleziona --</option>
                 <option value="distanza">Distanza Km</option>
@@ -93,10 +111,10 @@
 
     <!-- 🔹 Menu per l'analisi del trasporto pubblico -->
     <div id="transportAnalysisControls" style="display: none;">
-        <label for="searchComune1">Cerca un comune:</label>
+        <label id="labelSearchComune1" for="searchComune1">Cerca un comune:</label>
         <input type="text" id="searchComune1" placeholder="Cerca un comune..." />
 
-        <label for="tipo">Accessibilitá per:</label>
+        <label id="labelTipo" for="tipo">Accessibilitá per:</label>
         <select id="tipo">
             <option value="">-- Seleziona --</option>
             <option value="SA">EDUCAZIONE</option>
@@ -104,17 +122,17 @@
         </select>
 
         <div id="educationFilterContainer1" style="display: none;">
-            <label for="educationFilter1">Distanza educazione:</label>
-            <select id="educationFilter1" >
+            <label id="labelEducationFilter1" for="educationFilter1">Distanza educazione:</label>
+            <select id="educationFilter1">
                 <option value="">-- Seleziona --</option>
                 <option value="SI">Infanzia</option>
                 <option value="SP">Primaria</option>
                 <option value="SS">Secondaria</option>
             </select>
         </div>
-        
+
         <div id="healthFilterContainer1" style="display: none;">
-            <label for="healthFilter1">Distanza salute:</label>
+            <label id="labelHealthFilter1" for="healthFilter1">Distanza salute:</label>
             <select id="healthFilter1">
                 <option value="">-- Seleziona --</option>
                 <option value="MG">Medicina generale</option>
@@ -124,7 +142,7 @@
         </div>
 
         <div id="modFilterContainer1" style="display: none;">
-            <label for="modalita">Modaliá:</label>
+            <label id="labelModalita" for="modalita">Modalitá:</label>
             <select id="modalita">
                 <option value="">-- Seleziona --</option>
                 <option value="DR">Driving</option>
@@ -134,7 +152,7 @@
         </div>
 
         <div id="extraFilterContainer1" style="display: none;">
-            <label for="extraFilter1">Scegli il criterio:</label>
+            <label id="labelExtraFilter1" for="extraFilter1">Scegli il criterio:</label>
             <select id="extraFilter1">
                 <option value="">-- Seleziona --</option>
                 <option value="distanza">Distanza Km</option>
@@ -143,16 +161,14 @@
         </div>
 
         <button id="outliers">Visualizzazione outliers</button>
-
         <button id="resetFilters1">Mappa originale</button>
-
     </div>
 
     <div id="infoBox" class="info-box">BOX</div>
 
     <div id="layerBox">
-        <label><input type="radio" id = "r" name="layer" value="comuni" checked> Comuni</label>
-        <label><input type="radio" id = "r" name="layer" value="nuclei"> Nuclei Urbani</label>
+        <label id="layerBoxComunia"><input type="radio" id = "r" name="layer" value="comuni" checked> Comuni</label>
+        <label id="layerBoxNucleia"><input type="radio" id = "r" name="layer" value="nuclei"> Nuclei Urbani</label>
     </div>
 
     <div id="color-bar-container" style="display: none;">

@@ -10,6 +10,8 @@ import Stroke from 'ol/style/Stroke';
 import Fill from 'ol/style/Fill';
 import { comuniLayer, nucleiLayer } from './map.js';
 import { romaLayer, perimetroRomaLayer } from './mapRoma.js';
+import { t } from './i18n.js';
+
 
 /**
  * 🔥 Funzione per gestire il click sui comuni
@@ -197,9 +199,16 @@ export function setupPointerMoveInteraction(map, infoBox, comuneData, selectedMe
             }
 
             if (label && selectedMetric && value !== undefined) {
+                const translatedComune = t("info_comune");
+                const translatedValore = t("info_valore", {
+                    label: label,
+                    value: value ? value.toFixed(2) : "N/A",
+                    unit: selectedMetric
+                });
+
                 infoBox.innerHTML = `
-                    <strong>COMUNE:</strong> ${comuneName}<br>
-                    <strong>${label}:</strong> ${value ? value.toFixed(2) : "N/A"} ${selectedMetric}
+                    <strong>${translatedComune}:</strong> ${comuneName}<br>
+                    <strong>${translatedValore}</strong>
                 `;
                 infoBox.style.display = "block";
             } else {
@@ -225,17 +234,18 @@ export function setupTooltip(map) {
     tooltipElement.style.padding = '5px 10px';
     tooltipElement.style.borderRadius = '4px';
     tooltipElement.style.display = 'none';
+    tooltipElement.style.pointerEvents = 'none';
+    tooltipElement.style.zIndex = 9999;
     document.body.appendChild(tooltipElement);
 
     map.on('pointermove', function (event) {
-        const feature = map.forEachFeatureAtPixel(event.pixel, function (feature) {
-            return feature;
-        });
+        const feature = map.forEachFeatureAtPixel(event.pixel, f => f);
 
         if (feature) {
-            const nomeComune = feature.get('COMUNE'); 
+            const nomeComune = feature.get('COMUNE');
             if (nomeComune) {
-                tooltipElement.innerHTML = nomeComune;
+                const labelComune = t("info_comune");
+                tooltipElement.innerHTML = `<strong>${labelComune}:</strong> ${nomeComune}`;
                 tooltipElement.style.left = event.pixel[0] + 10 + 'px';
                 tooltipElement.style.top = event.pixel[1] + 10 + 'px';
                 tooltipElement.style.display = 'block';

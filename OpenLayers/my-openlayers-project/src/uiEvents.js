@@ -5,6 +5,7 @@ import { map, comuniLayer, nucleiLayer, defaultStyle, regioneLayer } from './map
 import { romaLayer, perimetroRomaLayer } from './mapRoma.js';
 import { resetAll } from './utilities.js';
 import { fromLonLat } from 'ol/proj';
+import { loadTranslations, setLanguage, t } from './i18n.js';
 
 
 export function setupMenuNavigation() {
@@ -65,6 +66,15 @@ export function setupMenuNavigation() {
  * 🔥 Inizializza gli eventi della UI
  */
 export function setupUIEvents(comuneData, nucleiData) {
+
+    document.getElementById('settingsBtn').addEventListener('click', function () {
+    const panel = document.getElementById('settingsPanel');
+    panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+  });
+
+document.getElementById("languageSelect").addEventListener("change", (e) => {
+    setLanguage(e.target.value);
+});
     
     document.getElementById('searchComune').addEventListener('keypress', function (event) {
         if (event.key === 'Enter') {  // Se l'utente preme Invio

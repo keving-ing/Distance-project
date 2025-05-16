@@ -103,8 +103,7 @@ nucleiLayer.setStyle(nucleiStyle);
 
 // Aggiungi i layer alla mappa
 map.addLayer(comuniLayer);
-//map.addLayer(nucleiLayer);
+map.addLayer(nucleiLayer);
 map.addLayer(regioneLayer);
-
 map.addLayer(romaLayer);
 map.addLayer(perimetroRomaLayer);

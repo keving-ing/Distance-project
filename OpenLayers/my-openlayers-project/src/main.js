@@ -6,7 +6,11 @@ import { loadNucleiData, updateMapColorsNuclei} from './nucleiProcessor.js';
 import { map, comuniLayer, nucleiLayer, defaultStyle } from './map.js';
 import { setupClickInteraction, setupPointerMoveInteraction, setupTooltip } from './interactions_map.js';
 import { setupUIEvents,setupMenuNavigation } from './uiEvents.js';
+import { updateMapColorsNucleiSalute } from './nucleiProcessorSalute.js';
+import { loadTranslations, setLanguage, t } from './i18n.js';
 import Overlay from 'ol/Overlay';
+
+await loadTranslations();
 
 const csvPath = "/data/aggregati_municipio.csv"; 
 let comuneData = {}; // Qui salveremo i dati del CSV
@@ -17,19 +21,18 @@ let comune_transit_Data = {}; // Qui salveremo i dati del CSV
 const nucleiCsvPath = "/data/aggregated_school_distances_weighted.csv";
 let nucleiData = {}; // Qui salveremo i dati del CSV
 
-const diffCsvPath = "/data/differenze_municipio.csv";
-let diffComuneData = {}; // Qui salveremo i dati del CSV
-
-const outCsvPath = "/data/outliers_comuni.csv";
-let outliersTransport = {}; // Qui salveremo i dati del CSV
-
 const hospitalCsvPath = "/data/aggregated_hospital_by_municipality.csv";
 let hospitalData = {}; // Qui salveremo i dati del CSV
 
 const healthMGPath = "/data/aggregated_medici_by_municipality.csv";
 let healthMG = {};
 
-outliersTransport
+const healthMGPath_nucleo = "/data/aggregated_medici_distances_weighted.csv";
+let healthMG_nuclei = {};
+
+const healthOSPath_nucleo = "/data/aggregated_hospital_distances_weighted.csv";
+let healthOS_nuclei = {};
+
 
 // 🎯 Seleziona gli elementi HTML del popup
 const closer = document.getElementById('popup-closer');
@@ -46,8 +49,8 @@ setupPointerMoveInteraction(map, document.getElementById("infoBox"),comuneData);
 setupTooltip(map);
 
 const layerRadios = document.querySelectorAll('input[name="layer"]');
-nucleiLayer.setVisible(false); // ❌ Nuclei inizialmente nascosti
 comuniLayer.setVisible(true);  // 🔥 Mostrati di default
+//nucleiLayer.setVisible(true);
 
 // Evento per il cambio layer
 layerRadios.forEach(radio => {
@@ -83,41 +86,25 @@ document.getElementById('extraFilter').addEventListener('change', function () {
     selectedMode = document.getElementById('modeFilter').value;
     const metric = this.value === "distanza" ? "km" : "min";
     selectedMetric = this.value === "distanza" ? "km" : "min";
-    if (schoolType && metric && modeType) { // 🔥 Controllo per evitare errori
+    if (schoolType && metric && modeType) {
         const selectedData = modeType === 'DR' ? comuneData : comune_transit_Data;
+
+        // 🔵 Colora layer dei comuni
         updateMapColors(schoolType, modeType, metric, comuniLayer, selectedData);
+
+        // 🔵 Colora layer dei nuclei anche se non visibile
+        updateMapColorsNuclei(schoolType, metric, nucleiLayer, nucleiData);
+        nucleiLayer.setVisible(false); // 👈 Mantieni invisibile
 
         console.log(`🧪 metric: ${metric}`);
         console.log("🧪 Comuni presenti in comuneData:", Object.keys(selectedData));
         setupPointerMoveInteraction(map, document.getElementById("infoBox"), selectedData, metric);
-    } else {
+    }
+ else {
         console.warn("⚠️ Uno dei parametri è mancante, impossibile aggiornare la mappa.");
     }
 });
 
-document.getElementById('extraFilter1').addEventListener('change', function () {
-
-    comuniLayer.getSource().getFeatures().forEach(feature => {
-                feature.setStyle(defaultStyle);
-                let color = 'rgba(255, 255, 255, 0)';
-                feature.set('originalColor', color);
-            });
-
-
-    const schoolType = document.getElementById('educationFilter1').value;
-    selectedSchoolType = document.getElementById('educationFilter1').value;
-    const metric = this.value === "distanza" ? "km" : "min";
-    selectedMetric = this.value === "distanza" ? "km" : "min";
-
-    if (schoolType && metric) { // 🔥 Controllo per evitare errori
-        updateMapDifferenceColors(schoolType, metric, comuniLayer, diffComuneData);
-        console.log(`🧪 metric: ${metric}`);
-        console.log("🧪 Comuni presenti in comuneData:", Object.keys(diffComuneData));
-        setupPointerMoveInteraction(map, document.getElementById("infoBox"), diffComuneData, metric);
-    } else {
-        console.warn("⚠️ Uno dei parametri è mancante, impossibile aggiornare la mappa.");
-    }
-});
 
 document.getElementById('extraHealthFilter').addEventListener('change', function () {
 
@@ -139,11 +126,19 @@ document.getElementById('extraHealthFilter').addEventListener('change', function
         //UR: healthUR
     };
 
+    const healthNucleiDataMap = {
+    MG: healthMG_nuclei,
+    OS: healthOS_nuclei,
+    //UR: urgenza_nuclei
+    };
+
     const selectedData = healthDataMap[healthType];
+    const selectedNucleiData = healthNucleiDataMap[healthType];
 
     if (healthType && metric && selectedData) {
         console.log(`🎨 Applicazione colori salute: tipo=${healthType}, unità=${metric}`);
         updateMapColorsHealth(metric, comuniLayer, selectedData, healthType);
+        updateMapColorsNucleiSalute(metric, nucleiLayer, selectedNucleiData);
         console.log(`🧪 metric: ${metric}`);
         console.log("🧪 Comuni presenti in comuneData:", Object.keys(selectedData));
         setupPointerMoveInteraction(map, document.getElementById("infoBox"), selectedData, metric);
@@ -152,50 +147,11 @@ document.getElementById('extraHealthFilter').addEventListener('change', function
     }
 });
 
-
-document.getElementById('outliers').addEventListener('click', function () {
-
-    comuniLayer.getSource().getFeatures().forEach(feature => {
-                feature.setStyle(defaultStyle);
-                let color = 'rgba(255, 255, 255, 0)';
-                feature.set('originalColor', color);
-            });
-
-    const schoolType = document.getElementById('educationFilter').value || document.getElementById('educationFilter1').value;
-    const metric = document.getElementById('extraFilter').value ? 
-        (document.getElementById('extraFilter').value === "distanza" ? "km" : "min") :
-        (document.getElementById('extraFilter1').value === "distanza" ? "km" : "min");
-
-    if (schoolType && metric) {
-        console.log(`🔍 Visualizzazione outliers per: ${schoolType}_${metric}`);
-        updateMapDifferenceColors(schoolType, metric, comuniLayer, outliersTransport);
-    } else {
-        console.warn("⚠️ Seleziona un tipo di scuola e un'unità di misura prima di visualizzare gli outliers.");
-        alert("Seleziona un tipo di scuola e un'unità di misura prima di visualizzare gli outliers.");
-    }
-});
-
 let nucleiDataReady = false;
 // Aggiungiamo un listener per il cambio di layer (Comuni <-> Nuclei)
 document.querySelectorAll('input[name="layer"]').forEach(radio => {
     radio.addEventListener('change', function () {
         if (this.value === "nuclei") {
-            const schoolType = document.getElementById('educationFilter').value;
-            const metric = document.getElementById('extraFilter').value === "distanza" ? "km" : "min";
-            const modeType = document.getElementById('modeFilter').value;
-            
-            console.log("📌 Cambio layer: nuclei");
-            console.log("🎓 School type:", schoolType);
-            console.log("🕓 Metric:", metric);
-            console.log("🚗 Mode:", modeType);
-            
-            if (schoolType && metric) {
-                console.log("🎨 Applico colorazione nuclei...");
-                updateMapColorsNuclei(schoolType, metric, nucleiLayer, nucleiData);
-            } else {
-                console.warn("⚠️ Filtro non selezionato, nessuna colorazione nuclei.");
-            }
-
             nucleiLayer.setVisible(true);
             comuniLayer.setVisible(false);
         } else {
@@ -205,7 +161,7 @@ document.querySelectorAll('input[name="layer"]').forEach(radio => {
     });
 });
 
-// Dopo aver caricato i dati CSV
+
 loadCsvData(csvPath).then(data => {
     comuneData = data;
     console.log("📊 Dati CSV caricati:", comuneData);
@@ -227,25 +183,7 @@ loadNucleiData(nucleiCsvPath).then(data => {
     nucleiData = data;
     nucleiDataReady = true;
     console.log("📊 Dati nuclei caricati:", nucleiData);
-    map.addLayer(nucleiLayer); // ✅ aggiunto ma invisibile
-    nucleiLayer.setVisible(false);
-    setupClickInteraction(map);
-});
-
-loadCsvData_diff(diffCsvPath).then(data => {
-    diffComuneData = data;
-    console.log("📊 Dati CSV caricati:", diffComuneData);
-
-    // Avvia le interazioni dopo aver caricato i dati
-    //setupPointerMoveInteraction(map, document.getElementById("infoBox"), diffComuneData);
-});
-
-loadCsvData_diff(outCsvPath).then(data => {
-    outliersTransport = data;
-    console.log("📊 Dati CSV caricati:", outliersTransport);
-
-    // Avvia le interazioni dopo aver caricato i dati
-    //setupPointerMoveInteraction(map, document.getElementById("infoBox"), outliersTransport);
+    
 });
 
 loadHealthCsvData(hospitalCsvPath).then(data => {
@@ -263,3 +201,20 @@ loadHealthCsvData(healthMGPath).then(data => {
     // Avvia le interazioni dopo aver caricato i dati
     //setupPointerMoveInteraction(map, document.getElementById("infoBox"), outliersTransport);
 });
+
+
+loadNucleiData(healthMGPath_nucleo).then(data => {
+    healthMG_nuclei = data;
+    nucleiDataReady = true;
+    console.log("📊 Dati nuclei medici caricati:", healthMG_nuclei);
+    
+});
+
+loadNucleiData(healthOSPath_nucleo).then(data => {
+    healthOS_nuclei = data;
+    nucleiDataReady = true;
+    console.log("📊 Dati nuclei ospedali caricati:", healthOS_nuclei);
+    
+});
+
+setupClickInteraction(map);

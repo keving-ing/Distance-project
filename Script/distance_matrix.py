@@ -152,25 +152,25 @@ def process_municipality_distances():
             if len(origin_batch) * len(destination_batch) > MAX_ELEMENTS:
                 #print(f"⚠️ Batch troppo grande ({len(origin_batch)} x {len(destination_batch)}) per {comune}, suddividendolo...")
 
-                # Definiamo i sottobatch ottimali
+                # We define the optimal sub-batches
                 max_origins_per_subbatch = MAX_ELEMENTS // len(destination_batch)
                 max_destinations_per_subbatch = MAX_ELEMENTS // len(origin_batch)
 
-                # Assicuriamoci che almeno 1 origine e 1 destinazione siano presenti
+                # Ensure that at least 1 origin and 1 destination are present
                 max_origins_per_subbatch = max(1, max_origins_per_subbatch)
                 max_destinations_per_subbatch = max(1, max_destinations_per_subbatch)
 
-                # Creiamo nuovi batch più piccoli
+                # We create new smaller batches
                 smaller_origin_batches = [origin_batch[i:i + max_origins_per_subbatch] for i in range(0, len(origin_batch), max_origins_per_subbatch)]
                 smaller_destination_batches = [destination_batch[i:i + max_destinations_per_subbatch] for i in range(0, len(destination_batch), max_destinations_per_subbatch)]
 
-                # 🔹 Dizionario temporaneo per accumulare i risultati di tutti i batch
+                # 🔹 Temporary dictionary to accumulate the results of all batches
                 cumulative_results = {}
 
                 reverse_nuclei_map = {f"{lat},{lon}": nucleo_id for nucleo_id, (lat, lon) in nuclei_centroidi.items()}
 
 
-                # Iteriamo sui sottobatch
+                # Iterating on sub-batches
                 for small_origin_batch, small_destination_batch in itertools.product(smaller_origin_batches, smaller_destination_batches):
                     if len(small_origin_batch) * len(small_destination_batch) <= MAX_ELEMENTS:
 
@@ -196,7 +196,7 @@ def process_municipality_distances():
                                                 "tempo_s": time_duration
                                             }
 
-                # Ora aggiorniamo il dizionario globale con i risultati accumulati
+                # We now update the global dictionary with the accumulated results
                 for origin_id, destinations in cumulative_results.items():
                     filtered_school_data[comune]["DISTANCE"] = filtered_school_data[comune].get("DISTANCE", {})
                     filtered_school_data[comune]["DISTANCE"][origin_id] = destinations
@@ -209,11 +209,11 @@ def process_municipality_distances():
                 if not result or "rows" not in result:
                     continue  # Salta se errore API
 
-                # Assicuriamoci che "DISTANCE" sia inizializzata
+                # Ensure that “DISTANCE” is initialised
                 if "DISTANCE" not in filtered_school_data[comune]:
                     filtered_school_data[comune]["DISTANCE"] = {}
 
-                # Creiamo il reverse map se non già definito
+                # We create the reverse map if not already defined
                 reverse_nuclei_map = {f"{lat},{lon}": nucleo_id for nucleo_id, (lat, lon) in nuclei_centroidi.items()}
 
                 for i, origin in enumerate(origin_batch):
@@ -235,16 +235,16 @@ def process_municipality_distances():
                                 }
                             else:
                                 log_message = f"NO RESULT for: {origin} - {destination}\n"
-                                print(log_message)  # Stampa in console
+                                print(log_message) 
                                 with open("distance_matrix_errors.log", "a", encoding="utf-8") as f:
-                                    f.write(log_message)  # Scrive nel file
+                                    f.write(log_message)
         #if k > 20:
             #break
         
         
 
 
-# **Esegui il processo di calcolo distanze**
+# **Perform the distance calculation process**
 process_municipality_distances()
 
 # **Save the updated file with distances**

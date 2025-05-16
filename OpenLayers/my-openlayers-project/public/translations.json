@@ -1,0 +1,256 @@
+{
+  "it": {
+    "btnDistance": "Analisi accessibilità EDUCAZIONE",
+    "btnDistanceSalud": "Analisi accessibilità SALUTE",
+    "btnTransport": "Accessibilità trasporto pubblico ROMA",
+
+    "labelSearchComune": "Cerca un comune:",
+    "searchComune": "Cerca un comune...",
+
+    "labelEducationFilter": "Distanza educazione:",
+    "educationFilter": "-- Seleziona --",
+
+    "labelModeFilter": "Modo:",
+    "modeFilter": "-- Seleziona --",
+
+    "labelExtraFilter": "Scegli il criterio:",
+    "extraFilter": "-- Seleziona --",
+
+    "resetFilters": "Mappa originale",
+
+    "labelSearchComuneSalute": "Cerca un comune:",
+    "searchComuneSalute": "Cerca un comune...",
+
+    "labelHealthFilter": "Accesso a servizi sanitari:",
+    "healthFilter": "-- Seleziona --",
+
+    "labelHealthModeFilter": "Modo:",
+    "healthModeFilter": "-- Seleziona --",
+
+    "labelExtraHealthFilter": "Scegli il criterio:",
+    "extraHealthFilter": "-- Seleziona --",
+
+    "resetHealthFilters": "Mappa originale",
+
+    "labelSearchComune1": "Cerca un comune:",
+    "searchComune1": "Cerca un comune...",
+
+    "labelTipo": "Accessibilità per:",
+    "tipo": "-- Seleziona --",
+
+    "labelEducationFilter1": "Distanza educazione:",
+    "educationFilter1": "-- Seleziona --",
+
+    "labelHealthFilter1": "Distanza salute:",
+    "healthFilter1": "-- Seleziona --",
+
+    "labelModalita": "Modalità:",
+    "modalita": "-- Seleziona --",
+
+    "labelExtraFilter1": "Scegli il criterio:",
+    "extraFilter1": "-- Seleziona --",
+
+    "outliers": "Visualizzazione outliers",
+    "resetFilters1": "Mappa originale",
+
+    "layerBoxComuni": "Comuni",
+    "layerBoxNuclei": "Nuclei Urbani",
+
+    "colorBarTitle": "Accesso {type} ({metric})",
+    "legend_label": "Sotto ↔ Sopra la media",
+    "info_comune": "COMUNE",
+    "info_valore": "{label}: {value} {unit}",
+
+    "SI": "Infanzia",
+    "SP": "Primaria",
+    "SS": "Secondaria",
+    "MG": "Medicina Generale",
+    "OS": "Ospedali",
+    "UR": "Urgenza",
+    "DR": "Auto con traffico",
+    "PT": "Trasporto Pubblico",
+    "DI": "Differenze",
+    "distanza": "Distanza Km",
+    "tempo": "Tempo",
+
+    "select_placeholder": "-- Seleziona --",
+
+    "legend_SI": "INFANZIA",
+    "legend_SP": "PRIMARIA",
+    "legend_SS": "SECONDARIA",
+    "legend_MG": "MEDICI DI FAMIGLIA",
+    "legend_OS": "OSPEDALI",
+    "legend_access": "Accesso {type} ({metric})"
+
+  },
+
+  "en": {
+    "btnDistance": "Accessibility Analysis: EDUCATION",
+    "btnDistanceSalud": "Accessibility Analysis: HEALTH",
+    "btnTransport": "Public Transport Accessibility ROME",
+
+    "labelSearchComune": "Search a municipality:",
+    "searchComune": "Search a municipality...",
+
+    "labelEducationFilter": "Education distance:",
+    "educationFilter": "-- Select --",
+
+    "labelModeFilter": "Mode:",
+    "modeFilter": "-- Select --",
+
+    "labelExtraFilter": "Choose criterion:",
+    "extraFilter": "-- Select --",
+
+    "resetFilters": "Original map",
+
+    "labelSearchComuneSalute": "Search a municipality:",
+    "searchComuneSalute": "Search a municipality...",
+
+    "labelHealthFilter": "Access to health services:",
+    "healthFilter": "-- Select --",
+
+    "labelHealthModeFilter": "Mode:",
+    "healthModeFilter": "-- Select --",
+
+    "labelExtraHealthFilter": "Choose criterion:",
+    "extraHealthFilter": "-- Select --",
+
+    "resetHealthFilters": "Original map",
+
+    "labelSearchComune1": "Search a municipality:",
+    "searchComune1": "Search a municipality...",
+
+    "labelTipo": "Accessibility for:",
+    "tipo": "-- Select --",
+
+    "labelEducationFilter1": "Education distance:",
+    "educationFilter1": "-- Select --",
+
+    "labelHealthFilter1": "Health distance:",
+    "healthFilter1": "-- Select --",
+
+    "labelModalita": "Mode:",
+    "modalita": "-- Select --",
+
+    "labelExtraFilter1": "Choose criterion:",
+    "extraFilter1": "-- Select --",
+
+    "outliers": "Outlier visualization",
+    "resetFilters1": "Original map",
+
+    "layerBoxComuni": "Municipalities",
+    "layerBoxNuclei": "Urban Cores",
+
+    "colorBarTitle": "Access to {type} ({metric})",
+    "legend_label": "Below ↔ Above average",
+    "info_comune": "MUNICIPALITY",
+    "info_valore": "{label}: {value} {unit}",
+
+    "SI": "Kindergarten",
+    "SP": "Primary school",
+    "SS": "Secondary school",
+
+    "MG": "General Practice",
+    "OS": "Hospitals",
+    "UR": "Emergency",
+    "DR": "Driving with traffic",
+    "PT": "Public Transport",
+    "DI": "Differences",
+    "distanza": "Distance Km",
+    "tempo": "Time",
+
+    "select_placeholder": "-- Select --",
+
+    "legend_SI": "KINDERGARDEN",
+    "legend_SP": "PRIMARY",
+    "legend_SS": "SECONDARY",
+    "legend_MG": "MEDICI DI FAMIGLIA",
+    "legend_OS": "HOSPITALS",
+    "legend_access": "Accesso {type} ({metric})"
+  },
+
+  "es": {
+    "btnDistance": "Análisis de accesibilidad: EDUCACIÓN",
+    "btnDistanceSalud": "Análisis de accesibilidad: SALUD",
+    "btnTransport": "Accesibilidad transporte público ROMA",
+
+    "labelSearchComune": "Buscar un municipio:",
+    "searchComune": "Buscar un municipio...",
+
+    "labelEducationFilter": "Distancia educación:",
+    "educationFilter": "-- Seleccionar --",
+
+    "labelModeFilter": "Modo:",
+    "modeFilter": "-- Seleccionar --",
+
+    "labelExtraFilter": "Elige el criterio:",
+    "extraFilter": "-- Seleccionar --",
+
+    "resetFilters": "Mapa original",
+
+    "labelSearchComuneSalute": "Buscar un municipio:",
+    "searchComuneSalute": "Buscar un municipio...",
+
+    "labelHealthFilter": "Acceso a servicios de salud:",
+    "healthFilter": "-- Seleccionar --",
+
+    "labelHealthModeFilter": "Modo:",
+    "healthModeFilter": "-- Seleccionar --",
+
+    "labelExtraHealthFilter": "Elige el criterio:",
+    "extraHealthFilter": "-- Seleccionar --",
+
+    "resetHealthFilters": "Mapa original",
+
+    "labelSearchComune1": "Buscar un municipio:",
+    "searchComune1": "Buscar un municipio...",
+
+    "labelTipo": "Accesibilidad para:",
+    "tipo": "-- Seleccionar --",
+
+    "labelEducationFilter1": "Distancia educación:",
+    "educationFilter1": "-- Seleccionar --",
+
+    "labelHealthFilter1": "Distancia salud:",
+    "healthFilter1": "-- Seleccionar --",
+
+    "labelModalita": "Modalidad:",
+    "modalita": "-- Seleccionar --",
+
+    "labelExtraFilter1": "Elige el criterio:",
+    "extraFilter1": "-- Seleccionar --",
+
+    "outliers": "Visualización de outliers",
+    "resetFilters1": "Mapa original",
+
+    "layerBoxComuni": "Municipios",
+    "layerBoxNuclei": "Núcleos Urbanos",
+
+    "colorBarTitle": "Acceso a {type} ({metric})",
+    "legend_label": "Debajo ↔ Encima del promedio",
+    "info_comune": "MUNICIPIO",
+    "info_valore": "{label}: {value} {unit}",
+
+    "SI": "Infantil",
+    "SP": "Primaria",
+    "SS": "Secundaria",
+
+    "MG": "Medicina general-de familia",
+    "OS": "Hospitales",
+    "UR": "Urgencias",
+    "DR": "Coche",
+    "PT": "Transporte público",
+    "DI": "Diferencia transporte público - coche",
+    "distanza": "Distancia",
+    "tempo": "Tiempo",
+
+    "select_placeholder": "-- Seleccione --",
+
+    "legend_SI": "INFANTIL",
+    "legend_SP": "PRIMARIA",
+    "legend_SS": "SECUNDARIA",
+    "legend_MG": "MEDICI DI FAMIGLIA",
+    "legend_OS": "OSPEDALI",
+    "legend_access": "Accesso {type} ({metric})"
+  }
+}
