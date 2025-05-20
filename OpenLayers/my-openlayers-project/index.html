@@ -25,14 +25,92 @@
 
 
     <!-- 🔧 Pannello impostazioni -->
-    <div id="settingsPanel" style="display: none; position: absolute; top: 50px; right: 20px; background: white; border: 1px solid #ccc; padding: 10px; z-index: 1000;">
-        <label for="languageSelect"><strong>Lingua:</strong></label>
-        <select id="languageSelect">
-            <option value="it">🇮🇹 Italiano</option>
-            <option value="en">🇬🇧 English</option>
-            <option value="es">🇪🇸 Español</option>
-            <!-- altre lingue qui -->
-        </select>
+    <div id="settingsPanel" class="settings-modal">
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-header" id="settingsInfoTitle">ℹ️ Informazioni sul progetto</button>
+                <div class="settings-section-content scrollable-text">
+                    <p id="settingsInfoText1">
+                        Questa piattaforma è parte di un progetto di analisi dell'accessibilità e della coesione territoriale, 
+                        nato dalla collaborazione tra l'Università Carlos III di Madrid e la Comunità di Madrid. Il 
+                        visore é stato sviluppato per visualizzare l'accessibilità ai servizi nella regione Lazio, 
+                        integrando dati spaziali, distanze e modalità di trasporto.
+                    </p>
+                    <p id="settingsInfoText2">
+                        Lo scopo del progetto è quello di effettuare un benchmarking per un confronto sistematico tra le due realtà.
+                        Il modello si basa sul calcolo di un indicatore di accessibilità ai servizi pubblici, 
+                        considerando esclusivamente i comuni con meno di 40.000 abitanti.
+                    </p>
+                    <p id="settingsInfoText3">
+                        L’analisi utilizza i nuclei urbani di ciascun comune come unità di base, 
+                        permettendo anche la visualizzazione aggregata a livello comunale tramite una ponderazione 
+                        basata sulla popolazione di ogni nucleo.
+                    </p>
+                    <p id="settingsInfoText4">
+                        Lo strumento consente di esplorare in modo interattivo diversi indicatori relativi all’accesso 
+                        a servizi chiave, come la salute e l’istruzione, e di conoscere meglio il contesto territoriale di ciascuna area.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header" id="settingsUsageTitle">📘 Come usare il visore</button>
+                <div class="settings-section-content scrollable-text">
+                    <p><strong id="settingsUsageSection1Title">Menú barra superiore</strong></p>
+                    <p id="settingsUsageSection1Text">
+                    Seleziona il tipo di servizio di cui vuoi visualizzare i dati di accessibilità:
+                    <ul style="padding-left: 20px;" id="settingsUsageSection1List">
+                        <li>EDUCAZIONE: per visualizzare un indicatore di accesso alle scuole dell'infanzia, primarie e secondarie.</li>
+                        <li>SALUTE: accessibilità ai servizi sanitari come medicina generale, ospedali e pronto soccorso.</li>
+                        <li>TRASPORTO PUBBLICO ROMA</strong>: accessibilità in trasporto pubblico nella provincia di Roma.</li>
+                    </ul>
+                    </p>
+
+                    <p><strong id="settingsUsageSection2Title">Menú scelta parametri</strong></p>
+                    <p id="settingsUsageSection2Text">
+                    Una volta selezionato il servizio nella barra superiore, si aprirà un menù che permette di scegliere
+                    la tipologia del servizio, il modo di spostamento (es. distanza in auto con traffico) e il criterio (tempo o distanza). 
+                    Nel riquadro è anche presente un campo di ricerca in cui puoi digitare il nome di un comune e premendo il tasto INVIO: 
+                    la mappa effettuerà uno zoom automatico su di esso.
+                    </p>
+
+                    <p><strong id="settingsUsageSection3Title">Interazione con la mappa</strong></p>
+                    <p id="settingsUsageSection3Text">
+                    Dopo aver scelto i parametri, ogni comune sulla mappa verrà colorato in base al valore dell’indicatore selezionato dopo aver settato tutti i parametri. 
+                    Una legenda esplicativa mostrerà i colori associati e passando il mouse sui comuni, 
+                    apparirà un riquadro in basso a sinistra con il valore dell'indicatore per quel comune. 
+                    Cliccando su un comune, si aprirà un pannello che mostra i nuclei urbani da cui è stato calcolato il valore complessivo aggregato.
+                    </p>
+
+                    <p><strong id="settingsUsageSection4Title">Filtri</strong></p>
+                    <p id="settingsUsageSection5Text">
+                    Quando la mappa è colorata, puoi applicare filtri per mostrare solo i comuni con una certa popolazione 
+                    o appartenenti a una specifica regione.
+                    </p>
+
+                    <p><strong id="settingsUsageSection5Title">Cambio layer comuni / nuclei urbani</strong></p>
+                    <p id="settingsUsageSection4Text">
+                    In alto a destra puoi cambiare la visualizzazione tra i <strong>comuni</strong> e i <strong>nuclei urbani</strong> 
+                    tramite un selettore. Questo ti consente di analizzare i dati in modo più dettagliato.
+                    </p>
+
+                    <p><strong id="settingsUsageSection6Title">Metodologia utilizzata</strong></p>
+                    <p id="settingsUsageSection6Text">
+                    Per conoscere il metodo di calcolo delle distanze e consultare tutte le fonti dati,
+                    puoi accedere al documento completo disponibile al seguente link: <a href="#" id="settingsUsageMethodLink">[link al documento]</a>
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header" id="settingsLanguageTitle">🌐 Lingua</button>
+                <div class="accordion-content">
+                    <select id="languageSelect">
+                        <option value="it">🇮🇹 Italiano</option>
+                        <option value="en">🇬🇧 English</option>
+                        <option value="es">🇪🇸 Español</option>
+                    </select>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Mappa -->

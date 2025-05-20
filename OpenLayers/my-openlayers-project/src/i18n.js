@@ -34,6 +34,37 @@ export function applyStaticTranslations() {
 
     // 🔧 Pannello impostazioni
     languageSelectLabel: "languageSelectLabel",
+    settingsInfoTitle: "settingsInfoTitle",
+    settingsInfoText1: "settingsInfoText1",
+    settingsInfoText2: "settingsInfoText2",
+    settingsInfoText3: "settingsInfoText3",
+    settingsInfoText4: "settingsInfoText4",
+    settingsUsageTitle: "settingsUsageTitle",
+    settingsUsageText: "settingsUsageText",
+    settingsLanguageTitle: "settingsLanguageTitle",
+
+    settingsUsageSection1Title: "settingsUsageSection1Title",
+    settingsUsageSection1Text: "settingsUsageSection1Text",
+    settingsUsageSection1List: "settingsUsageSection1List",
+    
+    settingsUsageSection2Title: "settingsUsageSection2Title",
+    settingsUsageSection2Text: "settingsUsageSection2Text",
+    
+    settingsUsageSection3Title: "settingsUsageSection3Title",
+    settingsUsageSection3Text: "settingsUsageSection3Text",
+
+    settingsUsageSection4Title: "settingsUsageSection4Title",
+    settingsUsageSection4Text: "settingsUsageSection4Text",
+
+    settingsUsageSection5Title: "settingsUsageSection5Title",
+    settingsUsageSection5Text: "settingsUsageSection5Text",
+
+    settingsUsageSection6Title: "settingsUsageSection6Title",
+    settingsUsageSection6Text: "settingsUsageSection6Text",
+
+
+    // 🔧 Pannello impostazioni
+    languageSelectLabel: "languageSelectLabel",
 
     // 🔹 Sezione EDUCAZIONE
     labelSearchComune: "labelSearchComune",

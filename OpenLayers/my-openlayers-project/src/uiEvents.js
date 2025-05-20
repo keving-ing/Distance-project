@@ -67,15 +67,56 @@ export function setupMenuNavigation() {
  */
 export function setupUIEvents(comuneData, nucleiData) {
 
-    document.getElementById('settingsBtn').addEventListener('click', function () {
-    const panel = document.getElementById('settingsPanel');
-    panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
-  });
+    document.getElementById("languageSelect").addEventListener("change", (e) => {
+        setLanguage(e.target.value);
+    });
 
-document.getElementById("languageSelect").addEventListener("change", (e) => {
-    setLanguage(e.target.value);
-});
-    
+
+    const settingsBtn = document.getElementById("settingsBtn");
+    const settingsPanel = document.getElementById("settingsPanel");
+
+    // Mostra/nasconde il pannello e chiude le sezioni
+    settingsBtn.addEventListener("click", (event) => {
+        event.stopPropagation();
+        const isVisible = settingsPanel.style.display === "block";
+        
+        if (!isVisible) {
+            // Chiude tutte le sezioni interne
+            document.querySelectorAll(".accordion-content, .settings-section-content").forEach(section => {
+                section.style.display = "none";
+            });
+        }
+
+        settingsPanel.style.display = isVisible ? "none" : "block";
+    });
+
+    // Chiude il pannello cliccando fuori
+    document.addEventListener("click", (event) => {
+        const isClickInside = settingsPanel.contains(event.target) || settingsBtn.contains(event.target);
+        if (!isClickInside) {
+            settingsPanel.style.display = "none";
+        }
+    });
+
+    // Toggle apertura/chiusura sezioni
+    document.querySelectorAll(".accordion-header").forEach(header => {
+        header.addEventListener("click", () => {
+            const content = header.nextElementSibling;
+            const isOpen = content.style.display === "block";
+
+            // 🔁 Chiude tutte le sezioni
+            document.querySelectorAll(".accordion-content, .settings-section-content").forEach(section => {
+                section.style.display = "none";
+            });
+
+            // ✅ Se la sezione era chiusa, la riapre
+            if (!isOpen) {
+                content.style.display = "block";
+            }
+        });
+    });
+
+        
     document.getElementById('searchComune').addEventListener('keypress', function (event) {
         if (event.key === 'Enter') {  // Se l'utente preme Invio
             searchComune(map, comuniLayer, this.value);

@@ -80,7 +80,36 @@
     "legend_SS": "SECONDARIA",
     "legend_MG": "MEDICI DI FAMIGLIA",
     "legend_OS": "OSPEDALI",
-    "legend_access": "Accesso {type} ({metric})"
+    "legend_access": "Accesso {type} ({metric})",
+
+    "settingsInfoTitle": "ℹ️ Informazioni sul progetto",
+    "settingsInfoText1": "Questa piattaforma è parte di un progetto di analisi dell'accessibilità e della coesione territoriale, nato dalla collaborazione tra l'Università Carlos III di Madrid e la Comunità di Madrid. Il visore é stato sviluppato per visualizzare l'accessibilità ai servizi nella regione Lazio, integrando dati spaziali, distanze e modalità di trasporto.",
+    "settingsInfoText2": "Lo scopo del progetto è quello di effettuare un benchmarking per un confronto sistematico tra le due realtà.Il modello si basa sul calcolo di un indicatore di accessibilità ai servizi pubblici, considerando esclusivamente i comuni con meno di 40.000 abitanti.",
+    "settingsInfoText3": "L’analisi utilizza i nuclei urbani di ciascun comune come unità di base, permettendo anche la visualizzazione aggregata a livello comunale tramite una ponderazione basata sulla popolazione di ogni nucleo.",
+    "settingsInfoText4": "Lo strumento consente di esplorare in modo interattivo diversi indicatori relativi all’accesso a servizi chiave, come la salute e l’istruzione, e di conoscere meglio il contesto territoriale di ciascuna area.",
+    "settingsUsageTitle": "📘 Come usare il visore",
+    "settingsUsageText": "Per esplorare i dati, seleziona il tipo di accessibilità...",
+    "settingsLanguageTitle": "🌐 Lingua",
+    "languageSelectLabel": "Lingua:",
+
+    "settingsUsageSection1Title": "Menú barra superiore",
+    "settingsUsageSection1Text": "Seleziona il tipo di servizio di cui vuoi visualizzare i dati di accessibilità: EDUCAZIONE, SALUTE o TRASPORTO PUBBLICO ROMA.",
+    "settingsUsageSection1List":"<li>EDUCAZIONE: per visualizzare un indicatore di accesso alle scuole dell'infanzia, primarie e secondarie.</li><li>SALUTE: accessibilità ai servizi sanitari come medicina generale, ospedali e pronto soccorso.</li><li>TRASPORTO PUBBLICO ROMA</strong>: accessibilità in trasporto pubblico nella provincia di Roma.</li>",
+    
+    "settingsUsageSection2Title": "Menù scelta parametri",
+    "settingsUsageSection2Text": "Una volta selezionato il servizio nella barra superiore, si aprirà un menù che permette di sceglierela tipologia del servizio, il modo di spostamento (es. distanza in auto con traffico) e il criterio (tempo o distanza). Nel riquadro è anche presente un campo di ricerca in cui puoi digitare il nome di un comune e premendo il tasto invio della tastiera: la mappa effettuerà uno zoom automatico su di esso.",
+
+    "settingsUsageSection3Title": "Interazione con la mappa",
+    "settingsUsageSection3Text": "Dopo aver scelto i parametri, ogni comune sulla mappa verrà colorato in base al valore dell’indicatore selezionato dopo aver settato tutti i parametri. Una legenda esplicativa mostrerà i colori associati e passando il mouse sui comuni, apparirà un riquadro in basso a sinistra con il valore dell'indicatore per quel comune. Cliccando su un comune, si aprirà un pannello che mostra i nuclei urbani da cui è stato calcolato il valore complessivo aggregato.",
+
+    "settingsUsageSection4Title": "Filtri",
+    "settingsUsageSection4Text": "Quando la mappa è colorata, puoi applicare filtri per mostrare solo i comuni con una certa popolazione o appartenenti a una specifica regione.",
+
+    "settingsUsageSection5Title": "Cambio layer Comuni/Nuclei Urbani",
+    "settingsUsageSection5Text": "In alto a destra puoi cambiare la visualizzazione tra i <strong>comuni</strong> e i <strong>nuclei urbani</strong> tramite un selettore. Questo ti consente di analizzare i dati in modo più dettagliato.",
+
+    "settingsUsageSection6Title": "Metodologia utilizzata",
+    "settingsUsageSection6Text": " Per conoscere il metodo di calcolo delle distanze e consultare tutte le fonti dati,puoi accedere al documento completo disponibile al seguente link: <a href='#' id='settingsUsageMethodLink'>[link al documento]</a>"
 
   },
 
@@ -166,7 +195,36 @@
     "legend_SS": "SECONDARY",
     "legend_MG": "MEDICI DI FAMIGLIA",
     "legend_OS": "HOSPITALS",
-    "legend_access": "Accesso {type} ({metric})"
+    "legend_access": "Accesso {type} ({metric})",
+
+    "settingsInfoTitle": "ℹ️ Project Information",
+    "settingsInfoText1": "This platform is part of a project for the analysis of accessibility and territorial cohesion, a collaboration between the Carlos III University of Madrid and the Community of Madrid. The viewer was developed to visualise the accessibility of services in the Lazio region, integrating spatial data, distances and transport modes.",
+    "settingsInfoText2": "The aim of the project is to carry out benchmarking for a systematic comparison between the two realities.The model is based on the calculation of an indicator of accessibility to public services, considering only municipalities with less than 40,000 inhabitants.",
+    "settingsInfoText3": "The analysis uses the urban cores of each municipality as the basic unit, also allowing aggregated visualisation at the municipal level by weighting based on the population of each core.",
+    "settingsInfoText4": "The tool makes it possible to interactively explore different indicators related to access to key services, such as health and education, and to learn more about the territorial context of each area.",
+    "settingsUsageTitle": "📘 How to use the viewer",
+    "settingsUsageText": "To explore the data, select the type of accessibility...",
+    "settingsLanguageTitle": "🌐 Language",
+    "languageSelectLabel": "Language:",
+
+    "settingsUsageSection1Title": "Top bar menu",
+    "settingsUsageSection1Text": "Select the type of service you want to explore accessibility data for: EDUCATION, HEALTH or PUBLIC TRANSPORT ROME.",
+    "settingsUsageSection1List": "<li>EDUCATION: to view an accessibility indicator for preschool, primary and secondary schools.</li><li>HEALTH: indicator for healthcare services such as general practitioners, hospitals and emergency services.</li><li>PUBLIC TRANSPORT ROME: indicators by public transport in the province of Rome.</li>",
+
+    "settingsUsageSection2Title": "Parameter selection menu",
+    "settingsUsageSection2Text": "Once you select the service from the top bar, a menu will open allowing you to choose the service type, the transport mode (e.g. car distance with traffic), and the evaluation criterion (time or distance). You can also use the search field to type a municipality name and press Enter: the map will automatically zoom in on it.",
+
+    "settingsUsageSection3Title": "Map interaction",
+    "settingsUsageSection3Text": "After setting the parameters, each municipality on the map will be colored according to the selected indicator value. An explanatory legend will show the associated colors. By hovering over municipalities, a box will appear at the bottom left showing the indicator value. Clicking on a municipality opens a panel showing the urban areas used to compute the aggregated value.",
+
+    "settingsUsageSection4Title": "Filters",
+    "settingsUsageSection4Text": "When the map is colored, you can apply filters to show only municipalities with a certain population or belonging to a specific region.",
+
+    "settingsUsageSection5Title": "Switch between Municipality/Urban Areas layers",
+    "settingsUsageSection5Text": "At the top right you can switch the view between <strong>municipalities</strong> and <strong>urban areas</strong> using a selector. This lets you analyze the data more granularly.",
+
+    "settingsUsageSection6Title": "Methodology",
+    "settingsUsageSection6Text": "To learn about how distances were calculated and review all data sources, access the full documentation at the following link: <a href='#' id='settingsUsageMethodLink'>[link to document]</a>"
   },
 
   "es": {
@@ -251,6 +309,35 @@
     "legend_SS": "SECUNDARIA",
     "legend_MG": "MEDICI DI FAMIGLIA",
     "legend_OS": "OSPEDALI",
-    "legend_access": "Accesso {type} ({metric})"
+    "legend_access": "Accesso {type} ({metric})",
+
+    "settingsInfoTitle": "ℹ️ Información del proyecto",
+    "settingsInfoText1": "Esta plataforma forma parte de un proyecto de análisis de la accesibilidad y la cohesión territorial, fruto de la colaboración entre la Universidad Carlos III de Madrid y la Comunidad de Madrid. El visor se ha desarrollado para visualizar la accesibilidad de los servicios en la región del Lacio, integrando datos espaciales, distancias y modos de transporte.",
+    "settingsInfoText2": "El objetivo del proyecto es realizar un benchmarking para una comparación sistemática entre las dos realidades. El modelo se basa en el cálculo de un indicador de accesibilidad a los servicios públicos, considerando únicamente los municipios de menos de 40.000 habitantes.",
+    "settingsInfoText3": "El análisis utiliza como unidad básica los núcleos urbanos de cada municipio, permitiendo también la visualización agregada a nivel municipal mediante la ponderación en función de la población de cada núcleo.",
+    "settingsInfoText4": "La herramienta permite explorar de forma interactiva distintos indicadores relacionados con el acceso a servicios clave, como la sanidad y la educación, y conocer mejor el contexto territorial de cada zona.",
+    "settingsUsageTitle": "📘 Cómo usar el visor",
+    "settingsUsageText": "Para explorar los datos, selecciona el tipo de accesibilidad...",
+    "settingsLanguageTitle": "🌐 Idioma",
+    "languageSelectLabel": "Idioma:",
+
+    "settingsUsageSection1Title": "Menú de barra superior",
+    "settingsUsageSection1Text": "Selecciona el tipo de servicio para visualizar los datos de accesibilidad: EDUCACIÓN, SALUD o TRANSPORTE PÚBLICO ROMA.",
+    "settingsUsageSection1List": "<li>EDUCACIÓN: indicador de acceso a escuelas infantiles, primarias y secundarias.</li><li>SALUD: indicador de accesibilidad a servicios sanitarios como medicina general, hospitales y urgencias.</li><li>TRANSPORTE PÚBLICO ROMA: indicadores de accesibilidad en transporte público en la provincia de Roma.</li>",
+
+    "settingsUsageSection2Title": "Menú de selección de parámetros",
+    "settingsUsageSection2Text": "Una vez seleccionado el servicio en la barra superior, se abrirá un menú donde puedes elegir el tipo de servicio, el modo de transporte (por ejemplo, distancia en coche con tráfico) y el criterio (tiempo o distancia). También puedes usar el campo de búsqueda para escribir el nombre de un municipio y pulsar Enter: el mapa se acercará automáticamente a él.",
+
+    "settingsUsageSection3Title": "Interacción con el mapa",
+    "settingsUsageSection3Text": "Después de establecer los parámetros, cada municipio en el mapa se coloreará según el valor del indicador seleccionado. Una leyenda explicativa mostrará los colores asociados. Al pasar el cursor sobre los municipios, aparecerá un cuadro en la parte inferior izquierda con el valor del indicador. Al hacer clic sobre un municipio se abrirá un panel con los núcleos urbanos usados para calcular el valor agregado.",
+
+    "settingsUsageSection4Title": "Filtros",
+    "settingsUsageSection4Text": "Una vez coloreado el mapa, puedes aplicar filtros para mostrar solo los municipios con una determinada población o que pertenezcan a una región específica.",
+
+    "settingsUsageSection5Title": "Cambio de capa Municipios/Núcleos Urbanos",
+    "settingsUsageSection5Text": "En la parte superior derecha puedes cambiar la visualización entre <strong>municipios</strong> y <strong>núcleos urbanos</strong> mediante un selector. Esto permite analizar los datos con mayor detalle.",
+
+    "settingsUsageSection6Title": "Metodología utilizada",
+    "settingsUsageSection6Text": "Para conocer cómo se calcularon las distancias y consultar todas las fuentes de datos, accede al documento completo disponible en el siguiente enlace: <a href='#' id='settingsUsageMethodLink'>[enlace al documento]</a>"
   }
 }
