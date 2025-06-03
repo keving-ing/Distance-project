@@ -6,11 +6,12 @@ from math import radians, sin, cos, sqrt, atan2
 from pyproj import Transformer
 
 # === CONFIG ===
-GOOGLE_MAPS_API_KEY = ""
+GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
 COMUNI_INPUT = "ps_by_municipality_with_nuclei.json"
 CENTROIDI_FILE = "C:/Users/vehico/Documents/centroidi_salute.geojson"
 GEOCODE_CACHE_FILE = "geocode_cache_pronto_soccorso.json"
 OUTPUT_FILE = "ps_by_municipality_with_distances.json"
+DISTANCE_MATRIX_CACHE_FILE = "distance_matrix_cache.json"
 
 transformer = Transformer.from_crs("EPSG:32632", "EPSG:4326", always_xy=True)
 
@@ -35,30 +36,46 @@ def save_json(obj, path):
         json.dump(obj, f, indent=4)
 
 
+
 elementi = 0
 
-def get_distance_matrix(origin, destinations):
+if os.path.exists(DISTANCE_MATRIX_CACHE_FILE):
+    distance_matrix_cache = load_json(DISTANCE_MATRIX_CACHE_FILE)
+else:
+    distance_matrix_cache = {}
 
-    global elementi 
+
+
+def get_distance_matrix(origin, destinations):
+    global elementi
+
+    # Chiave per la cache
+    cache_key = f"{origin}|{'|'.join(destinations)}"
+    if cache_key in distance_matrix_cache:
+        return distance_matrix_cache[cache_key]
 
     params = {
         "origins": origin,
         "destinations": "|".join(destinations),
         "key": GOOGLE_MAPS_API_KEY,
         "mode": "driving",
-        "departure_time": 1747040400
+        "departure_time": 1749027600
     }
 
-    elementi = elementi + 1 * len(destinations)
-    return
+    try:
+        response = requests.get("https://maps.googleapis.com/maps/api/distancematrix/json", params=params)
+        time.sleep(1)
+        data = response.json()
 
-    response = requests.get("https://maps.googleapis.com/maps/api/distancematrix/json", params=params)
-    time.sleep(1)
-    data = response.json()
-    if data["status"] == "OK":
-        return data
-    else:
-        print(f"❌ Distance Matrix error: {data.get('status')}")
+        if data["status"] == "OK":
+            distance_matrix_cache[cache_key] = data
+            elementi += len(destinations)
+            return data
+        else:
+            print(f"❌ Distance Matrix error: {data.get('status')}")
+            return None
+    except Exception as e:
+        print("⚠️ Exception during request:", e)
         return None
 
 # === Loading data ===
@@ -82,6 +99,7 @@ ospedali = [{"indirizzo": addr, "coord": coord} for addr, coord in geocode_cache
 
 # === Calculating distances ===
 for comune, data in comuni.items():
+    print(comune)
 
     nuclei = data.get("nuclei", [])
     
@@ -112,8 +130,7 @@ for comune, data in comuni.items():
 
         result = get_distance_matrix(origin, destinations)
 
-        continue 
-
+        
         if not result or "rows" not in result:
             continue
 
@@ -128,6 +145,8 @@ for comune, data in comuni.items():
             else:
                 print(f"⚠️ No result for {origin} → {indirizzi_top3[j]}")
 
+
 # === Saving ===
 save_json(comuni, OUTPUT_FILE)
 print("✅ Final file saved to:", OUTPUT_FILE, " - elements: ", elementi)
+save_json(distance_matrix_cache, DISTANCE_MATRIX_CACHE_FILE)

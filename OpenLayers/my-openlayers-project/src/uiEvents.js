@@ -147,6 +147,13 @@ export function setupUIEvents(comuneData, nucleiData) {
         }
     }
 
+    document.getElementById("filterToggleBtn").addEventListener("click", function () {
+    const panel = document.getElementById("filterPanel");
+    const isVisible = panel.style.display === "block";
+    panel.style.display = isVisible ? "none" : "block";
+    });
+
+
     function checkFilters1() {
         const tipoFilter = document.getElementById('tipo').value;
         const modalitaSelect = document.getElementById('modFilterContainer1');

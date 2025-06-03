@@ -3,7 +3,7 @@ import pandas as pd
 import geopandas as gpd
 
 # Input and output file paths
-INPUT_FILE = "C:/Users/vehico/Documents/Thesis/Distance-project/school_by_municipality_with_distances_complete.json"
+INPUT_FILE = "DATA_DISTANCIAS/school_by_municipality_with_distances_complete.json"
 POPULATION_FILE = "C:/Users/vehico/Documents/Thesis/geometrias_Lazio.shp"
 OUTPUT_FILE = "aggregated_school_distances_weighted.csv"
 OUTPUT_EXCEL_FILE = "aggregated_school_distances_by_type_weighted.xlsx"

@@ -96,6 +96,8 @@ document.getElementById('extraFilter').addEventListener('change', function () {
         updateMapColorsNuclei(schoolType, metric, nucleiLayer, nucleiData);
         nucleiLayer.setVisible(false); // 👈 Mantieni invisibile
 
+        document.getElementById("filterToggleContainer").style.display = "block";
+
         console.log(`🧪 metric: ${metric}`);
         console.log("🧪 Comuni presenti in comuneData:", Object.keys(selectedData));
         setupPointerMoveInteraction(map, document.getElementById("infoBox"), selectedData, metric);

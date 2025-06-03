@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 
 # Input and output file paths
-INPUT_FILE = "C:/Users/vehico/Documents/Thesis/Distance-project/aggregated_school_distances_transit_weighted_ROMA_ok.csv"  
-OUTPUT_FILE = "aggregati_municipio_transit_ROMA.csv"
+INPUT_FILE = "aggregated_school_distances_weighted.csv"  
+OUTPUT_FILE = "aggregati_municipio.csv"
 
 df = pd.read_csv(INPUT_FILE)
 

@@ -156,6 +156,31 @@
         <button id="resetFilters">Mappa originale</button>
     </div>
 
+    <!-- 🔍 Filtro avanzato -->
+    <div id="filterToggleContainer">
+        <button id="filterToggleBtn" title="Filter">
+            <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M10 18h4v-2h-4v2zm-7-6v2h18v-2H3zm3-6v2h12V6H6z"/>
+            </svg>
+        </button>
+    </div>
+
+    <div id="filterPanel" style="display: none;">
+        <label for="popFilter">Maximum population:</label>
+        <input type="number" id="popFilter" placeholder="Ex. 40000" value="40000" />
+
+        <label for="provinceFilter">Select a province:</label>
+        <select id="provinceFilter" multiple size="5">
+            <option value="ROMA">ROMA</option>
+            <option value="FROSINONE">FROSINONE</option>
+            <option value="LATINA">LATINA</option>
+            <option value="RIETI">RIETI</option>
+            <option value="VITERBO">VITERBO</option>
+        </select>
+        <button id="applyFiltersBtn">Filter</button>
+    </div>
+
+
     <!-- 🔹 Menu per l'accessibilità salute -->
     <div id="healthAnalysisControls" style="display: none;"> 
         <label id="labelSearchComuneSalute" for="searchComuneSalute">Cerca un comune:</label>
