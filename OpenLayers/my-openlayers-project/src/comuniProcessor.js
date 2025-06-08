@@ -3,6 +3,29 @@ import { updateLegend } from './utilities.js';
 import Style from 'ol/style/Style';
 import Stroke from 'ol/style/Stroke';
 import Fill from 'ol/style/Fill';
+import Papa from 'papaparse'; // se usi Papaparse (consigliato)
+// Mappa per salvare: { "056059": 66188 }
+const popolazioneMap = {};
+
+fetch('/DCIS_POPRES1_12022025124521891.csv')
+  .then(response => response.text())
+  .then(csv => {
+    Papa.parse(csv, {
+      header: true,
+      skipEmptyLines: true,
+      complete: (results) => {
+        results.data.forEach(row => {
+          const codice = row['ITTER107'];
+          const valore = parseInt(row['Value']);
+          if (!isNaN(valore)) {
+            popolazioneMap[codice] = valore;
+          }
+        });
+        console.log("✅ Popolazione caricata:", popolazioneMap);
+      }
+    });
+  });
+
 
 export async function loadCsvData(csvPath) {
     const response = await fetch(csvPath);
@@ -34,7 +57,7 @@ export async function loadCsvData(csvPath) {
  * @param {string} schoolType - Tipologia di scuola ("SI", "SP", "SS")
  * @param {string} metric - Unità di misura ("km" o "min")
  */
-export function updateMapColors(schoolType, modeType, metric, comuniLayer, comuneData) {
+export function updateMapColors(schoolType, modeType, metric, comuniLayer, comuneData, selectedProvinces = [], maxPop = 40000) {
     console.log(`🎨 Aggiornamento colori per: ${schoolType}_${metric}`);
 
     let min = Infinity;
@@ -86,11 +109,21 @@ export function updateMapColors(schoolType, modeType, metric, comuniLayer, comun
 
         let value = comuneInfo[`${schoolType}_${metric}`];
 
-        if (isNaN(value) || value === null) {
+        const codiceProvincia = feature.get('COD_PROV');
+        const codiceComune = String(feature.get('PRO_COM_T'));
+        const popolazioneComune = popolazioneMap[codiceComune] || 0;
+
+        if (
+            isNaN(value) ||
+            value === null ||
+            popolazioneComune > maxPop ||
+            (selectedProvinces.length > 0 && !selectedProvinces.includes(String(codiceProvincia)))
+        ) {
             feature.setStyle(new Style({
                 fill: new Fill({ color: 'rgba(255, 255, 255, 0.7)' }),
                 stroke: new Stroke({ color: 'black', width: 1 })
             }));
+            feature.set('originalColor', 'rgba(255, 255, 255, 0.7)');
             return;
         }
 
@@ -119,5 +152,6 @@ export function updateMapColors(schoolType, modeType, metric, comuniLayer, comun
 
     updateLegend(min, max, schoolType, metric, modeType);
     document.getElementById('extraFilter').value = "";
+    document.getElementById('extraFilter1').value = "";
     console.log("✅ Colorazione aggiornata!");
 }

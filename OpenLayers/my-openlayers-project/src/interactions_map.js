@@ -9,7 +9,7 @@ import Style from 'ol/style/Style';
 import Stroke from 'ol/style/Stroke';
 import Fill from 'ol/style/Fill';
 import { comuniLayer, nucleiLayer } from './map.js';
-import { romaLayer, perimetroRomaLayer } from './mapRoma.js';
+import { romaLayer } from './mapRoma.js';
 import { t } from './i18n.js';
 
 

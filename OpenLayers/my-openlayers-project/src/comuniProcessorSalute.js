@@ -4,6 +4,38 @@ import Style from 'ol/style/Style';
 import Stroke from 'ol/style/Stroke';
 import Fill from 'ol/style/Fill';
 
+import Papa from 'papaparse'; // se usi Papaparse (consigliato)
+// Mappa per salvare: { "056059": 66188 }
+export const popolazioneMap = {};
+
+fetch('/DCIS_POPRES1_12022025124521891.csv')
+  .then(response => response.text())
+  .then(csv => {
+    Papa.parse(csv, {
+      header: true,
+      skipEmptyLines: true,
+      complete: (results) => {
+        results.data.forEach(row => {
+          const codice = row['ITTER107'];
+          const valore = parseInt(row['Value']);
+          if (!isNaN(valore)) {
+            popolazioneMap[codice] = valore;
+          }
+        });
+        console.log("✅ Popolazione caricata:", popolazioneMap);
+        console.log("📄 CSV grezzo:", csv.slice(0, 300)); // stampa le prime righe
+        Papa.parse(csv, {
+            header: true,
+            complete: results => {
+            console.log("✅ Dati PapaParse:", results.data); // deve stampare array
+            }
+        });
+      }
+    });
+    
+  });
+
+
 /**
  * 📥 Carica i dati CSV per la salute
  */
@@ -29,7 +61,7 @@ export async function loadHealthCsvData(csvPath) {
 /**
  * 🎨 Aggiorna la mappa con i colori per i dati di salute
  */
-export function updateMapColorsHealth(metric, comuniLayer, healthData, type) {
+export function updateMapColorsHealth(metric, comuniLayer, healthData, type, selectedProvinces = [], maxPop = 40000) {
     console.log(`🎨 Aggiornamento colori salute per: ${metric}`);
 
     let min = Infinity;
@@ -69,11 +101,22 @@ export function updateMapColorsHealth(metric, comuniLayer, healthData, type) {
         }
 
         const value = comuneInfo[metric];
-        if (isNaN(value) || value === null) {
+
+        const codiceProvincia = feature.get('COD_PROV');
+        const codiceComune = String(feature.get('PRO_COM_T'));
+        const popolazioneComune = popolazioneMap[codiceComune] || 0;
+
+        if (
+            isNaN(value) ||
+            value === null ||
+            popolazioneComune > maxPop ||
+            (selectedProvinces.length > 0 && !selectedProvinces.includes(String(codiceProvincia)))
+        ) {
             feature.setStyle(new Style({
                 fill: new Fill({ color: 'rgba(255, 255, 255, 0.7)' }),
                 stroke: new Stroke({ color: 'black', width: 1 })
             }));
+            feature.set('originalColor', 'rgba(255, 255, 255, 0.7)');
             return;
         }
 
@@ -98,5 +141,6 @@ export function updateMapColorsHealth(metric, comuniLayer, healthData, type) {
 
     updateLegend(min, max, type, metric, media);
     document.getElementById('extraHealthFilter').value = "";
+    document.getElementById('extraFilter1').value = "";
     console.log("✅ Mappa salute aggiornata!");
 }

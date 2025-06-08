@@ -31,19 +31,22 @@ export function updateLegend(min, max, schoolType, metric, media) {
     colorBarContainer.style.display = "block";
 
     if(schoolType == 'SI'){
-        schoolType = 'EDUCAZIONE INFANZIA'
+        schoolType = 'EDUCATION KINDERGARTEN'
     }
     else if(schoolType == 'SP'){
-        schoolType = 'EDUCAZIONE PRIMARIA'
+        schoolType = 'EDUCATION PRIMARY'
     }
     else if(schoolType == 'SS'){
-        schoolType = 'EDUCAZIONE SECONDARIA'
+        schoolType = 'EDUCATION SECONDARY'
     }
     else if(schoolType == 'MG'){
-        schoolType = 'MEDICI DI FAMIGLIA'
+        schoolType = 'FAMILY DOCTORS'
     }
     else if(schoolType == 'OS'){
         schoolType = 'STRUTTURE OSPEDALIERE'
+    }
+    else if(schoolType == 'UR'){
+        schoolType = 'EMERGENCY SERVICE'
     }
 
 
@@ -90,6 +93,7 @@ export function resetAll() {
     document.getElementById("controls").style.display = "none";
     document.getElementById("healthAnalysisControls").style.display = "none";
     document.getElementById("transportAnalysisControls").style.display = "none";
+    document.getElementById("filterToggleContainer").style.display = "none";
 
     // Resetta i valori dei filtri
     const allInputs = document.querySelectorAll(
