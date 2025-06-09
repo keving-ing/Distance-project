@@ -7,7 +7,7 @@ import time
 from pyproj import Transformer
 
 
-# "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
+
 # === CONFIG ===
 GOOGLE_MAPS_API_KEY = ""
 CACHE_FILE = "google_distances_medici_cache.json"

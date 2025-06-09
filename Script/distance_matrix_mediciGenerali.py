@@ -8,10 +8,10 @@ from pyproj import Transformer
 from math import radians, sin, cos, sqrt, atan2
 
 
-#AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E
+
 
 # === CONFIG ===
-GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
+GOOGLE_MAPS_API_KEY = ""
 CACHE_FILE = "google_distances_medici_cache_ROMA.json"
 GEOCODE_CACHE = "DATA_DISTANCIAS\geocode_cache_medici.json"
 MAX_ELEMENTS = 100

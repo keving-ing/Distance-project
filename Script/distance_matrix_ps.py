@@ -6,7 +6,7 @@ from math import radians, sin, cos, sqrt, atan2
 from pyproj import Transformer
 
 # === CONFIG ===
-GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
+GOOGLE_MAPS_API_KEY = ""
 COMUNI_INPUT = "ps_by_municipality_with_nuclei.json"
 CENTROIDI_FILE = "C:/Users/vehico/Documents/centroidi_salute.geojson"
 GEOCODE_CACHE_FILE = "geocode_cache_pronto_soccorso.json"

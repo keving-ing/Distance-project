@@ -1,0 +1,1118 @@
+{
+    "42.69574873608147,13.244708388150679-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Via Pasqualoni, 12, 02011 Accumoli RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "67.1 km",
+                            "value": 67051
+                        },
+                        "duration": {
+                            "text": "1 hour 5 mins",
+                            "value": 3888
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 5 mins",
+                            "value": 3893
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "153 km",
+                            "value": 153208
+                        },
+                        "duration": {
+                            "text": "2 hours 11 mins",
+                            "value": 7849
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 11 mins",
+                            "value": 7887
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "136 km",
+                            "value": 135578
+                        },
+                        "duration": {
+                            "text": "2 hours 2 mins",
+                            "value": 7294
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 5 mins",
+                            "value": 7480
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.734478715636136,13.269029092093938-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Frazione Grisciano, 294, 02011 Grisciano RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "67.4 km",
+                            "value": 67406
+                        },
+                        "duration": {
+                            "text": "1 hour 4 mins",
+                            "value": 3845
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 4 mins",
+                            "value": 3810
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "154 km",
+                            "value": 153564
+                        },
+                        "duration": {
+                            "text": "2 hours 10 mins",
+                            "value": 7806
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 11 mins",
+                            "value": 7852
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "136 km",
+                            "value": 135934
+                        },
+                        "duration": {
+                            "text": "2 hours 1 min",
+                            "value": 7251
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 4 mins",
+                            "value": 7443
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.68022591377438,13.213787130174248-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Frazione Terracino, 10, 02011 Terracino RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "63.6 km",
+                            "value": 63639
+                        },
+                        "duration": {
+                            "text": "1 hour 11 mins",
+                            "value": 4239
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 10 mins",
+                            "value": 4216
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "150 km",
+                            "value": 149796
+                        },
+                        "duration": {
+                            "text": "2 hours 17 mins",
+                            "value": 8200
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 17 mins",
+                            "value": 8246
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "132 km",
+                            "value": 131988
+                        },
+                        "duration": {
+                            "text": "2 hours 7 mins",
+                            "value": 7620
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 10 mins",
+                            "value": 7800
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.67977002681394,13.225959185191284-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Strada Senza Nome, 02011 Accumoli RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "63.8 km",
+                            "value": 63756
+                        },
+                        "duration": {
+                            "text": "1 hour 11 mins",
+                            "value": 4249
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 10 mins",
+                            "value": 4226
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "150 km",
+                            "value": 149913
+                        },
+                        "duration": {
+                            "text": "2 hours 17 mins",
+                            "value": 8210
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 18 mins",
+                            "value": 8256
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "132 km",
+                            "value": 132105
+                        },
+                        "duration": {
+                            "text": "2 hours 7 mins",
+                            "value": 7630
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 10 mins",
+                            "value": 7811
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.66455818073824,13.233462793671812-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Frazione Collespada, 23a, 02011 Collespada RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "65.8 km",
+                            "value": 65820
+                        },
+                        "duration": {
+                            "text": "1 hour 14 mins",
+                            "value": 4455
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 14 mins",
+                            "value": 4444
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "152 km",
+                            "value": 151977
+                        },
+                        "duration": {
+                            "text": "2 hours 20 mins",
+                            "value": 8416
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 21 mins",
+                            "value": 8465
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "134 km",
+                            "value": 134169
+                        },
+                        "duration": {
+                            "text": "2 hours 11 mins",
+                            "value": 7836
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 13 mins",
+                            "value": 8002
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.66861682024624,13.256659490860676-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Case Sparse Ponte Neja, 58, 02011 Macchia RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "63.0 km",
+                            "value": 63050
+                        },
+                        "duration": {
+                            "text": "1 hour 2 mins",
+                            "value": 3715
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 2 mins",
+                            "value": 3703
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "149 km",
+                            "value": 149208
+                        },
+                        "duration": {
+                            "text": "2 hours 8 mins",
+                            "value": 7675
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 9 mins",
+                            "value": 7728
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "132 km",
+                            "value": 131578
+                        },
+                        "duration": {
+                            "text": "1 hour 59 mins",
+                            "value": 7120
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 2 mins",
+                            "value": 7303
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.712338633380554,13.25075376161342-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Frazione Tino, 98, 02011 Tino RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "66.4 km",
+                            "value": 66356
+                        },
+                        "duration": {
+                            "text": "1 hour 5 mins",
+                            "value": 3892
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 4 mins",
+                            "value": 3859
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "153 km",
+                            "value": 152513
+                        },
+                        "duration": {
+                            "text": "2 hours 11 mins",
+                            "value": 7852
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 12 mins",
+                            "value": 7890
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "135 km",
+                            "value": 134883
+                        },
+                        "duration": {
+                            "text": "2 hours 2 mins",
+                            "value": 7297
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 5 mins",
+                            "value": 7485
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.69477265890489,13.255918790705426-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Frazione Fonte del Campo, 47/A, 02011 Accumoli RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "62.9 km",
+                            "value": 62865
+                        },
+                        "duration": {
+                            "text": "1 hour 0 mins",
+                            "value": 3582
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 0 mins",
+                            "value": 3618
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "149 km",
+                            "value": 149023
+                        },
+                        "duration": {
+                            "text": "2 hours 6 mins",
+                            "value": 7543
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 7 mins",
+                            "value": 7606
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "131 km",
+                            "value": 131393
+                        },
+                        "duration": {
+                            "text": "1 hour 56 mins",
+                            "value": 6988
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 59 mins",
+                            "value": 7169
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.68731300924231,13.273844684977831-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Frazione Poggio Casoli, 37, 02011 Poggio Casoli RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "63.9 km",
+                            "value": 63921
+                        },
+                        "duration": {
+                            "text": "1 hour 3 mins",
+                            "value": 3768
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 3 mins",
+                            "value": 3750
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "150 km",
+                            "value": 150079
+                        },
+                        "duration": {
+                            "text": "2 hours 9 mins",
+                            "value": 7729
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 10 mins",
+                            "value": 7772
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "132 km",
+                            "value": 132449
+                        },
+                        "duration": {
+                            "text": "2 hours 0 mins",
+                            "value": 7173
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 3 mins",
+                            "value": 7359
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.66179091049866,13.21467287234471-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Frazione Cesaventre, 8, 02011 Cesa Ventre RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "63.4 km",
+                            "value": 63414
+                        },
+                        "duration": {
+                            "text": "1 hour 11 mins",
+                            "value": 4238
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 10 mins",
+                            "value": 4214
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "150 km",
+                            "value": 149571
+                        },
+                        "duration": {
+                            "text": "2 hours 17 mins",
+                            "value": 8199
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 17 mins",
+                            "value": 8245
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "132 km",
+                            "value": 131763
+                        },
+                        "duration": {
+                            "text": "2 hours 7 mins",
+                            "value": 7619
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 10 mins",
+                            "value": 7799
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.6911143371825,13.227073324508275-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Frazione Villanova, 12, 02011 Accumoli RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "70.3 km",
+                            "value": 70335
+                        },
+                        "duration": {
+                            "text": "1 hour 11 mins",
+                            "value": 4241
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 11 mins",
+                            "value": 4237
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "156 km",
+                            "value": 156492
+                        },
+                        "duration": {
+                            "text": "2 hours 17 mins",
+                            "value": 8201
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 17 mins",
+                            "value": 8249
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "139 km",
+                            "value": 138863
+                        },
+                        "duration": {
+                            "text": "2 hours 7 mins",
+                            "value": 7646
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 10 mins",
+                            "value": 7823
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.703402740468526,13.264268081398159-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Frazione Illica, 128, 02011 Illica RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "64.6 km",
+                            "value": 64601
+                        },
+                        "duration": {
+                            "text": "1 hour 3 mins",
+                            "value": 3780
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 2 mins",
+                            "value": 3749
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "151 km",
+                            "value": 150758
+                        },
+                        "duration": {
+                            "text": "2 hours 9 mins",
+                            "value": 7741
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 10 mins",
+                            "value": 7783
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "133 km",
+                            "value": 133128
+                        },
+                        "duration": {
+                            "text": "2 hours 0 mins",
+                            "value": 7185
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 3 mins",
+                            "value": 7370
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.69263240663886,13.252330733639827-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Frazione Fonte del Campo, 29, 02011 Accumoli RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "63.2 km",
+                            "value": 63197
+                        },
+                        "duration": {
+                            "text": "1 hour 1 min",
+                            "value": 3632
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 0 mins",
+                            "value": 3620
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "149 km",
+                            "value": 149354
+                        },
+                        "duration": {
+                            "text": "2 hours 7 mins",
+                            "value": 7593
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 7 mins",
+                            "value": 7649
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "132 km",
+                            "value": 131724
+                        },
+                        "duration": {
+                            "text": "1 hour 57 mins",
+                            "value": 7037
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 0 mins",
+                            "value": 7220
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.661542412972906,13.204728727411355-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Frazione Colleposta, 20, 02011 Colleposta RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "60.3 km",
+                            "value": 60312
+                        },
+                        "duration": {
+                            "text": "1 hour 5 mins",
+                            "value": 3918
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 5 mins",
+                            "value": 3892
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "146 km",
+                            "value": 146469
+                        },
+                        "duration": {
+                            "text": "2 hours 11 mins",
+                            "value": 7879
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 12 mins",
+                            "value": 7914
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "129 km",
+                            "value": 128661
+                        },
+                        "duration": {
+                            "text": "2 hours 2 mins",
+                            "value": 7299
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 5 mins",
+                            "value": 7486
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.720550089769496,13.295772900238735-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Frazione Poggio d'Api, 4, 02011 Poggio D'api RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "72.1 km",
+                            "value": 72060
+                        },
+                        "duration": {
+                            "text": "1 hour 17 mins",
+                            "value": 4636
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 17 mins",
+                            "value": 4644
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "158 km",
+                            "value": 158217
+                        },
+                        "duration": {
+                            "text": "2 hours 23 mins",
+                            "value": 8597
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 24 mins",
+                            "value": 8655
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "141 km",
+                            "value": 140587
+                        },
+                        "duration": {
+                            "text": "2 hours 14 mins",
+                            "value": 8041
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 17 mins",
+                            "value": 8197
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.65543217208385,13.194344134116783-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Frazione Roccasalli, 20, 02011 Roccasalli RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "59.0 km",
+                            "value": 59024
+                        },
+                        "duration": {
+                            "text": "1 hour 3 mins",
+                            "value": 3761
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 3 mins",
+                            "value": 3759
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "145 km",
+                            "value": 145182
+                        },
+                        "duration": {
+                            "text": "2 hours 9 mins",
+                            "value": 7722
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 9 mins",
+                            "value": 7765
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "127 km",
+                            "value": 127374
+                        },
+                        "duration": {
+                            "text": "1 hour 59 mins",
+                            "value": 7142
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 2 mins",
+                            "value": 7328
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.712477732806036,13.258146214724269-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "SS 4 Via Salaria, 26, 02011 Accumoli RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "64.7 km",
+                            "value": 64721
+                        },
+                        "duration": {
+                            "text": "1 hour 1 min",
+                            "value": 3680
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 1 min",
+                            "value": 3666
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "151 km",
+                            "value": 150878
+                        },
+                        "duration": {
+                            "text": "2 hours 7 mins",
+                            "value": 7641
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 8 mins",
+                            "value": 7698
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "133 km",
+                            "value": 133248
+                        },
+                        "duration": {
+                            "text": "1 hour 58 mins",
+                            "value": 7085
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 1 min",
+                            "value": 7272
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "42.693048671131,13.207486845609084-('42.4227977,12.9079389', '42.2898263,12.4188907', '41.932258,13.0863798')": {
+        "destination_addresses": [
+            "Via John Fitzgerald Kennedy, 1, 02100 Rieti RI, Italy",
+            "Via Vincenzo Ferretti, 169, 01033 Civita Castellana VT, Italy",
+            "Contrada Le Querce, Subiaco, RM 00028, 00028 Subiaco RM, Italy"
+        ],
+        "origin_addresses": [
+            "Frazione S. Giovanni, 5, 02011 San Giovanni RI, Italy"
+        ],
+        "rows": [
+            {
+                "elements": [
+                    {
+                        "distance": {
+                            "text": "66.2 km",
+                            "value": 66247
+                        },
+                        "duration": {
+                            "text": "1 hour 15 mins",
+                            "value": 4484
+                        },
+                        "duration_in_traffic": {
+                            "text": "1 hour 14 mins",
+                            "value": 4462
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "152 km",
+                            "value": 152405
+                        },
+                        "duration": {
+                            "text": "2 hours 21 mins",
+                            "value": 8445
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 22 mins",
+                            "value": 8491
+                        },
+                        "status": "OK"
+                    },
+                    {
+                        "distance": {
+                            "text": "135 km",
+                            "value": 134597
+                        },
+                        "duration": {
+                            "text": "2 hours 11 mins",
+                            "value": 7864
+                        },
+                        "duration_in_traffic": {
+                            "text": "2 hours 14 mins",
+                            "value": 8025
+                        },
+                        "status": "OK"
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
+    }
+}

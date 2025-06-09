@@ -6,10 +6,10 @@ import itertools
 import time
 from pyproj import Transformer
 
-#AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E
+
 
 # === CONFIGURATION ===
-GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
+GOOGLE_MAPS_API_KEY = ""
 CACHE_FILE = "google_distances_hospitals_cache_transit_ROMA.json"
 MAX_ELEMENTS = 100
 MAX_ORIGINS = 25

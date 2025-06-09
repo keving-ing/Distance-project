@@ -8,7 +8,7 @@ import time
 from pyproj import Transformer
 
 # Google Maps API Key
-GOOGLE_MAPS_API_KEY = "AIzaSyBjj0K6mg5LPe0lwEaAqX3aaBPhMefsR6E"
+GOOGLE_MAPS_API_KEY = ""
 
 # Cache file for distances
 CACHE_FILE = "C:/Users/vehico/Documents/Thesis/Distance-project/DATA_DISTANCIAS/google_distances_transit_cache1.json"
