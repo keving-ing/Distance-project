@@ -17,6 +17,9 @@ await loadTranslations();
 const csvPath = "/data/aggregati_municipio.csv"; 
 let comuneData = {};
 
+const csvPath_density = "/data/aggregati_municipio_density.csv"; 
+let comuneData_density = {};
+
 const nucleiCsvPath = "/data/aggregated_school_distances_weighted.csv";
 let nucleiData = {}; 
 
@@ -111,7 +114,7 @@ document.getElementById('extraFilter').addEventListener('change', function () {
     const metric = this.value === "distanza" ? "km" : "min";
     selectedMetric = this.value === "distanza" ? "km" : "min";
     if (schoolType && metric && modeType) {
-        const selectedData = modeType === 'DR' ? comuneData : comune_transit_Data;
+        const selectedData = modeType === 'DR' ? comuneData : comuneData_density;
         selectedComuneData = selectedData;
         currentContext = "EDUCAZIONE";
 
@@ -325,6 +328,14 @@ document.querySelectorAll('input[name="layer"]').forEach(radio => {
 loadCsvData(csvPath).then(data => {
     comuneData = data;
     console.log("📊 Dati CSV caricati:", comuneData);
+
+    // Avvia le interazioni dopo aver caricato i dati
+    //setupPointerMoveInteraction(map, document.getElementById("infoBox"), comuneData);
+});
+
+loadCsvData(csvPath_density).then(data => {
+    comuneData_density = data;
+    console.log("📊 Dati CSV caricati:", comuneData_density);
 
     // Avvia le interazioni dopo aver caricato i dati
     //setupPointerMoveInteraction(map, document.getElementById("infoBox"), comuneData);
